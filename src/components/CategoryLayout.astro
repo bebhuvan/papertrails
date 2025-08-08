@@ -286,7 +286,7 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             opacity: 0.5;
         }
 
-        .surprise-btn, .rabbit-link {
+        .surprise-btn {
             margin-top: 18px;
             background: var(--bg-tertiary);
             border: 1px solid var(--border-primary);
@@ -300,6 +300,23 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             display: inline-flex;
             align-items: center;
             gap: 6px;
+            text-decoration: none;
+        }
+
+        .rabbit-link {
+            margin-top: 0;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-primary);
+            color: var(--text-secondary);
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
             text-decoration: none;
         }
 
@@ -608,9 +625,8 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             }
 
             .rabbit-link {
-                margin-top: 0;
-                padding: 6px 12px;
-                font-size: 0.8rem;
+                padding: 3px 6px;
+                font-size: 0.7rem;
             }
 
             .header-actions {
@@ -726,8 +742,9 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             }
             
             .rabbit-link {
-                padding: 6px;
+                padding: 4px;
                 min-width: auto;
+                font-size: 0.9rem;
             }
             
             .article-stream {
@@ -763,7 +780,7 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 </a>
                 <div class="header-actions">
                     <a href="https://www.rabbitholes.garden/" class="rabbit-link" target="_blank" rel="noopener noreferrer">
-                        <span class="surprise-icon">🐰</span>
+                        <span style="font-size: 0.8rem;">🐰</span>
                         Rabbit Holes
                     </a>
                     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
