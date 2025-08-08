@@ -6,9 +6,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fetch-feeds": "node src/scripts/fetch-feeds.js"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@types/node": "^24.2.0",
     "astro": "^5.12.8"
   }
 }

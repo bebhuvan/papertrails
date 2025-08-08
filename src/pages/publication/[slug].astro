@@ -1,0 +1,335 @@
+---
+import { getArticles } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const articles = getArticles();
+  const publications = new Map();
+  
+  articles.forEach(article => {
+    const pub = article.publication;
+    if (!publications.has(pub.slug)) {
+      publications.set(pub.slug, {
+        ...pub,
+        articles: []
+      });
+    }
+    publications.get(pub.slug).articles.push(article);
+  });
+  
+  return Array.from(publications.values()).map(pub => ({
+    params: { slug: pub.slug },
+    props: { publication: pub }
+  }));
+}
+
+const { publication } = Astro.props;
+const articleCount = publication.articles.length;
+
+console.log(`📰 Publication page: ${publication.name} (${articleCount} articles)`);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{publication.name} - Paper Trails</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid #f0f0f0;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #333;
+            text-decoration: none;
+            letter-spacing: -0.01em;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        /* Page header */
+        .page-header {
+            background: white;
+            padding: 40px 0;
+            border-bottom: 1px solid #f5f0eb;
+        }
+
+        .page-header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+            text-align: center;
+        }
+
+        .page-title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: #ea580c;
+            margin-bottom: 12px;
+        }
+
+        .page-subtitle {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .publication-meta {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        .category-tag {
+            background: #f8f8f8;
+            color: #666;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 40px 80px;
+        }
+
+        .articles-header {
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .articles-count {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Article Stream */
+        .article-stream {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        .article {
+            display: block;
+            background: white;
+            border: 1px solid #f5f0eb;
+            border-radius: 8px;
+            padding: 28px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+        }
+
+        .article-date {
+            color: #999;
+        }
+
+        .paywall-badge {
+            background: #f8f8f8;
+            color: #666;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .article-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.25;
+            margin-bottom: 14px;
+            color: #333;
+        }
+
+        .article-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 18px;
+            font-size: 0.92rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .article-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.82rem;
+            color: #666;
+            padding-top: 14px;
+            border-top: 1px solid #f5f0eb;
+        }
+
+        .author-name {
+            font-weight: 500;
+        }
+
+        .read-time {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #999;
+        }
+
+        .word-count {
+            color: #bbb;
+            font-size: 0.8rem;
+        }
+
+        .word-count:before {
+            content: '·';
+            margin: 0 8px;
+            color: #ccc;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 24px;
+                height: 70px;
+            }
+            
+            .page-header {
+                padding: 30px 0;
+            }
+            
+            .page-header-content {
+                padding: 0 24px;
+            }
+            
+            .page-title {
+                font-size: 1.8rem;
+            }
+            
+            .publication-meta {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .container {
+                padding: 30px 24px 60px;
+            }
+            
+            .article {
+                padding: 24px 18px;
+            }
+            
+            .article-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/" class="nav-link">← Back to feed</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1 class="page-title">{publication.name}</h1>
+            <p class="page-subtitle">{articleCount} articles curated</p>
+            <div class="publication-meta">
+                <span class="category-tag">{publication.category}</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="articles-header">
+            <p class="articles-count">All articles from {publication.name}</p>
+        </div>
+
+        <section class="article-stream">
+            {publication.articles.map(article => (
+                <a href={`/article/${article.slug}`} class="article">
+                    <div class="article-meta">
+                        <span class="article-date">{new Date(article.publishedAt).toLocaleDateString()}</span>
+                        {article.isPaid && <span class="paywall-badge">Premium</span>}
+                    </div>
+                    
+                    <h2 class="article-title">
+                        {article.title}
+                    </h2>
+                    
+                    <p class="article-excerpt">{article.excerpt}</p>
+                    
+                    <div class="article-footer">
+                        <span class="author-name">{article.author}</span>
+                        <span class="read-time">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                            {article.readTime} min read
+                            <span class="word-count">{article.wordCount} words</span>
+                        </span>
+                    </div>
+                </a>
+            ))}
+        </section>
+    </main>
+</body>
+</html>

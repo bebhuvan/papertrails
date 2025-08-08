@@ -1,0 +1,981 @@
+---
+import { getArticles, getCategories } from '../lib/data';
+
+export interface Props {
+  category: string;
+}
+
+const { category } = Astro.props;
+
+// Load data
+const articles = getArticles();
+const categories = getCategories();
+
+// Filter articles
+const filteredArticles = category === 'All' 
+  ? articles 
+  : articles.filter(a => a.publication.category === category);
+
+// Pagination settings
+const INITIAL_LOAD = 40;
+const LOAD_MORE_COUNT = 20;
+
+console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${articles.length} articles`);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Trails{category !== 'All' ? ` - ${category}` : ''}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content={category === 'All' 
+        ? 'Curated essays worth your time. Hand-picked longform writing from the best Substacks, updated daily.' 
+        : `Explore ${filteredArticles.length} curated ${category.toLowerCase()} articles from leading Substack writers.`} />
+    <meta name="keywords" content="substack, essays, longform, reading, articles, newsletter, curation" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`Paper Trails${category !== 'All' ? ` - ${category}` : ''}`} />
+    <meta property="og:description" content={category === 'All' 
+        ? 'Curated essays worth your time. Hand-picked longform writing from the best Substacks.' 
+        : `Explore ${filteredArticles.length} curated ${category.toLowerCase()} articles.`} />
+    <meta property="og:image" content="/favicon-512x512.png" />
+    <meta property="og:site_name" content="Paper Trails" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content={`Paper Trails${category !== 'All' ? ` - ${category}` : ''}`} />
+    <meta property="twitter:description" content={category === 'All' 
+        ? 'Curated essays worth your time. Hand-picked longform writing from the best Substacks.' 
+        : `Explore ${filteredArticles.length} curated ${category.toLowerCase()} articles.`} />
+    <meta property="twitter:image" content="/favicon-512x512.png" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ea580c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Paper Trails">
+    
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Paper Trails RSS Feed" href="/rss.xml" />
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon-192x192.png">
+    
+    <!-- Prevent theme flashing - runs immediately -->
+    <style>
+        /* Prevent FOUC (Flash of Unstyled Content) */
+        html:not([data-theme]) body { visibility: hidden; }
+    </style>
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                // Fallback to light theme if there's any error
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+            // Make body visible after theme is set
+            document.body && (document.body.style.visibility = 'visible');
+        })();
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.03em;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.2s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.8;
+        }
+
+        .logo::before {
+            content: "📑";
+            font-size: 1.2rem;
+            filter: grayscale(0.3);
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        .rss-link {
+            display: flex;
+            align-items: center;
+            padding: 6px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .rss-link:hover {
+            background: var(--bg-secondary);
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .theme-toggle:hover {
+            color: var(--accent);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle .sun-icon,
+        .theme-toggle .moon-icon {
+            position: absolute;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .theme-toggle .moon-icon {
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .sun-icon {
+            opacity: 0;
+            transform: rotate(-90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        /* Compact header section */
+        .page-header {
+            background: linear-gradient(to bottom, var(--bg-secondary), var(--bg-primary));
+            padding: 32px 0 28px;
+            border-bottom: 1px solid var(--border-secondary);
+            position: relative;
+        }
+
+        .page-header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+            text-align: center;
+        }
+
+        .page-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .title-emoji {
+            font-size: 1.3rem;
+            display: inline-block;
+        }
+
+        .page-subtitle {
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            position: relative;
+            display: inline-block;
+        }
+
+        .page-subtitle::before,
+        .page-subtitle::after {
+            content: "•";
+            color: var(--accent);
+            margin: 0 12px;
+            opacity: 0.5;
+        }
+
+        .surprise-btn {
+            margin-top: 18px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-primary);
+            color: var(--text-secondary);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .surprise-btn:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+            transform: scale(1.02);
+        }
+
+        .surprise-icon {
+            font-size: 0.95rem;
+            display: inline-block;
+        }
+
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 40px 80px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .section-subtitle {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        /* Category Filter */
+        .category-filter {
+            display: flex;
+            gap: 32px;
+            margin-bottom: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .category-btn.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        .category-btn:hover {
+            color: var(--accent);
+        }
+
+        /* Filter status */
+        .filter-status {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .filter-status strong {
+            color: #ea580c;
+        }
+
+        /* Article Stream */
+        .article-stream {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            min-height: 600px;
+        }
+
+        .article {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-secondary);
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 0;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+        }
+
+        .publication {
+            color: var(--accent);
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+
+        .publication:hover {
+            text-decoration: underline;
+        }
+
+        /* Fix for nested link issues */
+        .article-meta a {
+            position: relative;
+            z-index: 2;
+        }
+
+        .tag {
+            position: relative;
+            z-index: 2;
+        }
+
+        .article-date {
+            color: var(--text-tertiary);
+        }
+
+        .paywall-badge {
+            background: #f8f8f8;
+            color: #666;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .article-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.25;
+            margin-bottom: 14px;
+        }
+
+        .article-title a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--accent);
+        }
+
+        .article-excerpt {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 18px;
+            font-size: 0.92rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .article-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 18px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: #f8f8f8;
+            color: #666;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .tag:hover {
+            background: #ea580c;
+            color: white;
+        }
+
+        .article-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.82rem;
+            color: #666;
+            padding-top: 14px;
+            border-top: 1px solid #f5f0eb;
+        }
+
+        .author-name {
+            font-weight: 500;
+        }
+
+        .read-time {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #999;
+        }
+
+        .word-count {
+            color: #bbb;
+            font-size: 0.8rem;
+        }
+
+        .word-count:before {
+            content: '·';
+            margin: 0 8px;
+            color: #ccc;
+        }
+
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .no-results h2 {
+            color: #333;
+            margin-bottom: 16px;
+        }
+
+        /* Load more button */
+        .load-more-container {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border-primary);
+        }
+
+        .load-more-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .load-more-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        .load-more-btn:disabled {
+            background: var(--text-tertiary);
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .articles-info {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 12px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 20px;
+                height: 65px;
+            }
+            
+            .logo {
+                font-size: 1.2rem;
+                gap: 6px;
+            }
+            
+            .logo::before {
+                font-size: 1rem;
+            }
+            
+            .header-nav {
+                gap: 16px;
+            }
+            
+            .nav-link {
+                font-size: 0.85rem;
+            }
+            
+            .page-header {
+                padding: 24px 0 20px;
+            }
+            
+            .page-header-content {
+                padding: 0 20px;
+            }
+            
+            .page-title {
+                font-size: 1.2rem;
+            }
+            
+            .title-emoji {
+                font-size: 1.1rem;
+            }
+            
+            .page-subtitle {
+                font-size: 0.82rem;
+            }
+            
+            .page-subtitle::before,
+            .page-subtitle::after {
+                margin: 0 8px;
+            }
+            
+            .surprise-btn {
+                margin-top: 16px;
+                padding: 8px 20px;
+                font-size: 0.9rem;
+            }
+            
+            .surprise-icon {
+                font-size: 1rem;
+            }
+            
+            .container {
+                padding: 24px 20px 60px;
+            }
+            
+            .category-filter {
+                gap: 16px;
+                margin-bottom: 32px;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 8px;
+            }
+            
+            .category-btn {
+                white-space: nowrap;
+                font-size: 0.85rem;
+            }
+            
+            .article {
+                padding: 20px 16px;
+            }
+            
+            .article-meta {
+                font-size: 0.8rem;
+                gap: 12px;
+            }
+            
+            .article-title {
+                font-size: 1.2rem;
+                line-height: 1.3;
+            }
+            
+            .article-excerpt {
+                font-size: 0.9rem;
+                -webkit-line-clamp: 2;
+            }
+            
+            .article-tags {
+                margin-bottom: 14px;
+            }
+            
+            .tag {
+                font-size: 0.7rem;
+                padding: 3px 8px;
+            }
+            
+            .article-footer {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+                font-size: 0.8rem;
+            }
+            
+            .load-more-container {
+                margin-top: 32px;
+                padding-top: 24px;
+            }
+            
+            .load-more-btn {
+                padding: 10px 24px;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-nav .nav-link:nth-child(3),
+            .header-nav .nav-link:nth-child(4) {
+                display: none;
+            }
+            
+            .article-stream {
+                gap: 20px;
+            }
+            
+            .publication {
+                font-size: 0.75rem;
+            }
+            
+            .paywall-badge {
+                font-size: 0.65rem;
+                padding: 2px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/search" class="nav-link">Search</a>
+                <a href="/publications" class="nav-link">Publications</a>
+                <a href="/archive" class="nav-link">Archive</a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="/rss.xml" class="nav-link rss-link" aria-label="RSS Feed">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 11a9 9 0 0 1 9 9" />
+                        <path d="M4 4a16 16 0 0 1 16 16" />
+                        <circle cx="5" cy="19" r="1" fill="currentColor" />
+                    </svg>
+                </a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    {category === 'All' && (
+        <section class="page-header">
+            <div class="page-header-content">
+                <h1 class="page-title">
+                    <span class="title-emoji">📚</span>
+                    Essays worth your time
+                </h1>
+                <p class="page-subtitle">
+                    Fresh picks from 98 curated Substacks • Auto-updated daily
+                </p>
+                <button class="surprise-btn" id="surpriseBtn">
+                    <span class="surprise-icon">🎲</span>
+                    Surprise Me
+                </button>
+            </div>
+        </section>
+    )}
+
+    <main class="container" id="articles">
+        <nav class="category-filter">
+            <a href="/" class={category === 'All' ? 'category-btn active' : 'category-btn'}>
+                All ({articles.length})
+            </a>
+            {categories.map(cat => {
+              const count = articles.filter(a => a.publication.category === cat).length;
+              return (
+                <a 
+                    href={`/${cat.toLowerCase()}`}
+                    class={category === cat ? 'category-btn active' : 'category-btn'}
+                >
+                    {cat} ({count})
+                </a>
+              );
+            })}
+        </nav>
+
+        {category !== 'All' && (
+          <div class="filter-status">
+            Showing <strong>{filteredArticles.length}</strong> articles in <strong>{category}</strong>
+          </div>
+        )}
+
+        <section class="article-stream" id="articleStream">
+            {filteredArticles.length > 0 ? filteredArticles.slice(0, INITIAL_LOAD).map(article => (
+                <article class="article">
+                    <div class="article-meta">
+                        <a href={`/publication/${article.publication.slug}`} class="publication">{article.publication.name}</a>
+                        <span class="article-date">{new Date(article.publishedAt).toLocaleDateString()}</span>
+                        {article.isPaid && <span class="paywall-badge">Premium</span>}
+                    </div>
+                    
+                    <h2 class="article-title">
+                        <a href={`/article/${article.slug}`}>{article.title}</a>
+                    </h2>
+                    
+                    <p class="article-excerpt">{article.excerpt}</p>
+                    
+                    <div class="article-tags">
+                        <a href={`/${article.publication.category.toLowerCase()}`} class="tag">{article.publication.category}</a>
+                    </div>
+                    
+                    <div class="article-footer">
+                        <span class="author-name">{article.author}</span>
+                        <span class="read-time">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                            {article.readTime} min read
+                            <span class="word-count">{article.wordCount} words</span>
+                        </span>
+                    </div>
+                </article>
+            )) : (
+              <div class="no-results">
+                <h2>No articles found</h2>
+                <p>No articles available in the "{category}" category.</p>
+                <a href="/" class="hero-cta" style="margin-top: 20px;">View All Articles</a>
+              </div>
+            )}
+        </section>
+
+        {filteredArticles.length > INITIAL_LOAD && (
+            <div class="load-more-container">
+                <button class="load-more-btn" id="loadMoreBtn">
+                    Load More Articles
+                </button>
+                <p class="articles-info">
+                    Showing <span id="currentCount">{INITIAL_LOAD}</span> of {filteredArticles.length} articles
+                </p>
+            </div>
+        )}
+    </main>
+
+    <script define:vars={{ filteredArticles, INITIAL_LOAD, LOAD_MORE_COUNT }}>
+        // Store all articles data
+        const allArticles = filteredArticles;
+        let currentlyShowing = INITIAL_LOAD;
+
+        // Dark mode functionality
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const defaultTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+            
+            document.documentElement.setAttribute('data-theme', defaultTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Load more functionality
+        function createArticleElement(article) {
+            const articleEl = document.createElement('article');
+            articleEl.className = 'article';
+            
+            const date = new Date(article.publishedAt).toLocaleDateString();
+            const paywallBadge = article.isPaid ? '<span class="paywall-badge">Premium</span>' : '';
+            
+            articleEl.innerHTML = `
+                <div class="article-meta">
+                    <a href="/publication/${article.publication.slug}" class="publication">${article.publication.name}</a>
+                    <span class="article-date">${date}</span>
+                    ${paywallBadge}
+                </div>
+                
+                <h2 class="article-title">
+                    <a href="/article/${article.slug}">${article.title}</a>
+                </h2>
+                
+                <p class="article-excerpt">${article.excerpt}</p>
+                
+                <div class="article-tags">
+                    <a href="/${article.publication.category.toLowerCase()}" class="tag">${article.publication.category}</a>
+                </div>
+                
+                <div class="article-footer">
+                    <span class="author-name">${article.author}</span>
+                    <span class="read-time">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                        ${article.readTime} min read
+                        <span class="word-count">${article.wordCount} words</span>
+                    </span>
+                </div>
+            `;
+            
+            return articleEl;
+        }
+
+        function loadMoreArticles() {
+            const articleStream = document.getElementById('articleStream');
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            const currentCountEl = document.getElementById('currentCount');
+            
+            if (!articleStream || !loadMoreBtn) return;
+            
+            const nextBatch = allArticles.slice(currentlyShowing, currentlyShowing + LOAD_MORE_COUNT);
+            
+            nextBatch.forEach(article => {
+                const articleEl = createArticleElement(article);
+                articleStream.appendChild(articleEl);
+            });
+            
+            currentlyShowing += nextBatch.length;
+            
+            // Update count display
+            if (currentCountEl) {
+                currentCountEl.textContent = currentlyShowing;
+            }
+            
+            // Disable button if all articles are shown
+            if (currentlyShowing >= allArticles.length) {
+                loadMoreBtn.disabled = true;
+                loadMoreBtn.textContent = 'All Articles Loaded';
+            }
+        }
+
+        // Initialize theme on page load
+        initTheme();
+
+        // Theme toggle button event listener
+        document.getElementById('themeToggle')?.addEventListener('click', toggleTheme);
+
+        // Load more button event listener
+        document.getElementById('loadMoreBtn')?.addEventListener('click', loadMoreArticles);
+
+        // Surprise Me button functionality
+        function surpriseMe() {
+            if (allArticles.length === 0) return;
+            
+            // Pick a random article
+            const randomIndex = Math.floor(Math.random() * allArticles.length);
+            const randomArticle = allArticles[randomIndex];
+            
+            // Navigate to the article page
+            window.location.href = `/article/${randomArticle.slug}`;
+        }
+
+        // Surprise Me button event listener
+        document.getElementById('surpriseBtn')?.addEventListener('click', surpriseMe);
+
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+            }
+        });
+
+        // Register service worker for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((registration) => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch((registrationError) => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

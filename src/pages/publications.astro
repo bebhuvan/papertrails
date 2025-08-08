@@ -1,0 +1,1141 @@
+---
+import { getArticles } from '../lib/data';
+import fs from 'fs';
+import path from 'path';
+
+// Load data and organize by publication
+const articles = getArticles();
+
+// Load all feeds from feeds.json
+const feedsPath = path.join(process.cwd(), 'data', 'feeds.json');
+const allFeeds = JSON.parse(fs.readFileSync(feedsPath, 'utf-8'));
+
+// Group articles by publication and get publication details
+const publicationGroups = new Map();
+articles.forEach(article => {
+    const pubName = article.publication.name;
+    if (!publicationGroups.has(pubName)) {
+        publicationGroups.set(pubName, {
+            publication: article.publication,
+            articles: [],
+            latestDate: article.publishedAt,
+            categories: new Set()
+        });
+    }
+    const group = publicationGroups.get(pubName);
+    group.articles.push(article);
+    group.categories.add(article.publication.category);
+    
+    // Track latest publication date
+    if (article.publishedAt > group.latestDate) {
+        group.latestDate = article.publishedAt;
+    }
+});
+
+// Add all feeds that don't have articles yet
+allFeeds.forEach(feed => {
+    if (!publicationGroups.has(feed.name)) {
+        publicationGroups.set(feed.name, {
+            publication: {
+                name: feed.name,
+                slug: feed.slug,
+                category: feed.category
+            },
+            articles: [],
+            latestDate: null,
+            categories: new Set([feed.category])
+        });
+    }
+});
+
+// Sort publications by article count (descending), then by name
+const sortedPublications = Array.from(publicationGroups.values())
+    .sort((a, b) => {
+        if (b.articles.length !== a.articles.length) {
+            return b.articles.length - a.articles.length;
+        }
+        return a.publication.name.localeCompare(b.publication.name);
+    });
+
+// Group by category for better organization
+const byCategory = {};
+sortedPublications.forEach(pub => {
+    const category = pub.publication.category;
+    if (!byCategory[category]) {
+        byCategory[category] = [];
+    }
+    byCategory[category].push(pub);
+});
+
+console.log(`📰 Publications page: ${sortedPublications.length} publications`);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Paper Trails</title>
+    
+    <!-- Prevent theme flashing - runs immediately -->
+    <style>html:not([data-theme]) body { visibility: hidden; }</style>
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+            document.body && (document.body.style.visibility = 'visible');
+        })();
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #ea580c;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.01em;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .theme-toggle:hover {
+            color: var(--accent);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle .sun-icon,
+        .theme-toggle .moon-icon {
+            position: absolute;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .theme-toggle .moon-icon {
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .sun-icon {
+            opacity: 0;
+            transform: rotate(-90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        /* Page header */
+        .page-header {
+            background: var(--bg-primary);
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--border-primary);
+        }
+
+        .page-header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .page-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .page-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+
+        .publications-stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            font-size: 0.95rem;
+            color: var(--text-tertiary);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 40px 60px;
+        }
+
+        .category-section {
+            margin-bottom: 48px;
+        }
+
+        .category-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .category-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .category-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .category-description {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .publications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .publication-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-secondary);
+            border-radius: 8px;
+            padding: 18px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: block;
+        }
+
+        .publication-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        [data-theme="dark"] .publication-card:hover {
+            box-shadow: 0 12px 32px rgba(249, 115, 22, 0.2);
+        }
+
+        .publication-header {
+            margin-bottom: 24px;
+        }
+
+        .publication-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            margin-bottom: 8px;
+            display: block;
+            line-height: 1.3;
+        }
+
+        .publication-name:hover {
+            color: var(--accent);
+        }
+
+        .publication-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .article-count {
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .latest-date {
+            color: var(--text-tertiary);
+            font-size: 0.8rem;
+        }
+
+        .publication-preview {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .recent-titles {
+            list-style: none;
+            margin: 0;
+        }
+
+        .recent-title {
+            margin-bottom: 8px;
+            padding-left: 12px;
+            border-left: 2px solid var(--border-secondary);
+            transition: border-color 0.2s ease;
+        }
+
+        .recent-title:hover {
+            border-left-color: var(--accent);
+        }
+
+        .recent-title:last-child {
+            margin-bottom: 0;
+        }
+
+        .title-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            display: block;
+        }
+
+        .title-link:hover {
+            color: var(--accent);
+        }
+
+        .view-all-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            padding: 12px 24px;
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .view-all-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        /* Export Actions */
+        .export-actions {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .export-btn {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-primary);
+            color: var(--text-primary);
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .export-btn:hover {
+            border-color: var(--accent);
+            background: var(--accent);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .no-articles-note {
+            color: var(--text-tertiary);
+            font-style: italic;
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+        }
+
+        /* Filters */
+        .filters-section {
+            background: var(--bg-secondary);
+            padding: 24px 0;
+            border-bottom: 1px solid var(--border-primary);
+            position: sticky;
+            top: 80px;
+            z-index: 50;
+        }
+
+        .filters-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .filters-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .filters-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .results-count {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-input {
+            padding: 8px 16px;
+            border: 1px solid var(--border-primary);
+            border-radius: 20px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+            min-width: 200px;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+        }
+
+        .category-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .category-filter {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-primary);
+            color: var(--text-secondary);
+            padding: 6px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .category-filter:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .category-filter.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .clear-filters {
+            background: none;
+            border: none;
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 0.85rem;
+            text-decoration: underline;
+            padding: 6px 8px;
+        }
+
+        /* Enhanced Category Headers */
+        .category-header {
+            text-align: left;
+            margin-bottom: 32px;
+            padding: 24px;
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+            border-radius: 12px;
+            border: 1px solid var(--border-secondary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent);
+        }
+
+        .category-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .category-icon {
+            font-size: 1.6rem;
+            opacity: 0.8;
+        }
+
+        .category-description {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        .category-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 0.85rem;
+            color: var(--text-tertiary);
+        }
+
+        .category-stat {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 24px;
+                height: 70px;
+            }
+            
+            .page-header {
+                padding: 40px 0;
+            }
+            
+            .page-header-content {
+                padding: 0 24px;
+            }
+            
+            .page-title {
+                font-size: 2.2rem;
+            }
+            
+            .page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .publications-stats {
+                flex-direction: column;
+                gap: 24px;
+            }
+            
+            .export-actions {
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+            }
+            
+            .export-btn {
+                width: 200px;
+                justify-content: center;
+            }
+            
+            .container {
+                padding: 60px 24px;
+            }
+            
+            .publications-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .publication-card {
+                padding: 24px;
+            }
+            
+            .category-section {
+                margin-bottom: 60px;
+            }
+
+            .filters-container {
+                padding: 0 24px;
+            }
+
+            .filters-header {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+
+            .filter-controls {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .search-input {
+                min-width: 100%;
+            }
+
+            .category-filters {
+                justify-content: center;
+            }
+
+            .category-header {
+                padding: 20px;
+            }
+
+            .category-title {
+                font-size: 1.5rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .category-stats {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/" class="nav-link">← Back to feed</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1 class="page-title">Publications</h1>
+            <p class="page-subtitle">
+                Discover the thoughtful minds behind our curated collection
+            </p>
+            <div class="publications-stats">
+                <div class="stat-item">
+                    <span class="stat-number">{sortedPublications.length}</span>
+                    <span class="stat-label">Publications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{articles.length}</span>
+                    <span class="stat-label">Total Articles</span>
+                </div>
+            </div>
+            <div class="export-actions">
+                <button id="exportOPML" class="export-btn">📤 Export OPML</button>
+                <button id="exportJSON" class="export-btn">📄 Export JSON</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="filters-section">
+        <div class="filters-container">
+            <div class="filters-header">
+                <h3 class="filters-title">Filter Publications</h3>
+                <div class="results-count" id="resultsCount">
+                    Showing {sortedPublications.length} publications
+                </div>
+            </div>
+            <div class="filter-controls">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="searchInput" 
+                    placeholder="🔍 Search publications..."
+                    autocomplete="off"
+                />
+                <div class="category-filters">
+                    <button class="category-filter active" data-category="all">All</button>
+                    {Object.keys(byCategory).map(category => (
+                        <button class="category-filter" data-category={category}>
+                            {category}
+                        </button>
+                    ))}
+                </div>
+                <button class="clear-filters" id="clearFilters" style="display: none;">
+                    Clear filters
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        {Object.entries(byCategory).map(([category, publications]) => (
+            <section class="category-section" data-category={category}>
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <span class="category-icon">
+                            {category === 'Technology' && '💻'}
+                            {category === 'Politics' && '🏛️'}
+                            {category === 'Economics' && '📈'}
+                            {category === 'Science' && '🔬'}
+                            {category === 'Philosophy' && '🤔'}
+                            {category === 'Psychology' && '🧠'}
+                            {category === 'Culture' && '🎭'}
+                        </span>
+                        {category}
+                    </h2>
+                    <p class="category-description">
+                        {category === 'Technology' && 'Innovation, digital culture, and the future of computing'}
+                        {category === 'Politics' && 'Governance, policy analysis, and democratic discourse'}
+                        {category === 'Economics' && 'Markets, financial systems, and economic thinking'}
+                        {category === 'Science' && 'Research breakthroughs and scientific understanding'}
+                        {category === 'Philosophy' && 'Big ideas, ethics, and human nature'}
+                        {category === 'Psychology' && 'Mind, behavior, and human cognition'}
+                        {category === 'Culture' && 'Arts, society, and contemporary cultural analysis'}
+                    </p>
+                    <div class="category-stats">
+                        <div class="category-stat">
+                            <span>📚</span>
+                            <span>{publications.length} publications</span>
+                        </div>
+                        <div class="category-stat">
+                            <span>📄</span>
+                            <span>{publications.reduce((sum, pub) => sum + pub.articles.length, 0)} articles</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="publications-grid">
+                    {publications.map(({ publication, articles: pubArticles, latestDate }) => (
+                        <div class="publication-card">
+                            <div class="publication-header">
+                                <a href={`/publication/${publication.slug}`} class="publication-name">
+                                    {publication.name}
+                                </a>
+                                <div class="publication-meta">
+                                    <span class="article-count">{pubArticles.length} articles</span>
+                                    {latestDate && (
+                                        <span class="latest-date">
+                                            Latest: {new Date(latestDate).toLocaleDateString()}
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                            
+                            {pubArticles.length > 0 ? (
+                                <>
+                                    <div class="publication-preview">
+                                        {pubArticles[0]?.excerpt?.substring(0, 120)}...
+                                    </div>
+                                    
+                                    <ul class="recent-titles">
+                                        {pubArticles.slice(0, 3).map(article => (
+                                            <li class="recent-title">
+                                                <a href={`/article/${article.slug}`} class="title-link">
+                                                    {article.title}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    
+                                    <a href={`/publication/${publication.slug}`} class="view-all-link">
+                                        View All Articles →
+                                    </a>
+                                </>
+                            ) : (
+                                <div class="no-articles-note">
+                                    No articles available yet from this publication.
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
+            </section>
+        ))}
+    </main>
+
+    <script>
+        // Dark mode functionality
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const defaultTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+            
+            document.documentElement.setAttribute('data-theme', defaultTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Initialize theme on page load
+        initTheme();
+
+        // Theme toggle button event listener
+        document.getElementById('themeToggle')?.addEventListener('click', toggleTheme);
+
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+            }
+        });
+
+        // Export functionality - fetch feeds data
+        let feedsData = [];
+        
+        async function loadFeedsData() {
+            try {
+                const response = await fetch('/api/feeds.json');
+                feedsData = await response.json();
+                console.log('Feeds data loaded:', feedsData.length, 'feeds');
+            } catch (error) {
+                console.error('Failed to load feeds data:', error);
+            }
+        }
+        
+        function exportOPML() {
+            const opmlHeader = `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Paper Trails Feed Collection</title>
+        <description>Curated RSS feeds from Paper Trails</description>
+        <ownerName>Paper Trails</ownerName>
+        <dateCreated>${new Date().toUTCString()}</dateCreated>
+    </head>
+    <body>`;
+            
+            const opmlFooter = `    </body>
+</opml>`;
+            
+            // Group feeds by category for OPML structure
+            const categoryGroups = {};
+            feedsData.forEach(feed => {
+                if (!categoryGroups[feed.category]) {
+                    categoryGroups[feed.category] = [];
+                }
+                categoryGroups[feed.category].push(feed);
+            });
+            
+            let opmlBody = '';
+            Object.entries(categoryGroups).forEach(([category, feeds]) => {
+                opmlBody += `        <outline text="${category}" title="${category}">
+`;
+                feeds.forEach(feed => {
+                    opmlBody += `            <outline type="rss" text="${feed.name}" title="${feed.name}" xmlUrl="${feed.url}" htmlUrl="${feed.url.replace('/feed', '').replace('/rss', '').replace('.xml', '')}" description="Category: ${feed.category}"/>
+`;
+                });
+                opmlBody += `        </outline>
+`;
+            });
+            
+            const opmlContent = opmlHeader + opmlBody + opmlFooter;
+            
+            const blob = new Blob([opmlContent], { type: 'text/xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'paper-trails-feeds.opml';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+        
+        function exportJSON() {
+            const jsonContent = JSON.stringify(feedsData, null, 2);
+            const blob = new Blob([jsonContent], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'paper-trails-feeds.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+        
+        // Export button event listeners
+        document.getElementById('exportOPML')?.addEventListener('click', exportOPML);
+        document.getElementById('exportJSON')?.addEventListener('click', exportJSON);
+
+        // Filtering functionality
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        function updateResultsCount() {
+            const visibleSections = document.querySelectorAll('.category-section:not(.hidden)');
+            let totalPublications = 0;
+            
+            visibleSections.forEach(section => {
+                const visibleCards = section.querySelectorAll('.publication-card:not(.hidden)');
+                totalPublications += visibleCards.length;
+            });
+            
+            const resultsCount = document.getElementById('resultsCount');
+            const clearButton = document.getElementById('clearFilters');
+            
+            if (resultsCount) {
+                resultsCount.textContent = `Showing ${totalPublications} publications`;
+            }
+            
+            if (clearButton) {
+                clearButton.style.display = (currentFilter !== 'all' || currentSearch) ? 'block' : 'none';
+            }
+        }
+
+        function filterPublications() {
+            console.log('Filtering publications...', { currentSearch, currentFilter });
+            const searchTerm = currentSearch.toLowerCase();
+            const categoryFilter = currentFilter;
+            
+            const sections = document.querySelectorAll('.category-section');
+            console.log('Found sections:', sections.length);
+            
+            // Filter category sections
+            sections.forEach(section => {
+                const category = section.dataset.category;
+                const shouldShowCategory = categoryFilter === 'all' || categoryFilter === category;
+                console.log(`Section ${category}:`, { shouldShowCategory, categoryFilter });
+                
+                if (!shouldShowCategory) {
+                    section.classList.add('hidden');
+                    return;
+                }
+                
+                // Filter publications within visible categories
+                let hasVisiblePublications = false;
+                const cards = section.querySelectorAll('.publication-card');
+                console.log(`Cards in ${category}:`, cards.length);
+                
+                cards.forEach(card => {
+                    const publicationName = card.querySelector('.publication-name')?.textContent?.toLowerCase() || '';
+                    const preview = card.querySelector('.publication-preview')?.textContent?.toLowerCase() || '';
+                    
+                    const matchesSearch = !searchTerm || 
+                        publicationName.includes(searchTerm) || 
+                        preview.includes(searchTerm);
+                    
+                    if (matchesSearch) {
+                        card.classList.remove('hidden');
+                        hasVisiblePublications = true;
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+                
+                // Hide category section if no publications match
+                if (hasVisiblePublications) {
+                    section.classList.remove('hidden');
+                } else {
+                    section.classList.add('hidden');
+                }
+            });
+            
+            updateResultsCount();
+        }
+
+        function clearFilters() {
+            currentFilter = 'all';
+            currentSearch = '';
+            
+            // Reset search input
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput) searchInput.value = '';
+            
+            // Reset category filter buttons
+            document.querySelectorAll('.category-filter').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === 'all') {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // Show all sections and cards
+            document.querySelectorAll('.category-section, .publication-card').forEach(el => {
+                el.classList.remove('hidden');
+            });
+            
+            updateResultsCount();
+        }
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('DOM loaded, initializing filters...');
+            
+            // Load feeds data first
+            await loadFeedsData();
+            
+            // Search input handler
+            const searchInput = document.getElementById('searchInput');
+            console.log('Search input found:', !!searchInput);
+            if (searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    console.log('Search input changed:', e.target.value);
+                    currentSearch = e.target.value;
+                    filterPublications();
+                });
+            }
+
+            // Category filter handlers
+            const categoryButtons = document.querySelectorAll('.category-filter');
+            console.log('Category buttons found:', categoryButtons.length);
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    console.log('Category clicked:', e.target.dataset.category);
+                    currentFilter = e.target.dataset.category;
+                    
+                    // Update active state
+                    document.querySelectorAll('.category-filter').forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    e.target.classList.add('active');
+                    
+                    filterPublications();
+                });
+            });
+
+            // Clear filters handler
+            const clearFiltersBtn = document.getElementById('clearFilters');
+            console.log('Clear button found:', !!clearFiltersBtn);
+            if (clearFiltersBtn) {
+                clearFiltersBtn.addEventListener('click', clearFilters);
+            }
+
+            // Initialize
+            console.log('Initializing result count...');
+            updateResultsCount();
+        });
+    </script>
+</body>
+</html>

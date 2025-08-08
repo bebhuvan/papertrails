@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Gaby del Valle",
+    "slug": "gaby-del-valle",
+    "url": "https://gabydelvalle.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Gaby del Valle"
+  },
+  {
+    "name": "The Way of Work",
+    "slug": "way-of-work",
+    "url": "https://newsletter.thewayofwork.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "The Way of Work"
+  },
+  {
+    "name": "Bentham's Newsletter",
+    "slug": "benthams-newsletter",
+    "url": "https://benthams.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Bentham's Newsletter"
+  },
+  {
+    "name": "The Leading Edge",
+    "slug": "leading-edge",
+    "url": "https://newsletter.theleading-edge.org/feed",
+    "category": "Technology",
+    "defaultAuthor": "The Leading Edge"
+  },
+  {
+    "name": "Astral Codex Ten",
+    "slug": "astral-codex-ten",
+    "url": "https://www.astralcodexten.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Scott Alexander"
+  },
+  {
+    "name": "Freddie deBoer",
+    "slug": "freddie-deboer",
+    "url": "https://freddiedeboer.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Freddie deBoer"
+  },
+  {
+    "name": "Res Obscura",
+    "slug": "res-obscura",
+    "url": "https://resobscura.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Benjamin Breen"
+  },
+  {
+    "name": "Nicholas Decker",
+    "slug": "nicholas-decker",
+    "url": "https://nicholasdecker.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Nicholas Decker"
+  },
+  {
+    "name": "Max Read",
+    "slug": "max-read",
+    "url": "https://maxread.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Max Read"
+  },
+  {
+    "name": "Henrik Karlsson",
+    "slug": "henrik-karlsson",
+    "url": "https://www.henrikkarlsson.xyz/feed",
+    "category": "Culture",
+    "defaultAuthor": "Henrik Karlsson"
+  },
+  {
+    "name": "Visa Kanv",
+    "slug": "visa-kanv",
+    "url": "https://visakanv.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Visa Kanv"
+  },
+  {
+    "name": "Simon Sarris",
+    "slug": "simon-sarris",
+    "url": "https://map.simonsarris.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Simon Sarris"
+  },
+  {
+    "name": "AI Log Blog",
+    "slug": "ai-log-blog",
+    "url": "https://ailogblog.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "AI Log Blog"
+  },
+  {
+    "name": "The Unhappy Man",
+    "slug": "unhappy-man",
+    "url": "https://theunhappyman.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "The Unhappy Man"
+  },
+  {
+    "name": "Experimental History",
+    "slug": "experimental-history",
+    "url": "https://www.experimental-history.com/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Adam Mastroianni"
+  },
+  {
+    "name": "Age of Invention",
+    "slug": "age-of-invention",
+    "url": "https://www.ageofinvention.xyz/feed",
+    "category": "History",
+    "defaultAuthor": "Anton Howes"
+  },
+  {
+    "name": "Not Boring",
+    "slug": "not-boring",
+    "url": "https://www.notboring.co/feed",
+    "category": "Technology",
+    "defaultAuthor": "Packy McCormick"
+  },
+  {
+    "name": "Roots of Progress",
+    "slug": "roots-of-progress",
+    "url": "https://newsletter.rootsofprogress.org/feed",
+    "category": "Science",
+    "defaultAuthor": "Jason Crawford"
+  },
+  {
+    "name": "Silver Bulletin",
+    "slug": "silver-bulletin",
+    "url": "https://www.natesilver.net/feed",
+    "category": "Politics",
+    "defaultAuthor": "Nate Silver"
+  },
+  {
+    "name": "Public Policy",
+    "slug": "public-policy",
+    "url": "https://publicpolicy.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Public Policy"
+  },
+  {
+    "name": "Branko Milanovic",
+    "slug": "branko-milanovic",
+    "url": "https://branko2f7.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Branko Milanovic"
+  },
+  {
+    "name": "Aeon",
+    "slug": "aeon",
+    "url": "https://aeon.co/feed.rss",
+    "category": "Philosophy",
+    "defaultAuthor": "Aeon"
+  },
+  {
+    "name": "Psyche",
+    "slug": "psyche",
+    "url": "https://psyche.co/feed.rss",
+    "category": "Psychology",
+    "defaultAuthor": "Psyche"
+  },
+  {
+    "name": "Common Reader",
+    "slug": "common-reader",
+    "url": "https://www.commonreader.co.uk/feed",
+    "category": "Culture",
+    "defaultAuthor": "Common Reader"
+  },
+  {
+    "name": "Protocolized",
+    "slug": "protocolized",
+    "url": "https://protocolized.summerofprotocols.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Summer of Protocols"
+  },
+  {
+    "name": "Gary Marcus",
+    "slug": "gary-marcus",
+    "url": "https://garymarcus.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Gary Marcus"
+  },
+  {
+    "name": "Nautilus",
+    "slug": "nautilus",
+    "url": "https://nautil.us/feed/?_sp=b0840929-e993-4908-b182-0a086cc42588.1739703703525",
+    "category": "Science",
+    "defaultAuthor": "Nautilus"
+  },
+  {
+    "name": "Noema",
+    "slug": "noema",
+    "url": "https://www.noemamag.com/?feed=noemarss",
+    "category": "Philosophy",
+    "defaultAuthor": "Noema"
+  },
+  {
+    "name": "n+1",
+    "slug": "n-plus-one",
+    "url": "https://www.nplusonemag.com/feed/",
+    "category": "Culture",
+    "defaultAuthor": "n+1"
+  },
+  {
+    "name": "Quanta Magazine",
+    "slug": "quanta-magazine",
+    "url": "https://www.quantamagazine.org/feed/",
+    "category": "Science",
+    "defaultAuthor": "Quanta Magazine"
+  },
+  {
+    "name": "Paul Krugman",
+    "slug": "paul-krugman",
+    "url": "https://paulkrugman.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Paul Krugman"
+  },
+  {
+    "name": "Programmable Mutter",
+    "slug": "programmable-mutter",
+    "url": "https://www.programmablemutter.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Programmable Mutter"
+  },
+  {
+    "name": "Back of Mind",
+    "slug": "back-of-mind",
+    "url": "https://backofmind.substack.com/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Back of Mind"
+  },
+  {
+    "name": "Marginal Revolution",
+    "slug": "marginal-revolution",
+    "url": "https://feeder.co/discover/eebb2fc2c5/marginalrevolution-com?flow=dashboard",
+    "category": "Economics",
+    "defaultAuthor": "Tyler Cowen & Alex Tabarrok"
+  },
+  {
+    "name": "Dave Karpf",
+    "slug": "dave-karpf",
+    "url": "https://davekarpf.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Dave Karpf"
+  },
+  {
+    "name": "Woman of Letters",
+    "slug": "woman-of-letters",
+    "url": "https://www.woman-of-letters.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Woman of Letters"
+  },
+  {
+    "name": "School of the Unconformed",
+    "slug": "school-unconformed",
+    "url": "https://schooloftheunconformed.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "School of the Unconformed"
+  },
+  {
+    "name": "The Honest Broker",
+    "slug": "honest-broker",
+    "url": "https://www.honest-broker.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Ted Gioia"
+  },
+  {
+    "name": "Works in Progress",
+    "slug": "works-in-progress",
+    "url": "https://www.worksinprogress.news/feed",
+    "category": "Science",
+    "defaultAuthor": "Works in Progress"
+  },
+  {
+    "name": "Construction Physics",
+    "slug": "construction-physics",
+    "url": "https://www.construction-physics.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Brian Potter"
+  },
+  {
+    "name": "Rotten and Good",
+    "slug": "rotten-and-good",
+    "url": "https://rottenandgood.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Rotten and Good"
+  },
+  {
+    "name": "Over the Field",
+    "slug": "over-the-field",
+    "url": "https://overthefield.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Over the Field"
+  },
+  {
+    "name": "Nils Gilman",
+    "slug": "nils-gilman",
+    "url": "https://nilsgilman.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Nils Gilman"
+  },
+  {
+    "name": "Pens and Poison",
+    "slug": "pens-and-poison",
+    "url": "https://www.pensandpoison.org/feed",
+    "category": "Culture",
+    "defaultAuthor": "Pens and Poison"
+  },
+  {
+    "name": "The Philosophy Garden",
+    "slug": "philosophy-garden",
+    "url": "https://thephilosophygarden.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "The Philosophy Garden"
+  },
+  {
+    "name": "Noahpinion",
+    "slug": "noahpinion",
+    "url": "https://www.noahpinion.blog/feed",
+    "category": "Economics",
+    "defaultAuthor": "Noah Smith"
+  },
+  {
+    "name": "Brad DeLong",
+    "slug": "brad-delong",
+    "url": "https://braddelong.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Brad DeLong"
+  },
+  {
+    "name": "Jacobin",
+    "slug": "jacobin",
+    "url": "https://jacobin.com/feed/",
+    "category": "Politics",
+    "defaultAuthor": "Jacobin"
+  },
+  {
+    "name": "New Left Review",
+    "slug": "new-left-review",
+    "url": "https://newleftreview.org/feed",
+    "category": "Politics",
+    "defaultAuthor": "New Left Review"
+  },
+  {
+    "name": "Small Potatoes",
+    "slug": "small-potatoes",
+    "url": "https://smallpotatoes.paulbloom.net/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Paul Bloom"
+  },
+  {
+    "name": "Shreya Rajagopalan",
+    "slug": "shreya-rajagopalan",
+    "url": "https://srajagopalan.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Shreya Rajagopalan"
+  },
+  {
+    "name": "Rohan Venkat",
+    "slug": "rohan-venkat",
+    "url": "https://rohanvenkat.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Rohan Venkat"
+  },
+  {
+    "name": "Adam Tooze",
+    "slug": "adam-tooze",
+    "url": "https://adamtooze.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Adam Tooze"
+  },
+  {
+    "name": "Africanist Perspective",
+    "slug": "africanist-perspective",
+    "url": "https://www.africanistperspective.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Africanist Perspective"
+  },
+  {
+    "name": "Sustainability by Numbers",
+    "slug": "sustainability-by-numbers",
+    "url": "https://www.sustainabilitybynumbers.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Hannah Ritchie"
+  },
+  {
+    "name": "Meghan O'Rourke",
+    "slug": "meghan-orourke",
+    "url": "https://meghanorourke.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Meghan O'Rourke"
+  },
+  {
+    "name": "Hollis Robbins",
+    "slug": "hollis-robbins",
+    "url": "https://hollisrobbinsanecdotal.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Hollis Robbins"
+  },
+  {
+    "name": "Sean Patrick Hughes",
+    "slug": "sean-patrick-hughes",
+    "url": "https://seanpatrickhughes.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Sean Patrick Hughes"
+  },
+  {
+    "name": "Cluny Journal",
+    "slug": "cluny-journal",
+    "url": "https://www.clunyjournal.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Cluny Journal"
+  }
+]

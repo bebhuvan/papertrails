@@ -1,0 +1,610 @@
+---
+import { getArticles } from '../lib/data';
+
+// Load all articles for client-side search
+const allArticles = getArticles();
+
+console.log(`🔍 Search page: ${allArticles.length} articles available for search`);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Paper Trails</title>
+    
+    <!-- Prevent theme flashing - runs immediately -->
+    <style>html:not([data-theme]) body { visibility: hidden; }</style>
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+            document.body && (document.body.style.visibility = 'visible');
+        })();
+    </script>
+    
+    <script type="application/json" id="searchData" set:html={JSON.stringify(allArticles)}></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.03em;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.2s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.8;
+        }
+
+        .logo::before {
+            content: "📑";
+            font-size: 1.2rem;
+            filter: grayscale(0.3);
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .theme-toggle:hover {
+            color: var(--accent);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle .sun-icon,
+        .theme-toggle .moon-icon {
+            position: absolute;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .theme-toggle .moon-icon {
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .sun-icon {
+            opacity: 0;
+            transform: rotate(-90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 40px 80px;
+        }
+
+        .search-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .search-title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .search-subtitle {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 32px;
+        }
+
+        /* Search Form */
+        .search-form {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 16px 24px 16px 50px;
+            font-size: 1rem;
+            border: 2px solid var(--border-primary);
+            border-radius: 8px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            transition: all 0.2s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-tertiary);
+            pointer-events: none;
+        }
+
+        .search-suggestions {
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .suggestions-text {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .suggestion-tags {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .suggestion-tag {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .suggestion-tag:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Search Results */
+        .search-results {
+            display: none;
+        }
+
+        .search-results.active {
+            display: block;
+        }
+
+        .results-header {
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-primary);
+        }
+
+        .results-count {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .results-count .count {
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .result-item {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-secondary);
+            border-radius: 8px;
+            padding: 24px;
+        }
+
+        .result-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+        }
+
+        .result-publication {
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .result-publication:hover {
+            text-decoration: underline;
+        }
+
+        .result-date {
+            color: var(--text-tertiary);
+        }
+
+        .paywall-badge {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .result-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .result-title a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+
+        .result-title a:hover {
+            opacity: 0.8;
+        }
+
+        .result-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .result-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .result-tag {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .result-tag:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .no-results h3 {
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            font-size: 1.2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 24px;
+                height: 70px;
+            }
+            
+            .container {
+                padding: 30px 24px 60px;
+            }
+            
+            .search-title {
+                font-size: 1.8rem;
+            }
+            
+            .search-input {
+                padding: 14px 20px 14px 46px;
+                font-size: 0.95rem;
+            }
+            
+            .suggestion-tags {
+                justify-content: flex-start;
+                gap: 8px;
+            }
+            
+            .result-item {
+                padding: 20px;
+            }
+            
+            .result-title {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/" class="nav-link">← Back to feed</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-header">
+            <h1 class="search-title">Search Articles</h1>
+            <p class="search-subtitle">
+                Find articles by title, author, publication, or content
+            </p>
+        </div>
+
+        <form class="search-form" role="search">
+            <div style="position: relative;">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input 
+                    type="search" 
+                    class="search-input" 
+                    placeholder="Search articles..." 
+                    id="searchInput"
+                    autocomplete="off"
+                >
+            </div>
+        </form>
+
+        <div class="search-suggestions">
+            <p class="suggestions-text">Try searching for:</p>
+            <div class="suggestion-tags">
+                <span class="suggestion-tag" data-query="AI">AI</span>
+                <span class="suggestion-tag" data-query="economics">Economics</span>
+                <span class="suggestion-tag" data-query="climate">Climate</span>
+                <span class="suggestion-tag" data-query="technology">Technology</span>
+                <span class="suggestion-tag" data-query="markets">Markets</span>
+                <span class="suggestion-tag" data-query="democracy">Democracy</span>
+            </div>
+        </div>
+
+        <div class="search-results" id="searchResults">
+            <div class="results-header">
+                <div class="results-count">
+                    Found <span class="count" id="resultsCount">0</span> articles
+                </div>
+            </div>
+            <div class="results-list" id="resultsList"></div>
+        </div>
+    </main>
+
+    <script>
+        // All articles data for client-side search
+        const articles = JSON.parse(document.getElementById('searchData').textContent) || [];
+        console.log('Search data loaded:', articles.length, 'articles');
+        
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        const resultsCount = document.getElementById('resultsCount');
+        const resultsList = document.getElementById('resultsList');
+        const suggestionTags = document.querySelectorAll('.suggestion-tag');
+
+        // Search function
+        function performSearch(query) {
+            if (!query.trim()) {
+                searchResults.classList.remove('active');
+                return;
+            }
+
+            const normalizedQuery = query.toLowerCase().trim();
+            const results = articles.filter(article => {
+                return (
+                    article.title.toLowerCase().includes(normalizedQuery) ||
+                    article.excerpt.toLowerCase().includes(normalizedQuery) ||
+                    article.author.toLowerCase().includes(normalizedQuery) ||
+                    article.publication.name.toLowerCase().includes(normalizedQuery) ||
+                    article.publication.category.toLowerCase().includes(normalizedQuery)
+                );
+            });
+
+            displayResults(results);
+        }
+
+        // Display search results
+        function displayResults(results) {
+            searchResults.classList.add('active');
+            resultsCount.textContent = results.length;
+            
+            if (results.length === 0) {
+                resultsList.innerHTML = `
+                    <div class="no-results">
+                        <h3>No articles found</h3>
+                        <p>Try different keywords or browse our categories</p>
+                    </div>
+                `;
+                return;
+            }
+
+            resultsList.innerHTML = results.map(article => `
+                <div class="result-item">
+                    <div class="result-meta">
+                        <a href="/publication/${article.publication.slug}" class="result-publication">
+                            ${article.publication.name}
+                        </a>
+                        <span class="result-date">
+                            ${new Date(article.publishedAt).toLocaleDateString()}
+                        </span>
+                        ${article.isPaid ? '<span class="paywall-badge">Premium</span>' : ''}
+                    </div>
+                    
+                    <h2 class="result-title">
+                        <a href="/article/${article.slug}">${article.title}</a>
+                    </h2>
+                    
+                    <p class="result-excerpt">${article.excerpt}</p>
+                    
+                    <div class="result-tags">
+                        <a href="/${article.publication.category.toLowerCase()}" class="result-tag">
+                            ${article.publication.category}
+                        </a>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Search input handler
+        searchInput.addEventListener('input', (e) => {
+            performSearch(e.target.value);
+        });
+
+        // Suggestion tag handlers
+        suggestionTags.forEach(tag => {
+            tag.addEventListener('click', () => {
+                const query = tag.dataset.query;
+                searchInput.value = query;
+                performSearch(query);
+                searchInput.focus();
+            });
+        });
+
+        // Handle URL search parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryParam = urlParams.get('q');
+        if (queryParam) {
+            searchInput.value = queryParam;
+            performSearch(queryParam);
+        }
+
+        // Dark mode functionality
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const defaultTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+            
+            document.documentElement.setAttribute('data-theme', defaultTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Initialize theme on page load
+        initTheme();
+
+        // Theme toggle button event listener
+        document.getElementById('themeToggle')?.addEventListener('click', toggleTheme);
+    </script>
+</body>
+</html>

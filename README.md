@@ -41,3 +41,20 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+Status
+
+● Update Todos
+  ⎿  ☒ Check if feed fetcher works with 99 feeds                          
+     ☒ Address Substack rate limiting concerns
+     ☒ Sample articles from unclear feeds to verify correct categorization
+     ☒ Fix search functionality issues
+     ☒ Build publication pages for each publication
+     ☒ Add dark mode toggle button
+     ☐ Add article pagination or load more functionality
+     ☐ Create RSS feed for the site
+     ☐ Build 404 error pages
+     ☐ Test and fix mobile responsive issues
+     ☐ Enhance article sharing with meta tags
+
+

@@ -1,0 +1,590 @@
+---
+import { getArticles } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const articles = getArticles();
+  
+  return articles.map(article => ({
+    params: { slug: article.slug },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+
+// Helper function to get first few paragraphs as preview
+function getPreviewContent(content, maxLength = 800) {
+  if (!content) return '';
+  
+  // Clean up HTML and get plain text
+  let cleanText = content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  
+  // If content is short, return it all
+  if (cleanText.length <= maxLength) {
+    return formatPreviewText(cleanText);
+  }
+  
+  // Split into sentences and build preview up to maxLength
+  const sentences = cleanText.split(/[.!?]+/).filter(s => s.trim().length > 15);
+  let preview = '';
+  
+  for (const sentence of sentences) {
+    const testLength = preview + sentence + '. ';
+    if (testLength.length > maxLength) break;
+    preview += sentence + '. ';
+  }
+  
+  return formatPreviewText(preview || cleanText.substring(0, maxLength) + '...');
+}
+
+// Helper function to format preview text into paragraphs
+function formatPreviewText(text) {
+  if (!text) return [];
+  
+  // Split into sentences
+  const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 15);
+  
+  // If no valid sentences, return the text as a single paragraph
+  if (sentences.length === 0) {
+    return text.trim() ? [text.trim()] : [];
+  }
+  
+  // Group sentences into paragraphs (2-3 sentences each)
+  const paragraphs = [];
+  for (let i = 0; i < sentences.length; i += 2) {
+    const paragraph = sentences.slice(i, i + 3).join('. ').trim() + '.';
+    if (paragraph.length > 10) {
+      paragraphs.push(paragraph);
+    }
+  }
+  
+  return paragraphs.length > 0 ? paragraphs.slice(0, 3) : [text.trim()]; // Max 3 paragraphs
+}
+
+// Get related articles from same publication or category
+function getRelatedArticles(currentArticle, allArticles, limit = 2) {
+  return allArticles
+    .filter(a => a.slug !== currentArticle.slug)
+    .filter(a => 
+      a.publication.slug === currentArticle.publication.slug || 
+      a.publication.category === currentArticle.publication.category
+    )
+    .slice(0, limit);
+}
+
+const allArticles = getArticles();
+const previewParagraphs = getPreviewContent(article.content);
+const relatedArticles = getRelatedArticles(article, allArticles);
+
+console.log(`📄 Article page: ${article.title} (${article.slug})`);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{article.title} - Paper Trails</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content={article.excerpt} />
+    <meta name="keywords" content={`${article.publication.category}, ${article.publication.name}, substack, essay, longform`} />
+    <meta name="author" content={article.author} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={article.title} />
+    <meta property="og:description" content={article.excerpt} />
+    <meta property="og:image" content="/favicon-512x512.png" />
+    <meta property="og:site_name" content="Paper Trails" />
+    <meta property="article:author" content={article.author} />
+    <meta property="article:published_time" content={article.publishedAt} />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={article.title} />
+    <meta property="twitter:description" content={article.excerpt} />
+    <meta property="twitter:image" content="/favicon-512x512.png" />
+    
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Paper Trails RSS Feed" href="/rss.xml" />
+    
+    <!-- Prevent theme flashing -->
+    <style>
+        /* Prevent FOUC (Flash of Unstyled Content) */
+        html:not([data-theme]) body { visibility: hidden; }
+    </style>
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+            // Make body visible after theme is set
+            document.body && (document.body.style.visibility = 'visible');
+        })();
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 70px;
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.03em;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.2s ease;
+        }
+
+        .logo:hover {
+            opacity: 0.8;
+        }
+
+        .logo::before {
+            content: "📑";
+            font-size: 1.1rem;
+            filter: grayscale(0.3);
+        }
+
+        .share-btn {
+            background: #f8f9fa;
+            border: 1px solid #e5e7eb;
+            color: #666;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .share-btn:hover {
+            background: #f97316;
+            border-color: #f97316;
+            color: white;
+        }
+
+        /* Article Container */
+        .article-container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        /* Article Header */
+        .article-header {
+            margin-bottom: 64px;
+            text-align: left;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 0.85rem;
+        }
+
+        .publication {
+            color: #d97706;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+        }
+
+        .publication:hover {
+            text-decoration: underline;
+        }
+
+        .article-date {
+            color: #999;
+        }
+
+        .paywall-badge {
+            background: #f8f8f8;
+            color: #666;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .article-title {
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #111827;
+            margin-bottom: 28px;
+            letter-spacing: -0.02em;
+        }
+
+        [data-theme="dark"] .article-title {
+            color: #f9fafb;
+        }
+
+        .article-byline {
+            color: #6b7280;
+            font-size: 1.05rem;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .author-name {
+            color: #374151;
+            font-weight: 600;
+        }
+
+        [data-theme="dark"] .article-byline {
+            color: #9ca3af;
+        }
+
+        [data-theme="dark"] .author-name {
+            color: #d1d5db;
+        }
+
+        .article-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: #f8f8f8;
+            color: #666;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .tag:hover {
+            background: #ea580c;
+            color: white;
+        }
+
+        /* Article Content */
+        .article-content {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #1f2937;
+            max-width: 100%;
+        }
+
+        .article-content p {
+            margin-bottom: 28px;
+            text-align: left;
+        }
+
+        .article-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .article-content p:first-child {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #111827;
+            margin-bottom: 36px;
+        }
+
+        [data-theme="dark"] .article-content {
+            color: #e5e7eb;
+        }
+
+        [data-theme="dark"] .article-content p:first-child {
+            color: #f9fafb;
+        }
+
+        /* Continue Reading Section */
+        .continue-reading {
+            margin-top: 80px;
+            padding: 48px 40px;
+            background: var(--bg-primary);
+            border-radius: 16px;
+            text-align: center;
+            border: 2px solid #f5f0eb;
+        }
+
+        [data-theme="dark"] .continue-reading {
+            background: var(--bg-primary);
+            border-color: #2a2a2a;
+        }
+
+        .continue-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .continue-description {
+            color: var(--text-secondary);
+            margin-bottom: 36px;
+            font-size: 1rem;
+            line-height: 1.6;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 36px;
+        }
+
+        .continue-btn {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            padding: 12px 24px;
+            border: 2px solid #f97316;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+        }
+
+        .continue-btn:hover {
+            background: #ea580c;
+            border-color: #ea580c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        /* Related Articles */
+        .related-articles {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .related-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 32px;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .related-article {
+            background: white;
+            border: 1px solid #f0f0f0;
+            border-radius: 8px;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .related-meta {
+            font-size: 0.8rem;
+            color: #999;
+            margin-bottom: 8px;
+        }
+
+        .related-publication {
+            color: #d97706;
+            font-weight: 500;
+        }
+
+        .related-article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            line-height: 1.3;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .related-excerpt {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 24px;
+                height: 64px;
+            }
+            
+            .article-container {
+                padding: 40px 24px;
+            }
+            
+            .article-title {
+                font-size: 2rem;
+            }
+            
+            .article-content {
+                font-size: 1.05rem;
+            }
+            
+            .continue-reading {
+                padding-top: 32px;
+            }
+            
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m15 18-6-6 6-6"/>
+                </svg>
+                Back to feed
+            </a>
+            <a href="/" class="logo">Paper Trails</a>
+            <button class="share-btn" onclick="navigator.share ? navigator.share({title: '{article.title}', url: window.location.href}) : navigator.clipboard.writeText(window.location.href)">
+                Share
+            </button>
+        </div>
+    </header>
+
+    <main class="article-container">
+        <article>
+            <header class="article-header">
+                <div class="article-meta">
+                    <a href={`/publication/${article.publication.slug}`} class="publication">{article.publication.name}</a>
+                    <span class="article-date">{new Date(article.publishedAt).toLocaleDateString()}</span>
+                    {article.isPaid && <span class="paywall-badge">Premium</span>}
+                </div>
+                
+                <h1 class="article-title">{article.title}</h1>
+                
+                <div class="article-byline">
+                    By <span class="author-name">{article.author}</span> • {article.readTime} min read
+                </div>
+                
+                <div class="article-tags">
+                    <a href={`/${article.publication.category.toLowerCase()}`} class="tag">{article.publication.category}</a>
+                </div>
+            </header>
+
+            <div class="article-content">
+                {Array.isArray(previewParagraphs) && previewParagraphs.length > 0 ? (
+                    previewParagraphs.map(paragraph => (
+                        <p>{paragraph}</p>
+                    ))
+                ) : (
+                    <p>{article.excerpt}</p>
+                )}
+            </div>
+
+            <div class="continue-reading">
+                <h3 class="continue-title">Continue Reading on {article.publication.name}</h3>
+                <p class="continue-description">
+                    This article continues with additional insights and analysis. 
+                    {article.isPaid ? 'Premium content available to subscribers.' : 'Read the full article for free.'}
+                </p>
+                <a href={article.link} class="continue-btn" target="_blank" rel="noopener noreferrer">
+                    Read Full Article on {article.publication.name}
+                </a>
+            </div>
+        </article>
+
+        {relatedArticles.length > 0 && (
+          <section class="related-articles">
+              <h2 class="related-title">Related Articles</h2>
+              <div class="related-grid">
+                  {relatedArticles.map(related => (
+                      <a href={`/article/${related.slug}`} class="related-article">
+                          <div class="related-meta">
+                              <span class="related-publication">{related.publication.name}</span> • {new Date(related.publishedAt).toLocaleDateString()}
+                          </div>
+                          <h3 class="related-article-title">{related.title}</h3>
+                          <p class="related-excerpt">{related.excerpt}</p>
+                      </a>
+                  ))}
+              </div>
+          </section>
+        )}
+    </main>
+</body>
+</html>

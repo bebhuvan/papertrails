@@ -1,0 +1,114 @@
+{
+  "articles": [
+    {
+      "id": "1a2b3c4d5e6f",
+      "title": "The Context Window Revolution",
+      "link": "https://stratechery.com/2024/context-window-revolution/",
+      "author": "Ben Thompson",
+      "publishedAt": "2024-01-15T14:30:00.000Z",
+      "excerpt": "The most significant advances in artificial intelligence aren't happening in the headlines. They're occurring in the subtle expansion of context windows—the amount of information these systems can consider at once. This seemingly technical detail is reshaping how we think about machine intelligence.",
+      "content": "The most significant advances in artificial intelligence aren't happening in the headlines. They're occurring in the subtle expansion of context windows—the amount of information these systems can consider at once. This seemingly technical detail is reshaping how we think about machine intelligence and its practical applications in ways that will define the next decade of computing.\n\nContext windows represent the working memory of AI systems. Just as humans can hold a limited amount of information in their immediate awareness—typically seven plus or minus two items, according to cognitive psychology—AI models have traditionally been constrained by how much text they could process simultaneously. Early language models could handle mere hundreds of tokens; today's most advanced systems work with millions.\n\nThis expansion isn't just about quantity—it's fundamentally changing what AI can do. When a system can consider an entire book, a complete codebase, or months of correspondence simultaneously, it moves from pattern matching to genuine understanding. The implications ripple across every industry that deals with complex, interconnected information.",
+      "categories": ["AI", "Technology", "Strategy"],
+      "isPaid": true,
+      "readTime": 8,
+      "wordCount": 2100,
+      "publication": {
+        "name": "Stratechery",
+        "slug": "stratechery",
+        "category": "Technology"
+      },
+      "slug": "the-context-window-revolution",
+      "fetchedAt": "2024-01-15T15:00:00.000Z"
+    },
+    {
+      "id": "2b3c4d5e6f7g",
+      "title": "Democracy's Quiet Resilience",
+      "link": "https://heathercoxrichardson.substack.com/p/democracys-quiet-resilience",
+      "author": "Heather Cox Richardson",
+      "publishedAt": "2024-01-15T10:00:00.000Z",
+      "excerpt": "History offers both warning and comfort as we navigate contemporary challenges to democratic institutions. The patterns of stress and adaptation that characterized earlier periods provide a framework for understanding our current moment without panic or complacency.",
+      "content": "History offers both warning and comfort as we navigate contemporary challenges to democratic institutions. The patterns of stress and adaptation that characterized earlier periods provide a framework for understanding our current moment without panic or complacency.\n\nThe American democratic experiment has weathered storms before—the Civil War, the Great Depression, two World Wars, and the social upheavals of the 1960s. Each crisis tested different aspects of our constitutional framework, revealing both vulnerabilities and unexpected sources of strength.\n\nWhat emerges from this historical perspective is not a story of inevitable progress, but rather one of continuous negotiation between competing visions of what democracy should be. The tension between majority rule and minority rights, between federal authority and local autonomy, between individual liberty and collective responsibility—these fundamental questions have been with us from the beginning.",
+      "categories": ["History", "Democracy", "Politics"],
+      "isPaid": false,
+      "readTime": 12,
+      "wordCount": 3200,
+      "publication": {
+        "name": "Letters from an American",
+        "slug": "letters-from-american",
+        "category": "Politics"
+      },
+      "slug": "democracys-quiet-resilience",
+      "fetchedAt": "2024-01-15T11:00:00.000Z"
+    },
+    {
+      "id": "3c4d5e6f7g8h",
+      "title": "Why Smart People Believe Dumb Things",
+      "link": "https://experimentalhistory.substack.com/p/why-smart-people-believe-dumb-things",
+      "author": "Adam Mastroianni",
+      "publishedAt": "2024-01-14T16:45:00.000Z",
+      "excerpt": "New research suggests that cognitive ability and good judgment follow different paths. Highly intelligent people can be remarkably susceptible to certain biases, particularly those that align with their existing beliefs. Understanding this paradox helps explain modern discourse.",
+      "content": "New research suggests that cognitive ability and good judgment follow different paths. Highly intelligent people can be remarkably susceptible to certain biases, particularly those that align with their existing beliefs. Understanding this paradox helps explain modern discourse.\n\nThe relationship between intelligence and rationality is more complex than we typically assume. High IQ doesn't immunize against motivated reasoning—it might actually make it worse. Smart people are better at constructing elaborate justifications for beliefs they want to hold, turning their analytical skills into weapons of self-deception.\n\nThis has profound implications for how we think about expertise, education, and public discourse. If intelligence alone doesn't guarantee good judgment, what does? The answer appears to lie in intellectual humility, active open-mindedness, and systematic training in avoiding cognitive pitfalls.",
+      "categories": ["Psychology", "Research", "Cognition"],
+      "isPaid": false,
+      "readTime": 15,
+      "wordCount": 4100,
+      "publication": {
+        "name": "Experimental History",
+        "slug": "experimental-history",
+        "category": "Psychology"
+      },
+      "slug": "why-smart-people-believe-dumb-things",
+      "fetchedAt": "2024-01-14T17:00:00.000Z"
+    },
+    {
+      "id": "4d5e6f7g8h9i",
+      "title": "The Hidden Mathematics of Cities",
+      "link": "https://constructionphysics.substack.com/p/hidden-mathematics-cities",
+      "author": "Brian Potter",
+      "publishedAt": "2024-01-14T12:20:00.000Z",
+      "excerpt": "Urban environments follow predictable mathematical relationships that govern everything from infrastructure needs to innovation rates. These scaling laws reveal why cities exist, how they grow, and what makes them succeed or fail at the deepest level.",
+      "content": "Urban environments follow predictable mathematical relationships that govern everything from infrastructure needs to innovation rates. These scaling laws reveal why cities exist, how they grow, and what makes them succeed or fail at the deepest level.\n\nWhen cities double in size, they don't simply double their resource consumption or economic output. Instead, they follow power laws that create surprising efficiencies and concentrations. Infrastructure costs grow sublinearly—larger cities need proportionally less road surface and electrical grid per capita. But innovation and wealth creation grow superlinearly—bigger cities produce disproportionately more patents, startups, and economic value.\n\nThese mathematical relationships aren't accidents of urban planning; they're fundamental properties that emerge from how humans organize themselves in space. Understanding them helps explain why urbanization is one of the most powerful forces shaping our world.",
+      "categories": ["Urban Planning", "Mathematics", "Systems"],
+      "isPaid": false,
+      "readTime": 11,
+      "wordCount": 2800,
+      "publication": {
+        "name": "Construction Physics",
+        "slug": "construction-physics",
+        "category": "Science"
+      },
+      "slug": "the-hidden-mathematics-of-cities",
+      "fetchedAt": "2024-01-14T13:00:00.000Z"
+    },
+    {
+      "id": "5e6f7g8h9i0j",
+      "title": "Attention as the New Scarcity",
+      "link": "https://marginalrevolution.com/marginalrevolution/2024/01/attention-new-scarcity.html",
+      "author": "Tyler Cowen",
+      "publishedAt": "2024-01-13T09:15:00.000Z",
+      "excerpt": "In an economy where information is abundant, attention becomes the constraining resource. This shift fundamentally alters how we think about value creation, distribution, and the very nature of economic competition. The attention economy isn't coming—it's already here.",
+      "content": "In an economy where information is abundant, attention becomes the constraining resource. This shift fundamentally alters how we think about value creation, distribution, and the very nature of economic competition. The attention economy isn't coming—it's already here.\n\nThe traditional economic focus on scarcity doesn't capture our current reality. Information, entertainment, and even basic goods are increasingly abundant. What's scarce is the human capacity to process, evaluate, and act on all this abundance. Attention has become the bottleneck.\n\nThis creates new forms of inequality and new sources of competitive advantage. Those who can command attention—whether through genuine insight, compelling storytelling, or algorithmic mastery—accumulate disproportionate rewards. Meanwhile, the challenge for everyone else is not finding information, but filtering it effectively.",
+      "categories": ["Economics", "Media", "Digital"],
+      "isPaid": false,
+      "readTime": 7,
+      "wordCount": 1900,
+      "publication": {
+        "name": "Marginal Revolution",
+        "slug": "marginal-revolution",
+        "category": "Economics"
+      },
+      "slug": "attention-as-the-new-scarcity",
+      "fetchedAt": "2024-01-13T10:00:00.000Z"
+    }
+  ],
+  "lastUpdated": "2024-01-15T15:30:00.000Z",
+  "stats": {
+    "totalFeeds": 20,
+    "successfulFetches": 18,
+    "errors": 2,
+    "totalArticles": 5,
+    "paidArticles": 1,
+    "categories": ["Technology", "Politics", "Psychology", "Science", "Economics"]
+  },
+  "errors": []
+}

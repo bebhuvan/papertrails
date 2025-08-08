@@ -1,0 +1,313 @@
+---
+// About page
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Paper Trails</title>
+    
+    <!-- Prevent theme flashing - runs immediately -->
+    <style>
+        /* Prevent FOUC (Flash of Unstyled Content) */
+        html:not([data-theme]) body { visibility: hidden; }
+    </style>
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                // Fallback to light theme if there's any error
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+            // Make body visible after theme is set
+            document.body && (document.body.style.visibility = 'visible');
+        })();
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo::before {
+            content: "PT";
+            width: 40px;
+            height: 40px;
+            background: #f97316;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 900;
+            color: white;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        /* Page header */
+        .page-header {
+            background: var(--bg-primary);
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-secondary);
+        }
+
+        .page-header-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 40px;
+            text-align: center;
+        }
+
+        .page-title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .page-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 60px 40px 80px;
+        }
+
+        .content {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+
+        .content h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 40px 0 20px;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .content p {
+            margin-bottom: 24px;
+        }
+
+        .content ul {
+            margin: 24px 0;
+            padding-left: 24px;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+        }
+
+        .content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--accent);
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 24px;
+                height: 70px;
+            }
+            
+            .page-header {
+                padding: 30px 0;
+            }
+            
+            .page-header-content {
+                padding: 0 24px;
+            }
+            
+            .page-title {
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 40px 24px 60px;
+            }
+            
+            .content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/" class="nav-link">← Back to feed</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1 class="page-title">About Paper Trails</h1>
+            <p class="page-subtitle">
+                Thoughtfully curating exceptional writing from leading newsletters and publications
+            </p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="content">
+            <h2>Our Mission</h2>
+            <p>
+                In an age of information overload, quality writing can be hard to find. Paper Trails exists to surface exceptional articles from thoughtful minds across diverse fields—helping you discover insights that matter.
+            </p>
+
+            <div class="highlight-box">
+                <p>
+                    We believe that great ideas deserve great presentation. Every article in our collection has been chosen for its depth, clarity, and unique perspective.
+                </p>
+            </div>
+
+            <h2>What We Curate</h2>
+            <p>Our collection spans five key areas:</p>
+            <ul>
+                <li><strong>Technology</strong> — Innovation, digital culture, and the future of computing</li>
+                <li><strong>Politics</strong> — Governance, policy analysis, and democratic discourse</li>
+                <li><strong>Economics</strong> — Markets, financial systems, and economic thinking</li>
+                <li><strong>Science</strong> — Research breakthroughs and scientific understanding</li>
+                <li><strong>Philosophy</strong> — Big ideas, ethics, and human nature</li>
+            </ul>
+
+            <h2>Our Process</h2>
+            <p>
+                Each article is carefully selected from leading newsletters, independent publications, and thought leaders. We prioritize:
+            </p>
+            <ul>
+                <li>Original insights and fresh perspectives</li>
+                <li>Clear, accessible writing that respects your time</li>
+                <li>Diverse viewpoints and rigorous thinking</li>
+                <li>Content that sparks meaningful reflection</li>
+            </ul>
+
+            <h2>Why Paper Trails?</h2>
+            <p>
+                Rather than algorithmic feeds optimized for engagement, we offer human-curated selections optimized for understanding. Every article represents a deliberate choice—a signal worth your attention in a noisy world.
+            </p>
+
+            <p>
+                <a href="/">Start exploring</a> our curated collection, or browse by category to find topics that resonate with your interests.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
