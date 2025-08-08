@@ -4,7 +4,22 @@ import { getArticles } from '../lib/data';
 // Load all articles for client-side search
 const allArticles = getArticles();
 
-console.log(`🔍 Search page: ${allArticles.length} articles available for search`);
+// Optimize for production - only include essential fields for search
+const searchArticles = allArticles.map(article => ({
+  slug: article.slug,
+  title: article.title,
+  excerpt: article.excerpt.substring(0, 200), // Limit excerpt length
+  author: article.author,
+  publishedAt: article.publishedAt,
+  publication: {
+    name: article.publication.name,
+    slug: article.publication.slug,
+    category: article.publication.category
+  },
+  isPaid: article.isPaid
+}));
+
+console.log(`🔍 Search page: ${searchArticles.length} articles available for search`);
 ---
 
 <html lang="en">
@@ -27,7 +42,7 @@ console.log(`🔍 Search page: ${allArticles.length} articles available for sear
         })();
     </script>
     
-    <script type="application/json" id="searchData" set:html={JSON.stringify(allArticles)}></script>
+    <script type="application/json" id="searchData" set:html={JSON.stringify(searchArticles)}></script>
     <style>
         * {
             margin: 0;
