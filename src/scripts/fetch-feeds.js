@@ -335,6 +335,10 @@ async function fetchAllFeeds() {
     const feedsData = await fs.readFile(feedsPath, 'utf-8');
     const feeds = JSON.parse(feedsData);
     
+    // Separate Substack from non-Substack feeds for different rate limiting
+    const substackFeeds = feeds.filter(feed => feed.url.includes('substack.com'));
+    const nonSubstackFeeds = feeds.filter(feed => !feed.url.includes('substack.com'));
+    
     // Load existing archive if it exists
     const archivePath = path.join(__dirname, '../../data/articles-archive.json');
     let articlesArchive = {};
@@ -347,26 +351,57 @@ async function fetchAllFeeds() {
       console.log('📚 No existing archive found, will create new one');
     }
     
-    console.log(`📋 Found ${feeds.length} feeds to process`);
+    console.log(`📋 Found ${feeds.length} feeds to process (${substackFeeds.length} Substack, ${nonSubstackFeeds.length} others)`);
     console.log(`⚙️  Rate limiting: ${RATE_LIMIT.requestsPerMinute} requests/minute, batches of ${RATE_LIMIT.batchSize}`);
     console.log(`⏱️  Delays: ${RATE_LIMIT.delayBetweenRequests}ms between requests, ${RATE_LIMIT.delayBetweenBatches}ms between batches`);
     
     const allArticles = [];
-    const totalBatches = Math.ceil(feeds.length / RATE_LIMIT.batchSize);
     
-    for (let i = 0; i < feeds.length; i += RATE_LIMIT.batchSize) {
-      const batch = feeds.slice(i, i + RATE_LIMIT.batchSize);
+    // Process non-Substack feeds first (they're usually more permissive)
+    console.log(`\n🌐 Processing ${nonSubstackFeeds.length} non-Substack feeds first...`);
+    const totalNonSubstackBatches = Math.ceil(nonSubstackFeeds.length / RATE_LIMIT.batchSize);
+    
+    for (let i = 0; i < nonSubstackFeeds.length; i += RATE_LIMIT.batchSize) {
+      const batch = nonSubstackFeeds.slice(i, i + RATE_LIMIT.batchSize);
       const batchNumber = Math.floor(i / RATE_LIMIT.batchSize) + 1;
       
-      console.log(`\\n📦 Processing batch ${batchNumber}/${totalBatches} (${batch.length} feeds)`);
+      console.log(`\\n📦 Processing non-Substack batch ${batchNumber}/${totalNonSubstackBatches} (${batch.length} feeds)`);
       
       const batchArticles = await processFeedBatch(batch);
       allArticles.push(...batchArticles);
       
       console.log(`   Batch complete: ${batchArticles.length} articles collected`);
       
-      // Rate limiting delay between batches (except for the last batch)
-      if (i + RATE_LIMIT.batchSize < feeds.length) {
+      // Shorter delay for non-Substack feeds
+      if (i + RATE_LIMIT.batchSize < nonSubstackFeeds.length) {
+        console.log(`   ⏸️  Waiting ${RATE_LIMIT.delayBetweenBatches / 2000} seconds before next batch...`);
+        await delay(RATE_LIMIT.delayBetweenBatches / 2);
+      }
+    }
+    
+    // Add extra pause before processing Substack feeds
+    if (substackFeeds.length > 0) {
+      console.log(`\n⏸️  Taking a 5 second break before processing Substack feeds...`);
+      await delay(5000);
+    }
+    
+    // Process Substack feeds with extra caution
+    console.log(`\n📑 Processing ${substackFeeds.length} Substack feeds with extra rate limiting...`);
+    const totalSubstackBatches = Math.ceil(substackFeeds.length / RATE_LIMIT.batchSize);
+    
+    for (let i = 0; i < substackFeeds.length; i += RATE_LIMIT.batchSize) {
+      const batch = substackFeeds.slice(i, i + RATE_LIMIT.batchSize);
+      const batchNumber = Math.floor(i / RATE_LIMIT.batchSize) + 1;
+      
+      console.log(`\\n📦 Processing Substack batch ${batchNumber}/${totalSubstackBatches} (${batch.length} feeds)`);
+      
+      const batchArticles = await processFeedBatch(batch);
+      allArticles.push(...batchArticles);
+      
+      console.log(`   Batch complete: ${batchArticles.length} articles collected`);
+      
+      // Longer delay for Substack feeds
+      if (i + RATE_LIMIT.batchSize < substackFeeds.length) {
         console.log(`   ⏸️  Waiting ${RATE_LIMIT.delayBetweenBatches / 1000} seconds before next batch...`);
         await delay(RATE_LIMIT.delayBetweenBatches);
       }
