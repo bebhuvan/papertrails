@@ -608,16 +608,17 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             }
             
             .logo {
-                font-size: 1.2rem;
-                gap: 6px;
+                font-size: 1.1rem;
+                gap: 4px;
+                letter-spacing: -0.02em;
             }
             
             .logo::before {
-                font-size: 1rem;
+                font-size: 0.95rem;
             }
             
             .header-nav {
-                gap: 16px;
+                gap: 12px;
             }
             
             .nav-link {
@@ -625,8 +626,13 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             }
 
             .rabbit-link {
-                padding: 3px 6px;
-                font-size: 0.7rem;
+                padding: 4px 8px;
+                font-size: 0.72rem;
+                gap: 3px;
+            }
+
+            .rabbit-emoji {
+                font-size: 0.75rem;
             }
 
             .header-actions {
@@ -732,19 +738,37 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
         }
         
         @media (max-width: 480px) {
+            .logo {
+                font-size: 1rem;
+                gap: 3px;
+            }
+            
+            .logo::before {
+                font-size: 0.9rem;
+            }
+            
+            .header-nav {
+                gap: 8px;
+            }
+            
             .header-nav .nav-link:nth-child(3),
             .header-nav .nav-link:nth-child(4) {
                 display: none;
             }
             
-            .rabbit-link span {
-                display: none;
+            .rabbit-link {
+                padding: 3px 6px;
+                font-size: 0.65rem;
+                border-radius: 10px;
+                gap: 2px;
             }
             
-            .rabbit-link {
-                padding: 4px;
-                min-width: auto;
-                font-size: 0.9rem;
+            .rabbit-emoji {
+                font-size: 0.7rem;
+            }
+            
+            .rabbit-text {
+                font-size: 0.65rem;
             }
             
             .article-stream {
@@ -780,8 +804,8 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 </a>
                 <div class="header-actions">
                     <a href="https://www.rabbitholes.garden/" class="rabbit-link" target="_blank" rel="noopener noreferrer">
-                        <span style="font-size: 0.8rem;">🐰</span>
-                        Rabbit Holes
+                        <span class="rabbit-emoji">🐰</span>
+                        <span class="rabbit-text">Rabbit Holes</span>
                     </a>
                     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                         <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
