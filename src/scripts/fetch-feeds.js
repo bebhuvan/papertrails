@@ -6,15 +6,27 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Rate limiting configuration - more aggressive to avoid Substack blocking
+// Rate limiting configuration - very conservative with domain-based limiting
 const RATE_LIMIT = {
-  requestsPerMinute: 15, // More conservative rate limiting
-  batchSize: 3, // Process only 3 feeds at a time
-  delayBetweenBatches: 4000, // 4 seconds between batches
-  delayBetweenRequests: 1500, // 1.5 seconds between individual requests in a batch
-  retryAttempts: 3,
-  retryDelay: 8000 // 8 seconds between retries
+  // Domain-based rate limiting (key feature)
+  minDelayBetweenDomainRequests: 10 * 60 * 1000, // 10 minutes between requests to same domain
+  
+  // General rate limiting
+  batchSize: 1, // Process only 1 feed at a time (no batching)
+  delayBetweenRequests: 30000, // 30 seconds between any requests
+  retryAttempts: 2, // Reduce retry attempts 
+  retryDelay: 15000, // 15 seconds between retries
+  
+  // Substack-specific delays (much longer)
+  substackDelayMin: 2 * 60 * 1000, // Minimum 2 minutes between Substack requests
+  substackDelayMax: 5 * 60 * 1000, // Maximum 5 minutes (randomized)
+  
+  // Non-Substack delays (shorter)
+  nonSubstackDelay: 15000 // 15 seconds for non-Substack feeds
 };
+
+// Domain request tracking
+const domainLastRequested = new Map();
 
 // User agent rotation to appear as legitimate RSS readers and browsers
 const USER_AGENTS = [
@@ -222,6 +234,49 @@ function getRandomUserAgent() {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
+function getDomainFromUrl(url) {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname.toLowerCase();
+  } catch (error) {
+    console.warn(`Invalid URL: ${url}`);
+    return url; // fallback to full URL as domain
+  }
+}
+
+function getRandomSubstackDelay() {
+  const min = RATE_LIMIT.substackDelayMin;
+  const max = RATE_LIMIT.substackDelayMax;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+async function waitForDomainClearance(domain, isSubstack) {
+  const now = Date.now();
+  const lastRequested = domainLastRequested.get(domain) || 0;
+  
+  let requiredDelay;
+  if (isSubstack) {
+    // For Substack, use randomized delay between 2-5 minutes
+    requiredDelay = getRandomSubstackDelay();
+  } else {
+    // For non-Substack, use fixed shorter delay
+    requiredDelay = RATE_LIMIT.nonSubstackDelay;
+  }
+  
+  const timeSinceLastRequest = now - lastRequested;
+  
+  if (timeSinceLastRequest < requiredDelay) {
+    const waitTime = requiredDelay - timeSinceLastRequest;
+    const waitMinutes = Math.round(waitTime / 60000 * 10) / 10; // round to 1 decimal
+    
+    console.log(`   ⏳ Domain ${domain} was accessed recently. Waiting ${waitMinutes} minutes to be respectful...`);
+    await delay(waitTime);
+  }
+  
+  // Update the last requested time for this domain
+  domainLastRequested.set(domain, Date.now());
+}
+
 function delay(ms) {
   // Add some randomization to make timing more human-like
   const randomDelay = ms + Math.random() * 1000; // Add up to 1 second of randomness
@@ -230,6 +285,14 @@ function delay(ms) {
 
 async function fetchFeedWithRetry(feed, attempt = 1) {
   try {
+    const domain = getDomainFromUrl(feed.url);
+    const isSubstack = domain.includes('substack.com');
+    
+    // Wait for domain clearance before making request
+    if (attempt === 1) { // Only wait on first attempt, not retries
+      await waitForDomainClearance(domain, isSubstack);
+    }
+    
     console.log(`Fetching ${feed.name} (${feed.url}) - attempt ${attempt}`);
     
     const userAgent = getRandomUserAgent();
@@ -253,7 +316,7 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
     
     const response = await fetch(feed.url, {
       headers,
-      timeout: 30000 // 30 second timeout
+      timeout: 45000 // Increased timeout to 45 seconds
     });
     
     if (!response.ok) {
@@ -308,18 +371,31 @@ function generateSlug(title) {
   return slug || 'untitled-' + Date.now();
 }
 
-async function processFeedBatch(feeds) {
+async function processFeeds(feeds) {
   const results = [];
   
-  // Process feeds sequentially with delays to avoid rate limiting
+  console.log(`📊 Processing ${feeds.length} feeds one by one with smart rate limiting...`);
+  
+  // Process feeds one at a time with intelligent delays
   for (let i = 0; i < feeds.length; i++) {
     const feed = feeds[i];
-    const result = await fetchFeedWithRetry(feed);
-    results.push(...result);
+    const domain = getDomainFromUrl(feed.url);
+    const isSubstack = domain.includes('substack.com');
     
-    // Add delay between requests in the same batch (except for the last one)
-    if (i < feeds.length - 1) {
-      await delay(RATE_LIMIT.delayBetweenRequests);
+    console.log(`\n[${i + 1}/${feeds.length}] Processing: ${feed.name} (${isSubstack ? 'Substack' : 'Other'})`);
+    
+    try {
+      const result = await fetchFeedWithRetry(feed);
+      results.push(...result);
+      
+      // Add base delay between all requests (except for the last one)
+      if (i < feeds.length - 1) {
+        console.log(`   ⏸️  Base delay: 30 seconds before next feed...`);
+        await delay(RATE_LIMIT.delayBetweenRequests);
+      }
+    } catch (error) {
+      console.error(`❌ Failed to process ${feed.name}: ${error.message}`);
+      // Continue with next feed even if one fails
     }
   }
   
@@ -352,60 +428,15 @@ async function fetchAllFeeds() {
     }
     
     console.log(`📋 Found ${feeds.length} feeds to process (${substackFeeds.length} Substack, ${nonSubstackFeeds.length} others)`);
-    console.log(`⚙️  Rate limiting: ${RATE_LIMIT.requestsPerMinute} requests/minute, batches of ${RATE_LIMIT.batchSize}`);
-    console.log(`⏱️  Delays: ${RATE_LIMIT.delayBetweenRequests}ms between requests, ${RATE_LIMIT.delayBetweenBatches}ms between batches`);
+    console.log(`⚙️  Smart rate limiting: 2-5 min delays for Substack, 15s for others`);
+    console.log(`⏱️  Domain-based limiting: 10 min minimum between requests to same domain`);
+    console.log(`🕐  Estimated time: ${Math.round((feeds.length * 3) / 60)} hours (very conservative)`);
     
-    const allArticles = [];
+    // Shuffle feeds to distribute Substack requests over time
+    const shuffledFeeds = [...feeds].sort(() => Math.random() - 0.5);
     
-    // Process non-Substack feeds first (they're usually more permissive)
-    console.log(`\n🌐 Processing ${nonSubstackFeeds.length} non-Substack feeds first...`);
-    const totalNonSubstackBatches = Math.ceil(nonSubstackFeeds.length / RATE_LIMIT.batchSize);
-    
-    for (let i = 0; i < nonSubstackFeeds.length; i += RATE_LIMIT.batchSize) {
-      const batch = nonSubstackFeeds.slice(i, i + RATE_LIMIT.batchSize);
-      const batchNumber = Math.floor(i / RATE_LIMIT.batchSize) + 1;
-      
-      console.log(`\\n📦 Processing non-Substack batch ${batchNumber}/${totalNonSubstackBatches} (${batch.length} feeds)`);
-      
-      const batchArticles = await processFeedBatch(batch);
-      allArticles.push(...batchArticles);
-      
-      console.log(`   Batch complete: ${batchArticles.length} articles collected`);
-      
-      // Shorter delay for non-Substack feeds
-      if (i + RATE_LIMIT.batchSize < nonSubstackFeeds.length) {
-        console.log(`   ⏸️  Waiting ${RATE_LIMIT.delayBetweenBatches / 2000} seconds before next batch...`);
-        await delay(RATE_LIMIT.delayBetweenBatches / 2);
-      }
-    }
-    
-    // Add extra pause before processing Substack feeds
-    if (substackFeeds.length > 0) {
-      console.log(`\n⏸️  Taking a 5 second break before processing Substack feeds...`);
-      await delay(5000);
-    }
-    
-    // Process Substack feeds with extra caution
-    console.log(`\n📑 Processing ${substackFeeds.length} Substack feeds with extra rate limiting...`);
-    const totalSubstackBatches = Math.ceil(substackFeeds.length / RATE_LIMIT.batchSize);
-    
-    for (let i = 0; i < substackFeeds.length; i += RATE_LIMIT.batchSize) {
-      const batch = substackFeeds.slice(i, i + RATE_LIMIT.batchSize);
-      const batchNumber = Math.floor(i / RATE_LIMIT.batchSize) + 1;
-      
-      console.log(`\\n📦 Processing Substack batch ${batchNumber}/${totalSubstackBatches} (${batch.length} feeds)`);
-      
-      const batchArticles = await processFeedBatch(batch);
-      allArticles.push(...batchArticles);
-      
-      console.log(`   Batch complete: ${batchArticles.length} articles collected`);
-      
-      // Longer delay for Substack feeds
-      if (i + RATE_LIMIT.batchSize < substackFeeds.length) {
-        console.log(`   ⏸️  Waiting ${RATE_LIMIT.delayBetweenBatches / 1000} seconds before next batch...`);
-        await delay(RATE_LIMIT.delayBetweenBatches);
-      }
-    }
+    console.log(`\n🔄 Processing all feeds in randomized order to spread load...`);
+    const allArticles = await processFeeds(shuffledFeeds);
     
     // Add new articles to archive (using article ID as key to avoid duplicates)
     allArticles.forEach(article => {
