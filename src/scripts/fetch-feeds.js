@@ -6,25 +6,28 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Rate limiting configuration
+// Rate limiting configuration - more aggressive to avoid Substack blocking
 const RATE_LIMIT = {
-  requestsPerMinute: 30, // Conservative rate limiting
-  batchSize: 5, // Process 5 feeds at a time
-  delayBetweenBatches: 2000, // 2 seconds between batches
+  requestsPerMinute: 15, // More conservative rate limiting
+  batchSize: 3, // Process only 3 feeds at a time
+  delayBetweenBatches: 4000, // 4 seconds between batches
+  delayBetweenRequests: 1500, // 1.5 seconds between individual requests in a batch
   retryAttempts: 3,
-  retryDelay: 5000 // 5 seconds between retries
+  retryDelay: 8000 // 8 seconds between retries
 };
 
-// User agent rotation to appear as B2C apps like Feedly
+// User agent rotation to appear as legitimate RSS readers and browsers
 const USER_AGENTS = [
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   'Feedly/1.0 (+https://feedly.com/f/about)',
-  'Mozilla/5.0 (compatible; FeedlyBot/1.0; +https://feedly.com/bot.html)',
   'Inoreader/2.0 (+https://www.inoreader.com; 1 subscribers)',
   'NewsBlur/1.0 (+https://newsblur.com; 1 subscribers)',
   'Feedbin/2.0 (+https://feedbin.com/)',
-  'The Old Reader/1.0 (+https://theoldreader.com/)',
-  'Miniflux/2.0 (+https://miniflux.app/)',
-  'NetNewsWire/6.1 (+https://netnewswire.com/)'
+  'NetNewsWire/6.1 (+https://netnewswire.com/)',
+  'Reeder/5.0 (+https://reederapp.com/)'
 ];
 
 // Decode HTML entities
@@ -220,20 +223,36 @@ function getRandomUserAgent() {
 }
 
 function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  // Add some randomization to make timing more human-like
+  const randomDelay = ms + Math.random() * 1000; // Add up to 1 second of randomness
+  return new Promise(resolve => setTimeout(resolve, randomDelay));
 }
 
 async function fetchFeedWithRetry(feed, attempt = 1) {
   try {
     console.log(`Fetching ${feed.name} (${feed.url}) - attempt ${attempt}`);
     
+    const userAgent = getRandomUserAgent();
+    const headers = {
+      'User-Agent': userAgent,
+      'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml, text/html, */*',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'DNT': '1',
+      'Connection': 'keep-alive',
+      'Upgrade-Insecure-Requests': '1'
+    };
+    
+    // Add browser-specific headers for browser user agents
+    if (userAgent.includes('Mozilla')) {
+      headers['Sec-Fetch-Dest'] = 'document';
+      headers['Sec-Fetch-Mode'] = 'navigate';
+      headers['Sec-Fetch-Site'] = 'none';
+      headers['Sec-Fetch-User'] = '?1';
+    }
+    
     const response = await fetch(feed.url, {
-      headers: {
-        'User-Agent': getRandomUserAgent(),
-        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Cache-Control': 'no-cache'
-      },
+      headers,
       timeout: 30000 // 30 second timeout
     });
     
@@ -290,9 +309,21 @@ function generateSlug(title) {
 }
 
 async function processFeedBatch(feeds) {
-  const promises = feeds.map(feed => fetchFeedWithRetry(feed));
-  const results = await Promise.all(promises);
-  return results.flat();
+  const results = [];
+  
+  // Process feeds sequentially with delays to avoid rate limiting
+  for (let i = 0; i < feeds.length; i++) {
+    const feed = feeds[i];
+    const result = await fetchFeedWithRetry(feed);
+    results.push(...result);
+    
+    // Add delay between requests in the same batch (except for the last one)
+    if (i < feeds.length - 1) {
+      await delay(RATE_LIMIT.delayBetweenRequests);
+    }
+  }
+  
+  return results;
 }
 
 async function fetchAllFeeds() {
@@ -318,6 +349,7 @@ async function fetchAllFeeds() {
     
     console.log(`📋 Found ${feeds.length} feeds to process`);
     console.log(`⚙️  Rate limiting: ${RATE_LIMIT.requestsPerMinute} requests/minute, batches of ${RATE_LIMIT.batchSize}`);
+    console.log(`⏱️  Delays: ${RATE_LIMIT.delayBetweenRequests}ms between requests, ${RATE_LIMIT.delayBetweenBatches}ms between batches`);
     
     const allArticles = [];
     const totalBatches = Math.ceil(feeds.length / RATE_LIMIT.batchSize);
