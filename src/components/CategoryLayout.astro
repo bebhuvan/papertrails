@@ -286,23 +286,6 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             opacity: 0.5;
         }
 
-        .surprise-btn {
-            margin-top: 18px;
-            background: var(--bg-tertiary);
-            border: 1px solid var(--border-primary);
-            color: var(--text-secondary);
-            padding: 8px 18px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            text-decoration: none;
-        }
-
         .discovery-actions {
             display: flex;
             gap: 12px;
@@ -311,20 +294,25 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             flex-wrap: wrap;
         }
 
-        .rabbit-btn {
+        .surprise-btn, .rabbit-btn {
             background: var(--bg-tertiary);
             border: 1px solid var(--border-primary);
             color: var(--text-secondary);
-            padding: 8px 18px;
+            padding: 7px 12px;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1;
             cursor: pointer;
             transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
             gap: 6px;
             text-decoration: none;
+            min-width: 120px;
+            min-height: 38px;
+            justify-content: center;
         }
 
         .surprise-btn:hover, .rabbit-btn:hover {
@@ -340,9 +328,11 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             align-items: center;
         }
 
-        .surprise-icon {
+        .surprise-icon, .rabbit-emoji {
             font-size: 0.95rem;
             display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
         }
 
 
@@ -668,8 +658,9 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             }
             
             .surprise-btn, .rabbit-btn {
-                padding: 8px 16px;
+                padding: 8px 14px;
                 font-size: 0.85rem;
+                min-width: 115px;
             }
             
             .surprise-icon, .rabbit-emoji {
@@ -758,22 +749,68 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 display: none;
             }
             
+            .page-title {
+                font-size: 1.1rem;
+            }
+            
+            .title-emoji {
+                font-size: 1rem;
+            }
+            
+            .page-subtitle {
+                font-size: 0.8rem;
+                line-height: 1.4;
+            }
+            
+            .page-subtitle::before,
+            .page-subtitle::after {
+                margin: 0 6px;
+            }
+            
             .discovery-actions {
                 margin-top: 16px;
                 gap: 8px;
+                flex-direction: column;
+                align-items: center;
             }
             
             .surprise-btn, .rabbit-btn {
-                padding: 7px 14px;
+                padding: 8px 16px;
                 font-size: 0.8rem;
+                min-width: 140px;
+                width: 100%;
+                max-width: 200px;
             }
             
             .surprise-icon, .rabbit-emoji {
                 font-size: 0.85rem;
             }
             
+            .category-filter {
+                justify-content: flex-start;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                padding: 0 20px 8px 20px;
+                margin: 0 -20px 24px -20px;
+            }
+            
+            .category-btn {
+                font-size: 0.8rem;
+                padding: 6px 0;
+                min-width: max-content;
+            }
+            
             .article-stream {
                 gap: 20px;
+            }
+            
+            .article-title {
+                font-size: 1.1rem;
+            }
+            
+            .article-excerpt {
+                -webkit-line-clamp: 2;
+                font-size: 0.88rem;
             }
             
             .publication {
@@ -783,6 +820,35 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
             .paywall-badge {
                 font-size: 0.65rem;
                 padding: 2px 6px;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .header-content {
+                padding: 0 16px;
+            }
+            
+            .page-header-content {
+                padding: 0 16px;
+            }
+            
+            .container {
+                padding: 20px 16px 60px;
+            }
+            
+            .discovery-actions {
+                gap: 6px;
+            }
+            
+            .surprise-btn, .rabbit-btn {
+                padding: 7px 12px;
+                font-size: 0.78rem;
+                min-width: 125px;
+            }
+            
+            .category-filter {
+                padding: 0 16px 8px 16px;
+                margin: 0 -16px 20px -16px;
             }
         }
     </style>
@@ -831,7 +897,7 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 <div class="discovery-actions">
                     <button class="surprise-btn" id="surpriseBtn">
                         <span class="surprise-icon">🎲</span>
-                        Surprise Me
+                        <span class="surprise-text">Surprise Me</span>
                     </button>
                     <a href="https://www.rabbitholes.garden/" class="rabbit-btn" target="_blank" rel="noopener noreferrer">
                         <span class="rabbit-emoji">🐰</span>
