@@ -6,40 +6,55 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Rate limiting configuration - very conservative with domain-based limiting
+// Rate limiting configuration - extremely conservative for Substack
 const RATE_LIMIT = {
   // Domain-based rate limiting (key feature)
-  minDelayBetweenDomainRequests: 10 * 60 * 1000, // 10 minutes between requests to same domain
+  minDelayBetweenDomainRequests: 15 * 60 * 1000, // 15 minutes between requests to same domain
   
   // General rate limiting
   batchSize: 1, // Process only 1 feed at a time (no batching)
-  delayBetweenRequests: 30000, // 30 seconds between any requests
-  retryAttempts: 2, // Reduce retry attempts 
-  retryDelay: 15000, // 15 seconds between retries
+  delayBetweenRequests: 60000, // 60 seconds between any requests
+  retryAttempts: 3, // More retry attempts for transient failures
+  retryDelay: 30000, // 30 seconds base retry delay
   
-  // Substack-specific delays (much longer)
-  substackDelayMin: 2 * 60 * 1000, // Minimum 2 minutes between Substack requests
-  substackDelayMax: 5 * 60 * 1000, // Maximum 5 minutes (randomized)
+  // Substack-specific delays (much more aggressive)
+  substackDelayMin: 8 * 60 * 1000, // Minimum 8 minutes between Substack requests
+  substackDelayMax: 15 * 60 * 1000, // Maximum 15 minutes (randomized)
+  substackMinDomainDelay: 20 * 60 * 1000, // 20 minutes minimum between same Substack domain
+  
+  // Exponential backoff for rate limit errors
+  rateLimitBackoffBase: 2 * 60 * 1000, // Start with 2 minutes
+  rateLimitBackoffMultiplier: 2.5, // Multiply by 2.5 each time
+  rateLimitMaxBackoff: 30 * 60 * 1000, // Max 30 minutes backoff
   
   // Non-Substack delays (shorter)
-  nonSubstackDelay: 15000 // 15 seconds for non-Substack feeds
+  nonSubstackDelay: 20000 // 20 seconds for non-Substack feeds
 };
 
 // Domain request tracking
 const domainLastRequested = new Map();
+const domainRateLimitBackoff = new Map(); // Track backoff delays per domain
 
-// User agent rotation to appear as legitimate RSS readers and browsers
+// User agent rotation - prioritize legitimate RSS readers to appear as regular feed app
 const USER_AGENTS = [
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
-  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  // RSS Readers (weighted higher by appearing multiple times)
   'Feedly/1.0 (+https://feedly.com/f/about)',
-  'Inoreader/2.0 (+https://www.inoreader.com; 1 subscribers)',
-  'NewsBlur/1.0 (+https://newsblur.com; 1 subscribers)',
+  'Feedly/1.0 (+https://feedly.com/f/about)',
+  'Inoreader/2.0 (+https://www.inoreader.com; 12 subscribers)',
+  'Inoreader/2.0 (+https://www.inoreader.com; 8 subscribers)', 
+  'NewsBlur/1.0 (+https://newsblur.com; 3 subscribers)',
+  'NewsBlur/1.0 (+https://newsblur.com; 15 subscribers)',
   'Feedbin/2.0 (+https://feedbin.com/)',
-  'NetNewsWire/6.1 (+https://netnewswire.com/)',
-  'Reeder/5.0 (+https://reederapp.com/)'
+  'NetNewsWire/6.1.4 (+https://netnewswire.com/)',
+  'NetNewsWire/6.1.3 (+https://netnewswire.com/)',
+  'Reeder/5.0 (+https://reederapp.com/)',
+  'The Old Reader/1.0 (+https://theoldreader.com/)',
+  'FeedlyMobile/92.1.0 (like FeedlyMobile)',
+  'RSSOwl/2.2.1 (Windows; U; en)',
+  'Akregator/5.18.1; syndication',
+  // Occasional browsers (much fewer)
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 ];
 
 // Decode HTML entities
@@ -256,10 +271,12 @@ async function waitForDomainClearance(domain, isSubstack) {
   
   let requiredDelay;
   if (isSubstack) {
-    // For Substack, use randomized delay between 2-5 minutes
-    requiredDelay = getRandomSubstackDelay();
+    // For Substack, use much more aggressive delays with domain-specific minimums
+    const substackRandomDelay = getRandomSubstackDelay();
+    const substackDomainMinimum = RATE_LIMIT.substackMinDomainDelay;
+    requiredDelay = Math.max(substackRandomDelay, substackDomainMinimum);
   } else {
-    // For non-Substack, use fixed shorter delay
+    // For non-Substack, use the configured delay
     requiredDelay = RATE_LIMIT.nonSubstackDelay;
   }
   
@@ -269,7 +286,8 @@ async function waitForDomainClearance(domain, isSubstack) {
     const waitTime = requiredDelay - timeSinceLastRequest;
     const waitMinutes = Math.round(waitTime / 60000 * 10) / 10; // round to 1 decimal
     
-    console.log(`   ⏳ Domain ${domain} was accessed recently. Waiting ${waitMinutes} minutes to be respectful...`);
+    const domainType = isSubstack ? 'Substack domain' : 'domain';
+    console.log(`   ⏳ ${domainType} ${domain} was accessed recently. Waiting ${waitMinutes} minutes to avoid rate limiting...`);
     await delay(waitTime);
   }
   
@@ -293,25 +311,31 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
       await waitForDomainClearance(domain, isSubstack);
     }
     
+    // Check for rate limit backoff
+    const backoffUntil = domainRateLimitBackoff.get(domain) || 0;
+    if (Date.now() < backoffUntil) {
+      const waitTime = backoffUntil - Date.now();
+      const waitMinutes = Math.round(waitTime / 60000 * 10) / 10;
+      console.log(`   🚫 Domain ${domain} is in rate limit backoff. Waiting ${waitMinutes} more minutes...`);
+      await delay(waitTime);
+    }
+    
     console.log(`Fetching ${feed.name} (${feed.url}) - attempt ${attempt}`);
     
     const userAgent = getRandomUserAgent();
     const headers = {
       'User-Agent': userAgent,
-      'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml, text/html, */*',
+      'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
       'Accept-Language': 'en-US,en;q=0.9',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'DNT': '1',
+      'Accept-Encoding': 'gzip, deflate',
       'Connection': 'keep-alive',
-      'Upgrade-Insecure-Requests': '1'
+      'Cache-Control': 'no-cache'
     };
     
-    // Add browser-specific headers for browser user agents
+    // Only add browser-specific headers if using browser user agent (rare)
     if (userAgent.includes('Mozilla')) {
-      headers['Sec-Fetch-Dest'] = 'document';
-      headers['Sec-Fetch-Mode'] = 'navigate';
-      headers['Sec-Fetch-Site'] = 'none';
-      headers['Sec-Fetch-User'] = '?1';
+      headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8';
+      headers['Upgrade-Insecure-Requests'] = '1';
     }
     
     const response = await fetch(feed.url, {
@@ -320,8 +344,19 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
     });
     
     if (!response.ok) {
+      // Special handling for rate limiting errors
+      if (response.status === 403 || response.status === 429) {
+        const backoffDelay = calculateRateLimitBackoff(domain, attempt);
+        domainRateLimitBackoff.set(domain, Date.now() + backoffDelay);
+        const backoffMinutes = Math.round(backoffDelay / 60000 * 10) / 10;
+        
+        throw new Error(`HTTP ${response.status}: Rate limited - set ${backoffMinutes} min backoff`);
+      }
       throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     }
+    
+    // Success - clear any backoff for this domain
+    domainRateLimitBackoff.delete(domain);
     
     const xmlData = await response.text();
     const articles = parseXML(xmlData, feed);
@@ -344,15 +379,36 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
   } catch (error) {
     console.error(`❌ Failed to fetch ${feed.name} (attempt ${attempt}): ${error.message}`);
     
+    // Determine retry delay based on error type
+    let retryDelay = RATE_LIMIT.retryDelay;
+    const isRateLimit = error.message.includes('403') || error.message.includes('429');
+    
+    if (isRateLimit && attempt < RATE_LIMIT.retryAttempts) {
+      // For rate limit errors, use exponential backoff
+      retryDelay = calculateRateLimitBackoff(getDomainFromUrl(feed.url), attempt);
+      const retryMinutes = Math.round(retryDelay / 60000 * 10) / 10;
+      console.log(`   Retrying in ${retryMinutes} minutes (rate limit backoff)...`);
+    } else if (attempt < RATE_LIMIT.retryAttempts) {
+      console.log(`   Retrying in ${retryDelay / 1000} seconds...`);
+    }
+    
     if (attempt < RATE_LIMIT.retryAttempts) {
-      console.log(`   Retrying in ${RATE_LIMIT.retryDelay / 1000} seconds...`);
-      await delay(RATE_LIMIT.retryDelay);
+      await delay(retryDelay);
       return fetchFeedWithRetry(feed, attempt + 1);
     } else {
       console.error(`   Giving up on ${feed.name} after ${RATE_LIMIT.retryAttempts} attempts`);
       return [];
     }
   }
+}
+
+function calculateRateLimitBackoff(domain, attempt) {
+  const baseDelay = RATE_LIMIT.rateLimitBackoffBase;
+  const multiplier = Math.pow(RATE_LIMIT.rateLimitBackoffMultiplier, attempt - 1);
+  const delay = baseDelay * multiplier;
+  
+  // Cap at maximum backoff
+  return Math.min(delay, RATE_LIMIT.rateLimitMaxBackoff);
 }
 
 function generateSlug(title) {
@@ -390,7 +446,8 @@ async function processFeeds(feeds) {
       
       // Add base delay between all requests (except for the last one)
       if (i < feeds.length - 1) {
-        console.log(`   ⏸️  Base delay: 30 seconds before next feed...`);
+        const delaySeconds = Math.round(RATE_LIMIT.delayBetweenRequests / 1000);
+        console.log(`   ⏸️  Base delay: ${delaySeconds} seconds before next feed...`);
         await delay(RATE_LIMIT.delayBetweenRequests);
       }
     } catch (error) {
@@ -408,8 +465,11 @@ async function fetchAllFeeds() {
     
     // Load feeds configuration
     const feedsPath = path.join(__dirname, '../../data/feeds.json');
+    console.log(`📁 Loading feeds from: ${feedsPath}`);
     const feedsData = await fs.readFile(feedsPath, 'utf-8');
+    console.log(`📋 Successfully loaded feeds data (${feedsData.length} chars)`);
     const feeds = JSON.parse(feedsData);
+    console.log(`🔍 Parsed ${feeds.length} feeds from JSON`);
     
     // Separate Substack from non-Substack feeds for different rate limiting
     const substackFeeds = feeds.filter(feed => feed.url.includes('substack.com'));
@@ -516,7 +576,7 @@ process.on('SIGTERM', () => {
 });
 
 // Run the fetcher
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === `file://${process.argv[1]}` || process.argv[1].endsWith('fetch-feeds.js')) {
   fetchAllFeeds();
 }
 
