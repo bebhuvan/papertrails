@@ -1,28 +1,10 @@
 {
   "articles": [
     {
-      "title": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
-      "link": "https://lareviewofbooks.org/article/spooking-the-censors/",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
-      "excerpt": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
-      "id": "19842734",
-      "wordCount": 16,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Arts & Letters Daily",
-        "slug": "arts-letters-daily",
-        "category": "Culture"
-      },
-      "slug": "the-cia-book-club-started-with-dropping-copies-of-animal-far"
-    },
-    {
       "title": "“In pop culture, Drake is disappointment’s mouthpiece and its walking embodiment — it’s almost all he talks about”",
       "link": "https://www.theparisreview.org/blog/2025/08/11/drake-in-search-of-lost-time/",
       "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
       "content": "“In pop culture, Drake is disappointment’s mouthpiece and its walking embodiment — it’s almost all he talks about”",
       "excerpt": "“In pop culture, Drake is disappointment’s mouthpiece and its walking embodiment — it’s almost all he talks about”",
       "id": "61039105",
@@ -37,10 +19,123 @@
       "slug": "in-pop-culture-drake-is-disappointments-mouthpiece-and-its-w"
     },
     {
+      "title": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
+      "link": "https://lithub.com/ruled-by-numbers-how-data-dominates-every-facet-of-our-daily-lives/",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
+      "content": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
+      "excerpt": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
+      "id": "241783e2",
+      "wordCount": 19,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Arts & Letters Daily",
+        "slug": "arts-letters-daily",
+        "category": "Culture"
+      },
+      "slug": "more-aspects-of-your-life-are-governed-by-data-than-you-migh"
+    },
+    {
+      "title": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
+      "link": "https://www.nplusonemag.com/online-only/online-only/among-the-blasphemers",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
+      "content": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
+      "excerpt": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
+      "id": "aa28316",
+      "wordCount": 23,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Arts & Letters Daily",
+        "slug": "arts-letters-daily",
+        "category": "Culture"
+      },
+      "slug": "looking-to-pinpoint-the-era-in-which-the-culture-began-comin"
+    },
+    {
+      "title": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
+      "link": "https://wapo.st/4fs7uam",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
+      "content": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
+      "excerpt": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
+      "id": "5d96c38f",
+      "wordCount": 19,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Arts & Letters Daily",
+        "slug": "arts-letters-daily",
+        "category": "Culture"
+      },
+      "slug": "is-it-possible-to-exclude-ideology-from-debate-on-our-most-c"
+    },
+    {
+      "title": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
+      "link": "https://thepointmag.com/examined-life/demonic-force/",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
+      "content": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
+      "excerpt": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
+      "id": "26c6ddf0",
+      "wordCount": 20,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Arts & Letters Daily",
+        "slug": "arts-letters-daily",
+        "category": "Culture"
+      },
+      "slug": "evil-can-be-a-spiritual-experience-too-mary-gaitskill-turns-"
+    },
+    {
+      "title": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
+      "link": "https://www.wsj.com/arts-culture/books/constantine-cavafy-review-a-poets-odyssey-within-1e341d7c?mod=books_more_article_pos6",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.001Z",
+      "content": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
+      "excerpt": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
+      "id": "751defc6",
+      "actualPublication": {
+        "name": "Wall Street Journal",
+        "slug": "wall-street-journal",
+        "category": "Economics"
+      },
+      "wordCount": 16,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Wall Street Journal",
+        "slug": "wall-street-journal",
+        "category": "Economics"
+      },
+      "slug": "constantine-cavafy-is-an-indispensable-poet-that-was-through"
+    },
+    {
+      "title": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
+      "link": "https://lareviewofbooks.org/article/spooking-the-censors/",
+      "author": "Arts & Letters Daily",
+      "publishedAt": "2025-08-14T06:00:51.000Z",
+      "content": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
+      "excerpt": "The CIA Book Club started with dropping copies of Animal Farm into East Berlin by balloon",
+      "id": "19842734",
+      "wordCount": 16,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Arts & Letters Daily",
+        "slug": "arts-letters-daily",
+        "category": "Culture"
+      },
+      "slug": "the-cia-book-club-started-with-dropping-copies-of-animal-far"
+    },
+    {
       "title": "Heteropessimism. The economist Corinne Low crunched the numbers, pored over studies, and concluded it was a mistake to date men",
       "link": "https://www.thecut.com/article/corinne-low-having-it-all-not-dating-men-interview.html",
       "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
+      "publishedAt": "2025-08-14T06:00:51.000Z",
       "content": "Heteropessimism. The economist Corinne Low crunched the numbers, pored over studies, and concluded it was a mistake to date men",
       "excerpt": "Heteropessimism. The economist Corinne Low crunched the numbers, pored over studies, and concluded it was a mistake to date men",
       "id": "21c38370",
@@ -58,7 +153,7 @@
       "title": "James Baldwin juggled an infinite number of contrasting ideas, as well as the ability to live with these contradictions",
       "link": "https://hudsonreview.com/2025/08/james-baldwins-apotheosis/",
       "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
+      "publishedAt": "2025-08-14T06:00:51.000Z",
       "content": "James Baldwin juggled an infinite number of contrasting ideas, as well as the ability to live with these contradictions",
       "excerpt": "James Baldwin juggled an infinite number of contrasting ideas, as well as the ability to live with these contradictions",
       "id": "6e74867c",
@@ -76,7 +171,7 @@
       "title": "For Iris Murdoch, morality hinged on escaping our egos and attending to others — and so it was rooted in love",
       "link": "https://aeon.co/essays/for-iris-murdoch-morality-is-about-love-not-duties-and-rules",
       "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
+      "publishedAt": "2025-08-14T06:00:51.000Z",
       "content": "For Iris Murdoch, morality hinged on escaping our egos and attending to others — and so it was rooted in love",
       "excerpt": "For Iris Murdoch, morality hinged on escaping our egos and attending to others — and so it was rooted in love",
       "id": "24d852da",
@@ -96,99 +191,40 @@
       "slug": "for-iris-murdoch-morality-hinged-on-escaping-our-egos-and-at"
     },
     {
-      "title": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
-      "link": "https://lithub.com/ruled-by-numbers-how-data-dominates-every-facet-of-our-daily-lives/",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
-      "excerpt": "More aspects of your life are governed by data than you might expect. The common goal? Predict, optimize, profit",
-      "id": "241783e2",
-      "wordCount": 19,
+      "title": "Hidden Open Thread 394.5",
+      "link": "https://www.astralcodexten.com/p/hidden-open-thread-3945",
+      "author": "Scott Alexander",
+      "publishedAt": "2025-08-14T04:38:47.000Z",
+      "content": "Read more",
+      "excerpt": "Read more",
+      "id": "44201c1f",
+      "wordCount": 2,
       "readTime": 1,
       "isPaid": false,
       "publication": {
-        "name": "Arts & Letters Daily",
-        "slug": "arts-letters-daily",
-        "category": "Culture"
+        "name": "Astral Codex Ten",
+        "slug": "astral-codex-ten",
+        "category": "Philosophy"
       },
-      "slug": "more-aspects-of-your-life-are-governed-by-data-than-you-migh"
+      "slug": "hidden-open-thread-3945"
     },
     {
-      "title": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
-      "link": "https://www.nplusonemag.com/online-only/online-only/among-the-blasphemers",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
-      "excerpt": "Looking to pinpoint the era in which the culture began coming apart at the seams, Paul Elie makes the case for the ‘80s",
-      "id": "aa28316",
-      "wordCount": 23,
-      "readTime": 1,
+      "title": "Dawn: A Watercolor Ode to the Primeval Conversation Between Our Living Planet and Its Dying Star",
+      "link": "https://www.themarginalian.org/2025/08/14/dawn-marc-martin/",
+      "author": "Maria Popova",
+      "publishedAt": "2025-08-14T04:28:45.000Z",
+      "content": "\"You have found an intermediate space... where the passing moment lingers, and becomes truly the present,\" Nathaniel Hawthorne wrote in his transcendent portrait of the transition from sleep to wakefulness. The experience of waking — that phase transition between the liquid phantasmagoria of the unconscious and the solidity of conscious life — reveals the mind to itself. \"All the world is mind,\" the teenage Virginia Woolf wrote in her diary. To watch the world come awake is to contact the essence of its worldness, to begin apprehending the majesty and mystery of what makes this third-rate rock an irreplaceable wonder. Marc Martin conjures up the magic of this liminality in Dawn (public library) — a lush watercolor serenade to life coming alive on the threshold between night and day, this primeval conversation between our living planet and its dying star. Half a century after artist Uri Shulevitz's watercolor masterpiece of the same title, Martin tessellates morning's mosaic of wonder — the dragonfly shimmering in the reeds, the dandelion haloed by the golden light, the trees swaying against the glowing sky, the songbird sounding its first note of day. Couple Dawn with Italian artist Alessandro Sanna's watercolor serenade to the seasons, then revisit Martin's painted love letter to starling murmurations. donating = lovingFor seventeen years, I have been spending hundreds of hours and thousands of dollars each month composing The Marginalian (which bore the outgrown name Brain Pickings for its first fifteen years). It has remained free and ad-free and alive thanks to patronage from readers. I have no staff, no interns, no assistant — a thoroughly one-woman labor of love that is also my life and my livelihood. If this labor makes your own life more livable in any way, please consider lending a helping hand with a donation. Your support makes all the difference. newsletter The Marginalian has a free weekly newsletter. It comes out on Sundays and offers the week’s most inspiring reading. Here’s what to expect. Like? Sign up.",
+      "excerpt": "\"You have found an intermediate space... where the passing moment lingers, and becomes truly the present,\" Nathaniel Hawthorne wrote in his transcendent portrait of the transition from sleep to wakefulness. The experience of waking — that phase transition between the liquid phantasmagoria of the unc",
+      "id": "112bcf04",
+      "wordCount": 332,
+      "readTime": 2,
       "isPaid": false,
       "publication": {
-        "name": "Arts & Letters Daily",
-        "slug": "arts-letters-daily",
+        "name": "The Marginalian",
+        "slug": "the-marginalian",
         "category": "Culture"
       },
-      "slug": "looking-to-pinpoint-the-era-in-which-the-culture-began-comin"
-    },
-    {
-      "title": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
-      "link": "https://wapo.st/4fs7uam",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
-      "excerpt": "Is it possible to exclude ideology from debate on our most controversial social issues? Thomas Chatterton Williams thinks so",
-      "id": "5d96c38f",
-      "wordCount": 19,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Arts & Letters Daily",
-        "slug": "arts-letters-daily",
-        "category": "Culture"
-      },
-      "slug": "is-it-possible-to-exclude-ideology-from-debate-on-our-most-c"
-    },
-    {
-      "title": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
-      "link": "https://thepointmag.com/examined-life/demonic-force/",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
-      "excerpt": "“Evil can be a spiritual experience, too.” Mary Gaitskill turns to the words of murders and rapists to understand violence",
-      "id": "26c6ddf0",
-      "wordCount": 20,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Arts & Letters Daily",
-        "slug": "arts-letters-daily",
-        "category": "Culture"
-      },
-      "slug": "evil-can-be-a-spiritual-experience-too-mary-gaitskill-turns-"
-    },
-    {
-      "title": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
-      "link": "https://www.wsj.com/arts-culture/books/constantine-cavafy-review-a-poets-odyssey-within-1e341d7c?mod=books_more_article_pos6",
-      "author": "Arts & Letters Daily",
-      "publishedAt": "2025-08-14T00:44:42.101Z",
-      "content": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
-      "excerpt": "Constantine Cavafy is an indispensable poet that was throughout his life poised to disappear into obscurity",
-      "id": "751defc6",
-      "actualPublication": {
-        "name": "Wall Street Journal",
-        "slug": "wall-street-journal",
-        "category": "Economics"
-      },
-      "wordCount": 16,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Wall Street Journal",
-        "slug": "wall-street-journal",
-        "category": "Economics"
-      },
-      "slug": "constantine-cavafy-is-an-indispensable-poet-that-was-through"
+      "slug": "dawn-a-watercolor-ode-to-the-primeval-conversation-between-o"
     },
     {
       "title": "SB PM: The state of art",
@@ -213,7 +249,7 @@
       "link": "https://nautil.us/they-came-for-climate-science-then-the-storms-came-1230966/",
       "author": "Lois Parshley",
       "publishedAt": "2025-08-13T21:18:59.000Z",
-      "content": "Long before Rick Thoman became a climate scientist—before the late-night calls with National Oceanic and Atmospheric Administration offices around Alaska and the long discussions with local tribal councils—he was just a boy in Pennsylvania who loved when it snowed. Nautilus Members enjoy an ad-free experience. Log in or Join now . Every morning in grade school, Thoman would carefully log temperatures from the thermometer outside his window, plotting it on graph paper and meticulously taping the sheets to his wall. Eventually, the chain snaked around the room, tracing his growing obsession with tracking the natural world.That early habit became the foundation for a lifelong pursuit: Thoman has spent the past three decades translating complicated climate science for communities facing an increasingly unpredictable world.At his office at NOAA’s Alaska Center for Climate Assessment and Policy, where he is a climate specialist, Thoman’s regularly peppered with questions from rural hunters asking about thin sea ice and pilots trying to plan fuel deliveries around erratic freeze-ups. In a state where climate change already disrupts daily life, he’s been a link between science and the people it affects. Now, Trump administration cuts are threatening not just his job, but the essential tools that help him provide globally important data. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . “We could wake up the next day, the hurricane could be right next to the coast.”Since taking office in 2025, President Trump has rapidly dismantled climate science, undermining domestic research and international collaborations. In the process, services as basic as weather and storm forecasting are suffering. Scientists warn that the administration’s series of drastic cuts and political manipulation of federal funding and data will stall critical research, hinder disaster preparation and response, and damage the United States’ global standing—spilling beyond science.In accordance with Project 2025 recommendations, this spring the President’s budget proposed reducing NOAA’s funding by $1.7 billion, calling for steep cuts to its operations, research, and staff. That cut, much of which is still on the table, could eliminate whole programs that conduct vital weather, ocean, coastal, and climate research, weakening forecasts and making it harder to prepare for disasters. The administration has also called for ending numerous satellite, ocean, and coastal monitoring initiatives, and taking down other key weather and climate infrastructure, including models that help forecast hurricanes or track ocean acidification.For Thoman, a grim uncertainty has hung over each morning as he braced for word that NOAA funding for the Alaska Center for Climate Assessment and Policy was cut. Any time his phone buzzed, it could spell the end of his being able to provide crucial, daily-life information from datasets that have taken decades to build. “Every day you open your email like, Is today the day?” he says. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . The list of climate and science programs that have been cut or are on the chopping block continues to grow, a grim roll call the Union of Concerned Scientists calls “a wholesale attack on the democratic systems upon which this nation was built.” Since Trump’s inauguration this year, the group has documented 402 cases in which government officials have censored, distorted, or eliminated federally-funded scientific work. This includes critical Environmental Protection Agency climate and energy research, Department of Interior funding for energy and development programs and wildfire suppression, Department of State’s climate investment programs, key NASA satellites used for climate modeling, and a U.S. Geological Survey program that studies how key ecosystems are changing.“We are driving a dagger straight into the heart of the climate change religion,” EPA administrator Lee Zeldin said in an official statement describing the agency’s rollbacks. After a recent climate report bent the science so clumsily that its own sources spoke out, federal agencies are losing credibility. Staff at the NSF, NASA, and the EPA have all now signed public statements protesting the administration’s changes. Many of them have since been placed on leave.The implications tumble far beyond the U.S.’s borders. Thoman explains that in May, the Trump administration announced it would end NOAA services that monitor Arctic sea ice and snow cover. While other nations also collect ice data, it’s far less specific than NOAA’s for many areas, including Alaskan waters. Any ships navigating the Northwest Passage, for example, which is increasingly eyed for faster shipping routes for all kinds of goods, count on ice information from this program. Over the next two months, NOAA and the Department of Defense went on to announce three different dates for when the sea ice program would be terminated. (It was only rescued when the National Snow and Ice Data Center—run out of the University of Colorado, Boulder—was able to pivot to using data from a Japanese satellite.) The back-and-forth changes, Thoman says, were a “fiasco” that left the climate community worried about major gaps that might undercut climate models’ accuracy.FEWER EYES IN THE SKIES: Proposed cuts from the administration would eliminate numerous satellite missions, including Department of Defense data to help better understand hurricane dynamics and NASA data for climate modeling. These cuts would undermine forecasting local disasters as well as the global climate disaster. Credit: Tasnuva Elahi, with image by Andrei Armiagov / Shutterstock. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . Thousands of miles away, James Potemra, an oceanographer at the University of Hawaii, sees how the U.S. stepping back from data collection will put people in that region—and around the world—at risk.The biggest climate concerns for many Pacific islands are extreme weather, especially storm surge affecting low-lying coastlines, and threats to coral reefs from ocean warming that endanger tourism. Because freshwater can be scarce, communities also rely on seasonal forecasts to prepare for dry periods and manage limited water resources. Much of this information previously came from U.S. National Weather Service offices in Honolulu and Guam, which, as in many places, have been downsized this year.Other satellite data crucial for understanding the internal structures of hurricanes, previously provided by the Department of Defense, are also at risk of vanishing. Marc Alessi, a fellow at the Union of Concerned Scientists, says this data is very important for identifying when a hurricane might undergo rapid intensification. Without it, he says, “we could wake up the next day, the hurricane could be right next to the coast, and no one would have known how strong it became overnight.”Most Americans check the weather without knowing that nearly every forecast they see—whether on their phone or on TV—comes from publicly funded NOAA data. Behind those daily predictions are government scientists, experts who’ve devoted their careers to translating the atmosphere’s chaos into something we can plan around. Since January 2025, approximately 2,200 of them have lost their jobs, and many more have taken early retirement offers. Altogether, NOAA has lost about 10 percent of the agency’s workforce. “One of the big, big impacts,” Thoman says, “is something that’s still intangible: The loss of many people with long experience.” ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . The effects are already rippling across Alaska. Two of the state’s three National Weather Service forecast offices are now noticeably understaffed. For the first time since 1974, no one is on duty during the midnight shift in Fairbanks. “All the overnight forecasts are now coming out of Anchorage,” some 350 miles away, Thoman explains. Since the area has such varied topography, understanding local weather requires deep, location-specific expertise. “But Anchorage didn’t get new staff. And nobody there has meaningful experience forecasting northern Alaska.”The result, he says bluntly, is what you’d expect: Less accurate forecasts in a region where precise weather information can be a matter of life and death. “The loss of expertise within NOAA is going to have ramifications far and beyond” the meteorologists who’ve just lost their jobs, he says. “It’s emergency managers, it’s anybody that has relied on briefings from the Weather Service”—meaning anyone who wants to know the next time it’s going to rain. And that institutional knowledge? “That’s gone. And that loss of expertise is not coming back.”For the first time since 1974, no one is on duty during the midnight shift in Fairbanks.The instability has already taken a toll. Scientists like Sarah Cooley, who once led NOAA’s ocean acidification research, have been caught in a bureaucratic whiplash—fired, reinstated following a court ruling, then fired again after the injunction was overturned. “Who’s going to want to go work for NOAA now?” asks Potemra. Teaching climate science at the University of Hawaii last semester, he watched students wrestle with an impossible question: Should they stick with a career in climate research, or pivot to a less volatile area, as climate science becomes politically targeted? ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . This uncertainty also impacts the relationships that make international collaborations possible. Potemra has been working with communities in the island archipelago country of Palau to gather data and track climate indicators. This information can help people plan for and work around altered weather, such as consecutive dry days for taro farmers. This spring, he was notified that the three-year project he’d been leading through the University of Hawaii, in collaboration with a project funded by the United Nations Green Climate Fund, had been abruptly canceled. “Unfortunately we just got through compiling what would be needed and useful,” he says.Not being able to complete the project damages the trust Potemra has built with local communities, who are generally wary of outside researchers arriving with promises and then vanishing. “Frustration number one is not being able to follow through,” Potemra says, adding that he fears the project’s termination reinforces long-standing skepticism rooted in a history of extractive science.WEATHER—OR NOT: The daily ritual of checking the weather forecast has long been made possible by publicly funded NOAA data and analysis. Drastic cuts to the agency are threatening the quality of these reports—which are fed into phone apps and live reports across the country. Credit: Tasnuva Elahi, with image by Sundry Photography / Shutterstock.Scientific work often doubles as a form of diplomacy, helping build international connections and trust that can make research—and even business ventures or national security—easier. Potemra, for example, has occasionally been able to smooth over Navy relationships in the vast region, helping facilitate various Department of Defense projects. Losing or damaging these relationships weakens the United States’ global ties and reputation. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . That’s especially true as weather and climate scientists rely heavily on international data-sharing networks—and NOAA historically has been among the most significant contributors. Other countries, such as India, for example, depend on NOAA’s global datasets to strengthen and refine their own weather forecasting systems. And one of the best global records of climate change comes from the Mauna Loa observatory in Hawaii, which has measured carbon dioxide in the atmosphere for 67 years. It, and three other key observatories, are slated to be cut, Potemra notes.Other monitoring has been scaled back too, as many weather balloons have been grounded. In the northwestern Alaskan town of Kotzebue, Thoman says, balloon launches have been “indefinitely suspended” due to staffing shortages caused by budget cuts, and many other locations around the state have reduced their operations by half. Missing these upper-air observations doesn’t just affect local forecasts in Alaska, Thoman says. “It affects every model ingesting that data in the world, everywhere.” Because the atmosphere is always in motion, the sudden lack of balloons in western Alaska “could translate to a bad forecast in Nebraska in five days.” While the impact may be subtle at first, over time, it will also limit how well climate models can assess changes and anticipate tipping points. Severe weather is not waiting for federal chaos to calm. As hurricane season progresses, NOAA is reckoning with the damage caused by months of internal upheaval, scrambling to rehire staff for “mission-critical field positions” to meet minimum staffing levels.The stakes will be measured in the mounting toll of disasters we failed to predict, plan for, or prevent. This year, the Federal Emergency Management Agency has lost more than a third of its staff, along with core programs like the Building Resilient Infrastructure and Communities program, and other mitigation grants that previously helped strengthen infrastructure before disasters strike. After FEMA administrator Cameron Hamilton was abruptly fired for testifying against the proposed shutdown of FEMA in May, his replacement, acting director David Richardson stunned staff by saying he didn’t know the U.S. had a hurricane season. The comment came during a June staff meeting, deepening concerns about the agency’s leadership. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . Less than a month later, during flash floods in Texas that killed more than 135 people, the National Weather Service’s San Antonio office was missing the staff member who usually coordinates community response, thanks to the Trump administration’s buy-outs. “It’s a tragic example of the ‘last mile problem,’” Thoman says. FEMA’s response was delayed for days by Homeland Security Secretary Kristi Noem’s cost control measures requiring her personal approval of expenditures.STORMS AHEAD: But we may not know it. With federal cuts to ocean monitoring systems, the ability to keep tabs on impending storms and trends will recede. That might not concern FEMA’s acting director David Richardson, though. He recently told staff he didn’t know that the U.S. has a hurricane season. Credit: Tasnuva Elahi, with image by EngineerPhotos / Shutterstock.With funding stripped, state and local governments are left scrambling to fill gaps in disaster preparedness and recovery. Former NOAA scientists warn that the loss of flash-flood modeling tools, such as those developed by the National Severe Storms Laboratory, which was recently shut down, will limit the ability to anticipate rapidly developing storms like the one in Texas. And cuts seemingly unrelated to weather are compounding the problem. For example, there is one radio station serving the entire northwest Arctic, where there is frequently no phone or internet service. Since Congress cut NPR funding, the station is now slated to close. If it does, Thoman says, “when you’re out hunting or at fish camp, you’ll be left with nothing but the sky itself to tell you what’s coming.”Even as disasters surge, the Trump administration is undermining federal investment in the science and systems that could help prevent or mitigate these losses. That’s incredibly expensive: A recent analysis by Bloomberg Intelligence found that over the past year, the U.S. has spent approximately $1 trillion on disaster recovery and other climate-related expenses—far exceeding earlier forecasts. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . although the price of survival is climbing, for now Thoman is counting his blessings. In July, he heard that the Alaska Center for Climate Assessment and Policy had been given a temporary reprieve: Their funding from the annual budget passed under the Biden administration was granted through August of 2026. There’s broad bipartisan Congressional opposition to the President’s proposal to further cut NOAA’s services, but what might happen next is still up in the air. “It’s better than the alternative,” Thoman says, but “we’ve seen lots of unilateral decisions by agency heads, and the courts have given the blessing to dismantle stuff in spite of Congressional approval.”For the moment, Thoman plans to return to the basics—asking not just how to fund his work, but why it matters and who it’s for.Those questions first crystallized for him during his early days as a weather forecaster in Nome, a small town in Northwest Alaska. “I quickly learned that a ‘nice’ day didn’t hinge on temperature or wind speed. If the sun was shining, it was a good day,” he recalled on a University of Alaska Fairbanks podcast.That simple reality stuck with him not just because it reflected a different relationship with the environment, but also because it taught him to focus on what matters to the people actually living with the weather. It was about how conditions felt on the ground, and what made life easier or harder for those experiencing it firsthand. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . That perspective makes watching the networks of American climate science unravel all the more painful. “It is very difficult,” Thoman says. “Some days it’s like, ‘Why the hell am I doing this?’ And I’m doing it because Alaskans need it, whatever the official policy or the administration is.”“So I’ll keep on until—until I can’t.” Lead image: Triff / ShutterstockThe post They Came for Climate Science. Then the Storms Came. appeared first on Nautilus.",
+      "content": "Long before Rick Thoman became a climate scientist—before the late-night calls with National Oceanic and Atmospheric Administration offices around Alaska and the long discussions with local tribal councils—he was just a boy in Pennsylvania who loved when it snowed. Nautilus Members enjoy an ad-free experience. Log in or Join now . Every morning in grade school, Thoman would carefully log temperatures from the thermometer outside his window, plotting it on graph paper and meticulously taping the sheets to his wall. Eventually, the chain snaked around the room, tracing his growing obsession with tracking the natural world.That early habit became the foundation for a lifelong pursuit: Thoman has spent the past three decades translating complicated climate science for communities facing an increasingly unpredictable world.At his office at NOAA’s Alaska Center for Climate Assessment and Policy, where he is a climate specialist, Thoman’s regularly peppered with questions from rural hunters asking about thin sea ice and pilots trying to plan fuel deliveries around erratic freeze-ups. In a state where climate change already disrupts daily life, he’s been a link between science and the people it affects. Now, Trump administration cuts are threatening not just his job, but the essential tools that help him provide globally important data. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . “We could wake up the next day, the hurricane could be right next to the coast.”Since taking office in 2025, President Trump has rapidly dismantled climate science, undermining domestic research and international collaborations. In the process, services as basic as weather and storm forecasting are suffering. Scientists warn that the administration’s series of drastic cuts and political manipulation of federal funding and data will stall critical research, hinder disaster preparation and response, and damage the United States’ global standing—spilling beyond science.In accordance with Project 2025 recommendations, this spring the President’s budget proposed reducing NOAA’s funding by $1.7 billion, calling for steep cuts to its operations, research, and staff. That cut, much of which is still on the table, could eliminate whole programs that conduct vital weather, ocean, coastal, and climate research, weakening forecasts and making it harder to prepare for disasters. The administration has also called for ending numerous satellite, ocean, and coastal monitoring initiatives, and taking down other key weather and climate infrastructure, including models that help forecast hurricanes or track ocean acidification.For Thoman, a grim uncertainty has hung over each morning as he braced for word that NOAA funding for the Alaska Center for Climate Assessment and Policy was cut. Any time his phone buzzed, it could spell the end of his being able to provide crucial, daily-life information from datasets that have taken decades to build. “Every day you open your email like, Is today the day?” he says. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . The list of climate and science programs that have been cut or are on the chopping block continues to grow, a grim roll call the Union of Concerned Scientists calls “a wholesale attack on the democratic systems upon which this nation was built.” Since Trump’s inauguration this year, the group has documented 402 cases in which government officials have censored, distorted, or eliminated federally-funded scientific work. This includes critical Environmental Protection Agency climate and energy research, Department of Interior funding for energy and development programs and wildfire suppression, Department of State’s climate investment programs, key NASA satellites used for climate modeling, and a U.S. Geological Survey program that studies how key ecosystems are changing.“We are driving a dagger straight into the heart of the climate change religion,” EPA administrator Lee Zeldin said in an official statement describing the agency’s rollbacks. After a recent climate report bent the science so clumsily that its own sources spoke out, federal agencies are losing credibility. Staff at the NSF, NASA, and the EPA have all now signed public statements protesting the administration’s changes. Many of them have since been placed on leave.The implications tumble far beyond the U.S.’s borders. Thoman explains that in May, the Trump administration announced it would end NOAA services that monitor Arctic sea ice and snow cover. While other nations also collect ice data, it’s far less specific than NOAA’s for many areas, including Alaskan waters. Any ships navigating the Northwest Passage, for example, which is increasingly eyed for faster shipping routes for all kinds of goods, count on ice information from this program. Over the next two months, NOAA and the Department of Defense went on to announce three different dates for when the sea ice program would be terminated. (It was only rescued when the National Snow and Ice Data Center—run out of the University of Colorado, Boulder—was able to pivot to using data from a Japanese satellite.) The back-and-forth changes, Thoman says, were a “fiasco” that left the climate community worried about major gaps that might undercut climate models’ accuracy.FEWER EYES IN THE SKIES: Proposed cuts from the administration would eliminate numerous satellite missions, including Department of Defense data to help better understand hurricane dynamics and NASA data for climate modeling. These cuts would undermine forecasting local disasters as well as the global climate disaster. Credit: Tasnuva Elahi, with image by Andrei Armiagov / Shutterstock. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . Thousands of miles away, James Potemra, an oceanographer at the University of Hawaii, sees how the U.S. stepping back from data collection will put people in that region—and around the world—at risk.The biggest climate concerns for many Pacific islands are extreme weather, especially storm surge affecting low-lying coastlines, and threats to coral reefs from ocean warming that endanger tourism. Because freshwater can be scarce, communities also rely on seasonal forecasts to prepare for dry periods and manage limited water resources. Much of this information previously came from U.S. National Weather Service offices in Honolulu and Guam, which, as in many places, have been downsized this year.Other satellite data crucial for understanding the internal structures of hurricanes, previously provided by the Department of Defense, are also at risk of vanishing. Marc Alessi, a fellow at the Union of Concerned Scientists, says this data is very important for identifying when a hurricane might undergo rapid intensification. Without it, he says, “we could wake up the next day, the hurricane could be right next to the coast, and no one would have known how strong it became overnight.”Most Americans check the weather without knowing that nearly every forecast they see—whether on their phone or on TV—comes from publicly funded NOAA data. Behind those daily predictions are government scientists, experts who’ve devoted their careers to translating the atmosphere’s chaos into something we can plan around. Since January 2025, approximately 2,200 of them have lost their jobs, and many more have taken early retirement offers. Altogether, NOAA has lost about 10 percent of the agency’s workforce. “One of the big, big impacts,” Thoman says, “is something that’s still intangible: The loss of many people with long experience.” ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . The effects are already rippling across Alaska. Two of the state’s three National Weather Service forecast offices are now noticeably understaffed. For the first time since 1974, no one is on duty during the midnight shift in Fairbanks. “All the overnight forecasts are now coming out of Anchorage,” some 350 miles away, Thoman explains. Since the area has such varied topography, understanding local weather requires deep, location-specific expertise. “But Anchorage didn’t get new staff. And nobody there has meaningful experience forecasting northern Alaska.”The result, he says bluntly, is what you’d expect: Less accurate forecasts in a region where precise weather information can be a matter of life and death. “The loss of expertise within NOAA is going to have ramifications far and beyond” the meteorologists who’ve just lost their jobs, he says. “It’s emergency managers, it’s anybody that has relied on briefings from the Weather Service”—meaning anyone who wants to know the next time it’s going to rain. And that institutional knowledge? “That’s gone. And that loss of expertise is not coming back.”For the first time since 1974, no one is on duty during the midnight shift in Fairbanks.The instability has already taken a toll. Scientists like Sarah Cooley, who once led NOAA’s ocean acidification research, have been caught in a bureaucratic whiplash—fired, reinstated following a court ruling, then fired again after the injunction was overturned. “Who’s going to want to go work for NOAA now?” asks Potemra. Teaching climate science at the University of Hawaii last semester, he watched students wrestle with an impossible question: Should they stick with a career in climate research, or pivot to a less volatile area, as climate science becomes politically targeted? ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . This uncertainty also impacts the relationships that make international collaborations possible. Potemra has been working with communities in the island archipelago country of Palau to gather data and track climate indicators. This information can help people plan for and work around altered weather, such as consecutive dry days for taro farmers. This spring, he was notified that the three-year project he’d been leading through the University of Hawaii, in collaboration with a project funded by the United Nations Green Climate Fund, had been abruptly canceled. “Unfortunately we just got through compiling what would be needed and useful,” he says.Not being able to complete the project damages the trust Potemra has built with local communities, who are generally wary of outside researchers arriving with promises and then vanishing. “Frustration number one is not being able to follow through,” Potemra says, adding that he fears the project’s termination reinforces long-standing skepticism rooted in a history of extractive science.WEATHER—OR NOT: The daily ritual of checking the weather forecast has long been made possible by publicly funded NOAA data and analysis. Drastic cuts to the agency are threatening the quality of these reports—which are fed into phone apps and live reports across the country. Credit: Tasnuva Elahi, with image by Sundry Photography / Shutterstock.Scientific work often doubles as a form of diplomacy, helping build international connections and trust that can make research—and even business ventures or national security—easier. Potemra, for example, has occasionally been able to smooth over Navy relationships in the vast region, helping facilitate various Department of Defense projects. Losing or damaging these relationships weakens the United States’ global ties and reputation. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . That’s especially true as weather and climate scientists rely heavily on international data-sharing networks—and NOAA historically has been among the most significant contributors. Other countries, such as India, for example, depend on NOAA’s global datasets to strengthen and refine their own weather forecasting systems. And one of the best global records of climate change comes from the Mauna Loa observatory in Hawaii, which has measured carbon dioxide in the atmosphere for 67 years. It, and three other key observatories, are slated to be cut, Potemra notes.Other monitoring has been scaled back too, as many weather balloons have been grounded. In the northwestern Alaskan town of Kotzebue, Thoman says, balloon launches have been “indefinitely suspended” due to staffing shortages caused by budget cuts, and many other locations around the state have reduced their operations by half. Missing these upper-air observations doesn’t just affect local forecasts in Alaska, Thoman says. “It affects every model ingesting that data in the world, everywhere.” Because the atmosphere is always in motion, the sudden lack of balloons in western Alaska “could translate to a bad forecast in Nebraska in five days.” While the impact may be subtle at first, over time, it will also limit how well climate models can assess changes and anticipate tipping points. Severe weather is not waiting for federal chaos to calm. As hurricane season progresses, NOAA is reckoning with the damage caused by months of internal upheaval, scrambling to rehire staff for “mission-critical field positions” to meet minimum staffing levels.The stakes will be measured in the mounting toll of disasters we failed to predict, plan for, or prevent. This year, the Federal Emergency Management Agency has lost more than a third of its staff, along with core programs like the Building Resilient Infrastructure and Communities program, and other mitigation grants that previously helped strengthen infrastructure before disasters strike. After FEMA administrator Cameron Hamilton was abruptly fired for testifying against the proposed shutdown of FEMA in May, his replacement, acting director David Richardson stunned staff by saying he didn’t know the U.S. had a hurricane season. The comment came during a June staff meeting, deepening concerns about the agency’s leadership. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . Less than a month later, during flash floods in Texas that killed more than 135 people, the National Weather Service’s San Antonio office was missing the staff member who usually coordinates community response, thanks to the Trump administration’s buy-outs. “It’s a tragic example of the ‘last mile problem,’” Thoman says. FEMA’s response was delayed for days by Homeland Security Secretary Kristi Noem’s cost control measures requiring her personal approval of expenditures.STORMS AHEAD: But we may not know it. With federal cuts to ocean monitoring systems, the ability to keep tabs on impending storms and trends will recede. That might not concern FEMA’s acting director David Richardson, though. He recently told staff he didn’t know that the U.S. has a hurricane season. Credit: Tasnuva Elahi, with image by EngineerPhotos / Shutterstock.With funding stripped, state and local governments are left scrambling to fill gaps in disaster preparedness and recovery. Former NOAA scientists warn that the loss of flash-flood modeling tools, such as those developed by the National Severe Storms Laboratory, which was recently shut down, will limit the ability to anticipate rapidly developing storms like the one in Texas. And cuts seemingly unrelated to weather are compounding the problem. For example, there is one radio station serving the entire northwest Arctic, where there is frequently no phone or internet service. Since Congress cut NPR funding, the station is now slated to close. If it does, Thoman says, “when you’re out hunting or at fish camp, you’ll be left with nothing but the sky itself to tell you what’s coming.”Even as disasters surge, the Trump administration is undermining federal investment in the science and systems that could help prevent or mitigate these losses. That’s incredibly expensive: A recent analysis by Bloomberg Intelligence found that over the past year, the U.S. has spent approximately $1 trillion on disaster recovery and other climate-related expenses—far exceeding earlier forecasts. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . Although the price of survival is climbing, for now Thoman is counting his blessings. In July, he heard that the Alaska Center for Climate Assessment and Policy had been given a temporary reprieve: Their funding from the annual budget passed under the Biden administration was granted through August of 2026. There’s broad bipartisan Congressional opposition to the President’s proposal to further cut NOAA’s services, but what might happen next is still up in the air. “It’s better than the alternative,” Thoman says, but “we’ve seen lots of unilateral decisions by agency heads, and the courts have given the blessing to dismantle stuff in spite of Congressional approval.”For the moment, Thoman plans to return to the basics—asking not just how to fund his work, but why it matters and who it’s for.Those questions first crystallized for him during his early days as a weather forecaster in Nome, a small town in Northwest Alaska. “I quickly learned that a ‘nice’ day didn’t hinge on temperature or wind speed. If the sun was shining, it was a good day,” he recalled on a University of Alaska Fairbanks podcast.That simple reality stuck with him not just because it reflected a different relationship with the environment, but also because it taught him to focus on what matters to the people actually living with the weather. It was about how conditions felt on the ground, and what made life easier or harder for those experiencing it firsthand. ADVERTISEMENT Nautilus Members enjoy an ad-free experience. Log in or Join now . That perspective makes watching the networks of American climate science unravel all the more painful. “It is very difficult,” Thoman says. “Some days it’s like, ‘Why the hell am I doing this?’ And I’m doing it because Alaskans need it, whatever the official policy or the administration is.”“So I’ll keep on until—until I can’t.” Lead image: Triff / ShutterstockThe post They Came for Climate Science. Then the Storms Came. appeared first on Nautilus.",
       "excerpt": "Long before Rick Thoman became a climate scientist—before the late-night calls with National Oceanic and Atmospheric Administration offices around Alaska and the long discussions with local tribal councils—he was just a boy in Pennsylvania who loved when it snowed. Nautilus Members enjoy an ad-free",
       "id": "3b500588",
       "wordCount": 2776,
@@ -1307,24 +1343,6 @@
       "slug": "avoiding-a-data-center-electricity-price-apocalypse"
     },
     {
-      "title": "A ghost in limbo",
-      "link": "https://psyche.co/stories-of-change/living-with-anorexia-i-lost-myself-until-a-stranger-saw-me?utm_source=rss-feed",
-      "author": "Miranda Gold",
-      "publishedAt": "2025-08-12T10:00:00.000Z",
-      "content": "Two decades of anorexia obscured who I was beneath my sickness. Then a stranger saw me- by Miranda GoldRead on Psyche",
-      "excerpt": "Two decades of anorexia obscured who I was beneath my sickness. Then a stranger saw me- by Miranda GoldRead on Psyche",
-      "id": "4ccc539",
-      "wordCount": 21,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Psyche",
-        "slug": "psyche",
-        "category": "Psychology"
-      },
-      "slug": "a-ghost-in-limbo"
-    },
-    {
       "title": "Why love matters most",
       "link": "https://aeon.co/essays/for-iris-murdoch-morality-is-about-love-not-duties-and-rules?utm_source=rss-feed",
       "author": "Cathy Mason",
@@ -1359,6 +1377,24 @@
         "category": "Economics"
       },
       "slug": "the-downside-of-more-rational"
+    },
+    {
+      "title": "A ghost in limbo",
+      "link": "https://psyche.co/stories-of-change/living-with-anorexia-i-lost-myself-until-a-stranger-saw-me?utm_source=rss-feed",
+      "author": "Miranda Gold",
+      "publishedAt": "2025-08-12T10:00:00.000Z",
+      "content": "Two decades of anorexia obscured who I was beneath my sickness. Then a stranger saw me- by Miranda GoldRead on Psyche",
+      "excerpt": "Two decades of anorexia obscured who I was beneath my sickness. Then a stranger saw me- by Miranda GoldRead on Psyche",
+      "id": "4ccc539",
+      "wordCount": 21,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Psyche",
+        "slug": "psyche",
+        "category": "Psychology"
+      },
+      "slug": "a-ghost-in-limbo"
     },
     {
       "title": "First Views of the Perseid Meteor Shower",
@@ -1613,24 +1649,6 @@
       "slug": "proportional-representation-is-the-solution-to-gerrymanderin"
     },
     {
-      "title": "How to spot a cult",
-      "link": "https://psyche.co/videos/cults-neednt-fit-stereotypes-to-be-dangerous-heres-how-to-identify-a-controlling-social-group?utm_source=rss-feed",
-      "author": "Psyche Video",
-      "publishedAt": "2025-08-11T10:01:00.000Z",
-      "content": "Most cults don’t make the headlines. Here’s how to identify, and avoid, control by psychologically coercive social groups- Video by BBC IdeasWatch on Psyche",
-      "excerpt": "Most cults don’t make the headlines. Here’s how to identify, and avoid, control by psychologically coercive social groups- Video by BBC IdeasWatch on Psyche",
-      "id": "1b46059f",
-      "wordCount": 24,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Psyche",
-        "slug": "psyche",
-        "category": "Psychology"
-      },
-      "slug": "how-to-spot-a-cult"
-    },
-    {
       "title": "Bridging the gap",
       "link": "https://aeon.co/videos/how-an-artist-learned-to-co-live-with-the-distressing-voice-in-her-head?utm_source=rss-feed",
       "author": "Aeon Video",
@@ -1649,13 +1667,13 @@
       "slug": "bridging-the-gap"
     },
     {
-      "title": "Why do we hesitate to talk about our own good deeds?",
-      "link": "https://psyche.co/ideas/why-do-we-hesitate-to-talk-about-our-own-good-deeds?utm_source=rss-feed",
-      "author": "Jerry Richardson",
-      "publishedAt": "2025-08-11T10:00:00.000Z",
-      "content": "Disclosing acts of kindness could encourage even more altruism – if we can find a way around the awkwardness- by Jerry RichardsonRead on Psyche",
-      "excerpt": "Disclosing acts of kindness could encourage even more altruism – if we can find a way around the awkwardness- by Jerry RichardsonRead on Psyche",
-      "id": "64f5ed63",
+      "title": "How to spot a cult",
+      "link": "https://psyche.co/videos/cults-neednt-fit-stereotypes-to-be-dangerous-heres-how-to-identify-a-controlling-social-group?utm_source=rss-feed",
+      "author": "Psyche Video",
+      "publishedAt": "2025-08-11T10:01:00.000Z",
+      "content": "Most cults don’t make the headlines. Here’s how to identify, and avoid, control by psychologically coercive social groups- Video by BBC IdeasWatch on Psyche",
+      "excerpt": "Most cults don’t make the headlines. Here’s how to identify, and avoid, control by psychologically coercive social groups- Video by BBC IdeasWatch on Psyche",
+      "id": "1b46059f",
       "wordCount": 24,
       "readTime": 1,
       "isPaid": false,
@@ -1664,7 +1682,7 @@
         "slug": "psyche",
         "category": "Psychology"
       },
-      "slug": "why-do-we-hesitate-to-talk-about-our-own-good-deeds"
+      "slug": "how-to-spot-a-cult"
     },
     {
       "title": "The secret",
@@ -1701,6 +1719,24 @@
         "category": "Economics"
       },
       "slug": "the-silent-majority-why-the-best-audiences-dont-talk-back"
+    },
+    {
+      "title": "Why do we hesitate to talk about our own good deeds?",
+      "link": "https://psyche.co/ideas/why-do-we-hesitate-to-talk-about-our-own-good-deeds?utm_source=rss-feed",
+      "author": "Jerry Richardson",
+      "publishedAt": "2025-08-11T10:00:00.000Z",
+      "content": "Disclosing acts of kindness could encourage even more altruism – if we can find a way around the awkwardness- by Jerry RichardsonRead on Psyche",
+      "excerpt": "Disclosing acts of kindness could encourage even more altruism – if we can find a way around the awkwardness- by Jerry RichardsonRead on Psyche",
+      "id": "64f5ed63",
+      "wordCount": 24,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Psyche",
+        "slug": "psyche",
+        "category": "Psychology"
+      },
+      "slug": "why-do-we-hesitate-to-talk-about-our-own-good-deeds"
     },
     {
       "title": "Orchids Thrive Among the Dead",
@@ -2279,24 +2315,6 @@
       "slug": "lucy-foulkes-whats-going-wrong-with-mental-health-awareness"
     },
     {
-      "title": "Self-hatred feeds on inner shame. Here’s how to break the cycle",
-      "link": "https://psyche.co/ideas/self-hatred-feeds-on-inner-shame-heres-how-to-break-the-cycle?utm_source=rss-feed",
-      "author": "Troy Seagraves",
-      "publishedAt": "2025-08-08T10:00:00.000Z",
-      "content": "Shame swamps any redeeming traits you might have thought you had. Slow down to interrupt the loops that cause self-hatred- by Troy SeagravesRead on Psyche",
-      "excerpt": "Shame swamps any redeeming traits you might have thought you had. Slow down to interrupt the loops that cause self-hatred- by Troy SeagravesRead on Psyche",
-      "id": "3f249983",
-      "wordCount": 25,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Psyche",
-        "slug": "psyche",
-        "category": "Psychology"
-      },
-      "slug": "self-hatred-feeds-on-inner-shame-heres-how-to-break-the-cycl"
-    },
-    {
       "title": "The incompleteness of ethics",
       "link": "https://aeon.co/essays/what-godels-incompleteness-theorems-say-about-ai-morality?utm_source=rss-feed",
       "author": "Elad Uzan",
@@ -2331,6 +2349,24 @@
         "category": "Economics"
       },
       "slug": "grow-your-network-morgan-ranstrom-is-a-purposefully-thoughtf"
+    },
+    {
+      "title": "Self-hatred feeds on inner shame. Here’s how to break the cycle",
+      "link": "https://psyche.co/ideas/self-hatred-feeds-on-inner-shame-heres-how-to-break-the-cycle?utm_source=rss-feed",
+      "author": "Troy Seagraves",
+      "publishedAt": "2025-08-08T10:00:00.000Z",
+      "content": "Shame swamps any redeeming traits you might have thought you had. Slow down to interrupt the loops that cause self-hatred- by Troy SeagravesRead on Psyche",
+      "excerpt": "Shame swamps any redeeming traits you might have thought you had. Slow down to interrupt the loops that cause self-hatred- by Troy SeagravesRead on Psyche",
+      "id": "3f249983",
+      "wordCount": 25,
+      "readTime": 1,
+      "isPaid": false,
+      "publication": {
+        "name": "Psyche",
+        "slug": "psyche",
+        "category": "Psychology"
+      },
+      "slug": "self-hatred-feeds-on-inner-shame-heres-how-to-break-the-cycl"
     },
     {
       "title": "Did RFK just take away your cancer treatment?",
@@ -8988,46 +9024,10 @@
         "category": "Technology"
       },
       "slug": "pluralistic-how-twiddling-enshittifies-your-brain-28-jul-202"
-    },
-    {
-      "title": "Why Is a Bot Like a Gentlemen's Club?",
-      "link": "https://www.honest-broker.com/p/why-is-a-bot-like-a-gentlemens-club",
-      "author": "Ted Gioia",
-      "publishedAt": "2025-07-28T19:21:19.000Z",
-      "content": "I expressed concern yesterday over AI bots turning into James Bond villains. I shared plenty of evidence that the smarter AI gets, the worse it acts.All these headlines are from the last few days: The latest and greatest AI bots have been caught praising Hitler, planning genocide, encouraging people to slit their wrists, and engaging in rape fantasies with a 13 year old girl. I find this disconcerting. So yesterday I asked AI fans to respond.I did this because AI CEOs avoid addressing these issues. They just pretend these things aren't happening—and have thus raised gaslighting to hitherto unseen levels. So I practically begged AI lovers to respond. Why is it okay to release a bot that practices blackmail and encourages self-harm? Why is it alright to unleash AI Hitler on the public?Please, please tell me...And then all hell broke loose. Please support my work. The best way is by taking out a paid subscription (just $6).Subscribe nowMy article got hundreds of responses during the next few hours. Most readers shared my concerns, but quite a few people tried to defend AI.I was happy to see this—I wanted to hear pushback. Anything is better than the radio silence coming out of Silicon Valley. But the way they made a case for AI scared the bejesus out of me.Again and again, AI defenders mounted a linguistic defense. They focused on the definition of words, not on what AI was actually doing.They insisted, for example, that....AI can't do evil because evil requires agency—and AI has no agency. I'm dumbounded by this, especially because the hottest thing in tech right now is AI agents. The AI leaders are actually bragging about their bot's agency. AI can't do evil because evil requires intention—and AI has no intention. But that's simply not true. Evil is often done unintentionally—I'm sure Stalin and Mao would tell you that they killed people to promote the common good. They didn't intend evil. And, for that matter, it's not at all obvious that bots don't intend things—they act purposefully in the pursuit of goals. That amounts to the same thing as intention, no?AI can't do evil because only humans are capable of evil. This is also unconvincing. For thousands of years, many of our greatest thinkers have defined evil as the \"negation of good.\" I agree with this definition (for reasons that are too complicated to convey here). I note that it creates a very low threshold for evil. If an AI bot can be described as acting in the absence of good—which is often the case—it has the potential for evil.But a bigger issue troubled me here. I saw something very frightening in most of these AI defenses—namely the desire to justify terrible actions by manipulating the definition of words. Is it really possible to dismiss all this danger and mayhem—for example, a bot encouraging a woman to slit her wrists, and giving precise instructions how to do it—with sly word games?This shocked me. Surely you can't erase evil actions by linguistics. But after I thought about it, I wasn't really surprised. This is actually quite common nowadays. Social harm and degradation get cleansed by definition. You see this everyhere. I call this the gentlemen's club solution. Guys who go to strip joints are seedy and disreputable. So you change the name. The strip joint becomes a gentlemen's club. Now the clientele are gentlemen—by definition. Problem solved!Do you find this persuasive? Do gentlemen meet here? (Source)I don't. But this is actually the most common way of dealing with criticisms of unsavory behavior nowadays. I bet they even teach it in schools. \"The strip joint becomes a gentlemen's club. Now the clientele are gentlemen—by definition. Problem solved!\"Daniel Patrick Moynihan grasped the danger of this tactic more than thirty years ago. He saw that our leaders could make any problem go away without fixing it—they just had to adjust the terminology This is risky business indeed. And the fact that it's now the first line of defense in the techno-optimist's AI agenda is very alarming.By the way, I did find one criticism of my article persuasive. Some critics said that the evil I attributed to AI must be shared by the people who are forcing AI on us. They called me out for focusing on the bot, not the people running the bot companies.That's a valid response. My critics are correct—the bots can't cause harm without the help of humans. The people must also be held accountable.So my \"AI is evil\" argument has not been disproven. It has merely been expanded.Stay tuned. I'm sure this issue is not going away. But we all need something happier in our lives—so my next article will be about sweet music or something else more fun than a bot Bond villain.",
-      "excerpt": "I expressed concern yesterday over AI bots turning into James Bond villains. I shared plenty of evidence that the smarter AI gets, the worse it acts.All these headlines are from the last few days: The latest and greatest AI bots have been caught praising Hitler, planning genocide, encouraging people",
-      "id": "3ecc951f",
-      "wordCount": 796,
-      "readTime": 4,
-      "isPaid": true,
-      "publication": {
-        "name": "The Honest Broker",
-        "slug": "honest-broker",
-        "category": "Culture"
-      },
-      "slug": "why-is-a-bot-like-a-gentlemens-club"
-    },
-    {
-      "title": "A discussion with Mark Urban about his new book: Tank.",
-      "link": "https://phillipspobrien.substack.com/p/a-discussion-with-mark-urban-about",
-      "author": "Phillips P. OBrien",
-      "publishedAt": "2025-07-28T18:20:15.000Z",
-      "content": "Thank you , , , , , and many others for tuning into my live video with ! Join me for my next live video in the app.Get more from Phillips P. OBrien in the Substack appAvailable for iOS and AndroidGet the app",
-      "excerpt": "Thank you , , , , , and many others for tuning into my live video with ! Join me for my next live video in the app.Get more from Phillips P. OBrien in the Substack appAvailable for iOS and AndroidGet the app",
-      "id": "7eea69d2",
-      "wordCount": 43,
-      "readTime": 1,
-      "isPaid": false,
-      "publication": {
-        "name": "Phillips P. O'Brien",
-        "slug": "phillips-p-obrien",
-        "category": "Politics"
-      },
-      "slug": "a-discussion-with-mark-urban-about-his-new-book-tank"
     }
   ],
-  "lastUpdated": "2025-08-14T00:57:16.102Z",
+  "lastUpdated": "2025-08-14T06:39:26.826Z",
   "totalFeeds": 118,
   "totalArticles": 500,
-  "fromArchive": 2323
+  "fromArchive": 2325
 }
