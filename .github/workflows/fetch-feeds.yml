@@ -2,10 +2,8 @@ name: Fetch RSS Feeds
 
 on:
   schedule:
-    # Run at 5:00 AM UTC (adjust for your timezone)
-    - cron: '0 5 * * *'
-    # Run at 11:30 PM UTC (adjust for your timezone) 
-    - cron: '30 23 * * *'
+    # Run at 5:00 PM UTC (12:00 PM US Eastern, 10:30 PM India) - mid-day US time
+    - cron: '0 17 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
