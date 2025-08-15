@@ -824,5 +824,75 @@
     "url": "https://chrisglass.com/links/feed/",
     "category": "Culture",
     "defaultAuthor": "Chris Glass"
+  },
+  {
+    "name": "Abnormal Returns",
+    "slug": "abnormal-returns",
+    "url": "https://abnormalreturns.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Tadas Viskanta"
+  },
+  {
+    "name": "A Wealth of Common Sense",
+    "slug": "wealth-common-sense",
+    "url": "https://awealthofcommonsense.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Ben Carlson"
+  },
+  {
+    "name": "Meb Faber Research",
+    "slug": "meb-faber-research",
+    "url": "https://rss.beehiiv.com/feeds/BJES4OT2HF.xml",
+    "category": "Finance",
+    "defaultAuthor": "Meb Faber"
+  },
+  {
+    "name": "The Idea Farm",
+    "slug": "idea-farm",
+    "url": "https://rss.beehiiv.com/feeds/gywEQVO1Za.xml",
+    "category": "Finance",
+    "defaultAuthor": "The Idea Farm"
+  },
+  {
+    "name": "Campaign Archive Newsletter",
+    "slug": "campaign-archive-newsletter",
+    "url": "https://us13.campaign-archive.com/feed?u=6dc62f307511d466ff78a94fe&id=6d62717de8",
+    "category": "Finance",
+    "defaultAuthor": "Campaign Archive"
+  },
+  {
+    "name": "Meb Faber",
+    "slug": "meb-faber",
+    "url": "https://mebfaber.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Meb Faber"
+  },
+  {
+    "name": "Grist",
+    "slug": "grist",
+    "url": "https://grist.org/feed/",
+    "category": "Climate",
+    "defaultAuthor": "Grist"
+  },
+  {
+    "name": "Carbon Brief",
+    "slug": "carbon-brief",
+    "url": "https://www.carbonbrief.org/feed/",
+    "category": "Climate",
+    "defaultAuthor": "Carbon Brief"
+  },
+  {
+    "name": "MIT Press Reader",
+    "slug": "mit-press-reader",
+    "url": "https://thereader.mitpress.mit.edu/feed/",
+    "category": "Culture",
+    "defaultAuthor": "MIT Press Reader"
+  },
+  {
+    "name": "Foreign Affairs",
+    "slug": "foreign-affairs",
+    "url": "https://www.foreignaffairs.com/rss.xml",
+    "category": "Politics",
+    "defaultAuthor": "Foreign Affairs"
   }
 ]
