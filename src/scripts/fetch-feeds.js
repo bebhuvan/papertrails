@@ -6,34 +6,35 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Rate limiting configuration - extremely conservative for Substack
+// Rate limiting configuration - balanced for batched processing
 const RATE_LIMIT = {
   // Domain-based rate limiting (key feature)
-  minDelayBetweenDomainRequests: 15 * 60 * 1000, // 15 minutes between requests to same domain
+  minDelayBetweenDomainRequests: 8 * 60 * 1000, // 8 minutes between requests to same domain
   
   // General rate limiting
   batchSize: 1, // Process only 1 feed at a time (no batching)
-  delayBetweenRequests: 60000, // 60 seconds between any requests
-  retryAttempts: 3, // More retry attempts for transient failures
-  retryDelay: 30000, // 30 seconds base retry delay
+  delayBetweenRequests: 30000, // 30 seconds between any requests (reduced from 60s)
+  retryAttempts: 2, // Reduced retry attempts to avoid timeout
+  retryDelay: 20000, // 20 seconds base retry delay
   
-  // Substack-specific delays (much more aggressive)
-  substackDelayMin: 8 * 60 * 1000, // Minimum 8 minutes between Substack requests
-  substackDelayMax: 15 * 60 * 1000, // Maximum 15 minutes (randomized)
-  substackMinDomainDelay: 20 * 60 * 1000, // 20 minutes minimum between same Substack domain
+  // Substack-specific delays (more reasonable for batched processing)
+  substackDelayMin: 3 * 60 * 1000, // Minimum 3 minutes between Substack requests
+  substackDelayMax: 6 * 60 * 1000, // Maximum 6 minutes (randomized)
+  substackMinDomainDelay: 10 * 60 * 1000, // 10 minutes minimum between same Substack domain
   
   // Exponential backoff for rate limit errors
-  rateLimitBackoffBase: 2 * 60 * 1000, // Start with 2 minutes
-  rateLimitBackoffMultiplier: 2.5, // Multiply by 2.5 each time
-  rateLimitMaxBackoff: 30 * 60 * 1000, // Max 30 minutes backoff
+  rateLimitBackoffBase: 90 * 1000, // Start with 90 seconds
+  rateLimitBackoffMultiplier: 2.0, // Multiply by 2 each time
+  rateLimitMaxBackoff: 15 * 60 * 1000, // Max 15 minutes backoff
   
   // Non-Substack delays (shorter)
-  nonSubstackDelay: 20000 // 20 seconds for non-Substack feeds
+  nonSubstackDelay: 10000 // 10 seconds for non-Substack feeds
 };
 
 // Domain request tracking
 const domainLastRequested = new Map();
 const domainRateLimitBackoff = new Map(); // Track backoff delays per domain
+const failedFeeds = new Map(); // Track recently failed feeds to skip temporarily
 
 // User agent rotation - prioritize legitimate RSS readers to appear as regular feed app
 const USER_AGENTS = [
@@ -306,6 +307,15 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
     const domain = getDomainFromUrl(feed.url);
     const isSubstack = domain.includes('substack.com');
     
+    // Check if this feed failed recently and should be skipped
+    const failedUntil = failedFeeds.get(feed.url) || 0;
+    if (Date.now() < failedUntil) {
+      const waitTime = failedUntil - Date.now();
+      const waitMinutes = Math.round(waitTime / 60000);
+      console.log(`⏭️  Skipping ${feed.name} - failed recently, retry in ${waitMinutes} minutes`);
+      return [];
+    }
+    
     // Wait for domain clearance before making request
     if (attempt === 1) { // Only wait on first attempt, not retries
       await waitForDomainClearance(domain, isSubstack);
@@ -397,6 +407,13 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
       return fetchFeedWithRetry(feed, attempt + 1);
     } else {
       console.error(`   Giving up on ${feed.name} after ${RATE_LIMIT.retryAttempts} attempts`);
+      
+      // Mark this feed as failed for 2 hours to avoid wasting time on subsequent runs
+      if (isRateLimit) {
+        failedFeeds.set(feed.url, Date.now() + (2 * 60 * 60 * 1000)); // 2 hours
+        console.log(`   🚫 Marking ${feed.name} as temporarily failed (2 hours)`);
+      }
+      
       return [];
     }
   }
@@ -461,15 +478,36 @@ async function processFeeds(feeds) {
 
 async function fetchAllFeeds() {
   try {
+    // Parse command line arguments for batching
+    const args = process.argv.slice(2);
+    const batchArg = args.find(arg => arg.startsWith('--batch='));
+    const totalBatchesArg = args.find(arg => arg.startsWith('--total-batches='));
+    
+    const currentBatch = batchArg ? parseInt(batchArg.split('=')[1]) : null;
+    const totalBatches = totalBatchesArg ? parseInt(totalBatchesArg.split('=')[1]) : 1;
+    
     console.log('🚀 Starting RSS feed fetch process...');
+    if (currentBatch) {
+      console.log(`📦 Running batch ${currentBatch} of ${totalBatches}`);
+    }
     
     // Load feeds configuration
     const feedsPath = path.join(__dirname, '../../data/feeds.json');
     console.log(`📁 Loading feeds from: ${feedsPath}`);
     const feedsData = await fs.readFile(feedsPath, 'utf-8');
     console.log(`📋 Successfully loaded feeds data (${feedsData.length} chars)`);
-    const feeds = JSON.parse(feedsData);
-    console.log(`🔍 Parsed ${feeds.length} feeds from JSON`);
+    const allFeeds = JSON.parse(feedsData);
+    console.log(`🔍 Parsed ${allFeeds.length} feeds from JSON`);
+    
+    // Filter feeds for this batch if batching is enabled
+    let feeds = allFeeds;
+    if (currentBatch && totalBatches > 1) {
+      const batchSize = Math.ceil(allFeeds.length / totalBatches);
+      const startIndex = (currentBatch - 1) * batchSize;
+      const endIndex = Math.min(startIndex + batchSize, allFeeds.length);
+      feeds = allFeeds.slice(startIndex, endIndex);
+      console.log(`📦 Processing batch ${currentBatch}: feeds ${startIndex + 1}-${endIndex} (${feeds.length} feeds)`);
+    }
     
     // Separate Substack from non-Substack feeds for different rate limiting
     const substackFeeds = feeds.filter(feed => feed.url.includes('substack.com'));
@@ -536,7 +574,7 @@ async function fetchAllFeeds() {
     };
     await fs.writeFile(outputPath, JSON.stringify(outputData, null, 2));
     
-    console.log(`\\n✅ Feed fetch complete!`);
+    console.log(`\n✅ Feed fetch complete!`);
     console.log(`   New articles collected: ${allArticles.length}`);
     console.log(`   Total in archive: ${Object.keys(articlesArchive).length} articles`);
     console.log(`   Recent articles (30 days): ${recentArticles.length}`);
@@ -551,7 +589,7 @@ async function fetchAllFeeds() {
       categoryStats[category] = (categoryStats[category] || 0) + 1;
     });
     
-    console.log('\\n📊 Articles by category:');
+    console.log('\n📊 Articles by category:');
     Object.entries(categoryStats)
       .sort(([,a], [,b]) => b - a)
       .forEach(([category, count]) => {
@@ -566,12 +604,12 @@ async function fetchAllFeeds() {
 
 // Handle graceful shutdown
 process.on('SIGINT', () => {
-  console.log('\\n⏹️  Feed fetch interrupted by user');
+  console.log('\n⏹️  Feed fetch interrupted by user');
   process.exit(0);
 });
 
 process.on('SIGTERM', () => {
-  console.log('\\n⏹️  Feed fetch terminated');
+  console.log('\n⏹️  Feed fetch terminated');
   process.exit(0);
 });
 
