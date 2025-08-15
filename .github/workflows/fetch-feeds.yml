@@ -69,6 +69,8 @@ jobs:
         
       - name: Fetch RSS feeds
         run: npm run fetch-feeds -- --batch=${{ needs.determine-batch.outputs.batch }} --total-batches=4
+        env:
+          SKIP_SUBSTACK: true
         
       - name: Commit and push if changes
         run: |
