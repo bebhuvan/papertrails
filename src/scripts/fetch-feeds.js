@@ -6,29 +6,33 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Rate limiting configuration - balanced for batched processing
+// Rate limiting configuration - ultra-conservative for Substack
 const RATE_LIMIT = {
   // Domain-based rate limiting (key feature)
-  minDelayBetweenDomainRequests: 8 * 60 * 1000, // 8 minutes between requests to same domain
+  minDelayBetweenDomainRequests: 15 * 60 * 1000, // 15 minutes between requests to same domain
   
   // General rate limiting
   batchSize: 1, // Process only 1 feed at a time (no batching)
-  delayBetweenRequests: 30000, // 30 seconds between any requests (reduced from 60s)
-  retryAttempts: 2, // Reduced retry attempts to avoid timeout
-  retryDelay: 20000, // 20 seconds base retry delay
+  delayBetweenRequests: 45000, // 45 seconds between any requests
+  retryAttempts: 2, // Keep at 2 to avoid timeout
+  retryDelay: 30000, // 30 seconds base retry delay
   
-  // Substack-specific delays (more reasonable for batched processing)
-  substackDelayMin: 3 * 60 * 1000, // Minimum 3 minutes between Substack requests
-  substackDelayMax: 6 * 60 * 1000, // Maximum 6 minutes (randomized)
-  substackMinDomainDelay: 10 * 60 * 1000, // 10 minutes minimum between same Substack domain
+  // Substack-specific delays (ultra-conservative)
+  substackDelayMin: 8 * 60 * 1000, // Minimum 8 minutes between Substack requests
+  substackDelayMax: 12 * 60 * 1000, // Maximum 12 minutes (randomized)
+  substackMinDomainDelay: 20 * 60 * 1000, // 20 minutes minimum between same Substack domain
+  
+  // Global Substack rate limiting (new feature)
+  lastSubstackRequest: 0, // Track last Substack request globally
+  globalSubstackDelay: 10 * 60 * 1000, // 10 minutes between ANY Substack requests
   
   // Exponential backoff for rate limit errors
-  rateLimitBackoffBase: 90 * 1000, // Start with 90 seconds
+  rateLimitBackoffBase: 2 * 60 * 1000, // Start with 2 minutes
   rateLimitBackoffMultiplier: 2.0, // Multiply by 2 each time
-  rateLimitMaxBackoff: 15 * 60 * 1000, // Max 15 minutes backoff
+  rateLimitMaxBackoff: 20 * 60 * 1000, // Max 20 minutes backoff
   
   // Non-Substack delays (shorter)
-  nonSubstackDelay: 10000 // 10 seconds for non-Substack feeds
+  nonSubstackDelay: 15000 // 15 seconds for non-Substack feeds
 };
 
 // Domain request tracking
@@ -272,7 +276,16 @@ async function waitForDomainClearance(domain, isSubstack) {
   
   let requiredDelay;
   if (isSubstack) {
-    // For Substack, use much more aggressive delays with domain-specific minimums
+    // Global Substack rate limiting - wait for ANY previous Substack request
+    const timeSinceLastSubstack = now - RATE_LIMIT.lastSubstackRequest;
+    if (timeSinceLastSubstack < RATE_LIMIT.globalSubstackDelay) {
+      const globalWaitTime = RATE_LIMIT.globalSubstackDelay - timeSinceLastSubstack;
+      const globalWaitMinutes = Math.round(globalWaitTime / 60000 * 10) / 10;
+      console.log(`   🌐 Global Substack cooldown: Waiting ${globalWaitMinutes} minutes since last Substack request...`);
+      await delay(globalWaitTime);
+    }
+    
+    // Domain-specific Substack delays
     const substackRandomDelay = getRandomSubstackDelay();
     const substackDomainMinimum = RATE_LIMIT.substackMinDomainDelay;
     requiredDelay = Math.max(substackRandomDelay, substackDomainMinimum);
@@ -294,6 +307,11 @@ async function waitForDomainClearance(domain, isSubstack) {
   
   // Update the last requested time for this domain
   domainLastRequested.set(domain, Date.now());
+  
+  // Update global Substack timestamp
+  if (isSubstack) {
+    RATE_LIMIT.lastSubstackRequest = Date.now();
+  }
 }
 
 function delay(ms) {
@@ -530,11 +548,34 @@ async function fetchAllFeeds() {
     console.log(`⏱️  Domain-based limiting: 10 min minimum between requests to same domain`);
     console.log(`🕐  Estimated time: ${Math.round((feeds.length * 3) / 60)} hours (very conservative)`);
     
-    // Shuffle feeds to distribute Substack requests over time
-    const shuffledFeeds = [...feeds].sort(() => Math.random() - 0.5);
+    // Separate and interleave Substack and non-Substack feeds for better distribution
+    const substackFeeds = feeds.filter(feed => feed.url.includes('substack.com'));
+    const nonSubstackFeeds = feeds.filter(feed => !feed.url.includes('substack.com'));
     
-    console.log(`\n🔄 Processing all feeds in randomized order to spread load...`);
-    const allArticles = await processFeeds(shuffledFeeds);
+    // Shuffle each group separately
+    const shuffledSubstack = [...substackFeeds].sort(() => Math.random() - 0.5);
+    const shuffledNonSubstack = [...nonSubstackFeeds].sort(() => Math.random() - 0.5);
+    
+    // Interleave feeds: 1 Substack, then 2-3 non-Substack, repeat
+    const interleavedFeeds = [];
+    let substackIndex = 0;
+    let nonSubstackIndex = 0;
+    
+    while (substackIndex < shuffledSubstack.length || nonSubstackIndex < shuffledNonSubstack.length) {
+      // Add 1 Substack feed
+      if (substackIndex < shuffledSubstack.length) {
+        interleavedFeeds.push(shuffledSubstack[substackIndex++]);
+      }
+      
+      // Add 2-3 non-Substack feeds
+      const nonSubstackCount = Math.floor(Math.random() * 2) + 2; // 2 or 3
+      for (let i = 0; i < nonSubstackCount && nonSubstackIndex < shuffledNonSubstack.length; i++) {
+        interleavedFeeds.push(shuffledNonSubstack[nonSubstackIndex++]);
+      }
+    }
+    
+    console.log(`\n🔄 Processing feeds with smart interleaving (${substackFeeds.length} Substack, ${nonSubstackFeeds.length} others)...`);
+    const allArticles = await processFeeds(interleavedFeeds);
     
     // Add new articles to archive (using article ID as key to avoid duplicates)
     allArticles.forEach(article => {
