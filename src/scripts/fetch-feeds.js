@@ -17,14 +17,14 @@ const RATE_LIMIT = {
   retryAttempts: 2, // Keep at 2 to avoid timeout
   retryDelay: 30000, // 30 seconds base retry delay
   
-  // Substack-specific delays (ultra-conservative)
-  substackDelayMin: 8 * 60 * 1000, // Minimum 8 minutes between Substack requests
-  substackDelayMax: 12 * 60 * 1000, // Maximum 12 minutes (randomized)
-  substackMinDomainDelay: 20 * 60 * 1000, // 20 minutes minimum between same Substack domain
+  // Substack-specific delays (extreme conservative)
+  substackDelayMin: 15 * 60 * 1000, // Minimum 15 minutes between Substack requests
+  substackDelayMax: 25 * 60 * 1000, // Maximum 25 minutes (randomized)
+  substackMinDomainDelay: 30 * 60 * 1000, // 30 minutes minimum between same Substack domain
   
   // Global Substack rate limiting (new feature)
   lastSubstackRequest: 0, // Track last Substack request globally
-  globalSubstackDelay: 10 * 60 * 1000, // 10 minutes between ANY Substack requests
+  globalSubstackDelay: 20 * 60 * 1000, // 20 minutes between ANY Substack requests
   
   // Exponential backoff for rate limit errors
   rateLimitBackoffBase: 2 * 60 * 1000, // Start with 2 minutes
@@ -40,26 +40,20 @@ const domainLastRequested = new Map();
 const domainRateLimitBackoff = new Map(); // Track backoff delays per domain
 const failedFeeds = new Map(); // Track recently failed feeds to skip temporarily
 
-// User agent rotation - prioritize legitimate RSS readers to appear as regular feed app
+// User agent rotation - focus on most legitimate RSS readers
 const USER_AGENTS = [
-  // RSS Readers (weighted higher by appearing multiple times)
+  // Most trusted RSS readers
   'Feedly/1.0 (+https://feedly.com/f/about)',
-  'Feedly/1.0 (+https://feedly.com/f/about)',
-  'Inoreader/2.0 (+https://www.inoreader.com; 12 subscribers)',
-  'Inoreader/2.0 (+https://www.inoreader.com; 8 subscribers)', 
-  'NewsBlur/1.0 (+https://newsblur.com; 3 subscribers)',
-  'NewsBlur/1.0 (+https://newsblur.com; 15 subscribers)',
+  'Inoreader/2.0 (+https://www.inoreader.com; 25 subscribers)',
+  'NewsBlur/1.0 (+https://newsblur.com; 18 subscribers)',
   'Feedbin/2.0 (+https://feedbin.com/)',
   'NetNewsWire/6.1.4 (+https://netnewswire.com/)',
-  'NetNewsWire/6.1.3 (+https://netnewswire.com/)',
   'Reeder/5.0 (+https://reederapp.com/)',
   'The Old Reader/1.0 (+https://theoldreader.com/)',
+  // Add some variety but keep it RSS-focused
   'FeedlyMobile/92.1.0 (like FeedlyMobile)',
   'RSSOwl/2.2.1 (Windows; U; en)',
-  'Akregator/5.18.1; syndication',
-  // Occasional browsers (much fewer)
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
-  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  'Akregator/5.18.1; syndication'
 ];
 
 // Decode HTML entities
@@ -355,9 +349,14 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
       'User-Agent': userAgent,
       'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
       'Accept-Language': 'en-US,en;q=0.9',
-      'Accept-Encoding': 'gzip, deflate',
+      'Accept-Encoding': 'gzip, deflate, br',
       'Connection': 'keep-alive',
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'max-age=0',
+      'DNT': '1',
+      'Sec-Fetch-Dest': 'document',
+      'Sec-Fetch-Mode': 'navigate',
+      'Sec-Fetch-Site': 'none',
+      'Sec-GPC': '1'
     };
     
     // Only add browser-specific headers if using browser user agent (rare)
@@ -544,30 +543,39 @@ async function fetchAllFeeds() {
     }
     
     console.log(`📋 Found ${feeds.length} feeds to process (${substackFeeds.length} Substack, ${nonSubstackFeeds.length} others)`);
-    console.log(`⚙️  Smart rate limiting: 8-12 min delays for Substack, 15s for others`);
-    console.log(`⏱️  Domain-based limiting: 20 min minimum between same Substack domains`);
-    console.log(`🌐 Global Substack cooldown: 10 min between ANY Substack requests`);
-    console.log(`🕐  Estimated time: ${Math.round((feeds.length * 8) / 60)} hours (ultra-conservative)`);
+    console.log(`⚙️  Smart rate limiting: 15-25 min delays for Substack, 15s for others`);
+    console.log(`⏱️  Domain-based limiting: 30 min minimum between same Substack domains`);
+    console.log(`🌐 Global Substack cooldown: 20 min between ANY Substack requests`);
+    console.log(`🕐  Estimated time: ${Math.round((feeds.length * 15) / 60)} hours (extreme conservative)`);
     
     // Shuffle each group separately
     const shuffledSubstack = [...substackFeeds].sort(() => Math.random() - 0.5);
     const shuffledNonSubstack = [...nonSubstackFeeds].sort(() => Math.random() - 0.5);
     
-    // Interleave feeds: 1 Substack, then 2-3 non-Substack, repeat
-    const interleavedFeeds = [];
-    let substackIndex = 0;
-    let nonSubstackIndex = 0;
+    // Check if we should skip Substack feeds entirely (emergency mode)
+    const skipSubstack = process.env.SKIP_SUBSTACK === 'true';
     
-    while (substackIndex < shuffledSubstack.length || nonSubstackIndex < shuffledNonSubstack.length) {
-      // Add 1 Substack feed
-      if (substackIndex < shuffledSubstack.length) {
-        interleavedFeeds.push(shuffledSubstack[substackIndex++]);
-      }
+    let interleavedFeeds;
+    if (skipSubstack) {
+      console.log(`🚨 EMERGENCY MODE: Skipping all Substack feeds due to rate limiting`);
+      interleavedFeeds = shuffledNonSubstack;
+    } else {
+      // Interleave feeds: 1 Substack, then 4-5 non-Substack, repeat (more spacing)
+      interleavedFeeds = [];
+      let substackIndex = 0;
+      let nonSubstackIndex = 0;
       
-      // Add 2-3 non-Substack feeds
-      const nonSubstackCount = Math.floor(Math.random() * 2) + 2; // 2 or 3
-      for (let i = 0; i < nonSubstackCount && nonSubstackIndex < shuffledNonSubstack.length; i++) {
-        interleavedFeeds.push(shuffledNonSubstack[nonSubstackIndex++]);
+      while (substackIndex < shuffledSubstack.length || nonSubstackIndex < shuffledNonSubstack.length) {
+        // Add 1 Substack feed
+        if (substackIndex < shuffledSubstack.length) {
+          interleavedFeeds.push(shuffledSubstack[substackIndex++]);
+        }
+        
+        // Add 4-5 non-Substack feeds (more spacing)
+        const nonSubstackCount = Math.floor(Math.random() * 2) + 4; // 4 or 5
+        for (let i = 0; i < nonSubstackCount && nonSubstackIndex < shuffledNonSubstack.length; i++) {
+          interleavedFeeds.push(shuffledNonSubstack[nonSubstackIndex++]);
+        }
       }
     }
     
