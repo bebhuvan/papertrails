@@ -544,13 +544,10 @@ async function fetchAllFeeds() {
     }
     
     console.log(`📋 Found ${feeds.length} feeds to process (${substackFeeds.length} Substack, ${nonSubstackFeeds.length} others)`);
-    console.log(`⚙️  Smart rate limiting: 2-5 min delays for Substack, 15s for others`);
-    console.log(`⏱️  Domain-based limiting: 10 min minimum between requests to same domain`);
-    console.log(`🕐  Estimated time: ${Math.round((feeds.length * 3) / 60)} hours (very conservative)`);
-    
-    // Separate and interleave Substack and non-Substack feeds for better distribution
-    const substackFeeds = feeds.filter(feed => feed.url.includes('substack.com'));
-    const nonSubstackFeeds = feeds.filter(feed => !feed.url.includes('substack.com'));
+    console.log(`⚙️  Smart rate limiting: 8-12 min delays for Substack, 15s for others`);
+    console.log(`⏱️  Domain-based limiting: 20 min minimum between same Substack domains`);
+    console.log(`🌐 Global Substack cooldown: 10 min between ANY Substack requests`);
+    console.log(`🕐  Estimated time: ${Math.round((feeds.length * 8) / 60)} hours (ultra-conservative)`);
     
     // Shuffle each group separately
     const shuffledSubstack = [...substackFeeds].sort(() => Math.random() - 0.5);
