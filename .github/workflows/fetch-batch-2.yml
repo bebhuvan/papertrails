@@ -2,8 +2,10 @@ name: Fetch RSS Feeds - Batch 2 (Fast Non-Substack)
 
 on:
   schedule:
-    # Run at 5 2:00 UTC
-    - cron: '5 2 * * *'
+        # Run at 2:15 AM, 8:15 AM, 2:15 PM UTC (3 times daily)
+    - cron: '15 2 * * *'
+    - cron: '15 8 * * *'
+    - cron: '15 14 * * *'
   workflow_dispatch:
     inputs:
       test_mode:
