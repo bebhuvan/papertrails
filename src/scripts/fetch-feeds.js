@@ -349,7 +349,7 @@ async function fetchFeedWithRetry(feed, attempt = 1) {
       'User-Agent': userAgent,
       'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
       'Accept-Language': 'en-US,en;q=0.9',
-      'Accept-Encoding': 'gzip, deflate, br',
+      // Removed Accept-Encoding to let Node.js handle compression automatically
       'Connection': 'keep-alive',
       'Cache-Control': 'max-age=0',
       'DNT': '1',
