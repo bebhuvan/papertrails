@@ -12,6 +12,9 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.12",
     "@types/node": "^24.2.0",
-    "astro": "^5.12.8"
+    "astro": "^5.12.8",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2",
+    "rss-parser": "^3.13.0"
   }
 }
