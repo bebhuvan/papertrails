@@ -7,40 +7,43 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import { promisify } from 'util';
+import FeedLogger from './enhanced-logger.js';
 
 const execAsync = promisify(exec);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function parallelFetch() {
-  console.log('=== Parallel Feed Fetcher ===\n');
-  
   // Get configuration from environment
   const workflowFeeds = JSON.parse(process.env.WORKFLOW_FEEDS || '[]');
   const baseDelay = parseInt(process.env.BASE_DELAY || '10') * 1000;
   const workflowName = process.env.WORKFLOW_NAME || 'unknown';
   
-  console.log(`Workflow: ${workflowName}`);
-  console.log(`Feeds to process: ${workflowFeeds.length}`);
-  console.log(`Base delay: ${baseDelay/1000}s`);
-  console.log('');
+  // Initialize logger with batch name
+  const logger = new FeedLogger('github-actions', workflowName);
+  
+  logger.log('=== Parallel Feed Fetcher ===');
+  logger.log(`Workflow: ${workflowName}`);
+  logger.log(`Feeds to process: ${workflowFeeds.length}`);
+  logger.log(`Base delay: ${baseDelay/1000}s`);
   
   if (workflowFeeds.length === 0) {
-    console.log('No feeds to process');
+    logger.log('No feeds to process');
     return { articles: [], success: 0, failed: 0 };
   }
   
-  // Use existing fetch logic but with custom feed list
-  const originalFetch = await import('./fetch-feeds-local.js');
-  
   // Override the feed loading to use our subset
-  const fetchResults = await runWithCustomFeeds(workflowFeeds, baseDelay, workflowName);
+  const fetchResults = await runWithCustomFeeds(workflowFeeds, baseDelay, logger);
+  
+  // Generate and save summary
+  const summary = await logger.generateSummary();
+  await logger.saveSummaryToFile(summary);
   
   return fetchResults;
 }
 
-async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
-  console.log(`Processing ${feeds.length} feeds for ${workflowName}...`);
+async function runWithCustomFeeds(feeds, baseDelay, logger) {
+  logger.log(`Processing ${feeds.length} feeds for batch execution...`);
   
   // Import RSS parser
   const Parser = (await import('rss-parser')).default;
@@ -53,7 +56,7 @@ async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
   };
   
   // Load existing articles with proper merge handling
-  const { existingArticles, articlesChanged } = await loadExistingArticles();
+  const { existingArticles, articlesChanged } = await loadExistingArticles(logger);
   const existingIds = new Set(existingArticles.map(a => a.id));
   
   for (let i = 0; i < feeds.length; i++) {
@@ -61,7 +64,7 @@ async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
     const isSubstack = feed.url.includes('substack.com');
     const delay = isSubstack ? baseDelay * 2 : baseDelay; // Extra delay for Substack
     
-    console.log(`[${i + 1}/${feeds.length}] Fetching ${feed.name}...`);
+    logger.logFeedStart(feed.name, i + 1, feeds.length);
     
     try {
       const parser = new Parser({
@@ -74,7 +77,6 @@ async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
       });
       
       const result = await parser.parseURL(feed.url);
-      console.log(`  ✅ Success: ${result.items.length} items`);
       results.successful++;
       
       // Process articles
@@ -109,10 +111,10 @@ async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
         }
       }
       
-      console.log(`  → Added ${newCount} new articles`);
+      logger.logFeedSuccess(feed.name, result.items.length, newCount);
       
     } catch (error) {
-      console.log(`  ❌ Failed: ${error.message}`);
+      logger.logFeedFailure(feed.name, feed.url, error);
       results.failed++;
       results.failedFeeds.push({
         name: feed.name,
@@ -124,24 +126,24 @@ async function runWithCustomFeeds(feeds, baseDelay, workflowName) {
     // Delay between requests
     if (i < feeds.length - 1) {
       const waitTime = delay + Math.random() * 2000; // Add randomness
-      console.log(`  ⏱ Waiting ${Math.round(waitTime/1000)}s...`);
+      logger.log(`⏱ Waiting ${Math.round(waitTime/1000)}s...`);
       await new Promise(resolve => setTimeout(resolve, waitTime));
     }
   }
   
   // Merge with existing articles if we have new ones
   if (results.articles.length > 0) {
-    await mergeArticles(existingArticles, results.articles, workflowName);
+    await mergeArticles(existingArticles, results.articles, logger);
   }
   
-  console.log(`\n=== ${workflowName} Complete ===`);
-  console.log(`Successful: ${results.successful}/${feeds.length}`);
-  console.log(`New articles: ${results.articles.length}`);
+  logger.log(`=== Batch Complete ===`);
+  logger.log(`Successful: ${results.successful}/${feeds.length}`);
+  logger.log(`New articles: ${results.articles.length}`);
   
   return results;
 }
 
-async function loadExistingArticles() {
+async function loadExistingArticles(logger) {
   const articlesPath = path.join(__dirname, '../../data/articles.json');
   
   try {
@@ -150,9 +152,9 @@ async function loadExistingArticles() {
       await execAsync('git pull --rebase origin main', {
         cwd: path.join(__dirname, '../../')
       });
-      console.log('✓ Pulled latest changes');
+      logger.logGitOperation('pull', true, 'Pulled latest changes');
     } catch (pullError) {
-      console.log('⚠ Could not pull (probably no conflicts)');
+      logger.logGitOperation('pull', false, 'Could not pull (probably no conflicts)');
     }
     
     const articlesData = await fs.readFile(articlesPath, 'utf-8');
@@ -161,12 +163,12 @@ async function loadExistingArticles() {
     
     return { existingArticles, articlesChanged: false };
   } catch (error) {
-    console.log('No existing articles found, starting fresh');
+    logger.log('No existing articles found, starting fresh');
     return { existingArticles: [], articlesChanged: false };
   }
 }
 
-async function mergeArticles(existingArticles, newArticles, workflowName) {
+async function mergeArticles(existingArticles, newArticles, logger) {
   const articlesPath = path.join(__dirname, '../../data/articles.json');
   
   // Merge and sort by date
@@ -177,7 +179,7 @@ async function mergeArticles(existingArticles, newArticles, workflowName) {
   const articlesData = { articles: mergedArticles };
   
   await fs.writeFile(articlesPath, JSON.stringify(articlesData, null, 2));
-  console.log(`✓ Merged ${newArticles.length} new articles (${workflowName})`);
+  logger.log(`✓ Merged ${newArticles.length} new articles`);
 }
 
 async function generateArticleId(item, feed) {
@@ -197,7 +199,7 @@ function generateSlug(title) {
 // Run the parallel fetcher
 parallelFetch()
   .then(results => {
-    console.log(`\n🎉 Parallel fetch complete: ${results.successful} successful, ${results.failed} failed`);
+    console.log(`🎉 Parallel fetch complete: ${results.successful} successful, ${results.failed} failed`);
     process.exit(0);
   })
   .catch(error => {

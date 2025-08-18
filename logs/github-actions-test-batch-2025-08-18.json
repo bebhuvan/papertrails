@@ -1,0 +1,22 @@
+[
+  {
+    "system": "github-actions",
+    "batchName": "test-batch",
+    "timestamp": "2025-08-18T09:51:56.339Z",
+    "metrics": {
+      "total": 1,
+      "successful": 1,
+      "failed": 0,
+      "substackSuccessful": 0,
+      "substackFailed": 0,
+      "newArticles": 10,
+      "failedFeeds": [],
+      "errors": [],
+      "runtime": 0,
+      "successRate": "100%",
+      "substackSuccessRate": "0%",
+      "nonSubstackSuccessful": 1,
+      "nonSubstackFailed": 0
+    }
+  }
+]

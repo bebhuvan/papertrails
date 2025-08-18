@@ -6,6 +6,7 @@ import Parser from 'rss-parser';
 import crypto from 'crypto';
 import { exec } from 'child_process';
 import { promisify } from 'util';
+import FeedLogger from './enhanced-logger.js';
 
 const execAsync = promisify(exec);
 const __filename = fileURLToPath(import.meta.url);
@@ -39,16 +40,8 @@ const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
 ];
 
-// Track metrics
-const metrics = {
-  total: 0,
-  successful: 0,
-  failed: 0,
-  substackSuccessful: 0,
-  substackFailed: 0,
-  startTime: Date.now(),
-  failedFeeds: []
-};
+// Initialize logger for local system
+const logger = new FeedLogger('local');
 
 // Helper functions
 function isSubstackFeed(url) {
@@ -98,16 +91,12 @@ async function delay(ms) {
 
 async function fetchWithRetry(parser, url, feedInfo, userAgent, retryCount = 0) {
   try {
-    console.log(`  Attempt ${retryCount + 1} for ${feedInfo.name}...`);
-    
     const feed = await parser.parseURL(url);
-    console.log(`  ✓ Successfully fetched ${feedInfo.name} (${feed.items.length} items)`);
     return feed;
   } catch (error) {
     if (retryCount < RATE_LIMIT.retryAttempts - 1) {
       const backoffDelay = RATE_LIMIT.retryDelay * Math.pow(2, retryCount);
-      console.log(`  ✗ Failed attempt ${retryCount + 1} for ${feedInfo.name}: ${error.message}`);
-      console.log(`  → Retrying in ${backoffDelay / 1000} seconds...`);
+      logger.log(`Retrying ${feedInfo.name} in ${backoffDelay / 1000}s (attempt ${retryCount + 2})`);
       await delay(backoffDelay);
       return fetchWithRetry(parser, url, feedInfo, userAgent, retryCount + 1);
     }
@@ -116,9 +105,9 @@ async function fetchWithRetry(parser, url, feedInfo, userAgent, retryCount = 0) 
 }
 
 async function fetchFeeds() {
-  console.log('=== Local Feed Fetcher Started ===\n');
-  console.log('Current working directory:', process.cwd());
-  console.log('Script directory:', __dirname);
+  logger.log('=== Local Feed Fetcher Started ===');
+  logger.log(`Current working directory: ${process.cwd()}`);
+  logger.log(`Script directory: ${__dirname}`);
   
   // Load feeds configuration
   const feedsPath = path.join(__dirname, '../../data/feeds.json');
@@ -140,7 +129,7 @@ async function fetchFeeds() {
       existingArticles = [];
     }
   } catch (error) {
-    console.log('No existing articles found, starting fresh');
+    logger.log('No existing articles found, starting fresh');
     existingArticles = [];
   }
   
@@ -151,7 +140,7 @@ async function fetchFeeds() {
       articleArchive = [];
     }
   } catch (error) {
-    console.log('No archive found, creating new');
+    logger.log('No archive found, creating new');
     articleArchive = [];
   }
   
@@ -159,7 +148,7 @@ async function fetchFeeds() {
   const substackFeeds = feeds.filter(f => isSubstackFeed(f.url));
   const otherFeeds = feeds.filter(f => !isSubstackFeed(f.url));
   
-  console.log(`Found ${substackFeeds.length} Substack feeds and ${otherFeeds.length} other feeds\n`);
+  logger.log(`Found ${substackFeeds.length} Substack feeds and ${otherFeeds.length} other feeds`);
   
   // Process all feeds with smart ordering - non-Substack first
   const orderedFeeds = [...otherFeeds, ...substackFeeds];
@@ -174,7 +163,6 @@ async function fetchFeeds() {
     const feed = orderedFeeds[i];
     const isSubstack = isSubstackFeed(feed.url);
     
-    metrics.total++;
     requestCount++;
     
     // Cycle user agent
@@ -196,16 +184,13 @@ async function fetchFeeds() {
       }
     });
     
-    console.log(`[${i + 1}/${orderedFeeds.length}] Fetching ${feed.name} (${feed.category})...`);
+    logger.logFeedStart(feed.name, i + 1, orderedFeeds.length);
     
     try {
       const feedData = await fetchWithRetry(parser, feed.url, feed, USER_AGENTS[currentUserAgent]);
       
       if (isSubstack) {
-        metrics.substackSuccessful++;
         substackCount++;
-      } else {
-        metrics.successful++;
       }
       
       // Process articles
@@ -242,22 +227,10 @@ async function fetchFeeds() {
         }
       });
       
-      console.log(`  → Added ${newArticlesCount} new articles\n`);
+      logger.logFeedSuccess(feed.name, feedData.items.length, newArticlesCount);
       
     } catch (error) {
-      console.log(`  ✗ Failed to fetch ${feed.name}: ${error.message}\n`);
-      
-      if (isSubstack) {
-        metrics.substackFailed++;
-      } else {
-        metrics.failed++;
-      }
-      
-      metrics.failedFeeds.push({
-        name: feed.name,
-        url: feed.url,
-        error: error.message
-      });
+      logger.logFeedFailure(feed.name, feed.url, error);
     }
     
     // Apply delay based on feed type
@@ -270,14 +243,14 @@ async function fetchFeeds() {
         
         // Extra delay after every 5 Substack feeds
         if (substackCount > 0 && substackCount % 5 === 0) {
-          console.log(`  ⏸ Taking a ${RATE_LIMIT.substackBurstDelay / 60000} minute break after ${substackCount} Substack feeds...`);
+          logger.log(`⏸ Taking a ${RATE_LIMIT.substackBurstDelay / 60000} minute break after ${substackCount} Substack feeds...`);
           delayMs = RATE_LIMIT.substackBurstDelay;
         }
       } else {
         delayMs = RATE_LIMIT.nonSubstackDelay;
       }
       
-      console.log(`  ⏱ Waiting ${Math.round(delayMs / 1000)} seconds...\n`);
+      logger.log(`⏱ Waiting ${Math.round(delayMs / 1000)} seconds...`);
       await delay(delayMs);
     }
   }
@@ -298,29 +271,16 @@ async function fetchFeeds() {
   await fs.writeFile(articlesPath, JSON.stringify(articlesData, null, 2));
   await fs.writeFile(archivePath, JSON.stringify(updatedArchive, null, 2));
   
-  // Print summary
-  const duration = Math.round((Date.now() - metrics.startTime) / 1000 / 60);
-  console.log('\n=== Fetch Complete ===');
-  console.log(`Duration: ${duration} minutes`);
-  console.log(`Total feeds processed: ${metrics.total}`);
-  console.log(`Non-Substack: ${metrics.successful} successful, ${metrics.failed} failed`);
-  console.log(`Substack: ${metrics.substackSuccessful} successful, ${metrics.substackFailed} failed`);
-  console.log(`New articles added: ${allArticles.length}`);
-  console.log(`Total articles: ${recentArticles.length}`);
+  // Generate and save summary
+  const summary = await logger.generateSummary();
+  await logger.saveSummaryToFile(summary);
   
-  if (metrics.failedFeeds.length > 0) {
-    console.log('\nFailed feeds:');
-    metrics.failedFeeds.forEach(f => {
-      console.log(`  - ${f.name}: ${f.error}`);
-    });
-  }
-  
-  return { recentArticles, metrics };
+  return { recentArticles, metrics: logger.metrics };
 }
 
 // Git push function
 async function pushToGit(message = 'Update RSS feeds (local fetch)') {
-  console.log('\n=== Pushing to Git ===');
+  logger.log('=== Pushing to Git ===');
   
   try {
     // Stage changes
@@ -334,7 +294,7 @@ async function pushToGit(message = 'Update RSS feeds (local fetch)') {
     });
     
     if (!status.trim()) {
-      console.log('No changes to commit');
+      logger.logGitOperation('status check', true, 'No changes to commit');
       return false;
     }
     
@@ -342,16 +302,17 @@ async function pushToGit(message = 'Update RSS feeds (local fetch)') {
     await execAsync(`git commit -m "${message} - ${new Date().toISOString()}"`, {
       cwd: path.join(__dirname, '../../')
     });
+    logger.logGitOperation('commit', true, 'Changes committed');
     
     // Push
     await execAsync('git push', {
       cwd: path.join(__dirname, '../../')
     });
+    logger.logGitOperation('push', true, 'Successfully pushed to remote');
     
-    console.log('✓ Successfully pushed to Git');
     return true;
   } catch (error) {
-    console.error('✗ Git push failed:', error.message);
+    logger.logGitOperation('push', false, error.message);
     return false;
   }
 }
@@ -362,20 +323,20 @@ async function main() {
     const { recentArticles, metrics } = await fetchFeeds();
     
     // Only push if we have successful fetches
-    if (metrics.successful > 0 || metrics.substackSuccessful > 0) {
+    if (metrics.successful > 0) {
       const success = await pushToGit();
       if (success) {
-        console.log('\n✓ All done! Site will be updated on next deploy.');
+        logger.log('✓ All done! Site will be updated on next deploy.');
       } else {
-        console.log('\n⚠ Feed fetch complete but Git push failed. Please push manually.');
+        logger.log('⚠ Feed fetch complete but Git push failed. Please push manually.');
       }
     } else {
-      console.log('\n⚠ No successful fetches, skipping Git push.');
+      logger.log('⚠ No successful fetches, skipping Git push.');
     }
     
     process.exit(0);
   } catch (error) {
-    console.error('\n✗ Fatal error:', error);
+    logger.logError('Fatal error', error);
     process.exit(1);
   }
 }
