@@ -1,0 +1,233 @@
+name: Fetch RSS Feeds - Batch 5 (Medium Substack)
+
+on:
+  schedule:
+    # Run at 14:00 UTC
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test with first 5 feeds only'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-feeds-batch-5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Create feed subset file
+        run: |
+          # Create subset of feeds for this workflow
+          cat > workflow-feeds.json << 'EOF'
+[
+  {
+    "name": "Meghan O'Rourke",
+    "slug": "meghan-orourke",
+    "url": "https://meghanorourke.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Meghan O'Rourke"
+  },
+  {
+    "name": "Michael Nielsen",
+    "slug": "michael-nielsen",
+    "url": "https://michaelnielsen.substack.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Michael Nielsen"
+  },
+  {
+    "name": "Moral Law Within",
+    "slug": "moral-law-within",
+    "url": "https://morallawwithin.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Moral Law Within"
+  },
+  {
+    "name": "Mutiny",
+    "slug": "mutiny",
+    "url": "https://mutiny.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Mutiny"
+  },
+  {
+    "name": "Nicholas Decker",
+    "slug": "nicholas-decker",
+    "url": "https://nicholasdecker.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Nicholas Decker"
+  },
+  {
+    "name": "Nick Timothy",
+    "slug": "nick-timothy",
+    "url": "https://nicktimothy.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Nick Timothy"
+  },
+  {
+    "name": "Nils Gilman",
+    "slug": "nils-gilman",
+    "url": "https://nilsgilman.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Nils Gilman"
+  },
+  {
+    "name": "Over the Field",
+    "slug": "over-the-field",
+    "url": "https://overthefield.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Over the Field"
+  },
+  {
+    "name": "Patrick House",
+    "slug": "patrick-house",
+    "url": "https://patrickhouse.substack.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Patrick House"
+  },
+  {
+    "name": "Paul Krugman",
+    "slug": "paul-krugman",
+    "url": "https://paulkrugman.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Paul Krugman"
+  },
+  {
+    "name": "Philosopher's Beard",
+    "slug": "philosophers-beard",
+    "url": "https://philosophersbeard.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Philosopher's Beard"
+  },
+  {
+    "name": "Philosophy Portal",
+    "slug": "philosophy-portal",
+    "url": "https://philosophyportal.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Philosophy Portal"
+  },
+  {
+    "name": "Plumpits",
+    "slug": "plumpits",
+    "url": "https://plumpits.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Plumpits"
+  },
+  {
+    "name": "Marc Andreessen",
+    "slug": "marc-andreessen",
+    "url": "https://pmarca.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Marc Andreessen"
+  },
+  {
+    "name": "Public Policy",
+    "slug": "public-policy",
+    "url": "https://publicpolicy.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Public Policy"
+  },
+  {
+    "name": "Res Obscura",
+    "slug": "res-obscura",
+    "url": "https://resobscura.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Benjamin Breen"
+  },
+  {
+    "name": "Richard Hanania",
+    "slug": "richard-hanania",
+    "url": "https://richardhanania.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Richard Hanania"
+  },
+  {
+    "name": "Rob Henderson",
+    "slug": "rob-henderson",
+    "url": "https://robkhenderson.substack.com/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Rob Henderson"
+  }
+]
+EOF
+        
+      - name: Fetch RSS feeds subset
+        run: |
+          # Create custom fetcher for this subset
+          cat > fetch-subset.js << 'EOF'
+import fs from 'fs/promises';
+const feeds = JSON.parse(await fs.readFile('workflow-feeds.json', 'utf-8'));
+
+// Limit for testing if requested
+const testMode = process.env.TEST_MODE === 'true';
+const feedsToProcess = testMode ? feeds.slice(0, 5) : feeds;
+
+console.log(`Processing ${feedsToProcess.length} feeds for Batch 5 (Medium Substack)`);
+console.log(`Base delay: 45 seconds`);
+
+// Set environment for existing fetcher
+process.env.WORKFLOW_FEEDS = JSON.stringify(feedsToProcess);
+process.env.BASE_DELAY = '45';
+process.env.WORKFLOW_NAME = 'batch-5';
+
+// Import and run modified fetcher
+await import('./src/scripts/fetch-feeds-parallel.js');
+EOF
+
+          node fetch-subset.js
+        env:
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        timeout-minutes: 80
+        
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions - Batch 5 (Medium Substack)"
+          
+          # Check for changes
+          if git diff --quiet data/articles.json; then
+            echo "No new articles found"
+          else
+            git add data/articles.json data/articles-archive.json
+            
+            # Count new articles
+            NEW_COUNT=$(git diff --cached data/articles.json | grep -c '^+.*"title"' || echo "0")
+            
+            git commit -m "📰 Update feeds: Batch 5 (Medium Substack) - ${NEW_COUNT} articles - $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Successfully pushed on attempt $i"
+                break
+              else
+                echo "⚠️ Push attempt $i failed, retrying in 30s..."
+                sleep 30
+                git pull --rebase
+              fi
+            done
+          fi
+        
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Batch 5 (Medium Substack) Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Feeds processed: 18" >> $GITHUB_STEP_SUMMARY  
+          echo "- Substack feeds: $(echo '[{"name":"Meghan O'Rourke","slug":"meghan-orourke","url":"https://meghanorourke.substack.com/feed","category":"Culture","defaultAuthor":"Meghan O'Rourke"},{"name":"Michael Nielsen","slug":"michael-nielsen","url":"https://michaelnielsen.substack.com/feed","category":"Science","defaultAuthor":"Michael Nielsen"},{"name":"Moral Law Within","slug":"moral-law-within","url":"https://morallawwithin.substack.com/feed","category":"Philosophy","defaultAuthor":"Moral Law Within"},{"name":"Mutiny","slug":"mutiny","url":"https://mutiny.substack.com/feed","category":"Culture","defaultAuthor":"Mutiny"},{"name":"Nicholas Decker","slug":"nicholas-decker","url":"https://nicholasdecker.substack.com/feed","category":"Economics","defaultAuthor":"Nicholas Decker"},{"name":"Nick Timothy","slug":"nick-timothy","url":"https://nicktimothy.substack.com/feed","category":"Politics","defaultAuthor":"Nick Timothy"},{"name":"Nils Gilman","slug":"nils-gilman","url":"https://nilsgilman.substack.com/feed","category":"Politics","defaultAuthor":"Nils Gilman"},{"name":"Over the Field","slug":"over-the-field","url":"https://overthefield.substack.com/feed","category":"Culture","defaultAuthor":"Over the Field"},{"name":"Patrick House","slug":"patrick-house","url":"https://patrickhouse.substack.com/feed","category":"Science","defaultAuthor":"Patrick House"},{"name":"Paul Krugman","slug":"paul-krugman","url":"https://paulkrugman.substack.com/feed","category":"Economics","defaultAuthor":"Paul Krugman"},{"name":"Philosopher's Beard","slug":"philosophers-beard","url":"https://philosophersbeard.substack.com/feed","category":"Philosophy","defaultAuthor":"Philosopher's Beard"},{"name":"Philosophy Portal","slug":"philosophy-portal","url":"https://philosophyportal.substack.com/feed","category":"Philosophy","defaultAuthor":"Philosophy Portal"},{"name":"Plumpits","slug":"plumpits","url":"https://plumpits.substack.com/feed","category":"Culture","defaultAuthor":"Plumpits"},{"name":"Marc Andreessen","slug":"marc-andreessen","url":"https://pmarca.substack.com/feed","category":"Technology","defaultAuthor":"Marc Andreessen"},{"name":"Public Policy","slug":"public-policy","url":"https://publicpolicy.substack.com/feed","category":"Politics","defaultAuthor":"Public Policy"},{"name":"Res Obscura","slug":"res-obscura","url":"https://resobscura.substack.com/feed","category":"Culture","defaultAuthor":"Benjamin Breen"},{"name":"Richard Hanania","slug":"richard-hanania","url":"https://richardhanania.substack.com/feed","category":"Politics","defaultAuthor":"Richard Hanania"},{"name":"Rob Henderson","slug":"rob-henderson","url":"https://robkhenderson.substack.com/feed","category":"Psychology","defaultAuthor":"Rob Henderson"}]' | grep -o 'substack.com' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Base delay: 45s" >> $GITHUB_STEP_SUMMARY

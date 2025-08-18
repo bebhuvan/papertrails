@@ -1,0 +1,233 @@
+name: Fetch RSS Feeds - Batch 4 (Easy Substack)
+
+on:
+  schedule:
+    # Run at 5 8:00 UTC
+    - cron: '5 8 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test with first 5 feeds only'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-feeds-batch-4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Create feed subset file
+        run: |
+          # Create subset of feeds for this workflow
+          cat > workflow-feeds.json << 'EOF'
+[
+  {
+    "name": "Adam Tooze",
+    "slug": "adam-tooze",
+    "url": "https://adamtooze.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Adam Tooze"
+  },
+  {
+    "name": "AI Log Blog",
+    "slug": "ai-log-blog",
+    "url": "https://ailogblog.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "AI Log Blog"
+  },
+  {
+    "name": "Aswath Damodaran",
+    "slug": "aswath-damodaran",
+    "url": "https://aswathdamodaran.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Aswath Damodaran"
+  },
+  {
+    "name": "Back of Mind",
+    "slug": "back-of-mind",
+    "url": "https://backofmind.substack.com/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Back of Mind"
+  },
+  {
+    "name": "Bentham's Newsletter",
+    "slug": "benthams-newsletter",
+    "url": "https://benthams.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Bentham's Newsletter"
+  },
+  {
+    "name": "Brad DeLong",
+    "slug": "brad-delong",
+    "url": "https://braddelong.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Brad DeLong"
+  },
+  {
+    "name": "Branko Milanovic",
+    "slug": "branko-milanovic",
+    "url": "https://branko2f7.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Branko Milanovic"
+  },
+  {
+    "name": "Brink Lindsey",
+    "slug": "brink-lindsey",
+    "url": "https://brinklindsey.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Brink Lindsey"
+  },
+  {
+    "name": "Calhoun",
+    "slug": "calhoun",
+    "url": "https://calhoun.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Calhoun"
+  },
+  {
+    "name": "Dave Karpf",
+    "slug": "dave-karpf",
+    "url": "https://davekarpf.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Dave Karpf"
+  },
+  {
+    "name": "Erik Hoel",
+    "slug": "erik-hoel",
+    "url": "https://erikhoel.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Erik Hoel"
+  },
+  {
+    "name": "Freddie deBoer",
+    "slug": "freddie-deboer",
+    "url": "https://freddiedeboer.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Freddie deBoer"
+  },
+  {
+    "name": "Gaby del Valle",
+    "slug": "gaby-del-valle",
+    "url": "https://gabydelvalle.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Gaby del Valle"
+  },
+  {
+    "name": "Gary Marcus",
+    "slug": "gary-marcus",
+    "url": "https://garymarcus.substack.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Gary Marcus"
+  },
+  {
+    "name": "Hollis Robbins",
+    "slug": "hollis-robbins",
+    "url": "https://hollisrobbinsanecdotal.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Hollis Robbins"
+  },
+  {
+    "name": "Justin E.H. Smith",
+    "slug": "justin-eh-smith",
+    "url": "https://justinehsmith.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Justin E.H. Smith"
+  },
+  {
+    "name": "MAPUC",
+    "slug": "mapuc",
+    "url": "https://mapuc.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "MAPUC"
+  },
+  {
+    "name": "Max Read",
+    "slug": "max-read",
+    "url": "https://maxread.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Max Read"
+  }
+]
+EOF
+        
+      - name: Fetch RSS feeds subset
+        run: |
+          # Create custom fetcher for this subset
+          cat > fetch-subset.js << 'EOF'
+import fs from 'fs/promises';
+const feeds = JSON.parse(await fs.readFile('workflow-feeds.json', 'utf-8'));
+
+// Limit for testing if requested
+const testMode = process.env.TEST_MODE === 'true';
+const feedsToProcess = testMode ? feeds.slice(0, 5) : feeds;
+
+console.log(`Processing ${feedsToProcess.length} feeds for Batch 4 (Easy Substack)`);
+console.log(`Base delay: 30 seconds`);
+
+// Set environment for existing fetcher
+process.env.WORKFLOW_FEEDS = JSON.stringify(feedsToProcess);
+process.env.BASE_DELAY = '30';
+process.env.WORKFLOW_NAME = 'batch-4';
+
+// Import and run modified fetcher
+await import('./src/scripts/fetch-feeds-parallel.js');
+EOF
+
+          node fetch-subset.js
+        env:
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        timeout-minutes: 80
+        
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions - Batch 4 (Easy Substack)"
+          
+          # Check for changes
+          if git diff --quiet data/articles.json; then
+            echo "No new articles found"
+          else
+            git add data/articles.json data/articles-archive.json
+            
+            # Count new articles
+            NEW_COUNT=$(git diff --cached data/articles.json | grep -c '^+.*"title"' || echo "0")
+            
+            git commit -m "📰 Update feeds: Batch 4 (Easy Substack) - ${NEW_COUNT} articles - $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Successfully pushed on attempt $i"
+                break
+              else
+                echo "⚠️ Push attempt $i failed, retrying in 30s..."
+                sleep 30
+                git pull --rebase
+              fi
+            done
+          fi
+        
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Batch 4 (Easy Substack) Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Feeds processed: 18" >> $GITHUB_STEP_SUMMARY  
+          echo "- Substack feeds: $(echo '[{"name":"Adam Tooze","slug":"adam-tooze","url":"https://adamtooze.substack.com/feed","category":"Economics","defaultAuthor":"Adam Tooze"},{"name":"AI Log Blog","slug":"ai-log-blog","url":"https://ailogblog.substack.com/feed","category":"Technology","defaultAuthor":"AI Log Blog"},{"name":"Aswath Damodaran","slug":"aswath-damodaran","url":"https://aswathdamodaran.substack.com/feed","category":"Economics","defaultAuthor":"Aswath Damodaran"},{"name":"Back of Mind","slug":"back-of-mind","url":"https://backofmind.substack.com/feed","category":"Psychology","defaultAuthor":"Back of Mind"},{"name":"Bentham's Newsletter","slug":"benthams-newsletter","url":"https://benthams.substack.com/feed","category":"Philosophy","defaultAuthor":"Bentham's Newsletter"},{"name":"Brad DeLong","slug":"brad-delong","url":"https://braddelong.substack.com/feed","category":"Economics","defaultAuthor":"Brad DeLong"},{"name":"Branko Milanovic","slug":"branko-milanovic","url":"https://branko2f7.substack.com/feed","category":"Economics","defaultAuthor":"Branko Milanovic"},{"name":"Brink Lindsey","slug":"brink-lindsey","url":"https://brinklindsey.substack.com/feed","category":"Politics","defaultAuthor":"Brink Lindsey"},{"name":"Calhoun","slug":"calhoun","url":"https://calhoun.substack.com/feed","category":"Culture","defaultAuthor":"Calhoun"},{"name":"Dave Karpf","slug":"dave-karpf","url":"https://davekarpf.substack.com/feed","category":"Politics","defaultAuthor":"Dave Karpf"},{"name":"Erik Hoel","slug":"erik-hoel","url":"https://erikhoel.substack.com/feed","category":"Technology","defaultAuthor":"Erik Hoel"},{"name":"Freddie deBoer","slug":"freddie-deboer","url":"https://freddiedeboer.substack.com/feed","category":"Politics","defaultAuthor":"Freddie deBoer"},{"name":"Gaby del Valle","slug":"gaby-del-valle","url":"https://gabydelvalle.substack.com/feed","category":"Culture","defaultAuthor":"Gaby del Valle"},{"name":"Gary Marcus","slug":"gary-marcus","url":"https://garymarcus.substack.com/feed","category":"Technology","defaultAuthor":"Gary Marcus"},{"name":"Hollis Robbins","slug":"hollis-robbins","url":"https://hollisrobbinsanecdotal.substack.com/feed","category":"Culture","defaultAuthor":"Hollis Robbins"},{"name":"Justin E.H. Smith","slug":"justin-eh-smith","url":"https://justinehsmith.substack.com/feed","category":"Philosophy","defaultAuthor":"Justin E.H. Smith"},{"name":"MAPUC","slug":"mapuc","url":"https://mapuc.substack.com/feed","category":"Economics","defaultAuthor":"MAPUC"},{"name":"Max Read","slug":"max-read","url":"https://maxread.substack.com/feed","category":"Culture","defaultAuthor":"Max Read"}]' | grep -o 'substack.com' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Base delay: 30s" >> $GITHUB_STEP_SUMMARY

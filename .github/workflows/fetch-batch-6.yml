@@ -1,0 +1,226 @@
+name: Fetch RSS Feeds - Batch 6 (Difficult Substack)
+
+on:
+  schedule:
+    # Run at 5 14:00 UTC
+    - cron: '5 14 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test with first 5 feeds only'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-feeds-batch-6:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Create feed subset file
+        run: |
+          # Create subset of feeds for this workflow
+          cat > workflow-feeds.json << 'EOF'
+[
+  {
+    "name": "Rohan Venkat",
+    "slug": "rohan-venkat",
+    "url": "https://rohanvenkat.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Rohan Venkat"
+  },
+  {
+    "name": "Rotten and Good",
+    "slug": "rotten-and-good",
+    "url": "https://rottenandgood.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Rotten and Good"
+  },
+  {
+    "name": "School of the Unconformed",
+    "slug": "school-unconformed",
+    "url": "https://schooloftheunconformed.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "School of the Unconformed"
+  },
+  {
+    "name": "Sean Patrick Hughes",
+    "slug": "sean-patrick-hughes",
+    "url": "https://seanpatrickhughes.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Sean Patrick Hughes"
+  },
+  {
+    "name": "Shreya Rajagopalan",
+    "slug": "shreya-rajagopalan",
+    "url": "https://srajagopalan.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Shreya Rajagopalan"
+  },
+  {
+    "name": "The Diff",
+    "slug": "the-diff",
+    "url": "https://thediff.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Byrne Hobart"
+  },
+  {
+    "name": "The Unhappy Man",
+    "slug": "unhappy-man",
+    "url": "https://theunhappyman.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "The Unhappy Man"
+  },
+  {
+    "name": "The Upheaval",
+    "slug": "the-upheaval",
+    "url": "https://theupheaval.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "The Upheaval"
+  },
+  {
+    "name": "Tom Chivers",
+    "slug": "tom-chivers",
+    "url": "https://tomchivers.substack.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Tom Chivers"
+  },
+  {
+    "name": "Useful Fictions",
+    "slug": "useful-fictions",
+    "url": "https://usefulfictions.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Useful Fictions"
+  },
+  {
+    "name": "Visa Kanv",
+    "slug": "visa-kanv",
+    "url": "https://visakanv.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Visa Kanv"
+  },
+  {
+    "name": "Gregory B. Sadler",
+    "slug": "gregory-b-sadler",
+    "url": "https://gregorybsadler.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Gregory B. Sadler"
+  },
+  {
+    "name": "Figs in Winter",
+    "slug": "figs-in-winter",
+    "url": "https://figsinwintertime.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Figs in Winter"
+  },
+  {
+    "name": "Larry Swedroe",
+    "slug": "larry-swedroe",
+    "url": "https://larryswedroe.substack.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Larry Swedroe"
+  },
+  {
+    "name": "Anne Applebaum",
+    "slug": "anne-applebaum",
+    "url": "https://anneapplebaum.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Anne Applebaum"
+  },
+  {
+    "name": "Phillips P. O'Brien",
+    "slug": "phillips-p-obrien",
+    "url": "https://phillipspobrien.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Phillips P. O'Brien"
+  },
+  {
+    "name": "Overcoming Bias",
+    "slug": "overcoming-bias",
+    "url": "https://overcomingbias.substack.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Robin Hanson"
+  }
+]
+EOF
+        
+      - name: Fetch RSS feeds subset
+        run: |
+          # Create custom fetcher for this subset
+          cat > fetch-subset.js << 'EOF'
+import fs from 'fs/promises';
+const feeds = JSON.parse(await fs.readFile('workflow-feeds.json', 'utf-8'));
+
+// Limit for testing if requested
+const testMode = process.env.TEST_MODE === 'true';
+const feedsToProcess = testMode ? feeds.slice(0, 5) : feeds;
+
+console.log(`Processing ${feedsToProcess.length} feeds for Batch 6 (Difficult Substack)`);
+console.log(`Base delay: 60 seconds`);
+
+// Set environment for existing fetcher
+process.env.WORKFLOW_FEEDS = JSON.stringify(feedsToProcess);
+process.env.BASE_DELAY = '60';
+process.env.WORKFLOW_NAME = 'batch-6';
+
+// Import and run modified fetcher
+await import('./src/scripts/fetch-feeds-parallel.js');
+EOF
+
+          node fetch-subset.js
+        env:
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        timeout-minutes: 80
+        
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions - Batch 6 (Difficult Substack)"
+          
+          # Check for changes
+          if git diff --quiet data/articles.json; then
+            echo "No new articles found"
+          else
+            git add data/articles.json data/articles-archive.json
+            
+            # Count new articles
+            NEW_COUNT=$(git diff --cached data/articles.json | grep -c '^+.*"title"' || echo "0")
+            
+            git commit -m "📰 Update feeds: Batch 6 (Difficult Substack) - ${NEW_COUNT} articles - $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Successfully pushed on attempt $i"
+                break
+              else
+                echo "⚠️ Push attempt $i failed, retrying in 30s..."
+                sleep 30
+                git pull --rebase
+              fi
+            done
+          fi
+        
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Batch 6 (Difficult Substack) Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Feeds processed: 17" >> $GITHUB_STEP_SUMMARY  
+          echo "- Substack feeds: $(echo '[{"name":"Rohan Venkat","slug":"rohan-venkat","url":"https://rohanvenkat.substack.com/feed","category":"Economics","defaultAuthor":"Rohan Venkat"},{"name":"Rotten and Good","slug":"rotten-and-good","url":"https://rottenandgood.substack.com/feed","category":"Culture","defaultAuthor":"Rotten and Good"},{"name":"School of the Unconformed","slug":"school-unconformed","url":"https://schooloftheunconformed.substack.com/feed","category":"Philosophy","defaultAuthor":"School of the Unconformed"},{"name":"Sean Patrick Hughes","slug":"sean-patrick-hughes","url":"https://seanpatrickhughes.substack.com/feed","category":"Culture","defaultAuthor":"Sean Patrick Hughes"},{"name":"Shreya Rajagopalan","slug":"shreya-rajagopalan","url":"https://srajagopalan.substack.com/feed","category":"Politics","defaultAuthor":"Shreya Rajagopalan"},{"name":"The Diff","slug":"the-diff","url":"https://thediff.substack.com/feed","category":"Economics","defaultAuthor":"Byrne Hobart"},{"name":"The Unhappy Man","slug":"unhappy-man","url":"https://theunhappyman.substack.com/feed","category":"Philosophy","defaultAuthor":"The Unhappy Man"},{"name":"The Upheaval","slug":"the-upheaval","url":"https://theupheaval.substack.com/feed","category":"Politics","defaultAuthor":"The Upheaval"},{"name":"Tom Chivers","slug":"tom-chivers","url":"https://tomchivers.substack.com/feed","category":"Science","defaultAuthor":"Tom Chivers"},{"name":"Useful Fictions","slug":"useful-fictions","url":"https://usefulfictions.substack.com/feed","category":"Culture","defaultAuthor":"Useful Fictions"},{"name":"Visa Kanv","slug":"visa-kanv","url":"https://visakanv.substack.com/feed","category":"Culture","defaultAuthor":"Visa Kanv"},{"name":"Gregory B. Sadler","slug":"gregory-b-sadler","url":"https://gregorybsadler.substack.com/feed","category":"Philosophy","defaultAuthor":"Gregory B. Sadler"},{"name":"Figs in Winter","slug":"figs-in-winter","url":"https://figsinwintertime.substack.com/feed","category":"Philosophy","defaultAuthor":"Figs in Winter"},{"name":"Larry Swedroe","slug":"larry-swedroe","url":"https://larryswedroe.substack.com/feed","category":"Economics","defaultAuthor":"Larry Swedroe"},{"name":"Anne Applebaum","slug":"anne-applebaum","url":"https://anneapplebaum.substack.com/feed","category":"Politics","defaultAuthor":"Anne Applebaum"},{"name":"Phillips P. O'Brien","slug":"phillips-p-obrien","url":"https://phillipspobrien.substack.com/feed","category":"Politics","defaultAuthor":"Phillips P. O'Brien"},{"name":"Overcoming Bias","slug":"overcoming-bias","url":"https://overcomingbias.substack.com/feed","category":"Philosophy","defaultAuthor":"Robin Hanson"}]' | grep -o 'substack.com' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Base delay: 60s" >> $GITHUB_STEP_SUMMARY
