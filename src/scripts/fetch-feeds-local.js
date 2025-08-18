@@ -161,8 +161,8 @@ async function fetchFeeds() {
   
   console.log(`Found ${substackFeeds.length} Substack feeds and ${otherFeeds.length} other feeds\n`);
   
-  // Start with non-Substack feeds for better success rate
-  const orderedFeeds = otherFeeds.slice(0, 5);
+  // Process all feeds with smart ordering - non-Substack first
+  const orderedFeeds = [...otherFeeds, ...substackFeeds];
   const allArticles = [];
   const existingIds = new Set(existingArticles.map(a => a.id));
   
@@ -188,8 +188,7 @@ async function fetchFeeds() {
         'User-Agent': USER_AGENTS[currentUserAgent],
         'Accept': 'application/rss+xml, application/xml, text/xml, */*',
         'Accept-Language': 'en-US,en;q=0.9',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
+        // Removed Accept-Encoding - let Node.js handle compression automatically
         'Cache-Control': 'no-cache',
       },
       customFields: {

@@ -145,6 +145,7 @@ class FeedFetcher {
         'User-Agent': userAgent,
         'Accept': 'application/rss+xml, application/xml, text/xml, */*',
         'Accept-Language': 'en-US,en;q=0.9',
+        // Let Node.js handle compression automatically
         'Cache-Control': 'no-cache',
       },
       requestOptions: agent ? { agent } : {}
