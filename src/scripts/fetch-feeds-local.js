@@ -134,7 +134,8 @@ async function fetchFeeds() {
   
   try {
     const articlesData = await fs.readFile(articlesPath, 'utf-8');
-    existingArticles = JSON.parse(articlesData);
+    const articleData = JSON.parse(articlesData);
+    existingArticles = articleData.articles || [];
     if (!Array.isArray(existingArticles)) {
       existingArticles = [];
     }
@@ -214,16 +215,26 @@ async function fetchFeeds() {
         const articleId = generateArticleId(item, feed.slug);
         
         if (!existingIds.has(articleId)) {
+          const content = item.contentSnippet || item.content || item.description || '';
+          const title = item.title || 'Untitled';
+          
           const article = {
-            id: articleId,
-            title: item.title || 'Untitled',
+            title,
             link: item.link || item.guid,
-            pubDate: item.pubDate || new Date().toISOString(),
-            source: feed.name,
-            sourceSlug: feed.slug,
-            category: feed.category,
             author: item.creator || item.author || feed.defaultAuthor || feed.name,
-            description: cleanDescription(item.contentSnippet || item.content || item.description)
+            publishedAt: item.pubDate || new Date().toISOString(),
+            content: content.substring(0, 300),
+            excerpt: content.substring(0, 200),
+            id: articleId.substring(0, 8), // Match existing format
+            wordCount: content.split(/\s+/).length,
+            readTime: Math.max(1, Math.ceil(content.split(/\s+/).length / 200)),
+            isPaid: false,
+            publication: {
+              name: feed.name,
+              slug: feed.slug,
+              category: feed.category
+            },
+            slug: title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').substring(0, 50)
           };
           
           allArticles.push(article);
@@ -274,7 +285,7 @@ async function fetchFeeds() {
   
   // Merge with existing articles and sort by date
   const mergedArticles = [...allArticles, ...existingArticles];
-  mergedArticles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  mergedArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   // Keep only recent articles (e.g., last 500)
   const recentArticles = mergedArticles.slice(0, 500);
@@ -283,8 +294,9 @@ async function fetchFeeds() {
   // Update archive
   const updatedArchive = [...archivedArticles, ...articleArchive];
   
-  // Save to files
-  await fs.writeFile(articlesPath, JSON.stringify(recentArticles, null, 2));
+  // Save to files with correct structure
+  const articlesData = { articles: recentArticles };
+  await fs.writeFile(articlesPath, JSON.stringify(articlesData, null, 2));
   await fs.writeFile(archivePath, JSON.stringify(updatedArchive, null, 2));
   
   // Print summary
