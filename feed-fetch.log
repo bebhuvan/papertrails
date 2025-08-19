@@ -1,0 +1,47 @@
+[2025-08-19T08:07:34.338Z] [local] [INFO] === Local Feed Fetcher Started ===
+[2025-08-19T08:07:34.339Z] [local] [INFO] Current working directory: /home/bhuvanesh/paper trails
+[2025-08-19T08:07:34.339Z] [local] [INFO] Script directory: /home/bhuvanesh/paper trails/src/scripts
+[2025-08-19T08:07:34.380Z] [local] [INFO] Found 53 Substack feeds and 75 other feeds
+[2025-08-19T08:07:34.381Z] [local] [INFO] [1/128] Starting fetch: Aeon
+[2025-08-19T08:07:34.936Z] [local] [INFO] ✅ Aeon: 20 items, 10 new articles
+[2025-08-19T08:07:34.936Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:07:39.936Z] [local] [INFO] [2/128] Starting fetch: Epsilon Theory
+[2025-08-19T08:07:41.493Z] [local] [INFO] ✅ Epsilon Theory: 10 items, 10 new articles
+[2025-08-19T08:07:41.493Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:07:46.494Z] [local] [INFO] [3/128] Starting fetch: Jack Clark
+[2025-08-19T08:07:47.373Z] [local] [INFO] ✅ Jack Clark: 10 items, 10 new articles
+[2025-08-19T08:07:47.373Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:07:52.373Z] [local] [INFO] [4/128] Starting fetch: Jacobin
+[2025-08-19T08:07:53.634Z] [local] [INFO] ✅ Jacobin: 20 items, 10 new articles
+[2025-08-19T08:07:53.635Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:07:58.635Z] [local] [INFO] [5/128] Starting fetch: Simon Sarris
+[2025-08-19T08:07:59.035Z] [local] [INFO] ✅ Simon Sarris: 20 items, 10 new articles
+[2025-08-19T08:07:59.035Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:04.035Z] [local] [INFO] [6/128] Starting fetch: Nautilus
+[2025-08-19T08:08:04.235Z] [local] [INFO] ✅ Nautilus: 10 items, 10 new articles
+[2025-08-19T08:08:04.235Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:09.235Z] [local] [INFO] [7/128] Starting fetch: New Left Review
+[2025-08-19T08:08:10.245Z] [local] [INFO] ✅ New Left Review: 7 items, 7 new articles
+[2025-08-19T08:08:10.245Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:15.245Z] [local] [INFO] [8/128] Starting fetch: Roots of Progress
+[2025-08-19T08:08:15.773Z] [local] [INFO] ✅ Roots of Progress: 20 items, 10 new articles
+[2025-08-19T08:08:15.773Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:20.773Z] [local] [INFO] [9/128] Starting fetch: The Leading Edge
+[2025-08-19T08:08:21.232Z] [local] [INFO] ✅ The Leading Edge: 20 items, 10 new articles
+[2025-08-19T08:08:21.233Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:26.233Z] [local] [INFO] [10/128] Starting fetch: The Way of Work
+[2025-08-19T08:08:26.591Z] [local] [INFO] ✅ The Way of Work: 20 items, 10 new articles
+[2025-08-19T08:08:26.591Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:31.591Z] [local] [INFO] [11/128] Starting fetch: Palladium
+[2025-08-19T08:08:32.583Z] [local] [INFO] ✅ Palladium: 18 items, 10 new articles
+[2025-08-19T08:08:32.583Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:37.584Z] [local] [INFO] [12/128] Starting fetch: Protocolized
+[2025-08-19T08:08:37.856Z] [local] [INFO] ✅ Protocolized: 20 items, 10 new articles
+[2025-08-19T08:08:37.856Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:42.856Z] [local] [INFO] [13/128] Starting fetch: Psyche
+[2025-08-19T08:08:43.075Z] [local] [INFO] ✅ Psyche: 20 items, 10 new articles
+[2025-08-19T08:08:43.075Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:48.076Z] [local] [INFO] [14/128] Starting fetch: Small Potatoes
+[2025-08-19T08:08:48.526Z] [local] [INFO] ✅ Small Potatoes: 20 items, 10 new articles
+[2025-08-19T08:08:48.526Z] [local] [INFO] ⏱ Waiting 5 seconds...
+[2025-08-19T08:08:53.527Z] [local] [INFO] [15/128] Starting fetch: The Side View
