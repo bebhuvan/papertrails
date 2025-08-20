@@ -2,8 +2,8 @@ name: Fetch RSS Feeds with Proxy
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run once daily at 6 AM UTC (11:30 AM IST)
+    - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
       use_proxy:

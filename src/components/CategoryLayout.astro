@@ -942,7 +942,7 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                     </div>
                     
                     <h2 class="article-title">
-                        <a href={`/article/${article.slug}`}>{article.title}</a>
+                        <a href={`/article/${article.id}`}>{article.title}</a>
                     </h2>
                     
                     <p class="article-excerpt">{article.excerpt}</p>
@@ -1022,7 +1022,7 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 </div>
                 
                 <h2 class="article-title">
-                    <a href="/article/${article.slug}">${article.title}</a>
+                    <a href="/article/${article.id}">${article.title}</a>
                 </h2>
                 
                 <p class="article-excerpt">${article.excerpt}</p>
