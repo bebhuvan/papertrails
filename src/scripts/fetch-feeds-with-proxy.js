@@ -85,8 +85,8 @@ async function processFeed(feed, parser, index, total) {
       // Parse RSS
       const result = await parser.parseString(rssContent);
       
-      // Process articles
-      for (const item of result.items.slice(0, 10)) {
+      // Process articles (take up to 50 most recent from each feed)
+      for (const item of result.items.slice(0, 50)) {
         const content = item.contentSnippet || item.content || item.description || '';
         const id = crypto.createHash('md5')
           .update(item.link || item.guid || item.title)
