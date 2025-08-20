@@ -12,7 +12,16 @@ export function getArticles() {
     const dataPath = path.join(process.cwd(), 'data', 'articles.json');
     const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
     // Handle both array format and object format
-    cachedArticles = Array.isArray(data) ? data : (data.articles || []);
+    let articles = Array.isArray(data) ? data : (data.articles || []);
+    
+    // Sort articles by date (newest first)
+    articles.sort((a, b) => {
+      const dateA = new Date(a.publishedAt);
+      const dateB = new Date(b.publishedAt);
+      return dateB - dateA; // Newest first
+    });
+    
+    cachedArticles = articles;
     return cachedArticles;
   } catch (error) {
     console.warn('Could not load articles:', error);
