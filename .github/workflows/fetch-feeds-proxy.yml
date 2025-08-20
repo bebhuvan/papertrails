@@ -73,6 +73,14 @@ jobs:
           
           git push
       
+      - name: Trigger deployment
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          echo "🚀 Articles updated, triggering deployment..."
+          gh workflow run "Deploy to Cloudflare Pages"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Upload fetch log
         if: always()
         uses: actions/upload-artifact@v4
