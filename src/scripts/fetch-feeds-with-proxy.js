@@ -97,7 +97,7 @@ async function processFeed(feed, parser, index, total) {
           title: item.title || 'Untitled',
           link: item.link || item.guid,
           author: item.creator || item.author || feed.defaultAuthor || feed.name,
-          publishedAt: item.pubDate || new Date().toISOString(),
+          publishedAt: item.pubDate || item.isoDate || item.date || new Date(item.published || Date.now()).toISOString(),
           content: content.substring(0, 300),
           excerpt: content.substring(0, 200),
           id,
