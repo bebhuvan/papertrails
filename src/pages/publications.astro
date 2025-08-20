@@ -13,6 +13,12 @@ const allFeeds = JSON.parse(fs.readFileSync(feedsPath, 'utf-8'));
 // Group articles by publication and get publication details
 const publicationGroups = new Map();
 articles.forEach(article => {
+    // Defensive check for publication structure
+    if (!article.publication || !article.publication.name) {
+        console.warn('Article missing publication info:', article.title);
+        return;
+    }
+    
     const pubName = article.publication.name;
     if (!publicationGroups.has(pubName)) {
         publicationGroups.set(pubName, {

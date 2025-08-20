@@ -356,8 +356,8 @@ const randomArticles = articles
             <div class="suggestions">
                 <h2 class="suggestions-title">You might enjoy these articles</h2>
                 <div class="suggestion-cards">
-                    {randomArticles.map(article => (
-                        <a href={`/article/${article.slug}`} class="suggestion-card">
+                    {randomArticles.filter(article => article.publication && article.publication.name).map(article => (
+                        <a href={`/article/${article.id}`} class="suggestion-card">
                             <div class="suggestion-meta">{article.publication.name}</div>
                             <h3 class="suggestion-title">{article.title}</h3>
                             <p class="suggestion-excerpt">{article.excerpt}</p>

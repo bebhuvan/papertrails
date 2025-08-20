@@ -7,6 +7,12 @@ const articles = getArticles();
 // Group articles by publication
 const publicationGroups = new Map();
 articles.forEach(article => {
+    // Defensive check for publication structure
+    if (!article.publication || !article.publication.name) {
+        console.warn('Article missing publication info:', article.title);
+        return;
+    }
+    
     const pubName = article.publication.name;
     if (!publicationGroups.has(pubName)) {
         publicationGroups.set(pubName, {
