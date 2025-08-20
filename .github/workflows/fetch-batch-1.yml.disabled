@@ -1,0 +1,284 @@
+name: Fetch RSS Feeds - Batch 1 (Fast Non-Substack)
+
+on:
+  schedule:
+        # Run at 2:00 AM, 8:00 AM, 2:00 PM UTC (3 times daily)
+    - cron: '0 2 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test with first 5 feeds only'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-feeds-batch-1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Create feed subset file
+        run: |
+          # Create subset of feeds for this workflow
+          cat > workflow-feeds.json << 'EOF'
+[
+  {
+    "name": "Aeon",
+    "slug": "aeon",
+    "url": "https://aeon.co/feed.rss",
+    "category": "Philosophy",
+    "defaultAuthor": "Aeon"
+  },
+  {
+    "name": "Epsilon Theory",
+    "slug": "epsilon-theory",
+    "url": "https://epsilontheory.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Epsilon Theory"
+  },
+  {
+    "name": "Jack Clark",
+    "slug": "jack-clark",
+    "url": "https://jack-clark.net/feed",
+    "category": "Technology",
+    "defaultAuthor": "Jack Clark"
+  },
+  {
+    "name": "Jacobin",
+    "slug": "jacobin",
+    "url": "https://jacobin.com/feed/",
+    "category": "Politics",
+    "defaultAuthor": "Jacobin"
+  },
+  {
+    "name": "Simon Sarris",
+    "slug": "simon-sarris",
+    "url": "https://map.simonsarris.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Simon Sarris"
+  },
+  {
+    "name": "Nautilus",
+    "slug": "nautilus",
+    "url": "https://nautil.us/feed/?_sp=b0840929-e993-4908-b182-0a086cc42588.1739703703525",
+    "category": "Science",
+    "defaultAuthor": "Nautilus"
+  },
+  {
+    "name": "New Left Review",
+    "slug": "new-left-review",
+    "url": "https://newleftreview.org/feed",
+    "category": "Politics",
+    "defaultAuthor": "New Left Review"
+  },
+  {
+    "name": "Roots of Progress",
+    "slug": "roots-of-progress",
+    "url": "https://newsletter.rootsofprogress.org/feed",
+    "category": "Science",
+    "defaultAuthor": "Jason Crawford"
+  },
+  {
+    "name": "The Leading Edge",
+    "slug": "leading-edge",
+    "url": "https://newsletter.theleading-edge.org/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "The Leading Edge"
+  },
+  {
+    "name": "The Way of Work",
+    "slug": "way-of-work",
+    "url": "https://newsletter.thewayofwork.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "The Way of Work"
+  },
+  {
+    "name": "Palladium",
+    "slug": "palladium",
+    "url": "https://palladiummag.com/feed/",
+    "category": "Culture",
+    "defaultAuthor": "Palladium"
+  },
+  {
+    "name": "Protocolized",
+    "slug": "protocolized",
+    "url": "https://protocolized.summerofprotocols.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "Summer of Protocols"
+  },
+  {
+    "name": "Psyche",
+    "slug": "psyche",
+    "url": "https://psyche.co/feed.rss",
+    "category": "Psychology",
+    "defaultAuthor": "Psyche"
+  },
+  {
+    "name": "Small Potatoes",
+    "slug": "small-potatoes",
+    "url": "https://smallpotatoes.paulbloom.net/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Paul Bloom"
+  },
+  {
+    "name": "The Side View",
+    "slug": "the-side-view",
+    "url": "https://thesideview.co/feed/",
+    "category": "Politics",
+    "defaultAuthor": "The Side View"
+  },
+  {
+    "name": "Africanist Perspective",
+    "slug": "africanist-perspective",
+    "url": "https://www.africanistperspective.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Africanist Perspective"
+  },
+  {
+    "name": "Age of Invention",
+    "slug": "age-of-invention",
+    "url": "https://www.ageofinvention.xyz/feed",
+    "category": "Science",
+    "defaultAuthor": "Anton Howes"
+  },
+  {
+    "name": "Astral Codex Ten",
+    "slug": "astral-codex-ten",
+    "url": "https://www.astralcodexten.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Scott Alexander"
+  },
+  {
+    "name": "Cluny Journal",
+    "slug": "cluny-journal",
+    "url": "https://www.clunyjournal.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "Cluny Journal"
+  },
+  {
+    "name": "Common Reader",
+    "slug": "common-reader",
+    "url": "https://www.commonreader.co.uk/feed",
+    "category": "Culture",
+    "defaultAuthor": "Common Reader"
+  },
+  {
+    "name": "Construction Physics",
+    "slug": "construction-physics",
+    "url": "https://www.construction-physics.com/feed",
+    "category": "Science",
+    "defaultAuthor": "Brian Potter"
+  },
+  {
+    "name": "Experimental History",
+    "slug": "experimental-history",
+    "url": "https://www.experimental-history.com/feed",
+    "category": "Psychology",
+    "defaultAuthor": "Adam Mastroianni"
+  },
+  {
+    "name": "Garbage Day",
+    "slug": "garbage-day",
+    "url": "https://www.garbageday.email/feed",
+    "category": "Culture",
+    "defaultAuthor": "Ryan Broderick"
+  },
+  {
+    "name": "Henrik Karlsson",
+    "slug": "henrik-karlsson",
+    "url": "https://www.henrikkarlsson.xyz/feed",
+    "category": "Culture",
+    "defaultAuthor": "Henrik Karlsson"
+  },
+  {
+    "name": "The Honest Broker",
+    "slug": "honest-broker",
+    "url": "https://www.honest-broker.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Ted Gioia"
+  }
+]
+EOF
+        
+      - name: Fetch RSS feeds subset
+        run: |
+          # Create custom fetcher for this subset
+          cat > fetch-subset.js << 'EOF'
+import fs from 'fs/promises';
+const feeds = JSON.parse(await fs.readFile('workflow-feeds.json', 'utf-8'));
+
+// Limit for testing if requested
+const testMode = process.env.TEST_MODE === 'true';
+const feedsToProcess = testMode ? feeds.slice(0, 5) : feeds;
+
+console.log(`Processing ${feedsToProcess.length} feeds for Batch 1 (Fast Non-Substack)`);
+console.log(`Base delay: 5 seconds`);
+
+// Set environment for existing fetcher
+process.env.WORKFLOW_FEEDS = JSON.stringify(feedsToProcess);
+process.env.BASE_DELAY = '5';
+process.env.WORKFLOW_NAME = 'batch-1';
+
+// Import and run modified fetcher
+await import('./src/scripts/fetch-feeds-parallel.js');
+EOF
+
+          node fetch-subset.js
+        env:
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        timeout-minutes: 80
+        
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions - Batch 1 (Fast Non-Substack)"
+          
+          # Check for changes
+          if git diff --quiet data/articles.json; then
+            echo "No new articles found"
+          else
+            git add data/articles.json data/articles-archive.json
+            
+            # Count new articles
+            NEW_COUNT=$(git diff --cached data/articles.json | grep -c '^+.*"title"' || echo "0")
+            
+            git commit -m "📰 Update feeds: Batch 1 (Fast Non-Substack) - ${NEW_COUNT} articles - $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Successfully pushed on attempt $i"
+                break
+              else
+                echo "⚠️ Push attempt $i failed, retrying in 30s..."
+                sleep 30
+                git pull --rebase
+              fi
+            done
+          fi
+        
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Batch 1 (Fast Non-Substack) Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Feeds processed: 25" >> $GITHUB_STEP_SUMMARY  
+          echo "- Substack feeds: $(echo '[{"name":"Aeon","slug":"aeon","url":"https://aeon.co/feed.rss","category":"Philosophy","defaultAuthor":"Aeon"},{"name":"Epsilon Theory","slug":"epsilon-theory","url":"https://epsilontheory.com/feed","category":"Economics","defaultAuthor":"Epsilon Theory"},{"name":"Jack Clark","slug":"jack-clark","url":"https://jack-clark.net/feed","category":"Technology","defaultAuthor":"Jack Clark"},{"name":"Jacobin","slug":"jacobin","url":"https://jacobin.com/feed/","category":"Politics","defaultAuthor":"Jacobin"},{"name":"Simon Sarris","slug":"simon-sarris","url":"https://map.simonsarris.com/feed","category":"Culture","defaultAuthor":"Simon Sarris"},{"name":"Nautilus","slug":"nautilus","url":"https://nautil.us/feed/?_sp=b0840929-e993-4908-b182-0a086cc42588.1739703703525","category":"Science","defaultAuthor":"Nautilus"},{"name":"New Left Review","slug":"new-left-review","url":"https://newleftreview.org/feed","category":"Politics","defaultAuthor":"New Left Review"},{"name":"Roots of Progress","slug":"roots-of-progress","url":"https://newsletter.rootsofprogress.org/feed","category":"Science","defaultAuthor":"Jason Crawford"},{"name":"The Leading Edge","slug":"leading-edge","url":"https://newsletter.theleading-edge.org/feed","category":"Philosophy","defaultAuthor":"The Leading Edge"},{"name":"The Way of Work","slug":"way-of-work","url":"https://newsletter.thewayofwork.com/feed","category":"Culture","defaultAuthor":"The Way of Work"},{"name":"Palladium","slug":"palladium","url":"https://palladiummag.com/feed/","category":"Culture","defaultAuthor":"Palladium"},{"name":"Protocolized","slug":"protocolized","url":"https://protocolized.summerofprotocols.com/feed","category":"Technology","defaultAuthor":"Summer of Protocols"},{"name":"Psyche","slug":"psyche","url":"https://psyche.co/feed.rss","category":"Psychology","defaultAuthor":"Psyche"},{"name":"Small Potatoes","slug":"small-potatoes","url":"https://smallpotatoes.paulbloom.net/feed","category":"Psychology","defaultAuthor":"Paul Bloom"},{"name":"The Side View","slug":"the-side-view","url":"https://thesideview.co/feed/","category":"Politics","defaultAuthor":"The Side View"},{"name":"Africanist Perspective","slug":"africanist-perspective","url":"https://www.africanistperspective.com/feed","category":"Culture","defaultAuthor":"Africanist Perspective"},{"name":"Age of Invention","slug":"age-of-invention","url":"https://www.ageofinvention.xyz/feed","category":"Science","defaultAuthor":"Anton Howes"},{"name":"Astral Codex Ten","slug":"astral-codex-ten","url":"https://www.astralcodexten.com/feed","category":"Philosophy","defaultAuthor":"Scott Alexander"},{"name":"Cluny Journal","slug":"cluny-journal","url":"https://www.clunyjournal.com/feed","category":"Philosophy","defaultAuthor":"Cluny Journal"},{"name":"Common Reader","slug":"common-reader","url":"https://www.commonreader.co.uk/feed","category":"Culture","defaultAuthor":"Common Reader"},{"name":"Construction Physics","slug":"construction-physics","url":"https://www.construction-physics.com/feed","category":"Science","defaultAuthor":"Brian Potter"},{"name":"Experimental History","slug":"experimental-history","url":"https://www.experimental-history.com/feed","category":"Psychology","defaultAuthor":"Adam Mastroianni"},{"name":"Garbage Day","slug":"garbage-day","url":"https://www.garbageday.email/feed","category":"Culture","defaultAuthor":"Ryan Broderick"},{"name":"Henrik Karlsson","slug":"henrik-karlsson","url":"https://www.henrikkarlsson.xyz/feed","category":"Culture","defaultAuthor":"Henrik Karlsson"},{"name":"The Honest Broker","slug":"honest-broker","url":"https://www.honest-broker.com/feed","category":"Culture","defaultAuthor":"Ted Gioia"}]' | grep -o 'substack.com' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Base delay: 5s" >> $GITHUB_STEP_SUMMARY

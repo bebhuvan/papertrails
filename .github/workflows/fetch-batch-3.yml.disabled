@@ -1,0 +1,284 @@
+name: Fetch RSS Feeds - Batch 3 (Remaining Non-Substack)
+
+on:
+  schedule:
+        # Run at 2:30 AM, 8:30 AM, 2:30 PM UTC (3 times daily)
+    - cron: '30 2 * * *'
+    - cron: '30 8 * * *'
+    - cron: '30 14 * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test with first 5 feeds only'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-feeds-batch-3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Create feed subset file
+        run: |
+          # Create subset of feeds for this workflow
+          cat > workflow-feeds.json << 'EOF'
+[
+  {
+    "name": "3 Quarks Daily",
+    "slug": "3-quarks-daily",
+    "url": "https://3quarksdaily.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "3 Quarks Daily"
+  },
+  {
+    "name": "Naked Capitalism",
+    "slug": "naked-capitalism",
+    "url": "https://nakedcapitalism.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Naked Capitalism"
+  },
+  {
+    "name": "Law and Political Economy",
+    "slug": "lpe-project",
+    "url": "https://lpeproject.org/feed",
+    "category": "Politics",
+    "defaultAuthor": "LPE Project"
+  },
+  {
+    "name": "Developing Economics",
+    "slug": "developing-economics",
+    "url": "https://developingeconomics.org/feed",
+    "category": "Economics",
+    "defaultAuthor": "Developing Economics"
+  },
+  {
+    "name": "1000 Word Philosophy",
+    "slug": "1000-word-philosophy",
+    "url": "https://1000wordphilosophy.com/feed",
+    "category": "Philosophy",
+    "defaultAuthor": "1000 Word Philosophy"
+  },
+  {
+    "name": "Arts & Letters Daily",
+    "slug": "arts-letters-daily",
+    "url": "https://aldaily.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Arts & Letters Daily"
+  },
+  {
+    "name": "Kottke.org",
+    "slug": "kottke",
+    "url": "https://feeds.kottke.org/main",
+    "category": "Culture",
+    "defaultAuthor": "Jason Kottke"
+  },
+  {
+    "name": "Reasons to be Cheerful",
+    "slug": "reasons-to-be-cheerful",
+    "url": "https://reasonstobecheerful.world/feed/",
+    "category": "Culture",
+    "defaultAuthor": "Reasons to be Cheerful"
+  },
+  {
+    "name": "Sentiers",
+    "slug": "sentiers",
+    "url": "https://sentiers.media/rss/",
+    "category": "Technology",
+    "defaultAuthor": "Patrick Tanguay"
+  },
+  {
+    "name": "Ironic Sans",
+    "slug": "ironic-sans",
+    "url": "https://ironicsans.ghost.io/rss/",
+    "category": "Culture",
+    "defaultAuthor": "David Friedman"
+  },
+  {
+    "name": "Today in Tabs",
+    "slug": "today-in-tabs",
+    "url": "https://www.todayintabs.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Rusty Foster"
+  },
+  {
+    "name": "On Focus",
+    "slug": "on-focus",
+    "url": "https://xml.onfocus.com/posts",
+    "category": "Technology",
+    "defaultAuthor": "On Focus"
+  },
+  {
+    "name": "Robin Sloan",
+    "slug": "robin-sloan",
+    "url": "https://www.robinsloan.com/feed.xml",
+    "category": "Technology",
+    "defaultAuthor": "Robin Sloan"
+  },
+  {
+    "name": "Tedium",
+    "slug": "tedium",
+    "url": "https://tedium.co/feed",
+    "category": "Technology",
+    "defaultAuthor": "Ernie Smith"
+  },
+  {
+    "name": "Chris Glass",
+    "slug": "chris-glass",
+    "url": "https://chrisglass.com/links/feed/",
+    "category": "Culture",
+    "defaultAuthor": "Chris Glass"
+  },
+  {
+    "name": "Abnormal Returns",
+    "slug": "abnormal-returns",
+    "url": "https://abnormalreturns.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Tadas Viskanta"
+  },
+  {
+    "name": "A Wealth of Common Sense",
+    "slug": "wealth-common-sense",
+    "url": "https://awealthofcommonsense.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Ben Carlson"
+  },
+  {
+    "name": "Meb Faber Research",
+    "slug": "meb-faber-research",
+    "url": "https://rss.beehiiv.com/feeds/BJES4OT2HF.xml",
+    "category": "Finance",
+    "defaultAuthor": "Meb Faber"
+  },
+  {
+    "name": "The Idea Farm",
+    "slug": "idea-farm",
+    "url": "https://rss.beehiiv.com/feeds/gywEQVO1Za.xml",
+    "category": "Finance",
+    "defaultAuthor": "The Idea Farm"
+  },
+  {
+    "name": "Campaign Archive Newsletter",
+    "slug": "campaign-archive-newsletter",
+    "url": "https://us13.campaign-archive.com/feed?u=6dc62f307511d466ff78a94fe&id=6d62717de8",
+    "category": "Finance",
+    "defaultAuthor": "Campaign Archive"
+  },
+  {
+    "name": "Meb Faber",
+    "slug": "meb-faber",
+    "url": "https://mebfaber.com/feed/",
+    "category": "Finance",
+    "defaultAuthor": "Meb Faber"
+  },
+  {
+    "name": "Grist",
+    "slug": "grist",
+    "url": "https://grist.org/feed/",
+    "category": "Climate",
+    "defaultAuthor": "Grist"
+  },
+  {
+    "name": "Carbon Brief",
+    "slug": "carbon-brief",
+    "url": "https://www.carbonbrief.org/feed/",
+    "category": "Climate",
+    "defaultAuthor": "Carbon Brief"
+  },
+  {
+    "name": "MIT Press Reader",
+    "slug": "mit-press-reader",
+    "url": "https://thereader.mitpress.mit.edu/feed/",
+    "category": "Culture",
+    "defaultAuthor": "MIT Press Reader"
+  },
+  {
+    "name": "Foreign Affairs",
+    "slug": "foreign-affairs",
+    "url": "https://www.foreignaffairs.com/rss.xml",
+    "category": "Politics",
+    "defaultAuthor": "Foreign Affairs"
+  }
+]
+EOF
+        
+      - name: Fetch RSS feeds subset
+        run: |
+          # Create custom fetcher for this subset
+          cat > fetch-subset.js << 'EOF'
+import fs from 'fs/promises';
+const feeds = JSON.parse(await fs.readFile('workflow-feeds.json', 'utf-8'));
+
+// Limit for testing if requested
+const testMode = process.env.TEST_MODE === 'true';
+const feedsToProcess = testMode ? feeds.slice(0, 5) : feeds;
+
+console.log(`Processing ${feedsToProcess.length} feeds for Batch 3 (Remaining Non-Substack)`);
+console.log(`Base delay: 10 seconds`);
+
+// Set environment for existing fetcher
+process.env.WORKFLOW_FEEDS = JSON.stringify(feedsToProcess);
+process.env.BASE_DELAY = '10';
+process.env.WORKFLOW_NAME = 'batch-3';
+
+// Import and run modified fetcher
+await import('./src/scripts/fetch-feeds-parallel.js');
+EOF
+
+          node fetch-subset.js
+        env:
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
+        timeout-minutes: 80
+        
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions - Batch 3 (Remaining Non-Substack)"
+          
+          # Check for changes
+          if git diff --quiet data/articles.json; then
+            echo "No new articles found"
+          else
+            git add data/articles.json data/articles-archive.json
+            
+            # Count new articles
+            NEW_COUNT=$(git diff --cached data/articles.json | grep -c '^+.*"title"' || echo "0")
+            
+            git commit -m "📰 Update feeds: Batch 3 (Remaining Non-Substack) - ${NEW_COUNT} articles - $(date -u +"%Y-%m-%d %H:%M UTC")"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Successfully pushed on attempt $i"
+                break
+              else
+                echo "⚠️ Push attempt $i failed, retrying in 30s..."
+                sleep 30
+                git pull --rebase
+              fi
+            done
+          fi
+        
+      - name: Report results
+        if: always()
+        run: |
+          echo "## Batch 3 (Remaining Non-Substack) Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Feeds processed: 25" >> $GITHUB_STEP_SUMMARY  
+          echo "- Substack feeds: $(echo '[{"name":"3 Quarks Daily","slug":"3-quarks-daily","url":"https://3quarksdaily.com/feed","category":"Culture","defaultAuthor":"3 Quarks Daily"},{"name":"Naked Capitalism","slug":"naked-capitalism","url":"https://nakedcapitalism.com/feed","category":"Economics","defaultAuthor":"Naked Capitalism"},{"name":"Law and Political Economy","slug":"lpe-project","url":"https://lpeproject.org/feed","category":"Politics","defaultAuthor":"LPE Project"},{"name":"Developing Economics","slug":"developing-economics","url":"https://developingeconomics.org/feed","category":"Economics","defaultAuthor":"Developing Economics"},{"name":"1000 Word Philosophy","slug":"1000-word-philosophy","url":"https://1000wordphilosophy.com/feed","category":"Philosophy","defaultAuthor":"1000 Word Philosophy"},{"name":"Arts & Letters Daily","slug":"arts-letters-daily","url":"https://aldaily.com/feed","category":"Culture","defaultAuthor":"Arts & Letters Daily"},{"name":"Kottke.org","slug":"kottke","url":"https://feeds.kottke.org/main","category":"Culture","defaultAuthor":"Jason Kottke"},{"name":"Reasons to be Cheerful","slug":"reasons-to-be-cheerful","url":"https://reasonstobecheerful.world/feed/","category":"Culture","defaultAuthor":"Reasons to be Cheerful"},{"name":"Sentiers","slug":"sentiers","url":"https://sentiers.media/rss/","category":"Technology","defaultAuthor":"Patrick Tanguay"},{"name":"Ironic Sans","slug":"ironic-sans","url":"https://ironicsans.ghost.io/rss/","category":"Culture","defaultAuthor":"David Friedman"},{"name":"Today in Tabs","slug":"today-in-tabs","url":"https://www.todayintabs.com/feed","category":"Culture","defaultAuthor":"Rusty Foster"},{"name":"On Focus","slug":"on-focus","url":"https://xml.onfocus.com/posts","category":"Technology","defaultAuthor":"On Focus"},{"name":"Robin Sloan","slug":"robin-sloan","url":"https://www.robinsloan.com/feed.xml","category":"Technology","defaultAuthor":"Robin Sloan"},{"name":"Tedium","slug":"tedium","url":"https://tedium.co/feed","category":"Technology","defaultAuthor":"Ernie Smith"},{"name":"Chris Glass","slug":"chris-glass","url":"https://chrisglass.com/links/feed/","category":"Culture","defaultAuthor":"Chris Glass"},{"name":"Abnormal Returns","slug":"abnormal-returns","url":"https://abnormalreturns.com/feed/","category":"Finance","defaultAuthor":"Tadas Viskanta"},{"name":"A Wealth of Common Sense","slug":"wealth-common-sense","url":"https://awealthofcommonsense.com/feed/","category":"Finance","defaultAuthor":"Ben Carlson"},{"name":"Meb Faber Research","slug":"meb-faber-research","url":"https://rss.beehiiv.com/feeds/BJES4OT2HF.xml","category":"Finance","defaultAuthor":"Meb Faber"},{"name":"The Idea Farm","slug":"idea-farm","url":"https://rss.beehiiv.com/feeds/gywEQVO1Za.xml","category":"Finance","defaultAuthor":"The Idea Farm"},{"name":"Campaign Archive Newsletter","slug":"campaign-archive-newsletter","url":"https://us13.campaign-archive.com/feed?u=6dc62f307511d466ff78a94fe&id=6d62717de8","category":"Finance","defaultAuthor":"Campaign Archive"},{"name":"Meb Faber","slug":"meb-faber","url":"https://mebfaber.com/feed/","category":"Finance","defaultAuthor":"Meb Faber"},{"name":"Grist","slug":"grist","url":"https://grist.org/feed/","category":"Climate","defaultAuthor":"Grist"},{"name":"Carbon Brief","slug":"carbon-brief","url":"https://www.carbonbrief.org/feed/","category":"Climate","defaultAuthor":"Carbon Brief"},{"name":"MIT Press Reader","slug":"mit-press-reader","url":"https://thereader.mitpress.mit.edu/feed/","category":"Culture","defaultAuthor":"MIT Press Reader"},{"name":"Foreign Affairs","slug":"foreign-affairs","url":"https://www.foreignaffairs.com/rss.xml","category":"Politics","defaultAuthor":"Foreign Affairs"}]' | grep -o 'substack.com' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Base delay: 10s" >> $GITHUB_STEP_SUMMARY

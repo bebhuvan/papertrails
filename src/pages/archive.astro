@@ -408,7 +408,7 @@ console.log(`📚 Archive page: ${articles.length} articles from ${sortedPublica
                     <ul class="recent-articles">
                         {pubArticles.slice(0, 3).map(article => (
                             <li class="recent-article">
-                                <a href={`/article/${article.slug}`} class="article-title-link">
+                                <a href={`/article/${article.id}`} class="article-title-link">
                                     {article.title}
                                 </a>
                                 <div class="article-date">

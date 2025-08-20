@@ -64,10 +64,11 @@ function formatPreviewText(text) {
 // Get related articles from same publication or category
 function getRelatedArticles(currentArticle, allArticles, limit = 2) {
   return allArticles
-    .filter(a => a.slug !== currentArticle.slug)
+    .filter(a => a.id !== currentArticle.id) // Use id instead of slug
     .filter(a => 
-      a.publication.slug === currentArticle.publication.slug || 
-      a.publication.category === currentArticle.publication.category
+      a.publication && currentArticle.publication && // Defensive check
+      (a.publication.slug === currentArticle.publication.slug || 
+       a.publication.category === currentArticle.publication.category)
     )
     .slice(0, limit);
 }
@@ -76,7 +77,7 @@ const allArticles = getArticles();
 const previewParagraphs = getPreviewContent(article.content);
 const relatedArticles = getRelatedArticles(article, allArticles);
 
-console.log(`📄 Article page: ${article.title} (${article.slug})`);
+console.log(`📄 Article page: ${article.title} (${article.id})`);
 ---
 
 <html lang="en">
@@ -574,7 +575,7 @@ console.log(`📄 Article page: ${article.title} (${article.slug})`);
               <h2 class="related-title">Related Articles</h2>
               <div class="related-grid">
                   {relatedArticles.map(related => (
-                      <a href={`/article/${related.slug}`} class="related-article">
+                      <a href={`/article/${related.id}`} class="related-article">
                           <div class="related-meta">
                               <span class="related-publication">{related.publication.name}</span> • {new Date(related.publishedAt).toLocaleDateString()}
                           </div>
