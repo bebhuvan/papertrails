@@ -104,9 +104,11 @@ async function processFeed(feed, parser, index, total) {
           wordCount: content.split(/\s+/).length,
           readTime: Math.max(1, Math.ceil(content.split(/\s+/).length / 200)),
           isPaid: false,
-          feedName: feed.name,
-          feedSlug: feed.slug,
-          category: feed.category,
+          publication: {
+            name: feed.name,
+            slug: feed.slug,
+            category: feed.category
+          }
         });
       }
       

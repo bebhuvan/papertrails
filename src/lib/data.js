@@ -11,7 +11,8 @@ export function getArticles() {
   try {
     const dataPath = path.join(process.cwd(), 'data', 'articles.json');
     const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-    cachedArticles = data.articles || [];
+    // Handle both array format and object format
+    cachedArticles = Array.isArray(data) ? data : (data.articles || []);
     return cachedArticles;
   } catch (error) {
     console.warn('Could not load articles:', error);
