@@ -4,11 +4,17 @@ on:
   push:
     branches:
       - main
+  workflow_run:
+    workflows: ["Fetch RSS Feeds with Proxy"]
+    types:
+      - completed
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy
+    # Only run if triggered by push OR if RSS fetch workflow succeeded
+    if: ${{ github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v4
       
