@@ -1,5 +1,39 @@
 [
   {
+    "title": "Are LLMs Buddhist?",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/08/are-llms-buddhist.html",
+    "author": "Malcolm Murray",
+    "publishedAt": "Wed, 20 Aug 2025 10:00:13 +0000",
+    "content": "by Malcolm Murray Recently, the system card for Claude 4 showed a fascinating finding – what happens when you let two Claudes engage in a prolonged dialogue with each other? They end up meditating and sharing Buddhist wisdom, such as “In perfect stillness, consciousness recognizes consciousness, and",
+    "excerpt": "by Malcolm Murray Recently, the system card for Claude 4 showed a fascinating finding – what happens when you let two Claudes engage in a prolonged dialogue with each other? They end up meditating and",
+    "id": "1dee4596",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The US Should Look to Putin for Help to Rebuild Trust in American Institutions",
+    "link": "https://www.nakedcapitalism.com/2025/08/the-us-should-look-to-putin-for-help-to-rebuild-trust-in-american-institutions.html",
+    "author": "Conor Gallagher",
+    "publishedAt": "Wed, 20 Aug 2025 10:00:01 +0000",
+    "content": "American elites looked at post-USSR Russia and said “let’s do that here.” A president serious about MAGA should ask Putin how he dug the county out of that hole.",
+    "excerpt": "American elites looked at post-USSR Russia and said “let’s do that here.” A president serious about MAGA should ask Putin how he dug the county out of that hole.",
+    "id": "a32a67e6",
+    "wordCount": 29,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
     "title": "In the study of English, how did criticism come to supplant rhetoric, belles-lettres, literary history, and philology?",
     "link": "https://www.lrb.co.uk/the-paper/v47/n14/colin-kidd/lumps-of-cram",
     "author": "Arts & Letters Daily",
@@ -16963,40 +16997,6 @@
       "name": "On Focus",
       "slug": "on-focus",
       "category": "Technology"
-    }
-  },
-  {
-    "title": "This is how tops form ",
-    "link": "https://www.downtownjoshbrown.com/p/this-is-how-tops-form-71cd",
-    "author": "Josh Brown",
-    "publishedAt": "Sat, 24 May 2025 14:48:43 +0000",
-    "content": "It's not too late to pull out of this, but...",
-    "excerpt": "It's not too late to pull out of this, but...",
-    "id": "72bbdf42",
-    "wordCount": 10,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Idea Farm",
-      "slug": "idea-farm",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "OpenAI has an unsubtle communications strategy. ",
-    "link": "https://davekarpf.substack.com/p/openai-has-an-unsubtle-communications",
-    "author": "Dave Karpf",
-    "publishedAt": "Fri, 23 May 2025 17:54:25 GMT",
-    "content": "The load-bearing relationships between futurity-vibes and finance",
-    "excerpt": "The load-bearing relationships between futurity-vibes and finance",
-    "id": "4cf84302",
-    "wordCount": 7,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Dave Karpf",
-      "slug": "dave-karpf",
-      "category": "Politics"
     }
   }
 ]
