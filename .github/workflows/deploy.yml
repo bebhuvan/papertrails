@@ -27,7 +27,7 @@ jobs:
         run: npm ci
         
       - name: Build site
-        run: ARTICLE_LIMIT=100 npm run build
+        run: ARTICLE_LIMIT=1000 npm run build
         
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
