@@ -1,0 +1,44 @@
+[
+  {
+    "system": "local",
+    "batchName": null,
+    "timestamp": "2025-08-19T09:53:24.448Z",
+    "metrics": {
+      "total": 128,
+      "successful": 125,
+      "failed": 3,
+      "substackSuccessful": 0,
+      "substackFailed": 0,
+      "newArticles": 1181,
+      "failedFeeds": [
+        {
+          "name": "Garbage Day",
+          "url": "https://www.garbageday.email/feed",
+          "error": "Invalid character in entity name\nLine: 107\nColumn: 938\nChar: &",
+          "isSubstack": false,
+          "timestamp": "2025-08-19T08:11:14.402Z"
+        },
+        {
+          "name": "Arts & Letters Daily",
+          "url": "https://aldaily.com/feed",
+          "error": "Status code 403",
+          "isSubstack": false,
+          "timestamp": "2025-08-19T08:16:09.608Z"
+        },
+        {
+          "name": "Today in Tabs",
+          "url": "https://www.todayintabs.com/feed",
+          "error": "Invalid character in entity name\nLine: 107\nColumn: 938\nChar: &",
+          "isSubstack": false,
+          "timestamp": "2025-08-19T08:18:22.313Z"
+        }
+      ],
+      "errors": [],
+      "runtime": 105.8,
+      "successRate": "98%",
+      "substackSuccessRate": "0%",
+      "nonSubstackSuccessful": 125,
+      "nonSubstackFailed": 3
+    }
+  }
+]
