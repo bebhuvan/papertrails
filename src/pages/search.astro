@@ -9,6 +9,11 @@ console.log('🔍 Search page: Dynamic search via API');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search - Paper Trails</title>
     
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/favicon.svg">
+    
     <!-- Prevent theme flashing - runs immediately -->
     <style>html:not([data-theme]) body { visibility: hidden; }</style>
     <script>
@@ -492,7 +497,25 @@ console.log('🔍 Search page: Dynamic search via API');
         const resultsList = document.getElementById('resultsList');
         const suggestionTags = document.querySelectorAll('.suggestion-tag');
 
-        // API-based search function
+        // Search data cache
+        let searchData = null;
+        
+        // Load search data on first use
+        async function loadSearchData() {
+            if (searchData) return searchData;
+            
+            try {
+                const response = await fetch('/api/search.json');
+                const data = await response.json();
+                searchData = data.articles;
+                return searchData;
+            } catch (error) {
+                console.error('Failed to load search data:', error);
+                return [];
+            }
+        }
+        
+        // Client-side search function
         async function performSearch(query) {
             if (!query.trim()) {
                 searchResults.classList.remove('active');
@@ -505,9 +528,21 @@ console.log('🔍 Search page: Dynamic search via API');
             searchResults.classList.add('active');
 
             try {
-                const response = await fetch(`/api/search.json?q=${encodeURIComponent(query)}&limit=100`);
-                const data = await response.json();
-                displayResults(data.results);
+                const articles = await loadSearchData();
+                const normalizedQuery = query.toLowerCase().trim();
+                
+                const results = articles.filter(article => {
+                    const searchFields = [
+                        article.title,
+                        article.excerpt,
+                        article.author,
+                        article.publication.name
+                    ].join(' ').toLowerCase();
+                    
+                    return searchFields.includes(normalizedQuery);
+                }).slice(0, 100);
+                
+                displayResults(results);
             } catch (error) {
                 console.error('Search error:', error);
                 resultsList.innerHTML = '<div class="error">Search error. Please try again.</div>';
