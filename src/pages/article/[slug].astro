@@ -4,13 +4,25 @@ import { getArticles } from '../../lib/data';
 export async function getStaticPaths() {
   const articles = getArticles();
   
-  return articles.map(article => ({
-    params: { slug: article.id },
-    props: { article }
-  }));
+  return articles.map(article => {
+    // Pre-compute related articles here to avoid loading all articles on each page
+    const relatedArticles = articles
+      .filter(a => a.id !== article.id)
+      .filter(a => 
+        a.publication && article.publication && // Defensive check
+        (a.publication.slug === article.publication.slug || 
+         a.publication.category === article.publication.category)
+      )
+      .slice(0, 2);
+    
+    return {
+      params: { slug: article.id },
+      props: { article, relatedArticles }
+    };
+  });
 }
 
-const { article } = Astro.props;
+const { article, relatedArticles } = Astro.props;
 
 // Helper function to get first few paragraphs as preview
 function getPreviewContent(content, maxLength = 800) {
@@ -61,21 +73,7 @@ function formatPreviewText(text) {
   return paragraphs.length > 0 ? paragraphs.slice(0, 3) : [text.trim()]; // Max 3 paragraphs
 }
 
-// Get related articles from same publication or category
-function getRelatedArticles(currentArticle, allArticles, limit = 2) {
-  return allArticles
-    .filter(a => a.id !== currentArticle.id) // Use id instead of slug
-    .filter(a => 
-      a.publication && currentArticle.publication && // Defensive check
-      (a.publication.slug === currentArticle.publication.slug || 
-       a.publication.category === currentArticle.publication.category)
-    )
-    .slice(0, limit);
-}
-
-const allArticles = getArticles();
 const previewParagraphs = getPreviewContent(article.content);
-const relatedArticles = getRelatedArticles(article, allArticles);
 
 console.log(`📄 Article page: ${article.title} (${article.id})`);
 ---
