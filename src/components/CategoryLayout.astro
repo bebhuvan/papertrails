@@ -984,8 +984,8 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
         )}
     </main>
 
-    <script define:vars={{ filteredArticles, INITIAL_LOAD, LOAD_MORE_COUNT }}>
-        // Store all articles data
+    <script define:vars={{ filteredArticles: filteredArticles.slice(0, Math.min(filteredArticles.length, 200)), INITIAL_LOAD, LOAD_MORE_COUNT, totalArticles: filteredArticles.length }}>
+        // Store limited articles data for pagination (max 200 for performance)
         const allArticles = filteredArticles;
         let currentlyShowing = INITIAL_LOAD;
 
@@ -1068,10 +1068,15 @@ console.log(`📄 ${category} page: showing ${filteredArticles.length} of ${arti
                 currentCountEl.textContent = currentlyShowing;
             }
             
-            // Disable button if all articles are shown
+            // Disable button if all available articles are shown
             if (currentlyShowing >= allArticles.length) {
-                loadMoreBtn.disabled = true;
-                loadMoreBtn.textContent = 'All Articles Loaded';
+                if (allArticles.length < totalArticles) {
+                    loadMoreBtn.disabled = true;
+                    loadMoreBtn.textContent = `Showing ${allArticles.length} of ${totalArticles} articles`;
+                } else {
+                    loadMoreBtn.disabled = true;
+                    loadMoreBtn.textContent = 'All Articles Loaded';
+                }
             }
         }
 
