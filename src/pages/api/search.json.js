@@ -1,11 +1,11 @@
 import { getArticles } from '../../lib/data';
 
-export async function GET({ request }) {
-  const url = new URL(request.url);
+// This endpoint needs to be server-rendered to access query parameters
+export const prerender = false;
+
+export async function GET({ url }) {
   const query = url.searchParams.get('q')?.toLowerCase().trim();
   const limit = parseInt(url.searchParams.get('limit')) || 50;
-  
-  console.log('Search API called:', { query, limit, url: request.url });
   
   if (!query || query.length < 2) {
     return new Response(JSON.stringify({ 
