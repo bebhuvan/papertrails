@@ -1,13 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-let cachedArticles = null;
-
 export function getArticles() {
-  if (cachedArticles) {
-    return cachedArticles;
-  }
-
   try {
     const dataPath = path.join(process.cwd(), 'data', 'articles.json');
     const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
@@ -21,8 +15,7 @@ export function getArticles() {
       return dateB - dateA; // Newest first
     });
     
-    cachedArticles = articles;
-    return cachedArticles;
+    return articles;
   } catch (error) {
     console.warn('Could not load articles:', error);
     return [];
