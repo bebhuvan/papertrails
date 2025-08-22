@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 const { article, relatedArticles } = Astro.props;
 
 // Helper function to get first few paragraphs as preview
-function getPreviewContent(content, maxLength = 800) {
+function getPreviewContent(content, maxLength = 1600) {
   if (!content) return '';
   
   // Clean up HTML and get plain text
