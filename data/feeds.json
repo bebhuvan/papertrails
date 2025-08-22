@@ -894,5 +894,54 @@
     "url": "https://www.foreignaffairs.com/rss.xml",
     "category": "Politics",
     "defaultAuthor": "Foreign Affairs"
+  },
+  {
+    "name": "AI Policy Perspectives",
+    "slug": "ai-policy-perspectives",
+    "url": "https://www.aipolicyperspectives.com/feed",
+    "category": "Technology",
+    "defaultAuthor": "AI Policy Perspectives"
+  },
+  {
+    "name": "Jeffrey Ptak",
+    "slug": "jeffrey-ptak",
+    "url": "https://jeffreyptak.substack.com/feed",
+    "category": "Finance",
+    "defaultAuthor": "Jeffrey Ptak"
+  },
+  {
+    "name": "Mark Koyama",
+    "slug": "mark-koyama",
+    "url": "https://www.markkoyama.com/feed",
+    "category": "Economics",
+    "defaultAuthor": "Mark Koyama"
+  },
+  {
+    "name": "Second Thoughts AI",
+    "slug": "second-thoughts-ai",
+    "url": "https://secondthoughts.ai/feed",
+    "category": "Technology",
+    "defaultAuthor": "Second Thoughts AI"
+  },
+  {
+    "name": "Eugyppius",
+    "slug": "eugyppius",
+    "url": "https://www.eugyppius.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Eugyppius"
+  },
+  {
+    "name": "Subtle Sparks",
+    "slug": "subtle-sparks",
+    "url": "https://subtlesparks.substack.com/feed",
+    "category": "Culture",
+    "defaultAuthor": "Subtle Sparks"
+  },
+  {
+    "name": "Niccolò Soldo",
+    "slug": "niccolo-soldo",
+    "url": "https://niccolo.substack.com/feed",
+    "category": "Politics",
+    "defaultAuthor": "Niccolò Soldo"
   }
 ]
