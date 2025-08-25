@@ -159,12 +159,6 @@ const olderDigests = digests.slice(1);
             display: block;
             font-size: 4rem;
             margin-bottom: 16px;
-            animation: bounce 2s ease-in-out infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
         }
 
         .hero-subtitle {
@@ -257,21 +251,10 @@ const olderDigests = digests.slice(1);
 
         .digest-article {
             background: var(--bg-secondary);
-            border: 2px solid transparent;
+            border: 1px solid var(--border-secondary);
             border-radius: 16px;
             padding: 28px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
-            background-image: linear-gradient(var(--bg-secondary), var(--bg-secondary)), 
-                              linear-gradient(45deg, #f97316, #fb923c, #fdba74, #fed7aa);
-            background-origin: border-box;
-            background-clip: padding-box, border-box;
-        }
-
-        .digest-article:hover {
-            transform: translateY(-4px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(249, 115, 22, 0.15);
-            border-color: transparent;
         }
 
         .article-number {
@@ -333,6 +316,7 @@ const olderDigests = digests.slice(1);
 
         .article-title a:hover {
             color: var(--accent);
+            text-decoration: underline;
         }
 
         .article-excerpt {
@@ -382,10 +366,6 @@ const olderDigests = digests.slice(1);
             transition: all 0.2s ease;
         }
 
-        .digest-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        }
 
         .digest-card-title {
             font-size: 1.1rem;
