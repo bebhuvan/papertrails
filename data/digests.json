@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-08-25-1756103407249",
+    "title": "Random Digest: August 25, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-08-25T06:30:07.240Z",
+    "articles": [
+      {
+        "id": "e9ac7677",
+        "title": "Reading List 08/09/2025",
+        "excerpt": "Microplastics in the air, the Blanchard lathe, the report on the OceanGate sub disaster, a plan to visit a black hole, and more.",
+        "author": "Brian Potter",
+        "publication": {
+          "name": "Construction Physics",
+          "slug": "construction-physics",
+          "category": "Science"
+        },
+        "publishedAt": "Sat, 09 Aug 2025 12:01:40 GMT",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://www.construction-physics.com/p/reading-list-08092025"
+      },
+      {
+        "id": "83d0cf9f",
+        "title": "Weekly Dose of Optimism #157",
+        "excerpt": "Advanced Nuclear, Vulcan Elemants, Rainmaker, Climate Catastrophism, AI-Designed Antibiotics + The Origins of Efficiency",
+        "author": "Packy McCormick",
+        "publication": {
+          "name": "Not Boring",
+          "slug": "not-boring",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 15 Aug 2025 12:00:59 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.notboring.co/p/weekly-dose-of-optimism-157"
+      },
+      {
+        "id": "3aff4427",
+        "title": "Double portrait",
+        "excerpt": "Told one brush stroke at a time, this love story spans decades, journeys over continents, and navigates life’s highs and lows\n- Directed by Ian Bruce\nWatch on Psyche",
+        "author": "Psyche Video",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 20 Aug 2025 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://psyche.co/videos/two-lives-drift-apart-and-come-together-in-a-love-story-told-one-brush-stroke-at-a-time?utm_source=rss-feed"
+      },
+      {
+        "id": "d33062f8",
+        "title": "Look Straight at the Sun",
+        "excerpt": "Cal Revely-Calder Considers Our Solar Familiar",
+        "author": "Cal Revely-Calder",
+        "publication": {
+          "name": "Justin E.H. Smith",
+          "slug": "justin-eh-smith",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 21 Aug 2025 17:40:18 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.the-hinternet.com/p/look-straight-at-the-sun"
+      },
+      {
+        "id": "c5fc5f93",
+        "title": "The art of a plastics treaty: How sculptures, collages, and poetry have influenced global talks",
+        "excerpt": "As countries try to find agreement on plastic pollution, creative interventions are turning heads — and turning the conversation toward health harms, fossil fuels, and false solutions.",
+        "author": "Joseph Winters",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 12 Aug 2025 15:40:06 +0000",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://grist.org/culture/plastics-treaty-negotiations-art-influenced-global-talks/"
+      },
+      {
+        "id": "9b01051d",
+        "title": "Where Have All the Contrarians Gone?",
+        "excerpt": "Some thoughts on the 2010s vs. the 2020s when it comes to investor mindsets.\nThe post Where Have All the Contrarians Gone? appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 22 Aug 2025 20:30:37 +0000",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://awealthofcommonsense.com/2025/08/where-have-all-the-contrarians-gone/"
+      },
+      {
+        "id": "149c021d",
+        "title": "The Decline of MATLAB: What Engineers Should Learn Instead",
+        "excerpt": "A frank look at why Python and Rust is the future of the hardware programming stack.",
+        "author": "Vikram Sekar",
+        "publication": {
+          "name": "Vik's Newsletter",
+          "slug": "viks-newsletter",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 06 Aug 2025 18:29:20 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.viksnewsletter.com/p/the-decline-of-matlab"
+      },
+      {
+        "id": "18716e4a",
+        "title": "“A spectacular, flamboyant kingdom of the sun.” Despite its politics, holidaymakers say fascist Spain as a utopia",
+        "excerpt": "“A spectacular, flamboyant kingdom of the sun.” Despite its politics, holidaymakers say fascist Spain as a utopia",
+        "author": "Arts & Letters Daily",
+        "publication": {
+          "name": "Arts & Letters Daily",
+          "slug": "arts-letters-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-08-20T09:22:38.484Z",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.historytoday.com/archive/behind-times/spain-was-different-tourism-under-franco"
+      },
+      {
+        "id": "24c23417",
+        "title": "<cite>Cloud</cite> is a Techno-Thriller for the Age of Online Hustle Culture",
+        "excerpt": "The internet has robbed the world of much of its mystery and replaced it with the jaded cynicism of online grifters. Kiyoshi Kurosawa’s film Cloud explores this bleak world dominated by people who jus",
+        "author": "Joon Lee",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-08-17T12:55:45.000Z",
+        "readTime": 6,
+        "wordCount": 1166,
+        "url": "https://jacobin.com/2025/08/cloud-kurosawa-japan-internet-thriller-review/"
+      },
+      {
+        "id": "505e53ae",
+        "title": "Health was supposed to be central to the UN plastics treaty. Now it’s up for debate.",
+        "excerpt": "Despite strong evidence that plastics are harmful to people, oil-producing countries oppose action on human health.",
+        "author": "Joseph Winters",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 13 Aug 2025 20:28:16 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/health/un-plastics-treaty-health-up-for-debate/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-08-25-1756102668364",
     "title": "Random Digest: August 25, 2025",
     "subtitle": "10 hand-picked articles from our collection",

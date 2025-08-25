@@ -133,7 +133,7 @@ function generateDigest() {
         publishedAt: article.publishedAt,
         readTime: article.readTime,
         wordCount: article.wordCount,
-        url: article.url
+        url: article.link
       }))
     };
 
