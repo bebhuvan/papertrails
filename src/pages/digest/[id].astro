@@ -1,0 +1,436 @@
+---
+import fs from 'fs';
+import path from 'path';
+
+export function getStaticPaths() {
+  try {
+    const digestsPath = path.join(process.cwd(), 'data', 'digests.json');
+    if (fs.existsSync(digestsPath)) {
+      const data = JSON.parse(fs.readFileSync(digestsPath, 'utf-8'));
+      const digests = Array.isArray(data) ? data : (data.digests || []);
+      
+      return digests.map(digest => ({
+        params: { id: digest.id },
+        props: { digest }
+      }));
+    }
+  } catch (error) {
+    console.warn('Could not load digests:', error);
+  }
+  
+  return [];
+}
+
+const { digest } = Astro.props;
+
+if (!digest) {
+  return Astro.redirect('/digests');
+}
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{digest.title} - Paper Trails</title>
+    <meta name="description" content={digest.subtitle}>
+    
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.03em;
+        }
+
+        .logo::before {
+            content: "📑";
+            margin-right: 8px;
+            filter: grayscale(0.3);
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        .digest-header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid var(--border-primary);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            transition: color 0.2s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .digest-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -0.03em;
+        }
+
+        .digest-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .digest-description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .digest-date {
+            color: var(--text-tertiary);
+            font-size: 0.95rem;
+        }
+
+        /* Articles */
+        .digest-articles {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .digest-article {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-secondary);
+            border-radius: 12px;
+            padding: 28px;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .digest-article:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+
+        .article-number {
+            position: absolute;
+            top: 28px;
+            left: -20px;
+            background: var(--accent);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+        }
+
+        .publication-name {
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .publication-name:hover {
+            text-decoration: underline;
+        }
+
+        .article-category {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .article-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 16px;
+        }
+
+        .article-title a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--accent);
+        }
+
+        .article-excerpt {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .article-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-tertiary);
+            padding-top: 20px;
+            border-top: 1px solid var(--border-primary);
+        }
+
+        .read-article {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .read-article:hover {
+            gap: 10px;
+        }
+
+        /* Navigation */
+        .digest-nav {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 2px solid var(--border-primary);
+            text-align: center;
+        }
+
+        .nav-button {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content, .container {
+                padding: 0 20px;
+            }
+            
+            .digest-title {
+                font-size: 1.8rem;
+            }
+            
+            .digest-article {
+                padding: 24px 20px;
+            }
+            
+            .article-number {
+                position: static;
+                width: auto;
+                height: auto;
+                padding: 6px 14px;
+                border-radius: 16px;
+                display: inline-block;
+                margin-bottom: 16px;
+                font-size: 0.9rem;
+            }
+            
+            .article-title {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/search" class="nav-link">Search</a>
+                <a href="/digests" class="nav-link">Digests</a>
+                <a href="/archive" class="nav-link">Archive</a>
+                <a href="/about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <a href="/digests" class="back-link">
+            ← Back to all digests
+        </a>
+
+        <div class="digest-header">
+            <h1 class="digest-title">{digest.title}</h1>
+            <p class="digest-subtitle">{digest.subtitle}</p>
+            {digest.description && (
+                <p class="digest-description">{digest.description}</p>
+            )}
+            <p class="digest-date">
+                {new Date(digest.createdAt).toLocaleDateString('en-US', { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric'
+                })}
+            </p>
+        </div>
+
+        <div class="digest-articles">
+            {digest.articles.map((article, index) => (
+                <article class="digest-article">
+                    <span class="article-number">{index + 1}</span>
+                    
+                    <div class="article-meta">
+                        <a href={`/publication/${article.publication.slug}`} class="publication-name">
+                            {article.publication.name}
+                        </a>
+                        <span class="article-category">{article.publication.category}</span>
+                    </div>
+                    
+                    <h2 class="article-title">
+                        <a href={article.url} target="_blank" rel="noopener noreferrer">
+                            {article.title}
+                        </a>
+                    </h2>
+                    
+                    <p class="article-excerpt">{article.excerpt}</p>
+                    
+                    <div class="article-footer">
+                        <div>
+                            <span class="author-name">{article.author}</span>
+                            <span style="margin: 0 8px;">•</span>
+                            <span class="read-time">{article.readTime} min read</span>
+                        </div>
+                        <a href={article.url} target="_blank" rel="noopener noreferrer" class="read-article">
+                            Read article →
+                        </a>
+                    </div>
+                </article>
+            ))}
+        </div>
+
+        <nav class="digest-nav">
+            <a href="/digests" class="nav-button">View All Digests</a>
+        </nav>
+    </main>
+
+    <script>
+        // Theme detection
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    </script>
+</body>
+</html>

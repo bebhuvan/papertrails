@@ -1,0 +1,618 @@
+---
+import fs from 'fs';
+import path from 'path';
+
+// Load digests
+let digests = [];
+try {
+  const digestsPath = path.join(process.cwd(), 'data', 'digests.json');
+  if (fs.existsSync(digestsPath)) {
+    const data = JSON.parse(fs.readFileSync(digestsPath, 'utf-8'));
+    digests = Array.isArray(data) ? data : (data.digests || []);
+  }
+} catch (error) {
+  console.warn('Could not load digests:', error);
+}
+
+// Get the latest digest for featured display
+const latestDigest = digests[0];
+const olderDigests = digests.slice(1);
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Digests - Paper Trails</title>
+    <meta name="description" content="Bi-weekly curated digests of random articles from Paper Trails. Discover hidden gems from our collection.">
+    
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: white;
+            --bg-secondary: #fefaf8;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-tertiary: #999;
+            --border-primary: #f0f0f0;
+            --border-secondary: #f5f0eb;
+            --accent: #f97316;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #111111;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #242424;
+            --text-primary: #f5f5f5;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #a0a0a0;
+            --border-primary: #333333;
+            --border-secondary: #2a2a2a;
+            --accent: #f97316;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-primary);
+            background: var(--bg-primary);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.03em;
+        }
+
+        .logo::before {
+            content: "📑";
+            margin-right: 8px;
+            filter: grayscale(0.3);
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fdba74 100%);
+            padding: 80px 40px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-secondary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            animation: float 20s linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(20px, 20px); }
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 16px;
+            letter-spacing: -0.03em;
+            position: relative;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .hero-title::before {
+            content: "🎲";
+            display: block;
+            font-size: 4rem;
+            margin-bottom: 16px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.95);
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.9);
+            position: relative;
+        }
+
+        .hero-meta span::before {
+            content: "•";
+            margin: 0 8px;
+            color: white;
+            opacity: 0.6;
+        }
+
+        .hero-meta span:first-child::before {
+            display: none;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        /* Latest Digest */
+        .latest-digest {
+            margin-bottom: 80px;
+        }
+
+        .digest-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .digest-label {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+        }
+
+        .digest-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .digest-description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .digest-date {
+            color: var(--text-tertiary);
+            font-size: 0.95rem;
+        }
+
+        /* Digest Articles */
+        .digest-articles {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .digest-article {
+            background: var(--bg-secondary);
+            border: 2px solid transparent;
+            border-radius: 16px;
+            padding: 28px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            background-image: linear-gradient(var(--bg-secondary), var(--bg-secondary)), 
+                              linear-gradient(45deg, #f97316, #fb923c, #fdba74, #fed7aa);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+        }
+
+        .digest-article:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(249, 115, 22, 0.15);
+            border-color: transparent;
+        }
+
+        .article-number {
+            position: absolute;
+            top: 28px;
+            left: -20px;
+            background: linear-gradient(135deg, #f97316, #fb923c);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+            border: 2px solid white;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+        }
+
+        .publication-name {
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .publication-name:hover {
+            text-decoration: underline;
+        }
+
+        .article-category {
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .article-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .article-title a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--accent);
+        }
+
+        .article-excerpt {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 16px;
+            font-size: 0.92rem;
+        }
+
+        .article-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.82rem;
+            color: var(--text-tertiary);
+            padding-top: 16px;
+            border-top: 1px solid var(--border-primary);
+        }
+
+        /* Archive Section */
+        .archive-section {
+            margin-top: 80px;
+            padding-top: 60px;
+            border-top: 2px solid var(--border-primary);
+        }
+
+        .archive-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .digests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .digest-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-secondary);
+            border-radius: 8px;
+            padding: 20px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .digest-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .digest-card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .digest-card-date {
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+        }
+
+        .digest-card-count {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state h2 {
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .cta-text {
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content, .container {
+                padding: 0 20px;
+            }
+            
+            .hero {
+                padding: 40px 20px;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .digest-article {
+                padding: 20px;
+            }
+            
+            .article-number {
+                position: static;
+                width: auto;
+                height: auto;
+                padding: 4px 12px;
+                border-radius: 12px;
+                display: inline-block;
+                margin-bottom: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Paper Trails</a>
+            <nav class="header-nav">
+                <a href="/search" class="nav-link">Search</a>
+                <a href="/digests" class="nav-link" style="color: var(--accent);">Digests</a>
+                <a href="/archive" class="nav-link">Archive</a>
+                <a href="/about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero-title">Random Digest</h1>
+        <p class="hero-subtitle">
+            Discover hidden gems from our collection. Every Tuesday and Saturday, 
+            we randomly select 10 fascinating articles you might have missed.
+        </p>
+        <div class="hero-meta">
+            <span>Updated twice weekly</span>
+            <span>10 articles per digest</span>
+            <span>Algorithmically diverse</span>
+        </div>
+    </section>
+
+    <main class="container">
+        {latestDigest ? (
+            <section class="latest-digest">
+                <div class="digest-header">
+                    <span class="digest-label">Latest Digest</span>
+                    <h2 class="digest-title">{latestDigest.title}</h2>
+                    {latestDigest.description && (
+                        <p class="digest-description">{latestDigest.description}</p>
+                    )}
+                    <p class="digest-date">
+                        {new Date(latestDigest.createdAt).toLocaleDateString('en-US', { 
+                            weekday: 'long', 
+                            year: 'numeric', 
+                            month: 'long', 
+                            day: 'numeric' 
+                        })}
+                    </p>
+                </div>
+
+                <div class="digest-articles">
+                    {latestDigest.articles.map((article, index) => (
+                        <article class="digest-article">
+                            <span class="article-number">{index + 1}</span>
+                            
+                            <div class="article-meta">
+                                <a href={`/publication/${article.publication.slug}`} class="publication-name">
+                                    {article.publication.name}
+                                </a>
+                                <span class="article-category">{article.publication.category}</span>
+                            </div>
+                            
+                            <h3 class="article-title">
+                                <a href={article.url} target="_blank" rel="noopener noreferrer">
+                                    {article.title}
+                                </a>
+                            </h3>
+                            
+                            <p class="article-excerpt">{article.excerpt}</p>
+                            
+                            <div class="article-footer">
+                                <span class="author-name">{article.author}</span>
+                                <span class="read-time">{article.readTime} min read</span>
+                            </div>
+                        </article>
+                    ))}
+                </div>
+            </section>
+        ) : (
+            <div class="empty-state">
+                <h2>No Digests Yet</h2>
+                <p>Check back soon for our first random digest!</p>
+            </div>
+        )}
+
+        {olderDigests.length > 0 && (
+            <section class="archive-section">
+                <h2 class="archive-title">Previous Digests</h2>
+                <div class="digests-grid">
+                    {olderDigests.map(digest => (
+                        <a href={`/digest/${digest.id}`} class="digest-card">
+                            <h3 class="digest-card-title">{digest.title}</h3>
+                            <p class="digest-card-date">
+                                {new Date(digest.createdAt).toLocaleDateString('en-US', { 
+                                    month: 'short', 
+                                    day: 'numeric', 
+                                    year: 'numeric' 
+                                })}
+                            </p>
+                            <p class="digest-card-count">
+                                {digest.articles.length} articles
+                            </p>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
+
+        <section class="cta-section">
+            <h2 class="cta-title">📧 Get Digests Delivered</h2>
+            <p class="cta-text">
+                Want notifications for each new digest? Subscribe to our RSS feed using an RSS app like 
+                <a href="https://zapier.com/blog/best-rss-feed-reader-apps/" target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: underline;">Feedly, Inoreader, or NetNewsWire</a>. 
+                Old school? It works. 🤓
+            </p>
+            <a href="/digests.xml" class="cta-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 11a9 9 0 0 1 9 9" />
+                    <path d="M4 4a16 16 0 0 1 16 16" />
+                    <circle cx="5" cy="19" r="1" fill="currentColor" />
+                </svg>
+                Subscribe via RSS
+            </a>
+        </section>
+    </main>
+
+    <script>
+        // Theme detection
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    </script>
+</body>
+</html>

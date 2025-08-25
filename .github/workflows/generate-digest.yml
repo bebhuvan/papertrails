@@ -1,0 +1,35 @@
+name: Generate Random Digest
+
+on:
+  schedule:
+    # Run at 6 AM IST (12:30 AM UTC) on Tuesdays and Saturdays
+    - cron: '30 0 * * 2,6'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate digest
+        run: node src/scripts/generate-digest.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add data/digests.json
+          git diff --staged --quiet || (git commit -m "Generate random digest [skip ci]" && git push)
