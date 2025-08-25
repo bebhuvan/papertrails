@@ -525,64 +525,11 @@ const olderDigests = digests.slice(1);
     </section>
 
     <main class="container">
-        {latestDigest ? (
-            <section class="latest-digest">
-                <div class="digest-header">
-                    <span class="digest-label">Latest Digest</span>
-                    <h2 class="digest-title">{latestDigest.title}</h2>
-                    {latestDigest.description && (
-                        <p class="digest-description">{latestDigest.description}</p>
-                    )}
-                    <p class="digest-date">
-                        {new Date(latestDigest.createdAt).toLocaleDateString('en-US', { 
-                            weekday: 'long', 
-                            year: 'numeric', 
-                            month: 'long', 
-                            day: 'numeric' 
-                        })}
-                    </p>
-                </div>
-
-                <div class="digest-articles">
-                    {latestDigest.articles.map((article, index) => (
-                        <article class="digest-article">
-                            <span class="article-number">{index + 1}</span>
-                            
-                            <div class="article-meta">
-                                <a href={`/publication/${article.publication.slug}`} class="publication-name">
-                                    {article.publication.name}
-                                </a>
-                                <span class="article-category">{article.publication.category}</span>
-                            </div>
-                            
-                            <h3 class="article-title">
-                                <a href={article.url} target="_blank" rel="noopener noreferrer">
-                                    {article.title}
-                                </a>
-                            </h3>
-                            
-                            <p class="article-excerpt">{article.excerpt}</p>
-                            
-                            <div class="article-footer">
-                                <span class="author-name">{article.author}</span>
-                                <span class="read-time">{article.readTime} min read</span>
-                            </div>
-                        </article>
-                    ))}
-                </div>
-            </section>
-        ) : (
-            <div class="empty-state">
-                <h2>No Digests Yet</h2>
-                <p>Check back soon for our first random digest!</p>
-            </div>
-        )}
-
-        {olderDigests.length > 0 && (
+        {digests.length > 0 ? (
             <section class="archive-section">
-                <h2 class="archive-title">Previous Digests</h2>
+                <h2 class="archive-title">All Digests</h2>
                 <div class="digests-grid">
-                    {olderDigests.map(digest => (
+                    {digests.map(digest => (
                         <a href={`/digest/${digest.id}`} class="digest-card">
                             <h3 class="digest-card-title">{digest.title}</h3>
                             <p class="digest-card-date">
@@ -599,6 +546,11 @@ const olderDigests = digests.slice(1);
                     ))}
                 </div>
             </section>
+        ) : (
+            <div class="empty-state">
+                <h2>No Digests Yet</h2>
+                <p>Check back soon for our first random digest!</p>
+            </div>
         )}
 
         <section class="cta-section">

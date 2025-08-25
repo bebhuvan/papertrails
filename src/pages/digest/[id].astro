@@ -19,8 +19,25 @@ function decodeHtmlServer(html) {
 }
 
 export function getStaticPaths() {
+  // Server-side HTML entity decoder
+  function decodeHtmlServer(html) {
+    return html
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/<cite>/g, '"')
+      .replace(/<\/cite>/g, '"')
+      .replace(/<em>/g, '')
+      .replace(/<\/em>/g, '')
+      .replace(/<strong>/g, '')
+      .replace(/<\/strong>/g, '');
+  }
+
   try {
     const digestsPath = path.join(process.cwd(), 'data', 'digests.json');
+    
     if (fs.existsSync(digestsPath)) {
       const data = JSON.parse(fs.readFileSync(digestsPath, 'utf-8'));
       const rawDigests = Array.isArray(data) ? data : (data.digests || []);
@@ -34,10 +51,12 @@ export function getStaticPaths() {
         }))
       }));
       
-      return digests.map(digest => ({
+      const paths = digests.map(digest => ({
         params: { id: digest.id },
         props: { digest }
       }));
+      
+      return paths;
     }
   } catch (error) {
     console.warn('Could not load digests:', error);

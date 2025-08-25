@@ -117,9 +117,33 @@ function generateDigest() {
       DIGEST_SIZE
     );
 
+    // Read existing digests first
+    const digestsPath = path.join(__dirname, '../../data/digests.json');
+    let digests = [];
+    
+    if (fs.existsSync(digestsPath)) {
+      try {
+        const existingData = JSON.parse(fs.readFileSync(digestsPath, 'utf-8'));
+        digests = Array.isArray(existingData) ? existingData : (existingData.digests || []);
+      } catch (e) {
+        console.log('Creating new digests file');
+      }
+    }
+
+    // Generate unique digest ID
+    const dateStr = now.toISOString().split('T')[0]; // YYYY-MM-DD format
+    let digestId = `digest-${dateStr}`;
+    
+    // If a digest already exists for this date, add a sequence number
+    let sequence = 1;
+    while (digests.some(d => d.id === digestId)) {
+      digestId = `digest-${dateStr}-${sequence}`;
+      sequence++;
+    }
+
     // Create digest object
     const digest = {
-      id: `digest-${now.toISOString().split('T')[0]}-${Date.now()}`,
+      id: digestId,
       title: `Random Digest: ${now.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`,
       subtitle: `${DIGEST_SIZE} hand-picked articles from our collection`,
       description: `This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.`,
@@ -136,19 +160,6 @@ function generateDigest() {
         url: article.link
       }))
     };
-
-    // Read existing digests
-    const digestsPath = path.join(__dirname, '../../data/digests.json');
-    let digests = [];
-    
-    if (fs.existsSync(digestsPath)) {
-      try {
-        const existingData = JSON.parse(fs.readFileSync(digestsPath, 'utf-8'));
-        digests = Array.isArray(existingData) ? existingData : (existingData.digests || []);
-      } catch (e) {
-        console.log('Creating new digests file');
-      }
-    }
 
     // Add new digest to beginning
     digests.unshift(digest);
