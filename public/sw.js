@@ -1,4 +1,4 @@
-const CACHE_NAME = 'curator-v1';
+const CACHE_NAME = 'curator-v2';
 const urlsToCache = [
   '/',
   '/about',
@@ -18,18 +18,42 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Fetch event - serve from cache when offline
+// Fetch event - use network-first strategy for HTML pages
 self.addEventListener('fetch', (event) => {
+  const request = event.request;
+  const url = new URL(request.url);
+  
+  // For HTML pages (navigation requests), try network first
+  if (request.mode === 'navigate' || request.headers.get('accept')?.includes('text/html')) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          // Clone the response before caching
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(request, responseToCache);
+          });
+          return response;
+        })
+        .catch(() => {
+          // If network fails, try cache
+          return caches.match(request).then((response) => {
+            return response || caches.match('/');
+          });
+        })
+    );
+    return;
+  }
+  
+  // For other resources, use cache-first strategy
   event.respondWith(
-    caches.match(event.request)
+    caches.match(request)
       .then((response) => {
-        // Cache hit - return response
         if (response) {
           return response;
         }
-        return fetch(event.request);
-      }
-    )
+        return fetch(request);
+      })
   );
 });
 
