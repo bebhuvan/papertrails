@@ -943,5 +943,19 @@
     "url": "https://niccolo.substack.com/feed",
     "category": "Politics",
     "defaultAuthor": "Niccolò Soldo"
+  },
+  {
+    "name": "Global Developments",
+    "slug": "global-developments",
+    "url": "https://www.global-developments.org/feed",
+    "category": "Economics",
+    "defaultAuthor": "Global Developments"
+  },
+  {
+    "name": "Jasmi News",
+    "slug": "jasmi-news",
+    "url": "https://jasmi.news/feed",
+    "category": "Technology",
+    "defaultAuthor": "Jasmi News"
   }
 ]
