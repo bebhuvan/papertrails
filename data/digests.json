@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-08-30",
+    "title": "Random Digest: August 30, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-08-30T04:49:39.185Z",
+    "articles": [
+      {
+        "id": "8e2683c7",
+        "title": "Hanging with The Boyscast",
+        "excerpt": "Speaking with comedians Ryan Long and Danny Polishchuk",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Sun, 17 Aug 2025 13:56:49 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.robkhenderson.com/p/hanging-with-the-boyscast"
+      },
+      {
+        "id": "2859372e",
+        "title": "The $84 Trillion Elephant in the Room",
+        "excerpt": "My talk with Carl Richards about how to have difficult conversations.\nThe post The $84 Trillion Elephant in the Room appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 25 Aug 2025 00:00:55 +0000",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://awealthofcommonsense.com/2025/08/the-84-trillion-elephant-in-the-room/"
+      },
+      {
+        "id": "c5d4b88a",
+        "title": "why everyone is so unhappy with the system, and what may come next",
+        "excerpt": "James Surowiecki in The Yale Review: This is a pivotal moment for American capitalism. Even though GDP and household incomes have grown steadily in this century, most Americans say they feel dissatisf",
+        "author": "Azra Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 21 Aug 2025 13:18:38 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/08/why-everyone-is-so-unhappy-with-the-system-and-what-may-come-next.html"
+      },
+      {
+        "id": "be63062f",
+        "title": "The Evolution of … Everything",
+        "excerpt": "From cells to cellphones, trial and error shapes it all\nThe post The Evolution of … Everything appeared first on Nautilus.",
+        "author": "Nick Hilden",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 26 Aug 2025 20:59:10 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://nautil.us/the-evolution-of-everything-1233787/"
+      },
+      {
+        "id": "d56ddb94",
+        "title": "How Texas flood relief got caught in a high-stakes political battle",
+        "excerpt": "As a fight over voting districts consumes the Texas legislature, funding for flood relief remains elusive.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 22 Aug 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/extreme-weather/how-texas-flood-relief-got-caught-in-a-high-stakes-political-battle/"
+      },
+      {
+        "id": "7b6d8be2",
+        "title": "Welcome to How AI is Changing Higher Education & Preliminary Syllabus",
+        "excerpt": "This is material related to my teaching about AI.",
+        "author": "Rob Nelson",
+        "publication": {
+          "name": "AI Log Blog",
+          "slug": "ai-log-blog",
+          "category": "Technology"
+        },
+        "publishedAt": "Sun, 17 Aug 2025 09:55:37 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.ailog.blog/p/welcome-to-how-ai-is-changing-higher"
+      },
+      {
+        "id": "f156f2fa",
+        "title": "Video and Podcast Resources On Rainer Maria Rilke's Letters To A Young Poet",
+        "excerpt": "seven lectures on these intensely personal and philosophical letters",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 27 Aug 2025 00:29:58 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://gregorybsadler.substack.com/p/video-and-podcast-resources-on-rainer"
+      },
+      {
+        "id": "59334872",
+        "title": "How we mapped Chicago’s lead pipe problem and what we learned",
+        "excerpt": "Here’s what we found, how to know if you’re at risk, and how to replicate our work.",
+        "author": "Juanpablo Ramirez-Franco",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 28 Aug 2025 10:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://grist.org/accountability/how-we-mapped-chicago-lead-pipe-crisis-methods-data/"
+      },
+      {
+        "id": "5530a34c",
+        "title": "Weekend Update #147: The War Will Continue For A While Yet",
+        "excerpt": "Ukrainians Understanding That They Are Getting Played By The Analytical Community: Trump Ukraine Derangement Syndrome--The Worst Case Yet",
+        "author": "Phillips P. OBrien",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Sun, 24 Aug 2025 08:16:35 GMT",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://phillipspobrien.substack.com/p/weekend-update-147-the-war-will-continue"
+      },
+      {
+        "id": "4cfd9744",
+        "title": "Sunday Music: “Unassisted” by Rasco",
+        "excerpt": "Patterns are just repeating variables you happen to notice. Finding one nobody else has found before can be worth a lot. Harnessing one – whether…\nThe post Sunday Music: “Unassisted” by Rasco appeared",
+        "author": "Harper Hunt",
+        "publication": {
+          "name": "Epsilon Theory",
+          "slug": "epsilon-theory",
+          "category": "Economics"
+        },
+        "publishedAt": "Sun, 17 Aug 2025 10:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 37,
+        "url": "https://www.epsilontheory.com/sunday-music-unassisted-by-rasco/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-08-25",
     "title": "Random Digest: August 25, 2025",
     "subtitle": "10 hand-picked articles from our collection",
