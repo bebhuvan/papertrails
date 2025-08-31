@@ -39,7 +39,7 @@ export async function GET() {
     return `
       <item>
         <title>${digest.title}</title>
-        <link>https://papertrails.com/digest/${digest.id}</link>
+        <link>https://papertrails.rabbitholes.garden/digest/${digest.id}</link>
         <guid isPermaLink="false">${digest.id}</guid>
         <description><![CDATA[${digest.subtitle}]]></description>
         <content:encoded><![CDATA[${content}]]></content:encoded>
@@ -56,17 +56,17 @@ export async function GET() {
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper Trails - Random Digest</title>
-    <link>https://papertrails.com/digests</link>
-    <atom:link href="https://papertrails.com/digests.xml" rel="self" type="application/rss+xml"/>
+    <link>https://papertrails.rabbitholes.garden/digests</link>
+    <atom:link href="https://papertrails.rabbitholes.garden/digests.xml" rel="self" type="application/rss+xml"/>
     <description>Bi-weekly curated digests of random articles from Paper Trails. Discover hidden gems from our collection.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <generator>Paper Trails Digest Generator</generator>
     <ttl>360</ttl>
     <image>
-      <url>https://papertrails.com/favicon-512x512.png</url>
+      <url>https://papertrails.rabbitholes.garden/favicon-512x512.png</url>
       <title>Paper Trails - Random Digest</title>
-      <link>https://papertrails.com/digests</link>
+      <link>https://papertrails.rabbitholes.garden/digests</link>
     </image>
     ${items}
   </channel>

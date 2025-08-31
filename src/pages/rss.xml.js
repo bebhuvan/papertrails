@@ -13,7 +13,7 @@ export async function GET(context) {
   return rss({
     title: 'Paper Trails',
     description: 'The best writing from the smartest minds—from economics to philosophy, technology to culture',
-    site: context.site || 'https://papertrails.com',
+    site: context.site || 'https://papertrails.rabbitholes.garden',
     items: recentArticles.map((article) => ({
       title: article.title,
       description: article.excerpt,
