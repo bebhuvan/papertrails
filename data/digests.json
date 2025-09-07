@@ -1,5 +1,323 @@
 [
   {
+    "id": "digest-2025-09-06",
+    "title": "Random Digest: September 6, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-06T02:05:50.402Z",
+    "articles": [
+      {
+        "id": "c85f9b7d",
+        "title": "The Curious Case of Steve Bannon’s Tactics",
+        "excerpt": "Self-described Leninist Steve Bannon recognized that online platforms and movement tactics can be turned into political weapons. His success shows how tactics developed for solidarity can be twisted i",
+        "author": "Brian Nuckols",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-08-27T14:05:57.000Z",
+        "readTime": 12,
+        "wordCount": 2273,
+        "url": "https://jacobin.com/2025/08/bannon-online-media-wow-coordination/"
+      },
+      {
+        "id": "1d687d7c",
+        "title": "On Dan Wang’s Brand-New \"Breakneck\": The World's Dynamos China & America, & Building Our Common Global Future Home",
+        "excerpt": "The Sledgehammer & the Gavel at Dawn & Dusk: Synthesis, strife, and the race to shape the twenty-first century; how China & America build—and block—their common future. Dan Wang’s brand-new...",
+        "author": "Brad DeLong",
+        "publication": {
+          "name": "Brad DeLong",
+          "slug": "brad-delong",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 25 Aug 2025 13:40:22 GMT",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://braddelong.substack.com/p/on-dan-wangs-brand-new-breakneck"
+      },
+      {
+        "id": "e2818b7e",
+        "title": "Inside the AI Industry's Plot to Kill AGI",
+        "excerpt": "They had a dream, then turned nightmare",
+        "author": "Alberto Romero",
+        "publication": {
+          "name": "The Algorithmic Bridge",
+          "slug": "algorithmic-bridge",
+          "category": "Technology"
+        },
+        "publishedAt": "Thu, 28 Aug 2025 12:53:53 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.thealgorithmicbridge.com/p/inside-the-ai-industrys-plot-to-kill"
+      },
+      {
+        "id": "ae9db736",
+        "title": "Monday links: building something from scratch",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 25 Aug 2025 17:16:55 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/08/25/monday-links-building-something-from-scratch/"
+      },
+      {
+        "id": "ba241b32",
+        "title": "\"Systems collapse, things break down, and time tends irreversibly towards disorder and eventual annihilation\"",
+        "excerpt": "\"Systems collapse, things break down, and time tends irreversibly towards disorder and eventual annihilation\"",
+        "author": "Arts & Letters Daily",
+        "publication": {
+          "name": "Arts & Letters Daily",
+          "slug": "arts-letters-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-08-26T19:39:29.133Z",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://aeon.co/essays/philosophers-must-reckon-with-the-meaning-of-thermodynamics"
+      },
+      {
+        "id": "399433e1",
+        "title": "Essence is fluttering",
+        "excerpt": "As Zhuangzi saw, there is no immutably true self. Instead our identity is as dynamic and alive as a butterfly in flight\n- by Alexander Douglas\nRead on Psyche",
+        "author": "Alexander Douglas",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 01 Sep 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://aeon.co/essays/how-to-be-yourself-when-you-have-no-self-lessons-from-zhuangzi?utm_source=rss-feed"
+      },
+      {
+        "id": "f306819d",
+        "title": "Inside a Georgia beach’s high-tech fight against erosion",
+        "excerpt": "Armed with drones and lasers, scientists are creating detailed 3D maps of Tybee Island’s shifting shoreline.",
+        "author": "Emily Jones",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 22 Aug 2025 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/science/inside-a-georgia-beachs-high-tech-fight-against-erosion/"
+      },
+      {
+        "id": "e2f25553",
+        "title": "respect for the problem",
+        "excerpt": "more wisdom from Will",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 05 Sep 2025 14:24:50 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://backofmind.substack.com/p/respect-for-the-problem"
+      },
+      {
+        "id": "d887876c",
+        "title": "How to become President of China with Dan Wang",
+        "excerpt": "Episode five of the Works in Progress podcast is about why China outbuilds America",
+        "author": "Sam Bowman",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 28 Aug 2025 09:12:12 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.worksinprogress.news/p/how-to-become-president-of-china"
+      },
+      {
+        "id": "f123f781",
+        "title": "Josh Hawley’s ‘huge win’ will be a big loss for clean energy — and ratepayers",
+        "excerpt": "It's only been a few weeks since the Trump administration and Missouri Republicans killed the Grain Belt Express transmission line, but it's already clear rates will go up.",
+        "author": "Sophie Hurwitz",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 02 Sep 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://grist.org/energy/josh-hawleys-huge-win-will-be-a-big-loss-for-clean-energy-and-ratepayers/"
+      }
+    ]
+  },
+  {
+    "id": "digest-2025-09-02",
+    "title": "Random Digest: September 2, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-02T02:14:39.032Z",
+    "articles": [
+      {
+        "id": "27be3b7c",
+        "title": "America’s Coming Crash",
+        "excerpt": "Will Washington’s debt addiction spark the next global crisis?",
+        "author": "Kenneth S. Rogoff",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Tue, 19 Aug 2025 00:00:00 -0400",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.foreignaffairs.com/united-states/americas-coming-crash-rogoff"
+      },
+      {
+        "id": "f0ba9b93",
+        "title": "Flow as a component of meaningful living",
+        "excerpt": "The modern concept of flow may have been anticipated by a number of Greco-Roman authors",
+        "author": "Massimo Pigliucci",
+        "publication": {
+          "name": "Figs in Winter",
+          "slug": "figs-in-winter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 26 Aug 2025 10:00:30 GMT",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://figsinwintertime.substack.com/p/flow-as-a-component-of-meaningful"
+      },
+      {
+        "id": "92c257a8",
+        "title": "Thursday links: the grifting boom",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 21 Aug 2025 16:56:28 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/08/21/thursday-links-the-grifting-boom/"
+      },
+      {
+        "id": "5c227b24",
+        "title": "Dog day blues",
+        "excerpt": "We were a new stepfamily, and only the puppy was missing. With Elsa, we lobbed a grenade into the mix\n- by Lily Dunn\nRead on Psyche",
+        "author": "Lily Dunn",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 22 Aug 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://psyche.co/turning-points/getting-a-dog-turned-our-lives-upside-down-but-saved-our-family?utm_source=rss-feed"
+      },
+      {
+        "id": "8ea34c3e",
+        "title": "How I Write",
+        "excerpt": "Advice for others",
+        "author": "Nicholas Decker",
+        "publication": {
+          "name": "Nicholas Decker",
+          "slug": "nicholas-decker",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 26 Aug 2025 12:26:28 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://nicholasdecker.substack.com/p/how-i-write"
+      },
+      {
+        "id": "1f207466",
+        "title": "Ford and the Birth of the Model T",
+        "excerpt": "Ford’s status as a large-volume car producer began with the predecessor to the Model T: the Model N, a four-cylinder, two-seater car initially priced at $500. At the time, the average car in the US co",
+        "author": "Brian Potter",
+        "publication": {
+          "name": "Construction Physics",
+          "slug": "construction-physics",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 28 Aug 2025 12:01:06 GMT",
+        "readTime": 1,
+        "wordCount": 58,
+        "url": "https://www.construction-physics.com/p/ford-and-the-birth-of-the-model-t"
+      },
+      {
+        "id": "669c9bb6",
+        "title": "K-pop culture inspires innocence, joy and belonging",
+        "excerpt": "A. Stefanie Ruiz, Femida Handy, and Sunwoo Park in The Conversation: “Born with voices that could drive back the darkness,” the character Celine, a former K-pop idol, narrates at the start of Netflix’",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 19 Aug 2025 18:45:47 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/08/k-pop-culture-inspires-innocence-joy-and-belonging.html"
+      },
+      {
+        "id": "95d05024",
+        "title": "Dragoncatcher: Cool words",
+        "excerpt": "",
+        "author": "Robin Sloan",
+        "publication": {
+          "name": "Robin Sloan",
+          "slug": "robin-sloan",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-08-25T14:00:00.000Z",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.robinsloan.com/lab/cool-words/"
+      },
+      {
+        "id": "a534d127",
+        "title": "Trump’s Interior Department is turning environmentalists’ legal playbook against them",
+        "excerpt": "Federal laws meant to protect land and wildlife are being misused to curb wind and solar development across the U.S.",
+        "author": "Rebecca Egan McCarthy",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 21 Aug 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://grist.org/energy/trumps-interior-department-is-turning-environmentalists-legal-playbook-against-them/"
+      },
+      {
+        "id": "5e739d0d",
+        "title": "DeBriefed 29 August 2025: Record wildfires; Solar myths factchecked; Climate veteran on COP reform",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 29 August 2025: Record wildfires; Solar myths factchecked; Climate vete",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 29 Aug 2025 11:27:39 +0000",
+        "readTime": 1,
+        "wordCount": 37,
+        "url": "https://www.carbonbrief.org/debriefed-29-august-2025-record-wildfires-solar-myths-factchecked-climate-veteran-on-cop-reform/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-08-30",
     "title": "Random Digest: August 30, 2025",
     "subtitle": "10 hand-picked articles from our collection",
