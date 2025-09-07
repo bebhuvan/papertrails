@@ -5,8 +5,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://papertrails.rabbitholes.garden',
   build: {
-    // Optimize for Cloudflare Pages
-    inlineStylesheets: 'auto'
+    // Optimize for Cloudflare Pages - force inline styles for better Speed Index
+    inlineStylesheets: 'always'
   },
   vite: {
     build: {
