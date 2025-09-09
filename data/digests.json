@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-09",
+    "title": "Random Digest: September 9, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-09T02:10:48.999Z",
+    "articles": [
+      {
+        "id": "d3bff254",
+        "title": "A Billion Abominations A Day",
+        "excerpt": "by Mike Bendzela Some people are haunted by words others have spoken, or by events they’ve seen and heard in various media, or by embarrassing episodes from their pasts. I can be just as vulnerable to",
+        "author": "Mike Bendzela",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Sun, 31 Aug 2025 09:00:54 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/08/a-billion-abominations-a-day.html"
+      },
+      {
+        "id": "edc81434",
+        "title": "Happy 2nd Birthday to Small Potatoes ",
+        "excerpt": "“At two years, children are caught between babyhood and childhood.",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 26 Aug 2025 15:00:15 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://smallpotatoes.paulbloom.net/p/happy-2nd-birthday-to-small-potatoes"
+      },
+      {
+        "id": "c1b6202e",
+        "title": "How the Pharma Industry Botched Alzheimer’s Treatment",
+        "excerpt": "Journalist Charles Piller has exposed a pattern of shoddy and even fraudulent practices in Alzheimer’s research. It shows the drug research system needs serious reform, but health secretary Robert F. ",
+        "author": "Michael Chanan",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-08-28T12:25:34.000Z",
+        "readTime": 11,
+        "wordCount": 2189,
+        "url": "https://jacobin.com/2025/08/big-pharma-alzheimer-drugs-research/"
+      },
+      {
+        "id": "7d978cd7",
+        "title": "Tuesday links: reliable drivers of bad decisions",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 26 Aug 2025 17:11:00 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/08/26/tuesday-links-reliable-drivers-of-bad-decisions/"
+      },
+      {
+        "id": "887b119b",
+        "title": "Pluralistic: The worst possible antitrust outcome (03 Sep 2025)",
+        "excerpt": "Today's links The worst possible antitrust outcome: Hope you like enshittification. Hey look at this: Delights to delectate. Object permanence: Amazon drivers hang phones from trees; DVD Jon v Windows",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 03 Sep 2025 20:02:29 +0000",
+        "readTime": 11,
+        "wordCount": 2094,
+        "url": "https://pluralistic.net/2025/09/03/unpunishing-process/"
+      },
+      {
+        "id": "1c4289f7",
+        "title": "Media to consume this week instead of doomscrolling - 31.08.25",
+        "excerpt": "Notes on echo chambers, archetypes, AI and books, commodification of the self, consumer behavior, politics and fashion, and more.",
+        "author": "Mapu",
+        "publication": {
+          "name": "MAPUC",
+          "slug": "mapuc",
+          "category": "Economics"
+        },
+        "publishedAt": "Sun, 31 Aug 2025 16:55:20 GMT",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://mapuc.substack.com/p/media-to-consume-this-week-instead-9bd"
+      },
+      {
+        "id": "99f83013",
+        "title": "Every Objection To Taking The Giving What We Can Pledge Is Wrong ",
+        "excerpt": "The reasons people give for not donating don't stand up to scrutiny",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 04 Sep 2025 15:27:35 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://benthams.substack.com/p/every-objection-to-taking-the-giving"
+      },
+      {
+        "id": "3d83423e",
+        "title": "Extreme Heat Will Change You",
+        "excerpt": "High temperatures can alter our bodies at the molecular level\nThe post Extreme Heat Will Change You appeared first on Nautilus.",
+        "author": "Diana Kwon",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 27 Aug 2025 20:54:34 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://nautil.us/extreme-heat-will-change-you-1232228/"
+      },
+      {
+        "id": "5d5ec52e",
+        "title": "American Samoa says no to deep-sea mining. The Trump administration might do it anyway.",
+        "excerpt": "The CEO of a seabed mining startup says the decision about mining leases will be made in Washington, D.C.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 03 Sep 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/indigenous/american-samoa-says-no-to-deep-sea-mining-trump-administration/"
+      },
+      {
+        "id": "77bf9437",
+        "title": "US EV sales are booming — for now",
+        "excerpt": "Changes in U.S. government support for electric vehicles have led to a buying bonanza — and a darker long-term future for the auto industry.",
+        "author": "Aarian Marshall",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 30 Aug 2025 13:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/transportation/us-ev-sales-are-booming-for-now/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-06",
     "title": "Random Digest: September 6, 2025",
     "subtitle": "10 hand-picked articles from our collection",
