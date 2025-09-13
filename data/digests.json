@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-13",
+    "title": "Random Digest: September 13, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-13T01:55:47.525Z",
+    "articles": [
+      {
+        "id": "756e1239",
+        "title": "Can I Give You Some Advice?",
+        "excerpt": "Probably not\nThe post Can I Give You Some Advice? appeared first on Nautilus.",
+        "author": "Charles Digges",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 12 Sep 2025 09:50:00 +0000",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://nautil.us/can-i-give-you-some-advice-1237219/"
+      },
+      {
+        "id": "e6c83804",
+        "title": "What comes after the chatbot?",
+        "excerpt": "Notes and image credits for my talk at theAAC&U AI Institute",
+        "author": "Rob Nelson",
+        "publication": {
+          "name": "AI Log Blog",
+          "slug": "ai-log-blog",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 12 Sep 2025 11:28:16 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.ailog.blog/p/what-comes-after-the-chatbot"
+      },
+      {
+        "id": "504a4ce6",
+        "title": "First came the wildfire. Then came the scams.",
+        "excerpt": "As extreme weather becomes more frequent, so too have post-disaster contractor scams like excessive billing and shoddy repairs.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/extreme-weather/first-came-the-wildfire-then-came-the-scams/"
+      },
+      {
+        "id": "008f01b2",
+        "title": " Without looking it up, what&#8217;s the longest single-syllable English word you can... ",
+        "excerpt": "Without looking it up, what’s the longest single-syllable English word you can think of? (Here are the answers.)\n\n        \n\n        \n\n         \n💬 Join the discussion on kottke.org →",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-09-10T13:59:20.000Z",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://kottke.org/25/09/0047479-without-looking-it-up-wha"
+      },
+      {
+        "id": "d7356f16",
+        "title": "What Is Man, That Thou Art Mindful Of Him?",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 02 Sep 2025 12:18:53 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/what-is-man-that-thou-art-mindful"
+      },
+      {
+        "id": "a2ef26ae",
+        "title": "In Georgia, Trump’s immigration agenda and clean energy jobs are colliding",
+        "excerpt": "Expert foreign workers are key to setting up new factories in the U.S. An ICE raid targeting them could hurt efforts to ramp up American manufacturing.",
+        "author": "Emily Jones",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 18:39:40 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://grist.org/climate-energy/georgia-ice-raid-hyundai-battery-immigration-clean-energy/"
+      },
+      {
+        "id": "40348608",
+        "title": "What Would You Do If You Had a Million Dollars?",
+        "excerpt": "Some financial lessons from Office Space.\nThe post What Would You Do If You Had a Million Dollars? appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 29 Aug 2025 20:30:21 +0000",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://awealthofcommonsense.com/2025/08/what-would-you-do-if-you-had-a-million-dollars/"
+      },
+      {
+        "id": "e70017f9",
+        "title": "Ramp at $1 Billion",
+        "excerpt": "Saving Time, Compounding Over Time, Fighting Time",
+        "author": "Packy McCormick",
+        "publication": {
+          "name": "Not Boring",
+          "slug": "not-boring",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 09 Sep 2025 12:47:18 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.notboring.co/p/ramp-at-1-billion"
+      },
+      {
+        "id": "edc66370",
+        "title": "Abundance Should Not Erase the Traditional Republican",
+        "excerpt": "Reaganism still has something to teach us",
+        "author": "Richard Hanania",
+        "publication": {
+          "name": "Richard Hanania",
+          "slug": "richard-hanania",
+          "category": "Politics"
+        },
+        "publishedAt": "Sat, 06 Sep 2025 11:23:58 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.richardhanania.com/p/abundance-should-not-erase-the-traditional"
+      },
+      {
+        "id": "066afc31",
+        "title": "The Unspeakable, Cancel Culture, Success Sequence",
+        "excerpt": "Links and recommendations",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 02 Sep 2025 15:32:34 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/the-unspeakable-cancel-culture-success"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-09",
     "title": "Random Digest: September 9, 2025",
     "subtitle": "10 hand-picked articles from our collection",
