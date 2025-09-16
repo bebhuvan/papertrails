@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-16",
+    "title": "Random Digest: September 16, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-16T02:07:27.477Z",
+    "articles": [
+      {
+        "id": "5d5ec52e",
+        "title": "American Samoa says no to deep-sea mining. The Trump administration might do it anyway.",
+        "excerpt": "The CEO of a seabed mining startup says the decision about mining leases will be made in Washington, D.C.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 03 Sep 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/indigenous/american-samoa-says-no-to-deep-sea-mining-trump-administration/"
+      },
+      {
+        "id": "a51be44b",
+        "title": "The Ends of the Earth",
+        "excerpt": "Building an accurate model of Earth’s climate requires a lot of data. Photography reveals the extreme efforts scientists have undertaken to measure gases, glaciers, clouds and more.            \nThe po",
+        "author": "Yasemin Saplakoglu",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 15 Sep 2025 14:59:47 +0000",
+        "readTime": 1,
+        "wordCount": 39,
+        "url": "https://www.quantamagazine.org/photos-capture-the-extreme-beautiful-work-of-climate-science-20250915/"
+      },
+      {
+        "id": "58bc3d6e",
+        "title": "Why Cancel Culture is Fading ",
+        "excerpt": "\"Even when you take out the canines of a tiger, his heart remains that of a carnivore.\"",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Sun, 07 Sep 2025 13:08:22 GMT",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.robkhenderson.com/p/why-cancel-culture-is-fading"
+      },
+      {
+        "id": "553d5c93",
+        "title": "Saturday links: putting away your phone",
+        "excerpt": "On Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Sat, 13 Sep 2025 13:12:34 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/09/13/saturday-links-putting-away-your-phone/"
+      },
+      {
+        "id": "391c51ba",
+        "title": "After the FTC’s Retreat: How States are Rewriting the Rules on Worker Mobility",
+        "excerpt": "In a stunning betrayal of 30 million workers, the Federal Trade Commission has abandoned its nationwide ban on non-compete agreements. Fortunately, states are filling the void with remarkable creativi",
+        "author": "James Brandt",
+        "publication": {
+          "name": "Law and Political Economy",
+          "slug": "lpe-project",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 08 Sep 2025 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 45,
+        "url": "https://lpeproject.org/blog/after-the-ftcs-retreat-how-states-are-rewriting-the-rules-on-worker-mobility/"
+      },
+      {
+        "id": "1234597b",
+        "title": "Mr. Beast Is Better Than You ",
+        "excerpt": "It is good to use social pressure to get people to donate",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 02 Sep 2025 15:30:05 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://benthams.substack.com/p/mr-beast-is-better-than-you"
+      },
+      {
+        "id": "58bad223",
+        "title": "Criticism used to be aimed at shaping taste. Now it largely reflects the audience's taste back to it",
+        "excerpt": "Criticism used to be aimed at shaping taste. Now it largely reflects the audience's taste back to it",
+        "author": "Arts & Letters Daily",
+        "publication": {
+          "name": "Arts & Letters Daily",
+          "slug": "arts-letters-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-09-10T19:38:11.751Z",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://nymag.com/intelligencer/article/do-media-organizations-even-want-cultural-criticism.html"
+      },
+      {
+        "id": "f8760af8",
+        "title": "Pluralistic: Reverse centaurs are the answer to the AI paradox (11 Sep 2025)",
+        "excerpt": "Today's links Reverse centaurs are the answer to the AI paradox: Not what the machine does, but who it does it to. Hey look at this: Delights to delectate. Object permanence: Themepunks; Data is a lia",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Thu, 11 Sep 2025 15:17:58 +0000",
+        "readTime": 14,
+        "wordCount": 2662,
+        "url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism/"
+      },
+      {
+        "id": "ad5eec69",
+        "title": "Waterlogged and contaminated: In rural Florida, locals suspect a mining company is to blame for their flooding troubles",
+        "excerpt": "Residents are trying to connect the dots between hurricanes, high radium levels, and a mineral mining giant next door.",
+        "author": "Sachi Kitajima Mulkey",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 04 Sep 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/extreme-weather/rural-florida-locals-suspect-mining-company-flooding/"
+      },
+      {
+        "id": "4912a47b",
+        "title": "Chartbook 407: Polycrisis revisited: Are we beyond Neoliberal Order Breakdown Syndrome? ",
+        "excerpt": "Back in 2022 I coined the phrase polycrisis as one with which to describe the conjuncture.",
+        "author": "Adam Tooze",
+        "publication": {
+          "name": "Adam Tooze",
+          "slug": "adam-tooze",
+          "category": "Economics"
+        },
+        "publishedAt": "Sat, 06 Sep 2025 11:26:44 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://adamtooze.substack.com/p/chartbook-407-polycrisis-revisited"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-13",
     "title": "Random Digest: September 13, 2025",
     "subtitle": "10 hand-picked articles from our collection",
