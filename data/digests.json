@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-20",
+    "title": "Random Digest: September 20, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-20T02:01:54.284Z",
+    "articles": [
+      {
+        "id": "abec698c",
+        "title": "Why feminism worked best in the West with Alice Evans",
+        "excerpt": "Episode six of the Works in Progress podcast is about dating, drinking and tax",
+        "author": "Aria Babu",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 11 Sep 2025 12:43:56 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.worksinprogress.news/p/why-feminism-worked-best-in-the-west"
+      },
+      {
+        "id": "a0e4f90d",
+        "title": "I'm Gruesome For Newsom",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 09 Sep 2025 20:36:26 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/im-gruesome-for-newsom"
+      },
+      {
+        "id": "4737e3f7",
+        "title": "Guest post: How the role of carbon storage has been hugely overestimated",
+        "excerpt": "Removing carbon dioxide (CO2) from the atmosphere is widely expected to play a key role...\nThe post Guest post: How the role of carbon storage has been hugely overestimated appeared first on Carbon Br",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 08 Sep 2025 14:38:43 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/guest-post-how-the-role-of-carbon-storage-has-been-hugely-overestimated/"
+      },
+      {
+        "id": "c023cbd0",
+        "title": "How to start growing your own food",
+        "excerpt": "A vegetable garden is more than a source of sustenance – it’s a psychological sanctuary. Here’s how to create your own\n- by Gary Pilarchik\nRead on Psyche",
+        "author": "Gary Pilarchik",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 12 Sep 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://psyche.co/guides/how-to-start-growing-your-own-food-with-a-vegetable-garden?utm_source=rss-feed"
+      },
+      {
+        "id": "e6c83804",
+        "title": "What comes after the chatbot?",
+        "excerpt": "Notes and image credits for my talk at theAAC&U AI Institute",
+        "author": "Rob Nelson",
+        "publication": {
+          "name": "AI Log Blog",
+          "slug": "ai-log-blog",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 12 Sep 2025 11:28:16 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.ailog.blog/p/what-comes-after-the-chatbot"
+      },
+      {
+        "id": "d35abd2b",
+        "title": "The Costs of South Africa’s Ideological Foreign Policy",
+        "excerpt": "Washington and Pretoria were at odds long before Trump.",
+        "author": "Michelle Gavin",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 17 Sep 2025 00:00:00 -0400",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.foreignaffairs.com/south-africa/costs-south-africas-ideological-foreign-policy"
+      },
+      {
+        "id": "05ea61e3",
+        "title": "Tuesday links: a diabolical doctor",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 16 Sep 2025 16:32:14 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/09/16/tuesday-links-a-diabolical-doctor/"
+      },
+      {
+        "id": "ae68524c",
+        "title": "Scott Bessent, Sleazy Smearer",
+        "excerpt": "About the Treasury secretary’s vile, dishonest slander of the Fed",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 08 Sep 2025 10:31:36 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://paulkrugman.substack.com/p/scott-bessent-sleazy-smearer"
+      },
+      {
+        "id": "39e88372",
+        "title": "US taxpayers will pay billions in new fossil fuel subsidies thanks to the Big Beautiful Bill",
+        "excerpt": "A report finds that President Trump’s flagship legislation will grant $40 billion in new subsidies to the oil and gas industry over the next decade.",
+        "author": "Molly Taft, WIRED",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sun, 14 Sep 2025 13:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/politics/us-taxpayers-will-pay-billions-in-new-fossil-fuel-subsidies-thanks-to-the-big-beautiful-bill/"
+      },
+      {
+        "id": "0e0528ab",
+        "title": "Donald Trump Wants to Remake the Global Financial System",
+        "excerpt": "An interview with Mona Ali in Jacobin: John-Baptiste Oduor: Donald Trump’s push for the firing of Federal Reserve Board of Governors member Lisa Cook has led many to worry that this might be a precurs",
+        "author": "Robin Varghese",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Sun, 07 Sep 2025 17:45:52 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/09/donald-trump-wants-to-remake-the-global-financial-system.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-16",
     "title": "Random Digest: September 16, 2025",
     "subtitle": "10 hand-picked articles from our collection",
