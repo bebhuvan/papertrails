@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-23",
+    "title": "Random Digest: September 23, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-23T02:07:21.149Z",
+    "articles": [
+      {
+        "id": "4d70b72a",
+        "title": "Monday links: trying to avoid bad news",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 15 Sep 2025 17:52:57 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/09/15/monday-links-trying-to-avoid-bad-news/"
+      },
+      {
+        "id": "952fdc04",
+        "title": "Do we really need breathwork gurus to tell us how to breathe?",
+        "excerpt": "Breathing was once a natural reflex. How did it become a high-stakes biohacking ritual taught by wellness celebrities?\n- by Oriana Walker\nRead on Psyche",
+        "author": "Oriana Walker",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 18 Sep 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://psyche.co/ideas/do-we-really-need-breathwork-gurus-to-tell-us-how-to-breathe?utm_source=rss-feed"
+      },
+      {
+        "id": "04ca9ea9",
+        "title": "Ahead of COP, Africa aims to become the continent of climate solutions",
+        "excerpt": "The continent’s 54 nations outline a bold vision for climate action and pledges to present a unified position at the global meeting later this year.",
+        "author": "Tik Root",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 11 Sep 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/climate/ahead-of-cop-africa-aims-to-become-the-continent-of-climate-solutions/"
+      },
+      {
+        "id": "3b0c2c1b",
+        "title": "Reading List 09/20/25",
+        "excerpt": "Shoddy US homebuilding, a foundation model for creating CAD files, ghost kitchens, lunar Helium-3, and more.",
+        "author": "Brian Potter",
+        "publication": {
+          "name": "Construction Physics",
+          "slug": "construction-physics",
+          "category": "Science"
+        },
+        "publishedAt": "Sat, 20 Sep 2025 12:02:38 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.construction-physics.com/p/reading-list-092025"
+      },
+      {
+        "id": "bd9f80a2",
+        "title": "AI gets stuck in infinite loops ⊗ A real genius club ⊗ The metabolic logic of AI slop",
+        "excerpt": "No.370 — It’s time to work different ⊗ Paths to better thinking ⊗ The Weight of Time ⊗ The hot air factory ⊗ The first evidence of a take-off in solar in Africa",
+        "author": "Patrick Tanguay",
+        "publication": {
+          "name": "Sentiers",
+          "slug": "sentiers",
+          "category": "Technology"
+        },
+        "publishedAt": "Sun, 14 Sep 2025 10:00:40 GMT",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://sentiers.media/ai-gets-stuck-in-infinite-loops-a-a-real-genius-club-the-metabolic-logic-of-ai-slop-no-370/"
+      },
+      {
+        "id": "43ace018",
+        "title": "Open Thread 399",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 15 Sep 2025 09:50:42 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/open-thread-399"
+      },
+      {
+        "id": "7aede897",
+        "title": "A Better Way for Europe to Guarantee Ukraine’s Security",
+        "excerpt": "How European forces—and NATO resources—can make Ukraine stronger.",
+        "author": "Ivo H. Daalder",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 00:00:00 -0400",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.foreignaffairs.com/ukraine/better-way-europe-guarantee-ukraines-security"
+      },
+      {
+        "id": "504a4ce6",
+        "title": "First came the wildfire. Then came the scams.",
+        "excerpt": "As extreme weather becomes more frequent, so too have post-disaster contractor scams like excessive billing and shoddy repairs.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/extreme-weather/first-came-the-wildfire-then-came-the-scams/"
+      },
+      {
+        "id": "54b65953",
+        "title": "When MAGA Prophecy Fails",
+        "excerpt": "Being a cultist means never admitting that you were wrong",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 10:31:13 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://paulkrugman.substack.com/p/when-maga-prophecy-fails"
+      },
+      {
+        "id": "fcdffb5f",
+        "title": "Construction",
+        "excerpt": "The truth is, I want to fucking kill him. Because, not that long ago, I was a semi-together individual with some irons of my own in the fire, living in an apartment that had finally achieved the elega",
+        "author": "Elizabeth Schambelan",
+        "publication": {
+          "name": "n+1",
+          "slug": "n-plus-one",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 10 Sep 2025 14:57:26 +0000",
+        "readTime": 1,
+        "wordCount": 75,
+        "url": "https://www.nplusonemag.com/issue-51/fiction-drama/construction/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-20",
     "title": "Random Digest: September 20, 2025",
     "subtitle": "10 hand-picked articles from our collection",
