@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-27",
+    "title": "Random Digest: September 27, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-27T01:59:43.335Z",
+    "articles": [
+      {
+        "id": "949a1a66",
+        "title": "Chicago has a lead pipe problem. Millions earmarked to address it remain untouched.",
+        "excerpt": "City officials have struggled to meet state and federal deadlines, and many residents have yet to receive warnings about the risks of lead pipes.",
+        "author": "Keerti Gopal",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 23 Sep 2025 17:19:12 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/equity/chicago-has-a-lead-pipe-problem-millions-earmarked-remain-untouched/"
+      },
+      {
+        "id": "7aa842d6",
+        "title": "Links 9/20/2025",
+        "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/09/links-9-20-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Screenshot-2025-09-20-at-3.04.44 PM.png\" alt=\"\" width=\"231\" ",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Sat, 20 Sep 2025 10:55:22 +0000",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.nakedcapitalism.com/2025/09/links-9-20-2025.html"
+      },
+      {
+        "id": "ea033e4e",
+        "title": "Extraterrestrials are People, Too",
+        "excerpt": "Should we grant legal rights to extraterrestrial lifeforms before we find them?\nThe post Extraterrestrials are People, Too appeared first on Nautilus.",
+        "author": "Kristen French",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 24 Sep 2025 09:50:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/extraterrestrials-are-people-too-1238997/"
+      },
+      {
+        "id": "e036c051",
+        "title": "Friday links: misrepresenting the numbers",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 26 Sep 2025 17:17:11 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/09/26/friday-links-misrepresenting-the-numbers/"
+      },
+      {
+        "id": "1ca2ea19",
+        "title": "Human Drivers Will Kill 11 People While You Read This",
+        "excerpt": "Let’s not obstruct the technology that could have saved them",
+        "author": "Steve Newman",
+        "publication": {
+          "name": "Second Thoughts AI",
+          "slug": "second-thoughts-ai",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 24 Sep 2025 22:51:06 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://secondthoughts.ai/p/autonomous-vehicles-will-save-lives"
+      },
+      {
+        "id": "8f96b76d",
+        "title": "Cancel Culture Is Not What You Think",
+        "excerpt": "Not every cancellation is wrong",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 15 Sep 2025 16:13:40 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://www.robkhenderson.com/p/cancel-culture-is-not-what-you-think"
+      },
+      {
+        "id": "b3afce9b",
+        "title": "Green Giant",
+        "excerpt": "The post Green Giant appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 19 Sep 2025 12:52:10 +0000",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.noemamag.com/green-giant"
+      },
+      {
+        "id": "0e2bd151",
+        "title": "Weekly Roundup: September 26",
+        "excerpt": "Genevieve Lakier on weaponizing antidiscrimination law, Sanjukta Paul on laws and markets, and Ally Coll and Justin Gravlee on NIH v. APHA. Plus, an incredible online conference on Capitalism and Soci",
+        "author": "James Brandt",
+        "publication": {
+          "name": "Law and Political Economy",
+          "slug": "lpe-project",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 26 Sep 2025 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://lpeproject.org/blog/weekly-roundup-september-26-2/"
+      },
+      {
+        "id": "7c0751de",
+        "title": "Growing trees for shade has ‘enormous’ potential for cutting cocoa emissions",
+        "excerpt": "Growing tall trees to provide shade for cocoa plantations in west Africa could sequester millions...\nThe post Growing trees for shade has ‘enormous’ potential for cutting cocoa emissions appeared firs",
+        "author": "Yanine Quiroz",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 19 Sep 2025 11:59:29 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/growing-trees-for-shade-has-enormous-potential-for-cutting-cocoa-emissions/"
+      },
+      {
+        "id": "058ce105",
+        "title": "Sylvia Plath’s Prose",
+        "excerpt": "Meg Schoerke at the Hudson Review: Although Sylvia Plath is best known for the cutting lyricism of Ariel (1965) and for her autobiographical novel, The Bell Jar (1963), her career goal as a writer was",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 18 Sep 2025 13:50:36 +0000",
+        "readTime": 1,
+        "wordCount": 59,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/09/sylvia-plaths-prose.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-23",
     "title": "Random Digest: September 23, 2025",
     "subtitle": "10 hand-picked articles from our collection",
