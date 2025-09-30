@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-09-30",
+    "title": "Random Digest: September 30, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-09-30T02:07:28.059Z",
+    "articles": [
+      {
+        "id": "62a138b7",
+        "title": "The Milton Friedman Question",
+        "excerpt": "A critical look at the anarcho-libertarian (per his son) propagandist Milton Friedman.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Sat, 27 Sep 2025 08:57:19 +0000",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.nakedcapitalism.com/2025/09/the-milton-friedman-question.html"
+      },
+      {
+        "id": "2cc2e1cf",
+        "title": "We're about to find out if Silicon Valley owns Gavin Newsom",
+        "excerpt": "A guide to the AI and tech bills that have passed the California legislature, and await the governor's signature — or veto.",
+        "author": "Brian Merchant",
+        "publication": {
+          "name": "Blood in the Machine",
+          "slug": "blood-in-the-machine",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 26 Sep 2025 18:22:29 GMT",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://www.bloodinthemachine.com/p/were-about-to-find-out-if-silicon"
+      },
+      {
+        "id": "b2eece93",
+        "title": "La Cumplida shows how coffee can restore ecosystems and economies",
+        "excerpt": "La Cumplida has turned deforested hills into thriving shade-grown coffee farms, showing that healing the land can also grow profits.",
+        "author": "Grist Creative",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 29 Sep 2025 14:01:50 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://grist.org/sponsored/regenerative-agriculture-coffee-la-cumplida-nicaragua-rainforest-alliance/"
+      },
+      {
+        "id": "03ff1817",
+        "title": "How Bear Markets Work",
+        "excerpt": "Some thoughts on stock market symmetry and asymmetry.\nThe post How Bear Markets Work appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Sun, 28 Sep 2025 14:33:04 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://awealthofcommonsense.com/2025/09/how-bear-markets-work/"
+      },
+      {
+        "id": "3aa8188d",
+        "title": "Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30",
+        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at C",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 24 Sep 2025 15:20:36 +0000",
+        "readTime": 1,
+        "wordCount": 37,
+        "url": "https://www.carbonbrief.org/cropped-24-september-2025-high-seas-treaty-milestone-erratic-water-cycle-family-food-at-cop30/"
+      },
+      {
+        "id": "dbe2f1c5",
+        "title": "The world is on track for record harvests this year",
+        "excerpt": "What do the latest projections expect for global food production and yields of different crops?",
+        "author": "Hannah Ritchie",
+        "publication": {
+          "name": "Sustainability by Numbers",
+          "slug": "sustainability-by-numbers",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 22 Sep 2025 05:45:59 GMT",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://www.sustainabilitybynumbers.com/p/food-projections-2025"
+      },
+      {
+        "id": "fb421359",
+        "title": "American students are getting dumber",
+        "excerpt": "It started before Covid, and it keeps getting worse.",
+        "author": "Matthew Yglesias",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 22 Sep 2025 10:01:11 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.slowboring.com/p/american-students-are-getting-dumber"
+      },
+      {
+        "id": "27cc9fa3",
+        "title": "Video And Podcast Resources On Søren Kierkegaard's The Present Age and The Crowd Is Untruth",
+        "excerpt": "nine lectures on these seminal Existentialist works",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 24 Sep 2025 02:37:38 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://gregorybsadler.substack.com/p/video-and-podcast-resources-on-sren"
+      },
+      {
+        "id": "0b7dcace",
+        "title": "If Anyone Builds It, Does Everybody Die?",
+        "excerpt": "What should we make of this widely-discussed new book?",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 17 Sep 2025 16:21:02 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://garymarcus.substack.com/p/if-anyone-builds-it-does-everybody"
+      },
+      {
+        "id": "dda9ccf0",
+        "title": "How to be happier in five steps (with zero weird tricks)",
+        "excerpt": "There‘s no ‘one weird‘ happiness trick. Instead, here are five practices that are proven to help attain this elusive goal\n- Video by The Well\nWatch on Psyche",
+        "author": "Psyche Video",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 22 Sep 2025 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://psyche.co/videos/were-naturally-bad-at-predicting-what-will-make-us-happy-heres-how-to-adjust?utm_source=rss-feed"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-09-27",
     "title": "Random Digest: September 27, 2025",
     "subtitle": "10 hand-picked articles from our collection",
