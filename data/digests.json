@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-10-11",
+    "title": "Random Digest: October 11, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-10-11T01:59:36.444Z",
+    "articles": [
+      {
+        "id": "59d54a43",
+        "title": "How luxury brands engineer desire with behavioural economics",
+        "excerpt": "From scarcity to market architecture, luxury fashion is manipulating our tastes. But a vintage countermovement has begun\n- by Charlotte Wren\nRead on Psyche",
+        "author": "Charlotte Wren",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://psyche.co/ideas/how-luxury-brands-engineer-desire-with-behavioural-economics?utm_source=rss-feed"
+      },
+      {
+        "id": "f70d4480",
+        "title": "The incredible arrogance of OpenAI",
+        "excerpt": "With Sora 2, OpenAI is betting it can spit in the face of workers, creators, and the biggest media conglomerates on the planet — and win",
+        "author": "Brian Merchant",
+        "publication": {
+          "name": "Blood in the Machine",
+          "slug": "blood-in-the-machine",
+          "category": "Culture"
+        },
+        "publishedAt": "Sun, 05 Oct 2025 12:54:33 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://www.bloodinthemachine.com/p/the-incredible-arrogance-of-openai"
+      },
+      {
+        "id": "efad0872",
+        "title": "On applying to philosophy grad programs",
+        "excerpt": "Advice for the young'uns",
+        "author": "Moralla W. Within",
+        "publication": {
+          "name": "Moral Law Within",
+          "slug": "moral-law-within",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 07 Oct 2025 22:16:24 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://morallawwithin.substack.com/p/on-applying-to-philosophy-grad-programs"
+      },
+      {
+        "id": "645b2012",
+        "title": "Q&A: What the ‘controversial’ GWP* methane metric means for farming emissions",
+        "excerpt": "A controversial way of measuring how much methane warms the planet has stirred debate in...\nThe post Q&A: What the ‘controversial’ GWP* methane metric means for farming emissions appeared first on Car",
+        "author": "Orla Dwyer",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 12:09:24 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/qa-what-the-controversial-gwp-methane-metric-means-for-farming-emissions/"
+      },
+      {
+        "id": "0dbf72aa",
+        "title": "The Sumud Flotilla Has Succeeded in Making Israel a Pariah",
+        "excerpt": "The Global Sumud Flotilla seemingly breached Israel’s blockade of Gaza while provoking an Israeli response that triggered anger and reprisals from various governments. It’s one of the most successful ",
+        "author": "Branko Marcetic",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-10-02T13:31:36.000Z",
+        "readTime": 11,
+        "wordCount": 2012,
+        "url": "https://jacobin.com/2025/10/sumud-flotilla-israel-aid-gaza/"
+      },
+      {
+        "id": "701a25f5",
+        "title": "Conor Gallagher: Naked Capitalism – A Bulwark Against the Breakdown",
+        "excerpt": "Support this site where share information, tips, and laughs over the absurdity of it all in a time of organized abandonment.",
+        "author": "Conor Gallagher",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 08 Oct 2025 10:54:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://www.nakedcapitalism.com/2025/10/conor-gallagher-naked-capitalism-a-bulwark-against-the-breakdown.html"
+      },
+      {
+        "id": "420aae70",
+        "title": "So many climate solutions, so few emissions reductions. A new book explains why.",
+        "excerpt": "In \"The Long Heat,\" Wim Carton and Andreas Malm argue that capitalism has turned the climate crisis into a business opportunity.",
+        "author": "Joseph Winters",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 01 Oct 2025 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/culture/climate-capitalism-tech-the-long-heat-malm-carton-book-review/"
+      },
+      {
+        "id": "335bcce0",
+        "title": "Adviser links: preparing for the worst",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 06 Oct 2025 14:19:42 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/10/06/adviser-links-preparing-for-the-worst/"
+      },
+      {
+        "id": "2b2e3303",
+        "title": "High-Tech Lollipops That Detect Disease",
+        "excerpt": "This researcher crosses disciplines for unexpected innovations\nThe post High-Tech Lollipops That Detect Disease appeared first on Nautilus.",
+        "author": "Shawna Williams",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 08 Oct 2025 09:50:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://nautil.us/high-tech-lollipops-that-detect-disease-1237868/"
+      },
+      {
+        "id": "84aa4bc6",
+        "title": "Dragoncatcher: Tone control",
+        "excerpt": "",
+        "author": "Robin Sloan",
+        "publication": {
+          "name": "Robin Sloan",
+          "slug": "robin-sloan",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-10-05T00:00:00.000Z",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.robinsloan.com/lab/tone-control/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-10-07",
     "title": "Random Digest: October 7, 2025",
     "subtitle": "10 hand-picked articles from our collection",
