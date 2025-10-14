@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-10-14",
+    "title": "Random Digest: October 14, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-10-14T02:10:07.598Z",
+    "articles": [
+      {
+        "id": "bbcb44e1",
+        "title": "Small farmers are more squeezed than ever. A California grant program offers a lifeline.",
+        "excerpt": "A recent report shows that the state’s farm-to-school grant program has been effective at supporting economically disadvantaged farmers in the face of mounting federal cuts.",
+        "author": "Frida Garza",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/food-and-agriculture/california-farm-to-school-grant-program-offers-a-lifeline/"
+      },
+      {
+        "id": "3138e6fe",
+        "title": "The Compound and Friends: How Peter Lynch Became The Greatest Fund Manager Of All Time",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/the-compound-and-friends-how-peter-lynch-became-the-greatest-fund-manager-of-all-time"
+      },
+      {
+        "id": "412cd516",
+        "title": "Easier Said Than Done: Hybrid Deterrence By Punishment",
+        "excerpt": "This week, Minna Ålander turns to the question of how to move from defensive reactions to Russian hybrid warfare to an effective deterrent. (Spoiler: not easy)",
+        "author": "Minna Ålander",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 10 Oct 2025 10:34:44 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://phillipspobrien.substack.com/p/easier-said-than-done-hybrid-deterrence"
+      },
+      {
+        "id": "47179b36",
+        "title": "Links 10/3/2025",
+        "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/10/links-10-3-2025.html\"><img class=\"aligncenter size-large wp-image-299229\" src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-20",
+        "author": "Conor Gallagher",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 10:55:19 +0000",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.nakedcapitalism.com/2025/10/links-10-3-2025.html"
+      },
+      {
+        "id": "24989c73",
+        "title": "AI Acceleration Vs. Precaution",
+        "excerpt": "The post AI Acceleration Vs. Precaution appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 15:44:41 +0000",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.noemamag.com/ai-acceleration-vs-precaution"
+      },
+      {
+        "id": "c2d77f84",
+        "title": "The Campaign for Vertical Television",
+        "excerpt": "TV networks should have an extra channel that shows exclusively portrait mode content.\ni.e. BBC Vertical.\nAlso: Netflix Vertical, National Geographic Vertical, ESPN Vertical, etc.\nWhy?\nBecause there’s",
+        "author": "Matt Webb",
+        "publication": {
+          "name": "Interconnected",
+          "slug": "interconnected",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 01 Oct 2025 18:47:00 +0000",
+        "readTime": 6,
+        "wordCount": 1199,
+        "url": "https://interconnected.org/home/2025/10/01/vertical"
+      },
+      {
+        "id": "3740e826",
+        "title": "What Made Horses Rideable",
+        "excerpt": "How horse genetics and human culture co-evolved\nThe post What Made Horses Rideable appeared first on Nautilus.",
+        "author": "CD Davidson-Hiers",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 02 Oct 2025 09:50:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://nautil.us/what-made-horses-rideable-1240132/"
+      },
+      {
+        "id": "3a103bab",
+        "title": "The kids who sued America over climate change aren’t done yet",
+        "excerpt": "They want an international human rights body to hold the U.S. accountable — and are spotlighting Indigenous communities on the frontlines.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/global-indigenous-affairs-desk/the-kids-who-sued-america-over-climate-change-arent-done-yet/"
+      },
+      {
+        "id": "86755daf",
+        "title": "Iain McGilchrist – Idealism: Arguing Pro and Con",
+        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 10 Oct 2025 17:36:58 +0000",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/iain-mcgilchrist-idealism-arguing-pro-and-con.html"
+      },
+      {
+        "id": "59d54a43",
+        "title": "How luxury brands engineer desire with behavioural economics",
+        "excerpt": "From scarcity to market architecture, luxury fashion is manipulating our tastes. But a vintage countermovement has begun\n- by Charlotte Wren\nRead on Psyche",
+        "author": "Charlotte Wren",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 03 Oct 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://psyche.co/ideas/how-luxury-brands-engineer-desire-with-behavioural-economics?utm_source=rss-feed"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-10-11",
     "title": "Random Digest: October 11, 2025",
     "subtitle": "10 hand-picked articles from our collection",
