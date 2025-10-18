@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-10-18",
+    "title": "Random Digest: October 18, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-10-18T02:05:45.760Z",
+    "articles": [
+      {
+        "id": "79b2eb28",
+        "title": "Overshoot: Exploring the implications of meeting 1.5C climate goal ‘from above’",
+        "excerpt": "The first-ever international conference on the contentious topic of “overshoot” was held last week in...\nThe post Overshoot: Exploring the implications of meeting 1.5C climate goal ‘from above’ appear",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 08 Oct 2025 12:36:21 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/overshoot-exploring-the-implications-of-meeting-1-5c-climate-goal-from-above/"
+      },
+      {
+        "id": "7585a1d9",
+        "title": "Do no harm",
+        "excerpt": "After 17 years of struggling with a heroin addiction, Raina finds a path to recovery through compassion and connection\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 13 Oct 2025 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://aeon.co/videos/after-17-years-of-addiction-raina-finds-a-lifeline-in-compassion?utm_source=rss-feed"
+      },
+      {
+        "id": "5c9fa0eb",
+        "title": "The Black Panthers Who Never Came Home",
+        "excerpt": "Fifty-nine years after Huey Newton and Bobby Seale founded the Black Panthers, Charlotte and Pete O’Neal remain in exile in Tanzania. Their story, told through interviews, archives, and firsthand repo",
+        "author": "Jaclynn Ashly",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-10-15T13:01:20.000Z",
+        "readTime": 23,
+        "wordCount": 4582,
+        "url": "https://jacobin.com/2025/10/black-panthers-oneal-tanzania-legacy/"
+      },
+      {
+        "id": "a81eb949",
+        "title": "The Neuron That Wanted to Be God",
+        "excerpt": "7,000 words to tell an 80-year-old story",
+        "author": "Alberto Romero",
+        "publication": {
+          "name": "The Algorithmic Bridge",
+          "slug": "algorithmic-bridge",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 07 Oct 2025 16:16:41 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.thealgorithmicbridge.com/p/the-neuron-that-wanted-to-be-god"
+      },
+      {
+        "id": "643c7740",
+        "title": "When celebrities break up, everyone’s a forensic expert",
+        "excerpt": "From The Washington Post: The clues that Nicole Kidman and Keith Urban’s nearly 20-year marriage was cracking up were everywhere, according to an internet full of sleuths. You could tell when Urban re",
+        "author": "Azra Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Sun, 12 Oct 2025 12:38:21 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/when-celebrities-break-up-everyones-a-forensic-expert.html"
+      },
+      {
+        "id": "1335d62a",
+        "title": "Does anyone want to buy Small Potatoes for $150 Million? ",
+        "excerpt": "Podcast with Robert Wright",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 13 Oct 2025 13:46:55 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://smallpotatoes.paulbloom.net/p/does-anyone-want-to-buy-small-potatoes"
+      },
+      {
+        "id": "30c1be52",
+        "title": "What makes Joel Mokyr great",
+        "excerpt": "His Nobel is a triumph for history and the importance of ideas",
+        "author": "Anton Howes",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 13 Oct 2025 17:06:58 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.worksinprogress.news/p/what-makes-joel-mokyr-great"
+      },
+      {
+        "id": "6cd0d313",
+        "title": "Longform links: the great paradoxes of life",
+        "excerpt": "Thursdays are all about longform links on Abnormal Returns. Wherever possible, free links for premium sites are used. You can check out...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 09 Oct 2025 14:21:55 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/10/09/longform-links-the-great-paradoxes-of-life/"
+      },
+      {
+        "id": "f1b48516",
+        "title": "As Trump champions fossil fuels, the world is betting on renewable energy",
+        "excerpt": "Despite a U.S. retreat, solar and wind are overtaking fossil fuels globally, according to two new reports.",
+        "author": "Zoya Teirstein",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 09 Oct 2025 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://grist.org/international/global-renewable-energy-report-2025-ember/"
+      },
+      {
+        "id": "82917b83",
+        "title": "How Crypto Became a Trump Trade",
+        "excerpt": "It’s primarily a vehicle for crony capitalism now",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 14 Oct 2025 10:31:03 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://paulkrugman.substack.com/p/how-crypto-became-a-trump-trade"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-10-14",
     "title": "Random Digest: October 14, 2025",
     "subtitle": "10 hand-picked articles from our collection",
