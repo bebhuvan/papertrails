@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-10-21",
+    "title": "Random Digest: October 21, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-10-21T02:14:26.366Z",
+    "articles": [
+      {
+        "id": "5f7f9832",
+        "title": "The Compound and Friends: There's Never Just One Cockroach ",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 17 Oct 2025 11:00:23 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/the-compound-and-friends-there-s-never-just-one-cockroach"
+      },
+      {
+        "id": "41baffb0",
+        "title": "The circle held",
+        "excerpt": "A bike crash left my husband paralysed. What happened next taught me something profound about community\n- by Sadie Witkowski\nRead on Psyche",
+        "author": "Sadie Witkowski",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 15 Oct 2025 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://psyche.co/turning-points/when-my-husband-became-paralysed-our-circle-held-us-together?utm_source=rss-feed"
+      },
+      {
+        "id": "e24f41f5",
+        "title": "Day off discussion thread",
+        "excerpt": "We have the day off, so please enjoy this photo I took in upstate New York early this spring and thread your thoughts below.",
+        "author": "Halina Bennet",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 13 Oct 2025 22:00:53 GMT",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://www.slowboring.com/p/day-off-discussion-thread"
+      },
+      {
+        "id": "f1b48516",
+        "title": "As Trump champions fossil fuels, the world is betting on renewable energy",
+        "excerpt": "Despite a U.S. retreat, solar and wind are overtaking fossil fuels globally, according to two new reports.",
+        "author": "Zoya Teirstein",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 09 Oct 2025 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://grist.org/international/global-renewable-energy-report-2025-ember/"
+      },
+      {
+        "id": "91833c28",
+        "title": "‘We’re Not Going to Forget’: Pritzker Warns Trump Enforcers Miller, Homan, Bovino That Immunity Not Forever",
+        "excerpt": "Governor Pritzker has gotten out of bed to threaten Team Trump over ICE abuses. But this still amounts to a wet noodle lashing.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 17 Oct 2025 13:55:07 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://www.nakedcapitalism.com/2025/10/were-not-going-to-forget-pritzker-warns-trump-enforcers-miller-homan-bovino-that-immunity-not-forever.html"
+      },
+      {
+        "id": "4aae857c",
+        "title": "A Guide to Surviving the Age of Post-Literacy: How to raise (or become) a reader",
+        "excerpt": "For those of you who prefer to read off paper rather than the screen, we have converted the post into an easily printable pdf file.",
+        "author": "Ruth Gaskovski",
+        "publication": {
+          "name": "School of the Unconformed",
+          "slug": "school-unconformed",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 15 Oct 2025 10:01:49 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://schooloftheunconformed.substack.com/p/a-guide-to-surviving-the-age-of-post"
+      },
+      {
+        "id": "c4036267",
+        "title": "From genocide to ecocide: After years of war, Gaza faces an environmental crisis ‘above imagination’",
+        "excerpt": "A new report by scientists in Israel details the emerging environmental crisis in Palestine.",
+        "author": "Sophie Hurwitz",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 17 Oct 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://grist.org/international/from-genocide-to-ecocide-after-years-of-war-gaza-faces-an-environmental-crisis-above-imagination/"
+      },
+      {
+        "id": "4d5aedd6",
+        "title": "Genes Have Harnessed Physics to Help Grow Living Things",
+        "excerpt": "The same pulling force that causes “tears” in a glass of wine also shapes embryos. It’s another example of how genes exploit mechanical forces for growth and development.            \nThe post Genes Ha",
+        "author": "Anna Demming",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 10 Oct 2025 14:22:45 +0000",
+        "readTime": 1,
+        "wordCount": 44,
+        "url": "https://www.quantamagazine.org/genes-have-harnessed-physics-to-help-grow-living-things-20251010/"
+      },
+      {
+        "id": "62fda1e1",
+        "title": "How One Country’s Russian Gas Crisis Became a Green Energy Boom",
+        "excerpt": "The village of Volintiri is about as remote as you can get in Europe. Set in the rural southeast of Moldova, one of the poorest and least visited countries on the continent, it is only a couple of mil",
+        "author": "Georgeta Carasiucenco",
+        "publication": {
+          "name": "Reasons to be Cheerful",
+          "slug": "reasons-to-be-cheerful",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 16 Oct 2025 08:00:03 +0000",
+        "readTime": 1,
+        "wordCount": 70,
+        "url": "https://reasonstobecheerful.world/moldova-citizen-owned-energy-powers-resilience/"
+      },
+      {
+        "id": "67e9ad81",
+        "title": "Why I Don’t Want AI to Do My Chores",
+        "excerpt": "Or much else for that matter",
+        "author": "Alberto Romero",
+        "publication": {
+          "name": "The Algorithmic Bridge",
+          "slug": "algorithmic-bridge",
+          "category": "Technology"
+        },
+        "publishedAt": "Mon, 06 Oct 2025 16:51:44 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.thealgorithmicbridge.com/p/why-i-dont-want-ai-to-do-my-chores"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-10-18",
     "title": "Random Digest: October 18, 2025",
     "subtitle": "10 hand-picked articles from our collection",
