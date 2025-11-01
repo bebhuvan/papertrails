@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-11-01",
+    "title": "Random Digest: November 1, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-11-01T02:20:10.569Z",
+    "articles": [
+      {
+        "id": "bf5e1689",
+        "title": "Our age of kings",
+        "excerpt": "Strongman leaders are trying to bring order to a world disrupted by new media. But the \"cure\" is worse than the disease.",
+        "author": "Noah Smith",
+        "publication": {
+          "name": "Noahpinion",
+          "slug": "noahpinion",
+          "category": "Economics"
+        },
+        "publishedAt": "Sun, 26 Oct 2025 10:03:31 GMT",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://www.noahpinion.blog/p/our-age-of-kings"
+      },
+      {
+        "id": "2002a15b",
+        "title": "Q&A: The UK government’s ‘carbon budget delivery plan’ for 2035",
+        "excerpt": "The UK government has set out a long-awaited plan explaining how it will cut emissions...\nThe post Q&A: The UK government’s ‘carbon budget delivery plan’ for 2035 appeared first on Carbon Brief.",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 31 Oct 2025 13:25:53 +0000",
+        "readTime": 1,
+        "wordCount": 32,
+        "url": "https://www.carbonbrief.org/qa-the-uk-governments-carbon-budget-delivery-plan-for-2035/"
+      },
+      {
+        "id": "f1a6e84c",
+        "title": "Wednesday links: missing out",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 29 Oct 2025 16:49:31 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/10/29/wednesday-links-missing-out-2/"
+      },
+      {
+        "id": "4af824c0",
+        "title": "The Corruption of Civil Rights and the Capitulation of Higher Ed",
+        "excerpt": "By weaponizing Title VI of the Civil Rights Act, the Trump administration is using antidiscrimination law to protect privilege and entrench inequality. Yet rather than uniting to resist these sham inv",
+        "author": "James Brandt",
+        "publication": {
+          "name": "Law and Political Economy",
+          "slug": "lpe-project",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 23 Oct 2025 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 53,
+        "url": "https://lpeproject.org/blog/the-corruption-of-civil-rights-and-the-capitulation-of-higher-ed/"
+      },
+      {
+        "id": "42f3b7e7",
+        "title": "Dragoncatcher: Cloudflare cache confusion",
+        "excerpt": "",
+        "author": "Robin Sloan",
+        "publication": {
+          "name": "Robin Sloan",
+          "slug": "robin-sloan",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-10-26T12:00:00.000Z",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.robinsloan.com/lab/cache-confusion/"
+      },
+      {
+        "id": "a6a5b405",
+        "title": "Links (92)",
+        "excerpt": "Book Review of Breakneck from Noah Smith, endorsed\nOn China and rare earths\nRotating detonation engines\nProgress in pan-cancer therapy\nDOGE and its consequences in the federal government\nThe AI revolu",
+        "author": "Nintil",
+        "publication": {
+          "name": "Nintil",
+          "slug": "nintil",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 27 Oct 2025 00:00:00 +0000",
+        "readTime": 2,
+        "wordCount": 277,
+        "url": "https://nintil.com/links-92/"
+      },
+      {
+        "id": "4512dce7",
+        "title": "I Could Have Died of Anorexia. Today, Girls Are Being Pushed Toward Something Worse.",
+        "excerpt": "What My Struggle with Anorexia Taught Me About Transgender Hormone Therapy",
+        "author": "Liza Libes",
+        "publication": {
+          "name": "Pens and Poison",
+          "slug": "pens-and-poison",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 21 Oct 2025 13:03:19 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.pensandpoison.org/p/let-our-hormones-be"
+      },
+      {
+        "id": "867ecefe",
+        "title": "If you're so smart",
+        "excerpt": "What psychologists fail at—and where we shine",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 20 Oct 2025 13:51:21 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://smallpotatoes.paulbloom.net/p/if-youre-so-smart"
+      },
+      {
+        "id": "4f2de6fe",
+        "title": "Backyard caterpillars",
+        "excerpt": "From poison spikes to fake snake eyes, caterpillars employ many clever strategies to survive to their dazzling adulthoods\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 27 Oct 2025 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://aeon.co/videos/close-ups-reveal-how-caterpillars-live-long-enough-to-cocoon?utm_source=rss-feed"
+      },
+      {
+        "id": "f2c0cc19",
+        "title": "The entire world was ready to reduce shipping emissions. Then Trump stepped in.",
+        "excerpt": "After the Trump administration threatened countries with tariffs and visa restrictions, a first-ever global carbon tax is left to an uncertain future.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 23 Oct 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://grist.org/transportation/shipping-carbon-tax-international-maritime-organization-trump/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-10-28",
     "title": "Random Digest: October 28, 2025",
     "subtitle": "10 hand-picked articles from our collection",
