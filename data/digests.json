@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-11-04",
+    "title": "Random Digest: November 4, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-11-04T02:17:21.163Z",
+    "articles": [
+      {
+        "id": "d7201fb7",
+        "title": "Are women unsuited for the pursuit of truth? ",
+        "excerpt": "Yes. But so are men.",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 27 Oct 2025 14:17:44 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://smallpotatoes.paulbloom.net/p/are-women-unsuited-for-the-pursuit"
+      },
+      {
+        "id": "8536606c",
+        "title": "A house",
+        "excerpt": "This feminist housing collective has endured for 75 years. Now, a new generation is moving in, bringing change – and men\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 03 Nov 2025 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://aeon.co/videos/can-young-and-old-coexist-at-a-feminist-co-living-residence?utm_source=rss-feed"
+      },
+      {
+        "id": "17b63183",
+        "title": "This obscure Georgia election is about so much more than your power bill",
+        "excerpt": "Behind the PSC race is a battle for political control of the state — and maybe the country.",
+        "author": "Emily Jones",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 30 Oct 2025 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/georgia-psc/this-obscure-georgia-election-is-about-so-much-more-than-your-power-bill/"
+      },
+      {
+        "id": "5d505f4e",
+        "title": "Want to go to the UN’s biggest gathering of Indigenous peoples? Here’s how. ",
+        "excerpt": "Applications are open until October 31 to receive funding to attend major Indigenous gatherings in New York and Geneva next year.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 22 Oct 2025 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/indigenous/want-to-go-to-the-uns-biggest-gathering-of-indigenous-peoples-heres-how/"
+      },
+      {
+        "id": "a2b648b6",
+        "title": "ELWAY NFL team projections: Week 9",
+        "excerpt": "Team ratings, playoff and Super Bowl probabilities, and forecasts of every upcoming game from Silver Bulletin's exclusive NFL model.",
+        "author": "Nate Silver",
+        "publication": {
+          "name": "Silver Bulletin",
+          "slug": "silver-bulletin",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 29 Oct 2025 00:34:00 GMT",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://www.natesilver.net/p/elway-nfl-ratings-projections-playoff-odds"
+      },
+      {
+        "id": "3c88d1b3",
+        "title": "Talk Your Book: Value + Momentum: The Best of Both Factors",
+        "excerpt": "On today's Talk Your Book we spoke with Lance Humphrey from Victory Capital about the firm's Victory Shares Value Momentum suite of ETFs, how to invest in both value and momentum, why there's so much ",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 20 Oct 2025 11:15:51 +0000",
+        "readTime": 1,
+        "wordCount": 67,
+        "url": "https://awealthofcommonsense.com/2025/10/talk-your-book-value-momentum-the-best-of-both-factors/"
+      },
+      {
+        "id": "33be8cf6",
+        "title": "After Trump, the deluge",
+        "excerpt": "Without Trump's charisma, the American right will have to rely on ideology. That's scary.",
+        "author": "Noah Smith",
+        "publication": {
+          "name": "Noahpinion",
+          "slug": "noahpinion",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 20 Oct 2025 10:03:49 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.noahpinion.blog/p/after-trump-the-deluge"
+      },
+      {
+        "id": "4c36f462",
+        "title": "Socrates saw death as a cure for the sickness of life. The new immortalists see the eradication of death as the purpose of life",
+        "excerpt": "Socrates saw death as a cure for the sickness of life. The new immortalists see the eradication of death as the purpose of life",
+        "author": "Arts & Letters Daily",
+        "publication": {
+          "name": "Arts & Letters Daily",
+          "slug": "arts-letters-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-10-31T19:34:27.216Z",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://www.newstatesman.com/culture/books/book-of-the-day/2025/10/big-techs-futile-attempt-to-kill-death"
+      },
+      {
+        "id": "6cf1cb61",
+        "title": "How This Haunting Hurricane Illusion Forms",
+        "excerpt": "Powerful storms like Hurricane Melissa foment an odd phenomenon called the “stadium effect” at their centers\nThe post How This Haunting Hurricane Illusion Forms appeared first on Nautilus.",
+        "author": "Molly Glick",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 28 Oct 2025 17:36:43 +0000",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://nautil.us/how-this-haunting-hurricane-illusion-forms-1244765/"
+      },
+      {
+        "id": "47f4803e",
+        "title": "Executive Brief: The Boring Chips That Brought Europe to Its Knees",
+        "excerpt": "Some of my posts are long, so I'll talk through and condense them for paid subscribers.",
+        "author": "Vikram Sekar",
+        "publication": {
+          "name": "Vik's Newsletter",
+          "slug": "viks-newsletter",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 29 Oct 2025 18:29:42 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.viksnewsletter.com/p/executive-brief-the-boring-chips"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-11-01",
     "title": "Random Digest: November 1, 2025",
     "subtitle": "10 hand-picked articles from our collection",
