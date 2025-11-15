@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-11-15",
+    "title": "Random Digest: November 15, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-11-15T02:15:05.033Z",
+    "articles": [
+      {
+        "id": "7c790d1f",
+        "title": "Personal finance links: your next career step",
+        "excerpt": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week’s links including a look at how...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 05 Nov 2025 13:55:03 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/11/05/personal-finance-links-your-next-career-step/"
+      },
+      {
+        "id": "6a1cb978",
+        "title": "The Partial",
+        "excerpt": "Issue #69: Calibrating...",
+        "author": "Marie-Hélène Lebeault - Author",
+        "publication": {
+          "name": "Protocolized",
+          "slug": "protocolized",
+          "category": "Technology"
+        },
+        "publishedAt": "Sun, 09 Nov 2025 03:01:07 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://protocolized.summerofprotocols.com/p/the-partial"
+      },
+      {
+        "id": "65f6f4a7",
+        "title": "Top Links 911 The end of Fed dominance. Rules v. napkins. Old people playing on phones & JFK and Malraux on the transcendent importance of TV. ",
+        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+        "author": "Adam Tooze",
+        "publication": {
+          "name": "Adam Tooze",
+          "slug": "adam-tooze",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 04 Nov 2025 11:58:21 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://adamtooze.substack.com/p/top-links-911-the-end-of-fed-dominance"
+      },
+      {
+        "id": "af3ed053",
+        "title": "In What Sense Is Life Suffering?",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 07 Nov 2025 09:39:19 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/in-what-sense-is-life-suffering"
+      },
+      {
+        "id": "4a1a82d1",
+        "title": "Start Demagoguing Against the Old",
+        "excerpt": "It's better to adopt political narratives that get closer to the truth",
+        "author": "Richard Hanania",
+        "publication": {
+          "name": "Richard Hanania",
+          "slug": "richard-hanania",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 10 Nov 2025 11:23:27 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.richardhanania.com/p/start-demagoguing-against-the-old"
+      },
+      {
+        "id": "f3ec3760",
+        "title": "In Georgia, power bills beat out party politics",
+        "excerpt": "Will the new Democratic public service commissioners advance clean energy and shake up next year’s midterms?",
+        "author": "Emily Jones",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 06 Nov 2025 21:13:47 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/georgia-psc/in-georgia-power-bills-beat-out-party-politics/"
+      },
+      {
+        "id": "87638dc0",
+        "title": "Carl Sagan Shared a Shocking Space Secret",
+        "excerpt": "The legendary astronomer once unveiled a top-secret plan to detonate a nuclear bomb on the moon\nThe post Carl Sagan Shared a Shocking Space Secret appeared first on Nautilus.",
+        "author": "Molly Glick",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 10 Nov 2025 17:15:30 +0000",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://nautil.us/carl-sagan-shared-a-shocking-space-secret-1247145/"
+      },
+      {
+        "id": "8c5179bc",
+        "title": "IEA: Fossil-fuel use will peak before 2030 – unless ‘stated policies’ are abandoned",
+        "excerpt": "The world’s fossil-fuel use is still on track to peak before 2030, despite a surge...\nThe post IEA: Fossil-fuel use will peak before 2030 – unless ‘stated policies’ are abandoned appeared first on Car",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 12 Nov 2025 05:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/iea-fossil-fuel-use-will-peak-before-2030-unless-stated-policies-are-abandoned/"
+      },
+      {
+        "id": "4fedf501",
+        "title": "How to use breathing to control emotions",
+        "excerpt": "Your breath is a powerful tool for managing your emotions – a psychiatrist explains the science and three proven techniques\n- Video by Dr Tracey Marks\nWatch on Psyche",
+        "author": "Psyche Video",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 06 Nov 2025 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://psyche.co/videos/the-interplay-between-breath-and-emotion-and-how-to-access-it?utm_source=rss-feed"
+      },
+      {
+        "id": "62dedc19",
+        "title": "On Guillermo del Toro’s adaptation of Frankenstein",
+        "excerpt": "Tyler Dean at Artforum: GUILLERMO DEL TORO‘S new film adaptation of Frankenstein, 2025, hews closely to Mary Shelley’s 1818 novel while weaving in design elements and plot points from its many cinemat",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 11 Nov 2025 17:59:52 +0000",
+        "readTime": 1,
+        "wordCount": 59,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/11/on-guillermo-del-toros-adaptation-of-frankenstein.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-11-11",
     "title": "Random Digest: November 11, 2025",
     "subtitle": "10 hand-picked articles from our collection",
