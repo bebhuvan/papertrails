@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-11-18",
+    "title": "Random Digest: November 18, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-11-18T02:18:12.756Z",
+    "articles": [
+      {
+        "id": "8b5fff94",
+        "title": "‘We are not here for theater’: Can the ‘most Indigenous COP’ live up to the hype?",
+        "excerpt": "Brazil’s push to spotlight Indigenous voices at COP30 could redefine what inclusion looks like — or expose how shallow it’s been.",
+        "author": "Amanda Magnani",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 10 Nov 2025 09:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/global-indigenous-affairs-desk/we-are-not-here-for-theater-can-the-most-indigenous-cop-live-up-to-the-hype/"
+      },
+      {
+        "id": "eba7c8a9",
+        "title": " If you&#8217;re looking for a typeface with Radio Shack logo vibes, try... ",
+        "excerpt": "If you’re looking for a typeface with Radio Shack logo vibes, try Megazoid.\n\n        \n\n        \n\n         \n💬 Join the discussion on kottke.org →",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2025-11-10T15:19:44.000Z",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://kottke.org/25/11/0047813-if-youre-looking-for-a"
+      },
+      {
+        "id": "9af5f18b",
+        "title": "From Deep Blue Mud, Unexpected Life Emerges",
+        "excerpt": "Surprise biology in deep-sea mud volcanoes\nThe post From Deep Blue Mud, Unexpected Life Emerges appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 11 Nov 2025 20:27:23 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://nautil.us/from-deep-blue-mud-unexpected-life-emerges-1247288/"
+      },
+      {
+        "id": "75996e9b",
+        "title": "How Brazil’s New Digital Payments System Managed to Enrage (and Terrify) Both Wall Street and Silicon Valley",
+        "excerpt": "A mobile payments system that is publicly controlled, easy to use and without fees (for individuals and small businesses) is \"tough to beat.”",
+        "author": "Nick Corbishley",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 04 Nov 2025 11:45:09 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://www.nakedcapitalism.com/2025/11/how-brazil-managed-to-infuriate-and-terrify-wall-street-and-silicon-valley-at-the-same-time.html"
+      },
+      {
+        "id": "9d7ad7fa",
+        "title": "No-Corner Futarchy",
+        "excerpt": "In March 1980, the Hunt Brothers tried but failed to corner the silver market.",
+        "author": "Robin Hanson",
+        "publication": {
+          "name": "Overcoming Bias",
+          "slug": "overcoming-bias",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 06 Nov 2025 20:33:44 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.overcomingbias.com/p/no-corner-futarchy"
+      },
+      {
+        "id": "af4cd9f3",
+        "title": "Adviser links: building deeper connections",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 17 Nov 2025 15:14:51 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/11/17/adviser-links-building-deeper-connections/"
+      },
+      {
+        "id": "e180ac1b",
+        "title": "Donald Trump, Jeffrey Epstein, and Israel",
+        "excerpt": "We know that Donald Trump was extremely close with an incredibly prolific child sex abuser, Jeffrey Epstein. But recent revelations raise another question: Was Trump’s association with Epstein used by",
+        "author": "Branko Marcetic",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-11-17T13:33:28.000Z",
+        "readTime": 7,
+        "wordCount": 1274,
+        "url": "https://jacobin.com/2025/11/trump-epstein-israel-intelligence-blackmail/"
+      },
+      {
+        "id": "d595a7ac",
+        "title": "Analysis: China’s CO2 emissions have now been flat or falling for 18 months",
+        "excerpt": "China’s carbon dioxide (CO2) emissions were unchanged from a year earlier in the third quarter...\nThe post Analysis: China’s CO2 emissions have now been flat or falling for 18 months appeared first on",
+        "author": "Lauri Myllyvirta",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 11 Nov 2025 00:01:00 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-18-months/"
+      },
+      {
+        "id": "9ab70155",
+        "title": "Bridge Atlas Episode 4: Alignment",
+        "excerpt": "Issue #72: A conversation with Alex Stokes and Emmett Shear",
+        "author": "Protocolized",
+        "publication": {
+          "name": "Protocolized",
+          "slug": "protocolized",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 15 Nov 2025 22:45:35 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://protocolized.summerofprotocols.com/p/bridge-atlas-episode-4-alignment"
+      },
+      {
+        "id": "7d43a8d2",
+        "title": "You say potato, I say leprosy",
+        "excerpt": "Links 'n' updates for Fall 2025",
+        "author": "Adam Mastroianni",
+        "publication": {
+          "name": "Experimental History",
+          "slug": "experimental-history",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 12 Nov 2025 00:45:53 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-11-15",
     "title": "Random Digest: November 15, 2025",
     "subtitle": "10 hand-picked articles from our collection",
