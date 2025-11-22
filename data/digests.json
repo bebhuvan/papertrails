@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-11-22",
+    "title": "Random Digest: November 22, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-11-22T02:12:27.779Z",
+    "articles": [
+      {
+        "id": "66848ef3",
+        "title": "Massachusetts’s Millionaire Tax Didn’t Lead the Rich to Flee",
+        "excerpt": "Zohran Mamdani’s proposal for an additional 2% tax on incomes over $1 million has provoked gloomy prophecies of elite exodus. Yet a similar policy Massachusetts passed three years ago has not caused t",
+        "author": "Richard Solomon",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-11-18T10:43:19.000Z",
+        "readTime": 8,
+        "wordCount": 1488,
+        "url": "https://jacobin.com/2025/11/millionaire-tax-massachusetts-mamdani-flight/"
+      },
+      {
+        "id": "015fae61",
+        "title": "Has Ed Zitron Found the Fatal Flaw with OpenAI and Its Flagship ChatGPT?",
+        "excerpt": "The Financial Times has re-reported cautious but devastating-looking findings by Ed Zitron on OpenAI's inference costs and truthfulness.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 13 Nov 2025 08:09:20 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://www.nakedcapitalism.com/2025/11/has-ed-zitron-found-the-fatal-flaw-with-openai-and-its-flagship-chatgpt.html"
+      },
+      {
+        "id": "dda70cc3",
+        "title": "Cameroon’s Diaspora Are Helping Local Businesses Back Home Flourish",
+        "excerpt": "Cars and motorcycle taxis struggle through the deep potholes of the dusty road. Visiting Sandra Tembei’s company, Mellow Group, makes you forget that her carpentry workshop is located in Douala, Camer",
+        "author": "Klaus Sieg",
+        "publication": {
+          "name": "Reasons to be Cheerful",
+          "slug": "reasons-to-be-cheerful",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 14 Nov 2025 08:00:03 +0000",
+        "readTime": 1,
+        "wordCount": 68,
+        "url": "https://reasonstobecheerful.world/africa-donors-support-local-businesses-widu-germany/"
+      },
+      {
+        "id": "300174a5",
+        "title": "Counter-Empathy, Lean Men, Weimar",
+        "excerpt": "Links and recommendations",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 11 Nov 2025 14:55:16 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/counter-empathy-lean-men-weimar"
+      },
+      {
+        "id": "6ec6a5d6",
+        "title": "Video and Podcast Resources On Frantz Fanon's Black Skin White Masks",
+        "excerpt": "nine lectures on this excellent complex work of analysis",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sun, 09 Nov 2025 02:33:39 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://gregorybsadler.substack.com/p/video-and-podcast-resources-on-frantz"
+      },
+      {
+        "id": "96c44775",
+        "title": "UN climate talks are built on consensus. That’s part of the problem.",
+        "excerpt": "At COP, the requirement that countries find consensus before taking action has stalled climate progress for decades. Experts say there's a better way.",
+        "author": "Joseph Winters",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 10 Nov 2025 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://grist.org/cop30/un-climate-treaty-voting-by-consensus/"
+      },
+      {
+        "id": "e6b90903",
+        "title": "Mixing Is the Heartbeat of Deep Lakes. At Crater Lake, It’s Slowing Down.",
+        "excerpt": "The physics of mixing water layers — an interplay of wind, climate and more — makes lakes work. When it stops, impacts can ripple across an ecosystem.            \nThe post Mixing Is the Heartbeat of D",
+        "author": "Rachel Nuwer",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 14 Nov 2025 15:35:10 +0000",
+        "readTime": 1,
+        "wordCount": 47,
+        "url": "https://www.quantamagazine.org/mixing-is-the-heartbeat-of-deep-lakes-at-crater-lake-its-slowing-down-20251114/"
+      },
+      {
+        "id": "71972991",
+        "title": "COP30: Carbon Brief’s second ‘ask us anything’ webinar",
+        "excerpt": "As COP30 reaches its midway point in the Brazilian city of Belém, Carbon Brief has...\nThe post COP30: Carbon Brief’s second ‘ask us anything’ webinar appeared first on Carbon Brief.",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 17 Nov 2025 17:06:51 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://www.carbonbrief.org/cop30-carbon-briefs-second-ask-us-anything-webinar/"
+      },
+      {
+        "id": "ee853feb",
+        "title": "Pluralistic: A tale of three customer service chatbots (12 Nov 2025)",
+        "excerpt": "Today's links A tale of three customer service chatbots: Two were worse than useless, one betrayed its masters. Hey look at this: Delights to delectate. Object permanence: General strike; We won't fly",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 12 Nov 2025 06:03:26 +0000",
+        "readTime": 12,
+        "wordCount": 2384,
+        "url": "https://pluralistic.net/2025/11/11/sorry-to-bother-you/"
+      },
+      {
+        "id": "180abb8b",
+        "title": "Longform links: getting your money’s worth",
+        "excerpt": "Thursdays are all about longform links on Abnormal Returns. Wherever possible, free links for premium sites are used. You can check out...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 20 Nov 2025 14:12:34 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/11/20/longform-links-getting-your-moneys-worth/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-11-18",
     "title": "Random Digest: November 18, 2025",
     "subtitle": "10 hand-picked articles from our collection",
