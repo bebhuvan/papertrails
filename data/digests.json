@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-12-02",
+    "title": "Random Digest: December 2, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-12-02T02:22:25.841Z",
+    "articles": [
+      {
+        "id": "068527cf",
+        "title": "DeBriefed 21 November 2025: [COP30 DeBriefed] ‘Mutirão’ text latest; ‘Roadmaps’ explained; COP finish times plotted",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 21 November 2025: [COP30 DeBriefed] ‘Mutirão’ text latest; ‘Roadmaps’ e",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 21 Nov 2025 15:36:13 +0000",
+        "readTime": 1,
+        "wordCount": 38,
+        "url": "https://www.carbonbrief.org/debriefed-21-november-2025-cop30-debriefed-mutirao-text-latest-roadmaps-explained-cop-finish-times-plotted/"
+      },
+      {
+        "id": "65b2f12d",
+        "title": "I Miss When Homoeroticism Was Erotic",
+        "excerpt": "Ah, the never-ending Wicked promotional tour!",
+        "author": "Freddie deBoer",
+        "publication": {
+          "name": "Freddie deBoer",
+          "slug": "freddie-deboer",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 24 Nov 2025 13:03:35 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://freddiedeboer.substack.com/p/i-miss-when-homoeroticism-was-erotic"
+      },
+      {
+        "id": "008ca52c",
+        "title": "The quest for exomoons",
+        "excerpt": "Exoplanet discoveries have reshaped astronomy. Are exomoons next? Brian Greene in conversation with David Kipping\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 17 Nov 2025 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://aeon.co/videos/why-exomoons-could-be-astronomys-next-big-breakthrough?utm_source=rss-feed"
+      },
+      {
+        "id": "be192dfb",
+        "title": "This Is A Special Time To Be Alive",
+        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 28 Nov 2025 14:02:36 +0000",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/11/this-is-a-special-time-to-be-alive.html"
+      },
+      {
+        "id": "9d1a7b16",
+        "title": "This Historic Figurine Unearths New Insights Into Ancient Spirituality",
+        "excerpt": "A 12,000-year-old depiction of a woman and a goose offers intriguing hints into the culture of early human settlements \nThe post This Historic Figurine Unearths New Insights Into Ancient Spirituality ",
+        "author": "Molly Glick",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 18 Nov 2025 19:07:36 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://nautil.us/this-historic-figurine-unearths-new-insights-into-ancient-spirituality-1248465/"
+      },
+      {
+        "id": "4097d4e3",
+        "title": "A trillion dollars is a terrible thing to waste",
+        "excerpt": "The machine learning community is finally waking up to the madness, but the detour of the last few years has been costly.",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Thu, 27 Nov 2025 21:58:57 GMT",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible"
+      },
+      {
+        "id": "7b2003c7",
+        "title": "\"May I Meet You?\" Is Not a Bad Pickup Line",
+        "excerpt": "But really, your opening line doesn't matter",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 17 Nov 2025 18:22:04 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.robkhenderson.com/p/may-i-meet-you-is-not-a-bad-pickup"
+      },
+      {
+        "id": "258407f7",
+        "title": "FEMA’s terrible, horrible, no good, very bad year",
+        "excerpt": "Internal turmoil and delayed aid expose the agency's fragility under Trump.",
+        "author": "Rebecca Egan McCarthy",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 26 Nov 2025 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://grist.org/politics/trump-fema-david-richardson-karen-evans/"
+      },
+      {
+        "id": "374347db",
+        "title": "Losing Money Every Month: Growing Finance Crisis Threatens Affordable Housing, Challenges Mamdani",
+        "excerpt": "Landlords of affordable apartments say the numbers increasingly don’t add up — and a rent freeze will work against tenants.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 19 Nov 2025 14:55:41 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://www.nakedcapitalism.com/2025/11/losing-money-every-month-growing-finance-crisis-threatens-affordable-housing-challenges-mamdani.html"
+      },
+      {
+        "id": "faba6516",
+        "title": "How Much Will the Stock Market Fall in 2026?",
+        "excerpt": "What will happen to the stock market in 2026?\nThe post How Much Will the Stock Market Fall in 2026? appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Sun, 30 Nov 2025 13:00:05 +0000",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://awealthofcommonsense.com/2025/11/how-much-will-the-stock-market-fall-in-2026/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-11-29",
     "title": "Random Digest: November 29, 2025",
     "subtitle": "10 hand-picked articles from our collection",
