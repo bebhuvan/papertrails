@@ -1,5 +1,821 @@
 [
   {
+    "title": "Muppet Pearl Harbor",
+    "link": "https://braddelong.substack.com/p/muppet-pearl-harbor",
+    "author": "Brad DeLong",
+    "publishedAt": "Sun, 07 Dec 2025 18:50:00 GMT",
+    "content": "Was discussing whether we should have a long-distance family movie watch on December 7, & the elder kid immediately said: \"Muppet Pearl Harbor\"! So from an alternative part of the multiverse, here...",
+    "excerpt": "Was discussing whether we should have a long-distance family movie watch on December 7, & the elder kid immediately said: \"Muppet Pearl Harbor\"! So from an alternative part of the multiverse, here...",
+    "id": "9256cd03",
+    "wordCount": 32,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Brad DeLong",
+      "slug": "brad-delong",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "COP30 Without the USA",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/cop30-without-the-usa.html",
+    "author": "Robin Varghese",
+    "publishedAt": "Sun, 07 Dec 2025 18:45:36 +0000",
+    "content": "Catherine Osborn in Polycrisis: Last month, the humid Amazonian rainforest city of Belém, Brazil was alive with all the usual signs of  a United Nations climate summit except one: a US negotiating team. Tens of thousands of participants from more than 190 countries and dozens of Indigenous groups st",
+    "excerpt": "Catherine Osborn in Polycrisis: Last month, the humid Amazonian rainforest city of Belém, Brazil was alive with all the usual signs of  a United Nations climate summit except one: a US negotiating tea",
+    "id": "71af9dd8",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Prediction Markets Now",
+    "link": "https://www.overcomingbias.com/p/prediction-markets-now",
+    "author": "Robin Hanson",
+    "publishedAt": "Sun, 07 Dec 2025 18:43:21 GMT",
+    "content": "I’ve been asked: what do I think of Kalshi and Polymarket, the suddenly big prediction markets.",
+    "excerpt": "I’ve been asked: what do I think of Kalshi and Polymarket, the suddenly big prediction markets.",
+    "id": "3acd5cac",
+    "wordCount": 16,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Overcoming Bias",
+      "slug": "overcoming-bias",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "A 'code red' for AI",
+    "link": "https://www.bloodinthemachine.com/p/a-code-red-for-ai",
+    "author": "Brian Merchant",
+    "publishedAt": "Sun, 07 Dec 2025 18:37:40 GMT",
+    "content": "Sam Altman issued a 'code red' for OpenAI. Meanwhile, political fault lines are widening in the GOP in Washington, and the public is protesting its unfettered expansion.",
+    "excerpt": "Sam Altman issued a 'code red' for OpenAI. Meanwhile, political fault lines are widening in the GOP in Washington, and the public is protesting its unfettered expansion.",
+    "id": "6ca404be",
+    "wordCount": 27,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Blood in the Machine",
+      "slug": "blood-in-the-machine",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Ukrainians want honest government. Do we?",
+    "link": "https://anneapplebaum.substack.com/p/ukrainians-want-honest-government",
+    "author": "Anne Applebaum",
+    "publishedAt": "Sun, 07 Dec 2025 18:17:07 GMT",
+    "content": "Ukraine's fight against corruption is impossible to imagine right now in America or Russia",
+    "excerpt": "Ukraine's fight against corruption is impossible to imagine right now in America or Russia",
+    "id": "a692d011",
+    "wordCount": 14,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Anne Applebaum",
+      "slug": "anne-applebaum",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Sunday Thread + Mailbag",
+    "link": "https://www.slowboring.com/p/sunday-thread-mailbag-c3e",
+    "author": "Halina Bennet",
+    "publishedAt": "Sun, 07 Dec 2025 18:01:31 GMT",
+    "content": "Ask your questions below.",
+    "excerpt": "Ask your questions below.",
+    "id": "b3ff7a9f",
+    "wordCount": 4,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Slow Boring",
+      "slug": "slow-boring",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Risk, uncertainty, and democracy",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/risk-uncertainty-and-democracy.html",
+    "author": "Robin Varghese",
+    "publishedAt": "Sun, 07 Dec 2025 17:45:13 +0000",
+    "content": "Suzanne Schneider in the International Review of Applied Economics: Though routinely invoked in far-ranging contexts – from national security and healthcare to insurance, banking, and the climate crisis – risk is a remarkably slippery term. We perceive risk as carrying at least three, often overlapp",
+    "excerpt": "Suzanne Schneider in the International Review of Applied Economics: Though routinely invoked in far-ranging contexts – from national security and healthcare to insurance, banking, and the climate cris",
+    "id": "ea26eb3b",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "SBSQ #27: Is redistricting backfiring on Republicans?",
+    "link": "https://www.natesilver.net/p/sbsq-27-is-redistricting-backfiring",
+    "author": "Nate Silver",
+    "publishedAt": "Sun, 07 Dec 2025 17:30:30 GMT",
+    "content": "Redistricting 201. Plus, do NFL teams understand game theory? And, should the Knicks trade for Giannis?",
+    "excerpt": "Redistricting 201. Plus, do NFL teams understand game theory? And, should the Knicks trade for Giannis?",
+    "id": "072f2b5a",
+    "wordCount": 16,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Silver Bulletin",
+      "slug": "silver-bulletin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Three Mistakes in “Three Mistakes in the Moral Mathematics of Existential Risk”",
+    "link": "https://benthams.substack.com/p/three-mistakes-in-three-mistakes",
+    "author": "Bentham's Bulldog",
+    "publishedAt": "Sun, 07 Dec 2025 16:43:29 GMT",
+    "content": "That would be a very confusing title without quotes!",
+    "excerpt": "That would be a very confusing title without quotes!",
+    "id": "dafbed72",
+    "wordCount": 9,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Bentham's Newsletter",
+      "slug": "benthams-newsletter",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Frank Gehry (1929 – 2025) Architect",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/frank-gehry-1929-2025-architect.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 07 Dec 2025 15:53:11 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "8dd25cf2",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Sunday links: hedging and speculation",
+    "link": "https://abnormalreturns.com/2025/12/07/sunday-links-hedging-and-speculation/",
+    "author": "abnormalreturns",
+    "publishedAt": "Sun, 07 Dec 2025 15:51:49 +0000",
+    "content": "",
+    "excerpt": "",
+    "id": "c4eeadd5",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Abnormal Returns",
+      "slug": "abnormal-returns",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "Frank Gehry, the Disrupter, Opened Their Imaginations",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/frank-gehry-the-disrupter-opened-their-imaginations.html",
+    "author": "Azra Raza",
+    "publishedAt": "Sun, 07 Dec 2025 15:48:46 +0000",
+    "content": "Sam Lubell in The New York Times: Like his buildings, the legacy of Frank Gehry, who died on Dec. 5, at age 96, is exceptionally complex: radical, shifting, multifaceted and often misunderstood. It’s easy to reduce his structures to their superficialities, shapes and materials. But they’re far deepe",
+    "excerpt": "Sam Lubell in The New York Times: Like his buildings, the legacy of Frank Gehry, who died on Dec. 5, at age 96, is exceptionally complex: radical, shifting, multifaceted and often misunderstood. It’s ",
+    "id": "98ddddb9",
+    "wordCount": 56,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Hannah Arendt Is Not Your Icon",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/hannah-arendt-is-not-your-icon.html",
+    "author": "Azra Raza",
+    "publishedAt": "Sun, 07 Dec 2025 15:28:12 +0000",
+    "content": "Jennifer Szalai in The New York Times: On the evening of Dec. 4, 1975, Hannah Arendt was sitting in her living room on Riverside Drive in Manhattan when she suddenly slumped over in the presence of her dinner guests. Less than two months before, she had celebrated her 69th birthday; now, she was dea",
+    "excerpt": "Jennifer Szalai in The New York Times: On the evening of Dec. 4, 1975, Hannah Arendt was sitting in her living room on Riverside Drive in Manhattan when she suddenly slumped over in the presence of he",
+    "id": "9996b283",
+    "wordCount": 56,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Nasdaq 100: Booms & Busts",
+    "link": "https://awealthofcommonsense.com/2025/12/the-nasdaq-100-booms-busts/",
+    "author": "Ben Carlson",
+    "publishedAt": "Sun, 07 Dec 2025 15:00:46 +0000",
+    "content": "The Nasdaq 100 has big gains and big losses.\nThe post The Nasdaq 100: Booms & Busts appeared first on A Wealth of Common Sense.\n...",
+    "excerpt": "The Nasdaq 100 has big gains and big losses.\nThe post The Nasdaq 100: Booms & Busts appeared first on A Wealth of Common Sense.\n...",
+    "id": "d81fe1bf",
+    "wordCount": 26,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "A Wealth of Common Sense",
+      "slug": "wealth-common-sense",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "2025-12-07 Su: Food for Thought",
+    "link": "https://braddelong.substack.com/p/2025-12-07-su-food-for-thought",
+    "author": "Brad DeLong",
+    "publishedAt": "Sun, 07 Dec 2025 14:36:31 GMT",
+    "content": "For the file...",
+    "excerpt": "For the file...",
+    "id": "faf013aa",
+    "wordCount": 3,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Brad DeLong",
+      "slug": "brad-delong",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Being a Writer in the Age of the Influencer",
+    "link": "https://www.robkhenderson.com/p/being-a-writer-in-the-age-of-the",
+    "author": "Rob Henderson",
+    "publishedAt": "Sun, 07 Dec 2025 14:34:35 GMT",
+    "content": "",
+    "excerpt": "",
+    "id": "a5be1b6d",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Rob Henderson",
+      "slug": "rob-henderson",
+      "category": "Psychology"
+    }
+  },
+  {
+    "title": "December 7, -43: 2067 Years Ago Roman Politics Had a Very Sharp Edge",
+    "link": "https://braddelong.substack.com/p/december-7-43-2067-years-ago-roman",
+    "author": "Brad DeLong",
+    "publishedAt": "Sun, 07 Dec 2025 14:19:31 GMT",
+    "content": "",
+    "excerpt": "",
+    "id": "15198de7",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Brad DeLong",
+      "slug": "brad-delong",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "The Trump administration’s data center push could open the door for new forever chemicals",
+    "link": "https://grist.org/accountability/the-trump-administrations-data-center-push-could-open-the-door-for-new-forever-chemicals/",
+    "author": "Molly Taft, WIRED",
+    "publishedAt": "Sun, 07 Dec 2025 14:00:00 +0000",
+    "content": "The EPA is prioritizing review of new chemicals to be used in data centers. Experts say this could lead to the fast approval of new types of forever chemicals — with limited oversight.",
+    "excerpt": "The EPA is prioritizing review of new chemicals to be used in data centers. Experts say this could lead to the fast approval of new types of forever chemicals — with limited oversight.",
+    "id": "a80f387e",
+    "wordCount": 33,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Grist",
+      "slug": "grist",
+      "category": "Climate"
+    }
+  },
+  {
+    "title": "Steve Cropper (1941 – 2025) Legendary Guitarist",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/steve-cropper-1941-2025-legendary-guitarist.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 07 Dec 2025 13:49:21 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "f7b8a34c",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Top clicks this week on Abnormal Returns",
+    "link": "https://abnormalreturns.com/2025/12/07/top-clicks-this-week-on-abnormal-returns-829/",
+    "author": "abnormalreturns",
+    "publishedAt": "Sun, 07 Dec 2025 13:09:11 +0000",
+    "content": "Thanks for checking in with us this weekend. Here are the most clicked on items on Abnormal Returns for the week ended...",
+    "excerpt": "Thanks for checking in with us this weekend. Here are the most clicked on items on Abnormal Returns for the week ended...",
+    "id": "26b15846",
+    "wordCount": 22,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Abnormal Returns",
+      "slug": "abnormal-returns",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "Chris Hani’s Murder Robbed South Africa of a Great Leader",
+    "link": "https://jacobin.com/2025/12/hani-south-africa-communism-anc-anti-apartheid/",
+    "author": "Hugh Macmillan",
+    "publishedAt": "2025-12-07T12:54:18.000Z",
+    "content": "Chris Hani, the South African Communist who led the ANC’s military wing, was assassinated in April 1993 before seeing the liberation he had fought for. The loss of Hani and his socialist perspective was a major blow to the new South Africa.\nChris Hani remained loyal to socialist ideals when many of ",
+    "excerpt": "Chris Hani, the South African Communist who led the ANC’s military wing, was assassinated in April 1993 before seeing the liberation he had fought for. The loss of Hani and his socialist perspective w",
+    "id": "6d11bb20",
+    "wordCount": 2785,
+    "readTime": 14,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "David Pryce-Jones (1936 – 2025) Author and Historian",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/david-pryce-jones-1936-2025-author-and-historian.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 07 Dec 2025 12:45:45 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "c697aeec",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Sunday Poem",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/sunday-poem-456.html",
+    "author": "Jim Culleny",
+    "publishedAt": "Sun, 07 Dec 2025 12:23:14 +0000",
+    "content": "On the Beach at Night Alone On the beach at night alone, As the old mother sways her to and fro singing her husky song, As I watch the bright stars shining, I think a thought of the clef of the universes and of the future. A vast similitude interlocks all, All spheres, grown, ungrown,…",
+    "excerpt": "On the Beach at Night Alone On the beach at night alone, As the old mother sways her to and fro singing her husky song, As I watch the bright stars shining, I think a thought of the clef of the univer",
+    "id": "a1165cf0",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Links 12/7/2025",
+    "link": "https://www.nakedcapitalism.com/2025/12/links-12-7-2025.html",
+    "author": "Haig Hovaness",
+    "publishedAt": "Sun, 07 Dec 2025 11:55:56 +0000",
+    "content": "<a href=\"https://www.nakedcapitalism.com/2025/12/Links-12-7-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/12/Dog.jpg\" \"width=\"300\" height=\"300\" class=aligncenter size-full wp-image-\"  /></a>\r\n",
+    "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/12/Links-12-7-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/12/Dog.jpg\" \"width=\"300\" height=\"300\" class=aligncenter size-fu",
+    "id": "960a3a70",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Top Links 944 America's K-shaped economy. Zero haircuts. The Great Derangement & the language of the body.",
+    "link": "https://adamtooze.substack.com/p/top-links-944-americas-k-shaped-economy",
+    "author": "Adam Tooze",
+    "publishedAt": "Sun, 07 Dec 2025 11:54:33 GMT",
+    "content": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "id": "dd60d914",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Adam Tooze",
+      "slug": "adam-tooze",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Miami’s Anti-Communist Insider Turns Convicted Foreign Agent",
+    "link": "https://jacobin.com/2025/12/bendler-cia-cuba-anti-communism-rubio/",
+    "author": "Lee Schlenker",
+    "publishedAt": "2025-12-07T11:47:06.000Z",
+    "content": "A former CIA station chief revered by Miami’s anti-Castro circles now faces prison in the US as an unregistered foreign agent for Angola. His path from Cold War covert ops to selling secrets says a lot about the political machinery he came from.\nA man waves a Cuban flag and a poster as Cuban America",
+    "excerpt": "A former CIA station chief revered by Miami’s anti-Castro circles now faces prison in the US as an unregistered foreign agent for Angola. His path from Cold War covert ops to selling secrets says a lo",
+    "id": "cd8656ed",
+    "wordCount": 1619,
+    "readTime": 9,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Affordability, Part II",
+    "link": "https://paulkrugman.substack.com/p/affordability-part-ii",
+    "author": "Paul Krugman",
+    "publishedAt": "Sun, 07 Dec 2025 11:31:29 GMT",
+    "content": "A deeper look into what affordability means for the average American",
+    "excerpt": "A deeper look into what affordability means for the average American",
+    "id": "84dbaa50",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Paul Krugman",
+      "slug": "paul-krugman",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "The Sunday Morning Movie Presents: Stalker (1979) Run Time: 2H 41M",
+    "link": "https://www.nakedcapitalism.com/2025/12/the-sunday-morning-movie-presents-stalker-1979-run-time-2h-41m.html",
+    "author": "semper loquitur",
+    "publishedAt": "Sun, 07 Dec 2025 11:30:14 +0000",
+    "content": "Stalker is a sci-fi movie about truth and desire.",
+    "excerpt": "Stalker is a sci-fi movie about truth and desire.",
+    "id": "3b5dbdcf",
+    "wordCount": 9,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Disanthropomorphize Chat",
+    "link": "https://www.ailog.blog/p/disanthropomorphize-chat",
+    "author": "Rob Nelson",
+    "publishedAt": "Sun, 07 Dec 2025 11:21:56 GMT",
+    "content": "Language without mind and the ends of OpenAI",
+    "excerpt": "Language without mind and the ends of OpenAI",
+    "id": "2a97c649",
+    "wordCount": 8,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "AI Log Blog",
+      "slug": "ai-log-blog",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Taking jaggedness seriously ⊗ All futurists are archivists",
+    "link": "https://sentiers.media/taking-jaggedness-seriously-all-futurists-are-archivists-no-382/",
+    "author": "Patrick Tanguay",
+    "publishedAt": "Sun, 07 Dec 2025 11:00:36 GMT",
+    "content": "No.382 — Collapse ⊗ Designing responsible futures ⊗ The medical case for self-driving cars ⊗ Mushrooms in recycled egg carton towers ⊗ 100 notable small press books",
+    "excerpt": "No.382 — Collapse ⊗ Designing responsible futures ⊗ The medical case for self-driving cars ⊗ Mushrooms in recycled egg carton towers ⊗ 100 notable small press books",
+    "id": "82117f89",
+    "wordCount": 27,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Sentiers",
+      "slug": "sentiers",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Generation 6-7",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/generation-6-7.html",
+    "author": "Jeroen Bouterse",
+    "publishedAt": "Sun, 07 Dec 2025 11:00:09 +0000",
+    "content": "by Jeroen Bouterse Preparing a worksheet with negative-number calculations where all the digits are sixes and sevens. Telling myself it’s meant to take the fun out of it for them – like a sex ed teacher having their students say ‘penis’ one hundred times before starting the unit. Definitely not the ",
+    "excerpt": "by Jeroen Bouterse Preparing a worksheet with negative-number calculations where all the digits are sixes and sevens. Telling myself it’s meant to take the fun out of it for them – like a sex ed teach",
+    "id": "1a79b9bf",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "William Goodell and the Science of Human Rights",
+    "link": "https://jacobin.com/2025/12/history-goodell-slavery-abolitionism-oligarchy/",
+    "author": "Steve Gowler",
+    "publishedAt": "2025-12-07T10:56:52.000Z",
+    "content": "A “flaming abolitionist” of lesser fame, William Goodell was praised by Frederick Douglass for being among the most important opponents of slavery in his time. He articulated a radical moral vision: a political theology of hope grounded in justice and reason.\nAbolitionist William Goodell saw slavery",
+    "excerpt": "A “flaming abolitionist” of lesser fame, William Goodell was praised by Frederick Douglass for being among the most important opponents of slavery in his time. He articulated a radical moral vision: a",
+    "id": "e5124118",
+    "wordCount": 2089,
+    "readTime": 11,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Europe is under siege",
+    "link": "https://www.noahpinion.blog/p/europe-is-under-siege",
+    "author": "Noah Smith",
+    "publishedAt": "Sun, 07 Dec 2025 10:09:46 GMT",
+    "content": "Menaced by Russia and China, abandoned by America.",
+    "excerpt": "Menaced by Russia and China, abandoned by America.",
+    "id": "bd54ea9b",
+    "wordCount": 8,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Noahpinion",
+      "slug": "noahpinion",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Weekend Update #162: The Best Week Since November 5, 2024",
+    "link": "https://phillipspobrien.substack.com/p/weekend-update-162-the-best-week",
+    "author": "Phillips P. OBrien",
+    "publishedAt": "Sun, 07 Dec 2025 10:04:40 GMT",
+    "content": "The Tomahawk Con: A Case Study: Pokrovsk And The Ranged War",
+    "excerpt": "The Tomahawk Con: A Case Study: Pokrovsk And The Ranged War",
+    "id": "69666dc8",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Phillips P. O'Brien",
+      "slug": "phillips-p-obrien",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Investigation Reveals How Amazon Is Fleecing Public Schools With ‘Algorithm-Driven Pricing’",
+    "link": "https://www.nakedcapitalism.com/2025/12/investigation-reveals-how-amazon-is-fleecing-public-schools-with-algorithm-driven-pricing.html",
+    "author": "Conor Gallagher",
+    "publishedAt": "Sun, 07 Dec 2025 10:00:59 +0000",
+    "content": "$74 for 36 markers.",
+    "excerpt": "$74 for 36 markers.",
+    "id": "fb955851",
+    "wordCount": 4,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Gramscian Hegemony and American Justice: The Myth of Individual Moral Blame",
+    "link": "https://3quarksdaily.com/3quarksdaily/2025/12/gramscian-hegemony-and-american-justice-the-myth-of-individual-moral-blame.html",
+    "author": "Daniel Gauss",
+    "publishedAt": "Sun, 07 Dec 2025 10:00:38 +0000",
+    "content": "by Daniel Gauss Antonio Gramsci’s theory of hegemony helps explain how the power structure of modern liberal-democratic societies maintains authority without relying on overt force. Many definitions of hegemony point out that it creates “common sense,” the assumptions a society accepts as natural an",
+    "excerpt": "by Daniel Gauss Antonio Gramsci’s theory of hegemony helps explain how the power structure of modern liberal-democratic societies maintains authority without relying on overt force. Many definitions o",
+    "id": "8dc0b8dc",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Japan’s Liberal Democratic Party Faces an Identity Crisis",
+    "link": "https://jacobin.com/2025/12/japan-liberal-democratic-ldp-abe-ishiba/",
+    "author": "Kenji Hasegawa",
+    "publishedAt": "2025-12-07T09:48:56.000Z",
+    "content": "From its origins in 1955 as a US-sponsored bulwark against the Left, the conservative Liberal Democratic Party has dominated Japanese politics for seven decades. It now faces a new electoral challenge from parties of the populist, xenophobic right.\nJapan’s Liberal Democratic Party is easily the most",
+    "excerpt": "From its origins in 1955 as a US-sponsored bulwark against the Left, the conservative Liberal Democratic Party has dominated Japanese politics for seven decades. It now faces a new electoral challenge",
+    "id": "f1d70574",
+    "wordCount": 3590,
+    "readTime": 18,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Remaking Globalization for an Era of Trade Wars",
+    "link": "https://jacobin.com/2025/12/globalization-free-trade-tariffs-debt-keynes/",
+    "author": "Michael Pettis",
+    "publishedAt": "2025-12-07T08:57:17.000Z",
+    "content": "Few economists have had a greater impact on the way we talk about global trade and China’s role in the world economy than Michael Pettis. He spoke to Jacobin about Donald Trump’s tariffs and why inequality is at the heart of the trade war.\nLiberals often dismiss Donald Trump’s trade war as irrationa",
+    "excerpt": "Few economists have had a greater impact on the way we talk about global trade and China’s role in the world economy than Michael Pettis. He spoke to Jacobin about Donald Trump’s tariffs and why inequ",
+    "id": "a590ffa8",
+    "wordCount": 6656,
+    "readTime": 34,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "#326 The Missing Trick",
+    "link": "https://publicpolicy.substack.com/p/326-the-missing-trick",
+    "author": "Pranay Kotasthane",
+    "publishedAt": "Sun, 07 Dec 2025 08:03:04 GMT",
+    "content": "IndiGo Turbulence, Urban Mining in India, and Countering China's Overcapacity",
+    "excerpt": "IndiGo Turbulence, Urban Mining in India, and Countering China's Overcapacity",
+    "id": "2e21bb79",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Public Policy",
+      "slug": "public-policy",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Dragoncatcher: Classics",
+    "link": "https://www.robinsloan.com/lab/classics/",
+    "author": "Robin Sloan",
+    "publishedAt": "2025-12-07T08:00:00.000Z",
+    "content": "",
+    "excerpt": "",
+    "id": "5dded236",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Robin Sloan",
+      "slug": "robin-sloan",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Why Pascal's Wager Doesn't Work",
+    "link": "https://morallawwithin.substack.com/p/why-pascals-wager-doesnt-work",
+    "author": "Flo Bacus",
+    "publishedAt": "Sun, 07 Dec 2025 05:24:38 GMT",
+    "content": "Offering you the good news",
+    "excerpt": "Offering you the good news",
+    "id": "de73d404",
+    "wordCount": 5,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Moral Law Within",
+      "slug": "moral-law-within",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "The Kim Wexler Theory",
+    "link": "https://www.richardhanania.com/p/the-kim-wexler-theory",
+    "author": "Richard Hanania",
+    "publishedAt": "Sun, 07 Dec 2025 02:59:35 GMT",
+    "content": "Review of Pluribus, S1:E1-E6",
+    "excerpt": "Review of Pluribus, S1:E1-E6",
+    "id": "920fa68d",
+    "wordCount": 4,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Richard Hanania",
+      "slug": "richard-hanania",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "The Money Ick",
+    "link": "https://www.overcomingbias.com/p/the-money-ick",
+    "author": "Robin Hanson",
+    "publishedAt": "Sun, 07 Dec 2025 02:26:34 GMT",
+    "content": "Recently Kalshi’s CEO Mansour said: “[Our] long-term vision is to financialize everything and create a tradable asset out of any difference in opinion”.",
+    "excerpt": "Recently Kalshi’s CEO Mansour said: “[Our] long-term vision is to financialize everything and create a tradable asset out of any difference in opinion”.",
+    "id": "69219d9c",
+    "wordCount": 23,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Overcoming Bias",
+      "slug": "overcoming-bias",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "My 2025 Book List",
+    "link": "https://larryswedroe.substack.com/p/my-2025-book-list",
+    "author": "Larry Swedroe",
+    "publishedAt": "Sat, 06 Dec 2025 20:20:19 GMT",
+    "content": "I continue my tradition of publishing the list of books I read this year and my informal ratings.",
+    "excerpt": "I continue my tradition of publishing the list of books I read this year and my informal ratings.",
+    "id": "fc30dfbb",
+    "wordCount": 18,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Larry Swedroe",
+      "slug": "larry-swedroe",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": " CNBC on Design executive behind",
+    "link": "https://www.onfocus.com/2025/12/9005/design-executive-behind-liquid-glass-is-leaving?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed",
+    "author": "On Focus",
+    "publishedAt": "Sat, 06 Dec 2025 11:56:19 -0800",
+    "content": "Design executive behind 'Liquid Glass' is leaving Apple\n\r\n\n\r\nIn June, Dye revealed a redesign of Apple’s software interface for iPhones, Macs and the Apple Watch called Liquid Glass. The company described it as an “elegant” new design with translucent buttons, updated app icons and fluid animations.",
+    "excerpt": "Design executive behind 'Liquid Glass' is leaving Apple\n\r\n\n\r\nIn June, Dye revealed a redesign of Apple’s software interface for iPhones, Macs and the Apple Watch called Liquid Glass. The company descr",
+    "id": "bb926f1c",
+    "wordCount": 56,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "On Focus",
+      "slug": "on-focus",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Stop Attacking Conservative Intellectuals",
+    "link": "https://www.pensandpoison.org/p/stop-attacking-conservative-intellectuals",
+    "author": "Liza Libes",
+    "publishedAt": "Sat, 06 Dec 2025 19:55:47 GMT",
+    "content": "On the moral responsibility of the modern thinker",
+    "excerpt": "On the moral responsibility of the modern thinker",
+    "id": "8d826b17",
+    "wordCount": 8,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Pens and Poison",
+      "slug": "pens-and-poison",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Pluralistic: Metabolizing the theory of \"political capitalism\" (06 Dec 2025)",
+    "link": "https://pluralistic.net/2025/12/06/big-nascent-important/",
+    "author": "Cory Doctorow",
+    "publishedAt": "Sat, 06 Dec 2025 19:48:56 +0000",
+    "content": "Today's links Metabolizing the theory of \"political capitalism\": How many $TRUMP coins should your company buy? Hey look at this: Delights to delectate. Object permanence: NZ doesn't want US-style copyright; Tron: Reloaded; Mass shootings and gun profits; Descartes God has failed; \"The Big Fix.\" Upc",
+    "excerpt": "Today's links Metabolizing the theory of \"political capitalism\": How many $TRUMP coins should your company buy? Hey look at this: Delights to delectate. Object permanence: NZ doesn't want US-style cop",
+    "id": "8c227a2e",
+    "wordCount": 3337,
+    "readTime": 17,
+    "isPaid": false,
+    "publication": {
+      "name": "Pluralistic",
+      "slug": "pluralistic",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Will West Coast Jazz Finally Get Some Respect?",
+    "link": "https://www.honest-broker.com/p/will-west-coast-jazz-finally-get",
+    "author": "Ted Gioia",
+    "publishedAt": "Sat, 06 Dec 2025 19:35:03 GMT",
+    "content": "I intend to find out",
+    "excerpt": "I intend to find out",
+    "id": "ee9696c7",
+    "wordCount": 5,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Honest Broker",
+      "slug": "honest-broker",
+      "category": "Culture"
+    }
+  },
+  {
     "title": " Weird Al Yankovic Covers Killing In The Name by Rage Against the Machine ",
     "link": "https://kottke.org/25/12/weird-al-yankovic-covers-killing-in-the-name-by-rage-against-the-machine",
     "author": "Jason Kottke",
@@ -3516,6 +4332,23 @@
       "name": "Foreign Affairs",
       "slug": "foreign-affairs",
       "category": "Politics"
+    }
+  },
+  {
+    "title": "A Plea",
+    "link": "https://www.youtube.com/watch?v=TmyjzvQv5bA",
+    "author": "Chris Glass",
+    "publishedAt": "Thu, 04 Dec 2025 03:46:57 +0000",
+    "content": "Flea has a jazz album coming out in 2026. He just dropped a video for a new song where he plays bass, trumpet (an instrument from his youth) and adds vocals. Backed by a bevy of other jazz musicians, the song has a vibe and message. And while I think we should talk about politics, I’m enamored with ",
+    "excerpt": "Flea has a jazz album coming out in 2026. He just dropped a video for a new song where he plays bass, trumpet (an instrument from his youth) and adds vocals. Backed by a bevy of other jazz musicians, ",
+    "id": "214a4894",
+    "wordCount": 69,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Chris Glass",
+      "slug": "chris-glass",
+      "category": "Culture"
     }
   },
   {
@@ -16164,839 +16997,6 @@
       "name": "3 Quarks Daily",
       "slug": "3-quarks-daily",
       "category": "Culture"
-    }
-  },
-  {
-    "title": "Rashida Tlaib’s Plan to Combat Poverty",
-    "link": "https://jacobin.com/2025/11/tlaib-poverty-inequality-reduction-legislation/",
-    "author": "David Trimmer",
-    "publishedAt": "2025-11-23T10:04:02.000Z",
-    "content": "Last week, Congresswoman Rashida Tlaib proposed three pieces of legislation under the umbrella of her “Economic Dignity for All Agenda.” These bills would create a comprehensive system of economic security reaching nearly every American.\nThe combined impact of the bills contained in Rashida Tlaib’s ",
-    "excerpt": "Last week, Congresswoman Rashida Tlaib proposed three pieces of legislation under the umbrella of her “Economic Dignity for All Agenda.” These bills would create a comprehensive system of economic sec",
-    "id": "990f977e",
-    "wordCount": 1284,
-    "readTime": 7,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Don’t Keep Score",
-    "link": "https://newsletter.thewayofwork.com/p/dont-keep-score",
-    "author": "Rick Foerster",
-    "publishedAt": "Sun, 23 Nov 2025 10:03:02 GMT",
-    "content": "And other rants about work & life you’ll probably disagree with",
-    "excerpt": "And other rants about work & life you’ll probably disagree with",
-    "id": "9811e5fd",
-    "wordCount": 11,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Way of Work",
-      "slug": "way-of-work",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Southern Worry Territory: The Indian Spectre Of Delimitation",
-    "link": "https://3quarksdaily.com/3quarksdaily/2025/11/southern-worry-territory-the-indian-spectre-of-delimitation.html",
-    "author": "Dilip D'Souza",
-    "publishedAt": "Sun, 23 Nov 2025 10:00:59 +0000",
-    "content": "by Dilip D’Souza In South India, they’re worried. For following some stated national priorities, for performing well at them in comparison to the North, the states of the South might be punished: They stand to lose a certain quantum of political power. India’s 1971 Census counted about 548 million I",
-    "excerpt": "by Dilip D’Souza In South India, they’re worried. For following some stated national priorities, for performing well at them in comparison to the North, the states of the South might be punished: They",
-    "id": "ff725414",
-    "wordCount": 55,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "The Return of Nuclear Proliferation",
-    "link": "https://jacobin.com/2025/11/nuclear-proliferation-american-foreign-policy/",
-    "author": "Emma Claire Foley",
-    "publishedAt": "2025-11-23T09:42:39.000Z",
-    "content": "A recent article in the establishment security journal Foreign Affairs makes the case for nuclear proliferation among America’s allies. Not only are its arguments unsound, but they also understate the willingness of the US’s rivals to respond in kind. \nEstablishment security journals like Foreign Af",
-    "excerpt": "A recent article in the establishment security journal Foreign Affairs makes the case for nuclear proliferation among America’s allies. Not only are its arguments unsound, but they also understate the",
-    "id": "55ff84e3",
-    "wordCount": 1378,
-    "readTime": 7,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Why Did Britain Stop Making?",
-    "link": "https://www.nakedcapitalism.com/2025/11/why-did-britain-stop-making.html",
-    "author": "Conor Gallagher",
-    "publishedAt": "Sun, 23 Nov 2025 09:00:40 +0000",
-    "content": "And now how exactly does it plan to ready for war?",
-    "excerpt": "And now how exactly does it plan to ready for war?",
-    "id": "5dad4cf4",
-    "wordCount": 11,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "In Belgium, Labor and the Government Face a Showdown",
-    "link": "https://jacobin.com/2025/11/belgium-labor-austerity-unions-strikes/",
-    "author": "Daniel Kopp",
-    "publishedAt": "2025-11-23T08:44:26.000Z",
-    "content": "Organized labor has been more effective at defending the welfare state in Belgium than in most European countries. After recent actions resisting austerity plans, a three-day strike this week seeks to finally defeat the right-wing government.\nGovernments cutting welfare across Europe have often face",
-    "excerpt": "Organized labor has been more effective at defending the welfare state in Belgium than in most European countries. After recent actions resisting austerity plans, a three-day strike this week seeks to",
-    "id": "06c6e262",
-    "wordCount": 1764,
-    "readTime": 9,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "At least five interesting things: Future of Humanity edition (#72)",
-    "link": "https://www.noahpinion.blog/p/at-least-five-interesting-things-5b8",
-    "author": "Noah Smith",
-    "publishedAt": "Sun, 23 Nov 2025 08:01:43 GMT",
-    "content": "AI \"bubble\"; Tariffs and inflation; African solarpunk; Mass extinctions; De facto sovereign wealth funds; U.S. immigration policy; EVs and messaging",
-    "excerpt": "AI \"bubble\"; Tariffs and inflation; African solarpunk; Mass extinctions; De facto sovereign wealth funds; U.S. immigration policy; EVs and messaging",
-    "id": "b7c5b41e",
-    "wordCount": 20,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Noahpinion",
-      "slug": "noahpinion",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "mail club vol 1: winter edition ",
-    "link": "https://plumpits.substack.com/p/mail-club-vol-1-winter-edition",
-    "author": "Kylee",
-    "publishedAt": "Sun, 23 Nov 2025 05:08:32 GMT",
-    "content": "mail club live now!",
-    "excerpt": "mail club live now!",
-    "id": "3b57cd9d",
-    "wordCount": 4,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Plumpits",
-      "slug": "plumpits",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "To End a War",
-    "link": "https://niccolo.substack.com/p/to-end-a-war",
-    "author": "Niccolo Soldo",
-    "publishedAt": "Sun, 23 Nov 2025 02:18:31 GMT",
-    "content": "Analyzing the 28 points of the joint US-Russian draft framework peace proposal",
-    "excerpt": "Analyzing the 28 points of the joint US-Russian draft framework peace proposal",
-    "id": "e7d02aac",
-    "wordCount": 12,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Niccolò Soldo",
-      "slug": "niccolo-soldo",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Ethics and God: the Divine Command Theory and the Euthyphro Dilemma",
-    "link": "https://1000wordphilosophy.com/2025/11/22/divine-command-theory/?utm_source=rss&utm_medium=rss&utm_campaign=divine-command-theory",
-    "author": "1000-Word Philosophy: An Introductory Anthology",
-    "publishedAt": "Sun, 23 Nov 2025 01:06:17 +0000",
-    "content": "This essay introduces the Divine Command Theory of ethics, that wrong actions are wrong because God forbids them and right actions are right because God commands them, and the most important responses to it, which date back to Socrates’ discussion in ancient Greece with a man named Euthyphro.\nThe po",
-    "excerpt": "This essay introduces the Divine Command Theory of ethics, that wrong actions are wrong because God forbids them and right actions are right because God commands them, and the most important responses",
-    "id": "0d324823",
-    "wordCount": 69,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "1000 Word Philosophy",
-      "slug": "1000-word-philosophy",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Pluralistic: Boss preppers (22 Nov 2025)",
-    "link": "https://pluralistic.net/2025/11/22/eschatology-watch/",
-    "author": "Cory Doctorow",
-    "publishedAt": "Sat, 22 Nov 2025 19:08:09 +0000",
-    "content": "Today's links Boss preppers: What does a captain of industry have to offer after the shit hits the fan? Hey look at this: Delights to delectate. Object permanence: Yahoo blocks webmail for adblockers; Badly forgiving student debt. Upcoming appearances: Where to find me. Recent appearances: Where I'v",
-    "excerpt": "Today's links Boss preppers: What does a captain of industry have to offer after the shit hits the fan? Hey look at this: Delights to delectate. Object permanence: Yahoo blocks webmail for adblockers;",
-    "id": "0e56d489",
-    "wordCount": 2007,
-    "readTime": 11,
-    "isPaid": false,
-    "publication": {
-      "name": "Pluralistic",
-      "slug": "pluralistic",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Cui Bono? ",
-    "link": "https://anneapplebaum.substack.com/p/cui-bono",
-    "author": "Anne Applebaum",
-    "publishedAt": "Sat, 22 Nov 2025 18:45:50 GMT",
-    "content": "Who benefits from Trump's deals with the Russians and the Saudis? Not us",
-    "excerpt": "Who benefits from Trump's deals with the Russians and the Saudis? Not us",
-    "id": "7eeb235e",
-    "wordCount": 13,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Anne Applebaum",
-      "slug": "anne-applebaum",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Saturday discussion post",
-    "link": "https://www.slowboring.com/p/saturday-discussion-post-de6",
-    "author": "Halina Bennet",
-    "publishedAt": "Sat, 22 Nov 2025 18:01:38 GMT",
-    "content": "Happy Saturday.",
-    "excerpt": "Happy Saturday.",
-    "id": "f71c9361",
-    "wordCount": 2,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Slow Boring",
-      "slug": "slow-boring",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Paul McCartney Invents a New Kind of Protest Song",
-    "link": "https://www.honest-broker.com/p/paul-mccartney-invents-a-new-kind",
-    "author": "Ted Gioia",
-    "publishedAt": "Sat, 22 Nov 2025 17:59:15 GMT",
-    "content": "The culture war of the future has just started",
-    "excerpt": "The culture war of the future has just started",
-    "id": "9dc4116c",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Honest Broker",
-      "slug": "honest-broker",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Using GPT LLM MAMLMs as Your Rabbit—Your Pacer",
-    "link": "https://braddelong.substack.com/p/using-gpt-llm-mamlms-as-your-rabbityour",
-    "author": "Brad DeLong",
-    "publishedAt": "Sat, 22 Nov 2025 17:45:51 GMT",
-    "content": "GPT LLM MAMLMs are not oracles, subordinates, or colleagues. They are emulations of TISs—Typical Internet S***posters. If you are at all a good writer, the most they can be is “rabbits” that, in...",
-    "excerpt": "GPT LLM MAMLMs are not oracles, subordinates, or colleagues. They are emulations of TISs—Typical Internet S***posters. If you are at all a good writer, the most they can be is “rabbits” that, in...",
-    "id": "428e4fd0",
-    "wordCount": 33,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Brad DeLong",
-      "slug": "brad-delong",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "You Too Can Write Thousands of Words Every Day",
-    "link": "https://benthams.substack.com/p/you-too-can-write-thousands-of-words",
-    "author": "Bentham's Bulldog",
-    "publishedAt": "Sat, 22 Nov 2025 17:44:35 GMT",
-    "content": "Here is how",
-    "excerpt": "Here is how",
-    "id": "a488b30e",
-    "wordCount": 3,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Bentham's Newsletter",
-      "slug": "benthams-newsletter",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Trump has threatened to sue the BBC for deceptively editing his 6 January speech. Maybe he should also go after the German public broadcasters who did exactly the same thing",
-    "link": "https://www.eugyppius.com/p/trump-has-threatened-to-sue-the-bbc",
-    "author": "eugyppius",
-    "publishedAt": "Sat, 22 Nov 2025 17:30:14 GMT",
-    "content": "By now everyone knows about the scandal surrounding a BBC Panorama documentary called Trump: A Second Chance? This piece aired just days before the presidential election on 28 October 2024, and included a retrospective segment on Trump’s 6 January speech at the Ellipse near the White House.",
-    "excerpt": "By now everyone knows about the scandal surrounding a BBC Panorama documentary called Trump: A Second Chance? This piece aired just days before the presidential election on 28 October 2024, and includ",
-    "id": "e866263a",
-    "wordCount": 47,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Eugyppius",
-      "slug": "eugyppius",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "How to Overcome Your Pride",
-    "link": "https://www.theculturist.io/p/how-to-overcome-your-pride",
-    "author": "The Culturist",
-    "publishedAt": "Sat, 22 Nov 2025 15:43:02 GMT",
-    "content": "According to Dante's Divine Comedy",
-    "excerpt": "According to Dante's Divine Comedy",
-    "id": "674239f8",
-    "wordCount": 5,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Culturist",
-      "slug": "the-culturist",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "LSD and the Edge of Human Experience",
-    "link": "https://newsletter.theleading-edge.org/p/lsd-and-the-edge-of-human-experience",
-    "author": "Tom Morgan",
-    "publishedAt": "Sat, 22 Nov 2025 15:16:21 GMT",
-    "content": "Dr. Chris Bache had 73 massive-dose LSD sessions over 20 years. He tells us what he saw.",
-    "excerpt": "Dr. Chris Bache had 73 massive-dose LSD sessions over 20 years. He tells us what he saw.",
-    "id": "e38a75cd",
-    "wordCount": 17,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Leading Edge",
-      "slug": "leading-edge",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Saturday links: a dangerous middle path",
-    "link": "https://abnormalreturns.com/2025/11/22/saturday-links-a-dangerous-middle-path/",
-    "author": "abnormalreturns",
-    "publishedAt": "Sat, 22 Nov 2025 14:25:23 +0000",
-    "content": "On Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check...",
-    "excerpt": "On Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check...",
-    "id": "87bb52dc",
-    "wordCount": 22,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Abnormal Returns",
-      "slug": "abnormal-returns",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "Tehran’s water crisis is a warning for every thirsty city",
-    "link": "https://grist.org/drought/tehrans-water-crisis-is-a-warning-for-every-thirsty-city/",
-    "author": "Shayna Korol, Vox",
-    "publishedAt": "Sat, 22 Nov 2025 14:00:00 +0000",
-    "content": "Why Iran’s capital is running out of water — and why it won’t be the last.",
-    "excerpt": "Why Iran’s capital is running out of water — and why it won’t be the last.",
-    "id": "db3a8e81",
-    "wordCount": 16,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Grist",
-      "slug": "grist",
-      "category": "Climate"
-    }
-  },
-  {
-    "title": "A. S. Hamrah and K. Austin Collins in conversation",
-    "link": "https://www.nplusonemag.com/online-only/events/a-s-hamrah-and-k-austin-collins-in-conversation/",
-    "author": "n+1",
-    "publishedAt": "Sat, 22 Nov 2025 13:39:16 +0000",
-    "content": "A celebration of Algorithm of the Night",
-    "excerpt": "A celebration of Algorithm of the Night",
-    "id": "14096d9c",
-    "wordCount": 7,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "n+1",
-      "slug": "n-plus-one",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Zohran Mamdani Knew How to Handle Donald Trump",
-    "link": "https://jacobin.com/2025/11/trump-mamdani-oval-office-meeting/",
-    "author": "Peter Dreier",
-    "publishedAt": "2025-11-22T13:04:40.000Z",
-    "content": "Donald Trump loves to pick “winners” and “losers.” And right now, in the eyes of the American people, Trump can sense that he is a loser and Zohran Mamdani is a winner.\nThe shrewd political instincts that were key to Zohran Mamdani’s New York mayoral win were on display in Donald Trump’s White House",
-    "excerpt": "Donald Trump loves to pick “winners” and “losers.” And right now, in the eyes of the American people, Trump can sense that he is a loser and Zohran Mamdani is a winner.\nThe shrewd political instincts ",
-    "id": "9b060fb1",
-    "wordCount": 1932,
-    "readTime": 10,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Reading List 11/22/25",
-    "link": "https://www.construction-physics.com/p/reading-list-112225",
-    "author": "Brian Potter",
-    "publishedAt": "Sat, 22 Nov 2025 13:01:31 GMT",
-    "content": "The ship failure that caused the Francis Scott Key Bridge collapse, the boring part of Bell Labs, a more efficient way of making antimatter, underground nuclear reactors, and more.",
-    "excerpt": "The ship failure that caused the Francis Scott Key Bridge collapse, the boring part of Bell Labs, a more efficient way of making antimatter, underground nuclear reactors, and more.",
-    "id": "e49ca183",
-    "wordCount": 29,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Construction Physics",
-      "slug": "construction-physics",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "The Long Con Comes To An End",
-    "link": "https://phillipspobrien.substack.com/p/the-long-con-comes-to-an-end",
-    "author": "Phillips P. OBrien",
-    "publishedAt": "Sat, 22 Nov 2025 12:04:15 GMT",
-    "content": "The Trump Administration Takes Off The Mask (Again)",
-    "excerpt": "The Trump Administration Takes Off The Mask (Again)",
-    "id": "437dfcb0",
-    "wordCount": 8,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Phillips P. O'Brien",
-      "slug": "phillips-p-obrien",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Top Links 929 Trillion dollar buy-backs. Europe conservative R&D. Mountain-biking with Bush in Beijing. Night herons. ",
-    "link": "https://adamtooze.substack.com/p/top-links-929-trillion-dollar-buy",
-    "author": "Adam Tooze",
-    "publishedAt": "Sat, 22 Nov 2025 11:58:43 GMT",
-    "content": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-    "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-    "id": "c568a860",
-    "wordCount": 11,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Adam Tooze",
-      "slug": "adam-tooze",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Links 11/22/2025",
-    "link": "https://www.nakedcapitalism.com/2025/11/links-11-22-2025.html",
-    "author": "Yves Smith",
-    "publishedAt": "Sat, 22 Nov 2025 11:55:55 +0000",
-    "content": "<a href=\"https://www.nakedcapitalism.com/2025/11/links-11-22-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-22-at-4.26.26 PM.png\" alt=\"\" width=\"272\" height=\"300\" class=\"aligncenter size-full wp-image-301746\" /></a>",
-    "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/11/links-11-22-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-22-at-4.26.26 PM.png\" alt=\"\" width=\"272\"",
-    "id": "446df2fd",
-    "wordCount": 11,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Talking With Hasan Minhaj",
-    "link": "https://paulkrugman.substack.com/p/talking-with-hasan-minhaj",
-    "author": "Paul Krugman",
-    "publishedAt": "Sat, 22 Nov 2025 11:30:39 GMT",
-    "content": "Being interviewed, not interviewing",
-    "excerpt": "Being interviewed, not interviewing",
-    "id": "aa83de1a",
-    "wordCount": 4,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Paul Krugman",
-      "slug": "paul-krugman",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "In the media",
-    "link": "https://figsinwintertime.substack.com/p/in-the-media-b2f",
-    "author": "Massimo Pigliucci",
-    "publishedAt": "Sat, 22 Nov 2025 11:01:53 GMT",
-    "content": "A look at recent public appearances by yours truly",
-    "excerpt": "A look at recent public appearances by yours truly",
-    "id": "48b9f815",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Figs in Winter",
-      "slug": "figs-in-winter",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Serbia’s Protests Have Destabilized Aleksandar Vučić’s Rule",
-    "link": "https://jacobin.com/2025/11/serbia-protests-vucic-corruption-authoritarianism/",
-    "author": "Branislav Jakovljević",
-    "publishedAt": "2025-11-22T10:46:20.000Z",
-    "content": "A student-led protest movement has kept Serbian president Aleksandar Vučić under pressure for a full year. By refusing to bow in the face of intimidation, the protesters have exposed the corrupt authoritarianism of Vučić’s government.\nMore than 100,000 people gathered in the Serbian city of Novi Sad",
-    "excerpt": "A student-led protest movement has kept Serbian president Aleksandar Vučić under pressure for a full year. By refusing to bow in the face of intimidation, the protesters have exposed the corrupt autho",
-    "id": "0c340cd9",
-    "wordCount": 983,
-    "readTime": 5,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "The System That Produced Dick Cheney Honors Dick Cheney",
-    "link": "https://www.nakedcapitalism.com/2025/11/the-system-that-produced-dick-cheney-honors-dick-cheney.html",
-    "author": "Yves Smith",
-    "publishedAt": "Sat, 22 Nov 2025 10:30:54 +0000",
-    "content": "Not surprisingly, the Cheney funeral confirmed a great deal about true loyalties in the political and media elite.",
-    "excerpt": "Not surprisingly, the Cheney funeral confirmed a great deal about true loyalties in the political and media elite.",
-    "id": "6fb31770",
-    "wordCount": 18,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "‘The Main Course Is Inflation’: Thanksgiving Costs Surge Under Trump",
-    "link": "https://www.nakedcapitalism.com/2025/11/the-main-course-is-inflation-thanksgiving-costs-surge-under-trump.html",
-    "author": "Yves Smith",
-    "publishedAt": "Sat, 22 Nov 2025 10:25:33 +0000",
-    "content": "A much needed, detailed debunking of Trump's claim that Thanksgiving meal costs, and by implicaiton inflation, are declining.",
-    "excerpt": "A much needed, detailed debunking of Trump's claim that Thanksgiving meal costs, and by implicaiton inflation, are declining.",
-    "id": "a73b000f",
-    "wordCount": 18,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "The Right Can’t Figure Out What to Do With Zohran Mamdani",
-    "link": "https://jacobin.com/2025/11/mamdani-democratic-socialism-trump-conservatives/",
-    "author": "Ben Burgis",
-    "publishedAt": "2025-11-22T09:54:34.000Z",
-    "content": "Between President Trump heaping praise on Zohran Mamdani and the GOP-led Congress denouncing socialism, yesterday revealed a capitalist opposition throwing everything at the wall to see what sticks.\nOn the same day Congress denounced socialism, Trump emerged from meeting Zohran Mamdani gushing about",
-    "excerpt": "Between President Trump heaping praise on Zohran Mamdani and the GOP-led Congress denouncing socialism, yesterday revealed a capitalist opposition throwing everything at the wall to see what sticks.\nO",
-    "id": "080825d9",
-    "wordCount": 2257,
-    "readTime": 12,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Jeffrey Epstein Wanted More War",
-    "link": "https://jacobin.com/2025/11/epstein-summers-bannon-war-israel-china/",
-    "author": "Branko Marcetic",
-    "publishedAt": "2025-11-22T08:51:04.000Z",
-    "content": "New revelations show that Jeffrey Epstein’s interests extended far beyond money and sex with underage girls. Epstein used his influence to push aggressive solutions to geopolitical problems, particularly against America’s and Israel’s traditional adversaries.\nNewly released documents show billionair",
-    "excerpt": "New revelations show that Jeffrey Epstein’s interests extended far beyond money and sex with underage girls. Epstein used his influence to push aggressive solutions to geopolitical problems, particula",
-    "id": "5b9cdf8d",
-    "wordCount": 2998,
-    "readTime": 15,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Dealing With Turbulent Times: Be The “Purple Thread”",
-    "link": "https://gregorybsadler.substack.com/p/dealing-with-turbulent-times-be-the",
-    "author": "Gregory B. Sadler",
-    "publishedAt": "Sat, 22 Nov 2025 03:07:12 GMT",
-    "content": "how to remain engaged with a world that seems to be going off-kilter",
-    "excerpt": "how to remain engaged with a world that seems to be going off-kilter",
-    "id": "ae9125df",
-    "wordCount": 13,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Gregory B. Sadler",
-      "slug": "gregory-b-sadler",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Some Cockroaches Like to Cuddle, Too",
-    "link": "https://nautil.us/some-cockroaches-like-to-cuddle-too-1249393/",
-    "author": "Jake Currie",
-    "publishedAt": "Sat, 22 Nov 2025 03:00:00 +0000",
-    "content": "It’s not the heat, it’s the humidity\nThe post Some Cockroaches Like to Cuddle, Too appeared first on Nautilus.",
-    "excerpt": "It’s not the heat, it’s the humidity\nThe post Some Cockroaches Like to Cuddle, Too appeared first on Nautilus.",
-    "id": "ce11d90c",
-    "wordCount": 19,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "These Neanderthals May Have Eaten Their Enemies",
-    "link": "https://nautil.us/these-neanderthals-may-have-eaten-their-enemies-1249386/",
-    "author": "Molly Glick",
-    "publishedAt": "Sat, 22 Nov 2025 01:00:00 +0000",
-    "content": "And it could be our fault\nThe post These Neanderthals May Have Eaten Their Enemies appeared first on Nautilus.",
-    "excerpt": "And it could be our fault\nThe post These Neanderthals May Have Eaten Their Enemies appeared first on Nautilus.",
-    "id": "116fd468",
-    "wordCount": 19,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "More Lies About Trade Tariffs From the Chaos Monkeys",
-    "link": "https://braddelong.substack.com/p/more-lies-about-trade-tariffs-from",
-    "author": "Brad DeLong",
-    "publishedAt": "Sat, 22 Nov 2025 00:45:23 GMT",
-    "content": "How can it be that imposing tariffs did not cause inflation or reduce affordability, but that removing tariffs will reduce inflation and increase affordability? It makes no sense. But it is not...",
-    "excerpt": "How can it be that imposing tariffs did not cause inflation or reduce affordability, but that removing tariffs will reduce inflation and increase affordability? It makes no sense. But it is not...",
-    "id": "f0e3ee13",
-    "wordCount": 32,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Brad DeLong",
-      "slug": "brad-delong",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Robin's 2025 gift guide",
-    "link": "https://www.robinsloan.com/newsletters/2025-gift-guide/",
-    "author": "Robin Sloan",
-    "publishedAt": "2025-11-22T00:00:00.000Z",
-    "content": "",
-    "excerpt": "",
-    "id": "ac8e7a3e",
-    "wordCount": 1,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Robin Sloan",
-      "slug": "robin-sloan",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "COP30’s biofuel gamble could cost the global food supply — and the planet",
-    "link": "https://grist.org/food-and-agriculture/cop30s-biofuel-gamble-could-cost-the-global-food-supply-and-the-planet/",
-    "author": "Ayurella Horn-Muller",
-    "publishedAt": "Fri, 21 Nov 2025 23:09:11 +0000",
-    "content": "What was once considered a climate holy grail comes with serious tradeoffs. The world wants more of it anyway.",
-    "excerpt": "What was once considered a climate holy grail comes with serious tradeoffs. The world wants more of it anyway.",
-    "id": "6ec70421",
-    "wordCount": 19,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Grist",
-      "slug": "grist",
-      "category": "Climate"
-    }
-  },
-  {
-    "title": "Keep Houston weird",
-    "link": "https://www.natesilver.net/p/keep-houston-weird",
-    "author": "Joseph George",
-    "publishedAt": "Fri, 21 Nov 2025 23:03:33 GMT",
-    "content": "The Houston Rockets are playing unconventional basketball, but their young core is blasting off.",
-    "excerpt": "The Houston Rockets are playing unconventional basketball, but their young core is blasting off.",
-    "id": "d0de97f1",
-    "wordCount": 14,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Silver Bulletin",
-      "slug": "silver-bulletin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Jeffrey Epstein: A comprehensive timeline",
-    "link": "https://www.slowboring.com/p/jeffrey-epstein-a-comprehensive-timeline",
-    "author": "Halina Bennet",
-    "publishedAt": "Fri, 21 Nov 2025 23:00:54 GMT",
-    "content": "How the saga unfolded",
-    "excerpt": "How the saga unfolded",
-    "id": "65eed13d",
-    "wordCount": 4,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Slow Boring",
-      "slug": "slow-boring",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Seeing a Superhero on the Subway Makes People More Likely to Surrender Their Seats",
-    "link": "https://nautil.us/seeing-a-superhero-on-the-subway-makes-people-more-likely-to-surrender-their-seats-1249377/",
-    "author": "Jake Currie",
-    "publishedAt": "Fri, 21 Nov 2025 23:00:00 +0000",
-    "content": "You might be on your best behavior with the Dark Knight or Superman watching, too\nThe post Seeing a Superhero on the Subway Makes People More Likely to Surrender Their Seats appeared first on Nautilus.",
-    "excerpt": "You might be on your best behavior with the Dark Knight or Superman watching, too\nThe post Seeing a Superhero on the Subway Makes People More Likely to Surrender Their Seats appeared first on Nautilus",
-    "id": "d785ae46",
-    "wordCount": 35,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "A Lamentation for Linnaeus: In Praise of Confusion and Rewilding Wonder",
-    "link": "https://www.themarginalian.org/2025/11/21/john-fowles-tree/",
-    "author": "Maria Popova",
-    "publishedAt": "Fri, 21 Nov 2025 22:18:32 +0000",
-    "content": "Long ago, we traded the trees for tools, trying to bend the world to our will. We rose to our feet, ambling under the weight of an oversized brain that grew the opposable thumb we call thinking and made with it more tools — language to name what we saw, organizing principles for what we named, theor",
-    "excerpt": "Long ago, we traded the trees for tools, trying to bend the world to our will. We rose to our feet, ambling under the weight of an oversized brain that grew the opposable thumb we call thinking and ma",
-    "id": "250eabac",
-    "wordCount": 102,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Marginalian",
-      "slug": "the-marginalian",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Larry Summers; Olivia Nuzzi; Pluribus ",
-    "link": "https://smallpotatoes.paulbloom.net/p/larry-summers-olivia-nuzzi-pluribus",
-    "author": "Paul Bloom",
-    "publishedAt": "Fri, 21 Nov 2025 21:44:26 GMT",
-    "content": "Podcast with Robert Wright",
-    "excerpt": "Podcast with Robert Wright",
-    "id": "a8bee2b2",
-    "wordCount": 4,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Small Potatoes",
-      "slug": "small-potatoes",
-      "category": "Psychology"
-    }
-  },
-  {
-    "title": "Do We Need a Long Bear Market?",
-    "link": "https://awealthofcommonsense.com/2025/11/do-we-need-a-long-bear-market/",
-    "author": "Ben Carlson",
-    "publishedAt": "Fri, 21 Nov 2025 21:30:13 +0000",
-    "content": "Do investors need a reminder about risk?\nThe post Do We Need a Long Bear Market? appeared first on A Wealth of Common Sense.\n...",
-    "excerpt": "Do investors need a reminder about risk?\nThe post Do We Need a Long Bear Market? appeared first on A Wealth of Common Sense.\n...",
-    "id": "b729e7e4",
-    "wordCount": 25,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "A Wealth of Common Sense",
-      "slug": "wealth-common-sense",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "The Math Shows Jackson Pollock Painted Like a Child Would",
-    "link": "https://nautil.us/the-math-shows-jackson-pollock-painted-like-a-child-would-1249335/",
-    "author": "Kristen French",
-    "publishedAt": "Fri, 21 Nov 2025 21:00:00 +0000",
-    "content": "And that might be what made the artist so famous\nThe post The Math Shows Jackson Pollock Painted Like a Child Would appeared first on Nautilus.",
-    "excerpt": "And that might be what made the artist so famous\nThe post The Math Shows Jackson Pollock Painted Like a Child Would appeared first on Nautilus.",
-    "id": "a62d766c",
-    "wordCount": 26,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "BREAKING: The AI 2027 doomsday scenario has officially been postponed",
-    "link": "https://garymarcus.substack.com/p/breaking-the-ai-2027-doomsday-scenario",
-    "author": "Gary Marcus",
-    "publishedAt": "Fri, 21 Nov 2025 20:59:09 GMT",
-    "content": "The good news is that you can rest more easily; the bad news is we have been building our world around a fantasy",
-    "excerpt": "The good news is that you can rest more easily; the bad news is we have been building our world around a fantasy",
-    "id": "3b82116a",
-    "wordCount": 23,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Gary Marcus",
-      "slug": "gary-marcus",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Friday links: a demonstrated interest",
-    "link": "https://abnormalreturns.com/2025/11/21/friday-links-a-demonstrated-interest/",
-    "author": "abnormalreturns",
-    "publishedAt": "Fri, 21 Nov 2025 20:34:39 +0000",
-    "content": "",
-    "excerpt": "",
-    "id": "ae07db31",
-    "wordCount": 1,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Abnormal Returns",
-      "slug": "abnormal-returns",
-      "category": "Finance"
     }
   }
 ]
