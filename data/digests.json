@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-12-13",
+    "title": "Random Digest: December 13, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-12-13T02:19:38.724Z",
+    "articles": [
+      {
+        "id": "8cc6bf3f",
+        "title": "U.S. Seizes Oil Tanker Off Venezuelan Coast",
+        "excerpt": "Some updates on the US capture of an oil tanker that had just departed from Venezuela.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 11 Dec 2025 06:26:16 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.nakedcapitalism.com/2025/12/u-s-seizes-oil-tanker-off-venezuelan-coast.html"
+      },
+      {
+        "id": "e0be573d",
+        "title": "The Portal Experiment 2.0",
+        "excerpt": "Exploring the Necessity of a \"Community of Communities\" in 2025",
+        "author": "Cadell Last",
+        "publication": {
+          "name": "Philosophy Portal",
+          "slug": "philosophy-portal",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 03 Dec 2025 15:57:06 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://philosophyportal.substack.com/p/the-portal-experiment-20"
+      },
+      {
+        "id": "5301d8de",
+        "title": "How Europe Lost",
+        "excerpt": "Can the continent escape its Trump trap?",
+        "author": "Matthias Matthijs, Nathalie Tocci",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 12 Dec 2025 00:00:00 -0500",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.foreignaffairs.com/united-states/how-europe-lost-matthijs-tocci"
+      },
+      {
+        "id": "bcf6d956",
+        "title": "Depending On The Kindness Of Strangers",
+        "excerpt": "by Mike O’Brien Like many other video gamers (nearly eight million, in fact), I have spent no small portion of recent weeks in the robot-infested, post-diluvian wastes of late-22nd-Century Italy, loot",
+        "author": "Mike O'Brien",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 09 Dec 2025 10:00:40 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/depending-on-the-kindness-of-strangers.html"
+      },
+      {
+        "id": "35af1843",
+        "title": "WINE Cooler",
+        "excerpt": "Lessons on laying out the 404 Media zine using a relatively weird setup—on Linux, using Affinity, with the help of the Windows translation layer WINE.\n\nI write a lot these days, but my path into journ",
+        "author": "Ernie Smith",
+        "publication": {
+          "name": "Tedium",
+          "slug": "tedium",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-12-11T03:23:57.000Z",
+        "readTime": 9,
+        "wordCount": 1797,
+        "url": "https://tedium.co/2025/12/10/404-media-zine-linux-affinity/"
+      },
+      {
+        "id": "67f3e6b6",
+        "title": "Millions of Years Ago These Animals Shaped the Arabian Sea",
+        "excerpt": "Like modern sea cows, these Late Miocene marine mammals engineered their ecosystems\nThe post Millions of Years Ago These Animals Shaped the Arabian Sea appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 10 Dec 2025 19:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://nautil.us/millions-of-years-ago-these-animals-shaped-the-arabian-sea-1253837/"
+      },
+      {
+        "id": "fa5d6d97",
+        "title": "New England kicks off $450M plan to supercharge heat pump adoption",
+        "excerpt": "The program aims to use federal funds awarded under the Biden administration to deploy more than 500,000 heat pumps in the chilly region over the next few years.",
+        "author": "Sarah Shemkus, Canary Media",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 29 Nov 2025 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://grist.org/energy/new-england-kicks-off-450m-plan-to-supercharge-heat-pump-adoption/"
+      },
+      {
+        "id": "cd5ff18e",
+        "title": "read it in the original",
+        "excerpt": "a call for indications of interest",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 03 Dec 2025 18:01:03 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://backofmind.substack.com/p/read-it-in-the-original"
+      },
+      {
+        "id": "dae4e464",
+        "title": "Asia-Pacific faces ‘$500bn-a-year’ hit from rising seas if current policies continue",
+        "excerpt": "Coastal flooding could bring $500bn of annual damages to the Asia-Pacific by the year 2100,...\nThe post Asia-Pacific faces ‘$500bn-a-year’ hit from rising seas if current policies continue appeared fi",
+        "author": "Ayesha Tandon",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 02 Dec 2025 16:44:48 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/asia-pacific-faces-500bn-a-year-hit-from-rising-seas-if-current-policies-continue/"
+      },
+      {
+        "id": "b52dea7f",
+        "title": "Wednesday links: the degenerate moment",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 03 Dec 2025 16:48:16 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2025/12/03/wednesday-links-the-degenerate-moment/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-12-09",
     "title": "Random Digest: December 9, 2025",
     "subtitle": "10 hand-picked articles from our collection",
