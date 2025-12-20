@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-12-20",
+    "title": "Random Digest: December 20, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-12-20T02:19:18.961Z",
+    "articles": [
+      {
+        "id": "4098a6c2",
+        "title": "creating the hallucination of price",
+        "excerpt": "ways of looking at the elephant",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 19 Dec 2025 13:16:26 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://backofmind.substack.com/p/creating-the-hallucination-of-price"
+      },
+      {
+        "id": "f5ef8f1b",
+        "title": "Why is South Korean fertility so low?",
+        "excerpt": "Every hundred South Koreans today will have only six great-grandchildren between them. The rest of the world can learn from Korea’s catastrophe to avoid the same fate.",
+        "author": "Phoebe Arslanagić-Little",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 15 Dec 2025 10:39:07 GMT",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://www.worksinprogress.news/p/why-is-south-korean-fertility-so"
+      },
+      {
+        "id": "bf6cccd3",
+        "title": "What your cheap clothes cost the planet",
+        "excerpt": "A global supply chain built for speed is leaving behind waste, toxins, and a trail of environmental wreckage.",
+        "author": "Sachi Kitajima Mulkey",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 15 Dec 2025 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/business/what-your-cheap-clothes-cost-the-planet/"
+      },
+      {
+        "id": "405dd239",
+        "title": "Paint the Town Red",
+        "excerpt": "Jacobin contributor Paul Heideman’s reading list on municipal socialism explores how workers’ movements, from Milwaukee to Liverpool, built power at the local level — and how they were defeated.\r\n\n\nSo",
+        "author": "Paul Heideman",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-12-14T19:51:29.000Z",
+        "readTime": 1,
+        "wordCount": 41,
+        "url": "https://jacobin.com/2025/12/paint-the-town-red/"
+      },
+      {
+        "id": "16a75c1a",
+        "title": "The core misconception that is driving American AI policy",
+        "excerpt": "Why is President Trump, a man who barely knows how to use a laptop, taking such a big risk ramming through an AI policy that almost nobody, even in his own party, wants?",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 13 Dec 2025 23:31:32 GMT",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://garymarcus.substack.com/p/a-deeply-implausible-premise-is-behind"
+      },
+      {
+        "id": "bddea065",
+        "title": "Putting the U in quantum",
+        "excerpt": "Zack Savitsky in Science Magazine: Standing in a garden on the remote German island of Helgoland one day in June, two theoretical physicists quibble over who—or what—constructs reality. Carlo Rovelli,",
+        "author": "Azra Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 08 Dec 2025 17:23:35 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/putting-the-u-in-quantum.html"
+      },
+      {
+        "id": "cf1d057e",
+        "title": "Can machines suffer?",
+        "excerpt": "We once denied the suffering of animals in pain. As AIs grow more complex, we run the danger of making the same mistake\n- by Conor Purcell\nRead on Aeon",
+        "author": "Conor Purcell",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 11 Dec 2025 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://aeon.co/essays/if-ais-can-feel-pain-what-is-our-responsibility-towards-them?utm_source=rss-feed"
+      },
+      {
+        "id": "c778b053",
+        "title": "Ethnic Cleansing, Trump Style:  Administration Moves to Send Asylum Seekers to Uganda, Honduras and Ecuador",
+        "excerpt": "Yes, the Trump Administration  is seeking to shunt asylum seekers to Uganda, Honduras, and Ecuador, presumably pour décourager les autres.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 19 Dec 2025 14:57:02 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://www.nakedcapitalism.com/2025/12/ethnic-cleansing-trump-style-administration-moves-to-send-asylum-seekers-to-uganda-honduras-and-ecuador.html"
+      },
+      {
+        "id": "5a16ae90",
+        "title": "The Price of Borrow",
+        "excerpt": "96\n            \n        \n        \n        \n        \n        \n        The Price of Borrow\n        \n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,",
+        "author": "Campaign Archive",
+        "publication": {
+          "name": "Campaign Archive Newsletter",
+          "slug": "campaign-archive-newsletter",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 08 Dec 2025 14:00:00 +0000",
+        "readTime": 5,
+        "wordCount": 955,
+        "url": "https://mailchi.mp/verdadcap/the-price-of-borrow"
+      },
+      {
+        "id": "0c7d1940",
+        "title": "IEA: Declining coal demand in China set to outweigh Trump’s pro-coal policies",
+        "excerpt": "China’s coal demand is set to drop by 2027, more than cancelling out the effects...\nThe post IEA: Declining coal demand in China set to outweigh Trump’s pro-coal policies appeared first on Carbon Brie",
+        "author": "Josh Gabbatiss",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 17 Dec 2025 15:58:09 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/iea-declining-coal-demand-in-china-set-to-outweigh-trumps-pro-coal-policies/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-12-16",
     "title": "Random Digest: December 16, 2025",
     "subtitle": "10 hand-picked articles from our collection",
