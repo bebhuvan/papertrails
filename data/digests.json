@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2025-12-27",
+    "title": "Random Digest: December 27, 2025",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2025-12-27T02:25:29.382Z",
+    "articles": [
+      {
+        "id": "845c11de",
+        "title": "Island of the hornbills",
+        "excerpt": "Why the stunning rhinoceros hornbills are the farmers of the rainforest and a powerful avian symbol of regeneration\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 18 Dec 2025 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://aeon.co/videos/how-a-beautiful-bird-helps-southeast-asias-rainforests-flourish?utm_source=rss-feed"
+      },
+      {
+        "id": "f670639c",
+        "title": "In defense of slop",
+        "excerpt": "When costs fall, average quality does too",
+        "author": "Jason Crawford",
+        "publication": {
+          "name": "Roots of Progress",
+          "slug": "roots-of-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 16 Dec 2025 17:25:56 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://newsletter.rootsofprogress.org/p/in-defense-of-slop"
+      },
+      {
+        "id": "bf6cccd3",
+        "title": "What your cheap clothes cost the planet",
+        "excerpt": "A global supply chain built for speed is leaving behind waste, toxins, and a trail of environmental wreckage.",
+        "author": "Sachi Kitajima Mulkey",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 15 Dec 2025 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/business/what-your-cheap-clothes-cost-the-planet/"
+      },
+      {
+        "id": "0fa1ec31",
+        "title": "Musk, Trump, Fuentes",
+        "excerpt": "Podcast with Robert Wright",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 17 Dec 2025 17:12:20 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://smallpotatoes.paulbloom.net/p/musk-trump-fuentes"
+      },
+      {
+        "id": "db25b89a",
+        "title": "Coffee Break: Trump Loses in Indiana as the MAGA Civil War Rages On",
+        "excerpt": "Last week, POTUS Donald Trump lost his battle to bully Indiana Republicans into redrawing their congressional districts, are we seeing Trump 2.0's mojo bleeding out as MAGA's civil war continues?",
+        "author": "Nat Wilson Turner",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 15 Dec 2025 19:00:05 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://www.nakedcapitalism.com/2025/12/maga-civil-war-trump-indiana-paoletta-carlson-miga-tate.html"
+      },
+      {
+        "id": "a6c2e156",
+        "title": "Weakening Migrants’ Rights in the Name of Fighting Racism",
+        "excerpt": "Keir Starmer wants to weaken the European Convention on Human Rights, hoping that this will win back voters from Nigel Farage’s Reform UK. In the name of fighting right-wing politics, he’s handing mor",
+        "author": "Nathan Akehurst",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-12-17T09:00:58.000Z",
+        "readTime": 9,
+        "wordCount": 1721,
+        "url": "https://jacobin.com/2025/12/migrants-rights-racism-labour-authoritarianism/"
+      },
+      {
+        "id": "f9d750f4",
+        "title": "Can You Beat a Low Cost ETF?",
+        "excerpt": "The question every endowment and foundation should honestly ask themselves: “Can we beat a low-cost ETF?” The answer for nearly all of them is “No”. “We study nearly 375,000 nonprofit organizations, i",
+        "author": "Meb Faber",
+        "publication": {
+          "name": "Meb Faber",
+          "slug": "meb-faber",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 18 Dec 2025 17:06:46 +0000",
+        "readTime": 1,
+        "wordCount": 77,
+        "url": "https://mebfaber.com/2025/12/18/can-you-beat-a-low-cost-etf/"
+      },
+      {
+        "id": "62d72fb7",
+        "title": "Guest post: How the Greenland ice sheet fared in 2025",
+        "excerpt": "Greenland is closing in on three decades of continuous annual ice loss, with 1995-96 being...\nThe post Guest post: How the Greenland ice sheet fared in 2025 appeared first on Carbon Brief.",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 15 Dec 2025 16:38:41 +0000",
+        "readTime": 1,
+        "wordCount": 32,
+        "url": "https://www.carbonbrief.org/guest-post-how-the-greenland-ice-sheet-fared-in-2025/"
+      },
+      {
+        "id": "cb7bff71",
+        "title": "The AI bubble is all over now, baby blue",
+        "excerpt": "You must leave now, take what you need you think will last.",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 26 Dec 2025 14:39:54 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://garymarcus.substack.com/p/the-ai-bubble-is-all-over-now-baby"
+      },
+      {
+        "id": "33560a90",
+        "title": "Raja Shehadeh Believes Israelis and Palestinians Can Still Find Peace",
+        "excerpt": "David Marchese in the New York Times: The writer, lawyer and human rights activist Raja Shehadeh, who is 74, has spent most of his life living in Ramallah, a city in the Israeli-occupied West Bank. Th",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 16:45:38 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/raja-shehadeh-believes-israelis-and-palestinians-can-still-find-peace.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-12-23",
     "title": "Random Digest: December 23, 2025",
     "subtitle": "10 hand-picked articles from our collection",
