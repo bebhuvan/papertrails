@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-03",
+    "title": "Random Digest: January 3, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-03T02:24:36.908Z",
+    "articles": [
+      {
+        "id": "3a057089",
+        "title": "Coffee Break: What Are They Thinking? Son, Altman, Ellison Edition",
+        "excerpt": "Do moguls like Masayoshi Son, Sam Altman, and Larry Ellison actually believe Artificial Super Intelligence is imminent?",
+        "author": "Nat Wilson Turner",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 31 Dec 2025 19:00:58 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.nakedcapitalism.com/2025/12/artificial-super-intelligence-softbank-son-sam-altman-larry-ellison-paramount.html"
+      },
+      {
+        "id": "0598c7e8",
+        "title": "Beyond The Last Minute",
+        "excerpt": "Tedium’s annual last-minute gift guide presumes you’re going to give your loved ones gifts on the 26th … or let’s be honest, the middle of January.\n\nToday in Tedium: If you’re reading this and just ge",
+        "author": "Ernie Smith",
+        "publication": {
+          "name": "Tedium",
+          "slug": "tedium",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-12-22T18:16:52.000Z",
+        "readTime": 12,
+        "wordCount": 2358,
+        "url": "https://tedium.co/2025/12/22/tedium-gift-guide-2025/"
+      },
+      {
+        "id": "af198307",
+        "title": "Wednesday Poem",
+        "excerpt": "Christmas Mail Cards in each mailbox, angel, manger, star and lamb, as the rural carrier, driving the snowy roads, hears from her bundles the plaintive bleating of sheep, the shuffle of sandals, the c",
+        "author": "Jim Culleny",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 24 Dec 2025 13:12:22 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/wednesday-poem-478.html"
+      },
+      {
+        "id": "3136d777",
+        "title": "Trump has always hated offshore wind. Now he’s moving to kill it.",
+        "excerpt": "The Trump administration has halted five already approved offshore wind projects despite rising electricity demand.",
+        "author": "Tik Root",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 19:36:25 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://grist.org/energy/trump-has-always-hated-offshore-wind-now-hes-moving-to-kill-it/"
+      },
+      {
+        "id": "e4e2c69a",
+        "title": "Three Value Clumps",
+        "excerpt": "I have long posted on studies that try to make sense of how human values differ, and how they have changed over time.",
+        "author": "Robin Hanson",
+        "publication": {
+          "name": "Overcoming Bias",
+          "slug": "overcoming-bias",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 26 Dec 2025 19:37:17 GMT",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://www.overcomingbias.com/p/three-value-clumps"
+      },
+      {
+        "id": "30a56043",
+        "title": "Phillips O’Brien and Volodomyr Havrylov",
+        "excerpt": "A recording from Phillips P. OBrien's live video",
+        "author": "Phillips P. OBrien",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 16:13:36 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://phillipspobrien.substack.com/p/phillips-obrien-and-volodomyr-havrylov"
+      },
+      {
+        "id": "9101c5fb",
+        "title": "The Stream Animals Thriving After a Megafire",
+        "excerpt": "Oregon fish and amphibians are surprisingly resilient\nThe post The Stream Animals Thriving After a Megafire appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 23 Dec 2025 18:10:10 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://nautil.us/the-stream-animals-thriving-after-a-megafire-1256732/"
+      },
+      {
+        "id": "87695f56",
+        "title": "2025",
+        "excerpt": "Year end roundup",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 24 Dec 2025 14:59:35 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/2025"
+      },
+      {
+        "id": "82c4002f",
+        "title": "Adviser links: a step backward",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 14:17:32 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/12/22/adviser-links-a-step-backward/"
+      },
+      {
+        "id": "d46bbad4",
+        "title": "What changed for deep-sea mining in 2025? Everything.",
+        "excerpt": "Trump reshaped the industry this year, even as it faced opposition from the United Nations, scientists, and Indigenous peoples.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/global-indigenous-affairs-desk/what-changed-for-deep-sea-mining-in-2025-everything/"
+      }
+    ]
+  },
+  {
     "id": "digest-2025-12-30",
     "title": "Random Digest: December 30, 2025",
     "subtitle": "10 hand-picked articles from our collection",
