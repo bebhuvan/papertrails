@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-06",
+    "title": "Random Digest: January 6, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-06T02:31:05.405Z",
+    "articles": [
+      {
+        "id": "22c3cbd8",
+        "title": "How to start learning dance",
+        "excerpt": "Follow these steps to find a style of movement that will captivate you – even if you’ve never seen yourself as a dancer\n- by Dawn Davis Loring\nRead on Psyche",
+        "author": "Dawn Davis Loring",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 23 Dec 2025 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://psyche.co/guides/how-to-start-learning-dance-for-fun-fitness-or-connection?utm_source=rss-feed"
+      },
+      {
+        "id": "28131c7c",
+        "title": "University of Nebraska is eliminating a key climate research department",
+        "excerpt": "As Nebraska's weather intensifies, farmers are losing a critical resource to understand it.",
+        "author": "Anila Yoganathan",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 02 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://grist.org/extreme-weather/university-of-nebraska-is-eliminating-a-key-climate-research-department/"
+      },
+      {
+        "id": "e55a0445",
+        "title": "Philosophy and The English Language",
+        "excerpt": "Footnotes to Orwell",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 19 Dec 2025 16:30:10 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://benthams.substack.com/p/philosophy-and-the-english-language"
+      },
+      {
+        "id": "b613fc03",
+        "title": "AI Cartoon of The Year — and five (re)readings for 2026",
+        "excerpt": "Happy New Year! 🥳",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 30 Dec 2025 18:10:35 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://garymarcus.substack.com/p/ai-cartoon-of-the-year-and-five-rereadings"
+      },
+      {
+        "id": "9101c5fb",
+        "title": "The Stream Animals Thriving After a Megafire",
+        "excerpt": "Oregon fish and amphibians are surprisingly resilient\nThe post The Stream Animals Thriving After a Megafire appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 23 Dec 2025 18:10:10 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://nautil.us/the-stream-animals-thriving-after-a-megafire-1256732/"
+      },
+      {
+        "id": "0d359288",
+        "title": "Talk Your Book: A Tactical Strategy That Actually Works",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 22 Dec 2025 12:00:33 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/talk-your-book-a-tactical-strategy-that-actually-works"
+      },
+      {
+        "id": "c001e4ba",
+        "title": "High-achieving adults rarely began as child prodigies",
+        "excerpt": "Christa Lesté-Lasserre at New Scientist: International chess masters, Olympic gold medallists and Nobel prize-winning scientists were rarely child prodigies, a review reveals. Likewise, early childhoo",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 01 Jan 2026 18:45:32 +0000",
+        "readTime": 1,
+        "wordCount": 57,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/01/high-achieving-adults-rarely-began-as-child-prodigies.html"
+      },
+      {
+        "id": "7b0f2cf4",
+        "title": "The CIA Is Manipulating Trump Against Putin",
+        "excerpt": "Quelle surprise! The CIA is yet again up to no good.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 02 Jan 2026 14:55:20 +0000",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.nakedcapitalism.com/2026/01/the-cia-is-manipulating-trump-against-putin.html"
+      },
+      {
+        "id": "d3c5c2d4",
+        "title": "The Revolutionary Roots of Social Democracy",
+        "excerpt": "Why was the revolutionary road out of capitalism abandoned for an evolutionary one? In an interview with Jacobin, Vivek Chibber explores how socialist parties moved from revolution to reform, but why ",
+        "author": "Vivek Chibber",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2025-12-28T09:44:05.000Z",
+        "readTime": 41,
+        "wordCount": 8064,
+        "url": "https://jacobin.com/2025/12/reform-revolution-history-social-democracy/"
+      },
+      {
+        "id": "113c5731",
+        "title": "The biggest climate migration problem may be that there’s not enough of it",
+        "excerpt": "In his new book, Julian Hattem explores how migration can be a climate solution — not just for those who are able to move, but for their home communities as well.",
+        "author": "Julian Hattem",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 05 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://grist.org/migration/the-biggest-climate-migration-problem-may-be-that-theres-not-enough-of-it/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-03",
     "title": "Random Digest: January 3, 2026",
     "subtitle": "10 hand-picked articles from our collection",
