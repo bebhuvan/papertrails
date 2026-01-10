@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-10",
+    "title": "Random Digest: January 10, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-10T02:27:11.143Z",
+    "articles": [
+      {
+        "id": "113c5731",
+        "title": "The biggest climate migration problem may be that there’s not enough of it",
+        "excerpt": "In his new book, Julian Hattem explores how migration can be a climate solution — not just for those who are able to move, but for their home communities as well.",
+        "author": "Julian Hattem",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 05 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://grist.org/migration/the-biggest-climate-migration-problem-may-be-that-theres-not-enough-of-it/"
+      },
+      {
+        "id": "f4fa7dc2",
+        "title": "Its Your Job To Keep Your Secrets",
+        "excerpt": "In the last month, many who want to kill Polymarket have agreed on a common strategy: claim that Polymarket allows illegal “insider trading”.",
+        "author": "Robin Hanson",
+        "publication": {
+          "name": "Overcoming Bias",
+          "slug": "overcoming-bias",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 09 Jan 2026 15:13:34 GMT",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://www.overcomingbias.com/p/its-your-job-to-keep-your-secrets"
+      },
+      {
+        "id": "c0ae5005",
+        "title": "The Accidental Blockbuster",
+        "excerpt": "The absurd comedy of errors that led to the year’s best feature story is almost too silly to be believed. But it happened.\n\nOK, next up on our year-end closeout is the best feature story of the year. ",
+        "author": "Ernie Smith",
+        "publication": {
+          "name": "Tedium",
+          "slug": "tedium",
+          "category": "Technology"
+        },
+        "publishedAt": "2025-12-31T17:14:07.000Z",
+        "readTime": 8,
+        "wordCount": 1425,
+        "url": "https://tedium.co/2025/12/31/best-feature-story-2025-white-house-signal-leak/"
+      },
+      {
+        "id": "ef593562",
+        "title": "Why the Pantomime? Its Always Been About Defending Putin",
+        "excerpt": "And Perhaps Getting A Nobel Prize",
+        "author": "Phillips P. OBrien",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 29 Dec 2025 08:15:26 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://phillipspobrien.substack.com/p/why-the-pantomime-its-always-been"
+      },
+      {
+        "id": "6b686e50",
+        "title": "How to be less awkward",
+        "excerpt": "a three-part treatment for a near-universal affliction",
+        "author": "Adam Mastroianni",
+        "publication": {
+          "name": "Experimental History",
+          "slug": "experimental-history",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 06 Jan 2026 16:45:44 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.experimental-history.com/p/how-to-be-less-awkward"
+      },
+      {
+        "id": "ea096e23",
+        "title": "Satyajit Das: The Shadow of Financial Instability",
+        "excerpt": "Shadow banks, rebranded as anodyne  \"non-bank financial institutions\" are larger than ever and pose a threat in a new financial crisis",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 25 Dec 2025 11:43:07 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://www.nakedcapitalism.com/2025/12/satyajit-das-the-shadow-of-financial-instability.html"
+      },
+      {
+        "id": "da093eb3",
+        "title": "2025 in review",
+        "excerpt": "What RPI and I were up to in the ninth year of this project",
+        "author": "Jason Crawford",
+        "publication": {
+          "name": "Roots of Progress",
+          "slug": "roots-of-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 31 Dec 2025 14:19:58 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://newsletter.rootsofprogress.org/p/2025-in-review"
+      },
+      {
+        "id": "58859a94",
+        "title": "Susan Sontag: A Critic at the Crossroads of Culture",
+        "excerpt": "Hal Foster at The MIT Press Reader: Austere like her prose and engaged like her subjects, Sontag was my first inkling of avant-garde culture, my initial point of access to an edgy alternative to the A",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 31 Dec 2025 17:13:55 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/susan-sontag-a-critic-at-the-crossroads-of-culture.html"
+      },
+      {
+        "id": "f3769219",
+        "title": "6 Surprises From 2025",
+        "excerpt": "Some things that were surprising in 2025.\nThe post 6 Surprises From 2025 appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Sun, 04 Jan 2026 13:00:11 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://awealthofcommonsense.com/2026/01/6-surprises-from-2025/"
+      },
+      {
+        "id": "19fc5a73",
+        "title": "Wildfire smoke is a national crisis, and it’s worse than you think",
+        "excerpt": "Greenhouse gas and particulate emissions from fires globally may be 70 percent higher than once believed.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 02 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/health/wildfire-smoke-is-a-national-crisis-and-its-worse-than-you-think/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-06",
     "title": "Random Digest: January 6, 2026",
     "subtitle": "10 hand-picked articles from our collection",
