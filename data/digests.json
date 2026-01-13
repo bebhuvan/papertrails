@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-13",
+    "title": "Random Digest: January 13, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-13T02:29:24.192Z",
+    "articles": [
+      {
+        "id": "460537d0",
+        "title": "A Close Look at SRAM for Inference in the Age of HBM Supremacy",
+        "excerpt": "Why SRAM for AI inference is far from the silver bullet everyone is expecting, an in-depth look into SRAM's specific performance benefits, and why HBM is here to stay.",
+        "author": "Vikram Sekar",
+        "publication": {
+          "name": "Vik's Newsletter",
+          "slug": "viks-newsletter",
+          "category": "Technology"
+        },
+        "publishedAt": "Sun, 11 Jan 2026 12:37:30 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://www.viksnewsletter.com/p/a-close-look-at-sram-for-inference"
+      },
+      {
+        "id": "68f83607",
+        "title": "How community solar turned a Superfund site into savings in Illinois",
+        "excerpt": "A new 9.1-megawatt solar array will help residents of Waukegan, Illinois, reduce energy bills. State incentives for low-income solar made the project possible.",
+        "author": "Kari Lydersen",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 10 Jan 2026 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://grist.org/solutions/how-community-solar-turned-a-superfund-site-into-savings-in-illinois/"
+      },
+      {
+        "id": "66553caa",
+        "title": "Zohran Mamdani Is Already Winning on Childcare",
+        "excerpt": "We’re less than two weeks into Zohran Mamdani’s mayoralty, and he has already notched an impressive victory on one of his key campaign promises: universal childcare.\nIn his short time in office, Zohra",
+        "author": "Liza Featherstone",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-01-10T09:47:12.000Z",
+        "readTime": 6,
+        "wordCount": 1068,
+        "url": "https://jacobin.com/2026/01/mamdani-hochul-universal-childcare-policy/"
+      },
+      {
+        "id": "9533fbc2",
+        "title": "Saturday links: diminishing returns",
+        "excerpt": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Sat, 27 Dec 2025 15:01:36 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2025/12/27/saturday-links-diminishing-returns/"
+      },
+      {
+        "id": "6267d8f5",
+        "title": "Active Management Fails Even in Perfect Market Conditions",
+        "excerpt": "Return dispersion is a critical factor in active manager performance.",
+        "author": "Larry Swedroe",
+        "publication": {
+          "name": "Larry Swedroe",
+          "slug": "larry-swedroe",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 01 Jan 2026 20:50:45 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://larryswedroe.substack.com/p/active-management-fails-even-in-perfect"
+      },
+      {
+        "id": "bd6fc2b2",
+        "title": "What your mind’s blank moments reveal about consciousness",
+        "excerpt": "Scientists are uncovering the nature of an elusive mental experience that challenges what it means to be conscious\n- by Thomas Andrillon\nRead on Psyche",
+        "author": "Thomas Andrillon",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 05 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://psyche.co/ideas/what-your-minds-blank-moments-reveal-about-consciousness?utm_source=rss-feed"
+      },
+      {
+        "id": "5899d481",
+        "title": "A New Anti-Political Fervor",
+        "excerpt": "The post A New Anti-Political Fervor appeared first on NOEMA.",
+        "author": "Anton Cebalo",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 08 Jan 2026 15:02:28 +0000",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.noemamag.com/a-new-anti-political-fervor"
+      },
+      {
+        "id": "79356f48",
+        "title": "In search of Ur-Musik. Is there a sound so elemental, so in tune with music's \"unchangeable essence,\" that it essentially composes itself?",
+        "excerpt": "In search of Ur-Musik. Is there a sound so elemental, so in tune with music's \"unchangeable essence,\" that it essentially composes itself?",
+        "author": "Arts & Letters Daily",
+        "publication": {
+          "name": "Arts & Letters Daily",
+          "slug": "arts-letters-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-01-01T19:40:08.690Z",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://theamericanscholar.org/the-enigma-of-ur/"
+      },
+      {
+        "id": "eedd2cb1",
+        "title": "The Amateur Archaeologist Who Found the Wrong Troy",
+        "excerpt": "Heinrich Schliemann was a thousand years off the mark—but he did still make meaningful discoveries \nThe post The Amateur Archaeologist Who Found the Wrong Troy appeared first on Nautilus.",
+        "author": "Molly Glick",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 06 Jan 2026 21:17:59 +0000",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://nautil.us/the-amateur-archaeologist-who-found-the-wrong-troy-1259977/"
+      },
+      {
+        "id": "fefeb032",
+        "title": "The Miccosukee Tribe blocked Alligator Alcatraz. Then Trump blocked a bill to return their land.",
+        "excerpt": "After the tribe sued to stop an immigration detention center, the White House vetoed a bipartisan bill that would have expanded Miccosukee land and environmental stewardship.",
+        "author": "Miacel Spotted Elk",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 09 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://grist.org/indigenous/the-miccosukee-tribe-blocked-alligator-alcatraz-then-trump-blocked-a-bill-to-return-their-land/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-10",
     "title": "Random Digest: January 10, 2026",
     "subtitle": "10 hand-picked articles from our collection",
