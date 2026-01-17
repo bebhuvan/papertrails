@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-17",
+    "title": "Random Digest: January 17, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-17T02:25:16.590Z",
+    "articles": [
+      {
+        "id": "dfdf08f1",
+        "title": "Notes on the Economy of El Salvador",
+        "excerpt": "An island nation at heart",
+        "author": "Nicholas Decker",
+        "publication": {
+          "name": "Nicholas Decker",
+          "slug": "nicholas-decker",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 13 Jan 2026 18:08:31 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://nicholasdecker.substack.com/p/notes-on-the-economy-of-el-salvador"
+      },
+      {
+        "id": "04534c3f",
+        "title": "Why forcing people to go green can backfire",
+        "excerpt": "A new study reveals a conundrum for climate policy: People hate it when you tell them what to do.",
+        "author": "Tik Root",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 06 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/politics/why-forcing-people-to-go-green-can-backfire/"
+      },
+      {
+        "id": "36135d59",
+        "title": "Silver Bulletin pollster ratings, January 2026 update",
+        "excerpt": "All the numbers for every pollster, fully updated after 2025.",
+        "author": "Nate Silver",
+        "publication": {
+          "name": "Silver Bulletin",
+          "slug": "silver-bulletin",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 14 Jan 2026 18:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.natesilver.net/p/pollster-ratings-silver-bulletin"
+      },
+      {
+        "id": "cf4877c4",
+        "title": "Pluralistic: Code is a liability (not an asset) (06 Jan 2026)",
+        "excerpt": "Today's links Code is a liability (not an asset): AI psychosis, tech boss edition. Hey look at this: Delights to delectate. Object permanence: Coldplay CD DRM; Star Wars Wars; Digital manorialism vs n",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 06 Jan 2026 14:11:46 +0000",
+        "readTime": 19,
+        "wordCount": 3724,
+        "url": "https://pluralistic.net/2026/01/06/1000x-liability/"
+      },
+      {
+        "id": "59fb61ea",
+        "title": "Aftershock",
+        "excerpt": "A random shooting left me with crippling PTSD. Could magnetic stimulation of my brain quiet the terror?\n- by Madison Lamb\nRead on Psyche",
+        "author": "Madison Lamb",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 07 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://psyche.co/turning-points/could-brain-stimulation-heal-my-trauma-from-a-random-shooting?utm_source=rss-feed"
+      },
+      {
+        "id": "19fd0d5d",
+        "title": "Trump’s EPA could limit its own ability to use new science to strengthen air pollution rules",
+        "excerpt": "In government records that have flown under the radar, the EPA is questioning its legal authority to revise pollution rules more than once when new science shows unacceptable health risks.",
+        "author": "Lisa Song, ProPublica",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sun, 11 Jan 2026 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://grist.org/accountability/trumps-epa-could-limit-its-own-ability-to-use-new-science-to-strengthen-air-pollution-rules/"
+      },
+      {
+        "id": "c748d9e0",
+        "title": "Sunday links: accumulating meaning",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Sun, 11 Jan 2026 16:24:18 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/01/11/sunday-links-accumulating-meaning/"
+      },
+      {
+        "id": "0160b53a",
+        "title": "Landholder vs stockholder",
+        "excerpt": "In 1752, David Hume discerned that wealth was becoming untethered from land. Here lies the origin of our political divisions\n- by Catherine Nichols\nRead on Aeon",
+        "author": "Catherine Nichols",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 15 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://aeon.co/essays/why-hume-is-better-at-explaining-modern-capitalism-than-marx?utm_source=rss-feed"
+      },
+      {
+        "id": "caa4bd1e",
+        "title": "Skirt the algos: 2025 in music",
+        "excerpt": "Digging into the new year and not in the mood for algos. So I’m going through folks’ favorites from 2025 at leisure: New Commute, New Commute Artist Friends, Vanyaland needle drops from movies, Jeffre",
+        "author": "Chris Glass",
+        "publication": {
+          "name": "Chris Glass",
+          "slug": "chris-glass",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 08 Jan 2026 15:31:30 +0000",
+        "readTime": 1,
+        "wordCount": 98,
+        "url": "https://chrisglass.com/links/skirt-the-algos-2025-in-music/"
+      },
+      {
+        "id": "4cbd4ad9",
+        "title": "Rogue Planet Weighed for the First Time",
+        "excerpt": "“The galaxy may be teeming with rogue planets”\nThe post Rogue Planet Weighed for the First Time appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 09 Jan 2026 22:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://nautil.us/rogue-planet-weighed-for-the-first-time-1260597/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-13",
     "title": "Random Digest: January 13, 2026",
     "subtitle": "10 hand-picked articles from our collection",
