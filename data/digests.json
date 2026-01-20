@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-20",
+    "title": "Random Digest: January 20, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-20T02:33:42.287Z",
+    "articles": [
+      {
+        "id": "966155b1",
+        "title": "Two Brooklyn Socialists Are Hoping to Build the Left’s Bench",
+        "excerpt": "Democratic socialists Eon Huntley and Christian Celeste Tate are running for New York State Assembly, hoping to grow the socialist bench in Albany. Jacobin spoke to them about their campaigns.\nEon Hun",
+        "author": "Eon Tyrell Huntley",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-01-18T13:39:53.000Z",
+        "readTime": 20,
+        "wordCount": 3973,
+        "url": "https://jacobin.com/2026/01/socialists-huntley-tate-new-york/"
+      },
+      {
+        "id": "7f2c9f7a",
+        "title": "Trump’s EPA is taking itself out of the regulation game",
+        "excerpt": "The agency has long tried to curb carbon emissions and protect human health. Critics say it’s giving up on both.",
+        "author": "Jake Bittle",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://grist.org/politics/trump-lee-zeldin-epa-endangerment-finding-emissions-human-health/"
+      },
+      {
+        "id": "efcb9040",
+        "title": "Pluralistic: Catch this! (16 Jan 2026)",
+        "excerpt": "Today's links Catch this! Email is good, actually. Hey look at this: Delights to delectate. Object permanence: LDS excommunication; King Foundation v \"I Have a Dream\"; \"Lat-stage capitalism\" v \"Christ",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 17:21:02 +0000",
+        "readTime": 11,
+        "wordCount": 2171,
+        "url": "https://pluralistic.net/2026/01/16/interrupt-driven/"
+      },
+      {
+        "id": "e5e2c324",
+        "title": "Rosebud",
+        "excerpt": "Podcast with Robert Wright",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 13 Jan 2026 23:32:15 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://smallpotatoes.paulbloom.net/p/rosebud"
+      },
+      {
+        "id": "dd844cb8",
+        "title": "DeBriefed 16 January 2026: Three years of record heat; China and India coal milestone; Beijing’s 2026 climate outlook",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 16 January 2026: Three years of record heat; China and India coal miles",
+        "author": "Anika Patel",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 13:57:18 +0000",
+        "readTime": 1,
+        "wordCount": 41,
+        "url": "https://www.carbonbrief.org/debriefed-16-january-2026-three-years-of-record-heat-china-and-india-coal-milestone-beijings-2026-climate-outlook/"
+      },
+      {
+        "id": "90f89d3d",
+        "title": "Regarding the Fistfight at the Edge of the Park",
+        "excerpt": "A new poem by Andrew Weatherhead.",
+        "author": "Andrew Weatherhead",
+        "publication": {
+          "name": "Cluny Journal",
+          "slug": "cluny-journal",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 13 Jan 2026 14:02:23 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.clunyjournal.com/p/regarding-the-fistfight-andrew-weatherhead"
+      },
+      {
+        "id": "6e334c52",
+        "title": "How Did TVs Get So Cheap?",
+        "excerpt": "You’ve probably seen this famous graph that breaks out various categories of inflation, showing labor-intensive services getting more expensive during the 21st century and manufactured goods getting l",
+        "author": "Brian Potter",
+        "publication": {
+          "name": "Construction Physics",
+          "slug": "construction-physics",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 08 Jan 2026 13:01:23 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://www.construction-physics.com/p/how-did-tvs-get-so-cheap"
+      },
+      {
+        "id": "436d6df5",
+        "title": "The Minotaur is Patient: a Schizothemia",
+        "excerpt": "by TJ Price It’s a few days before Christmas, but it doesn’t feel like it. The weather app I use has subtitled the forecast for the holiday with a cheeky “feels more like Spring than Christmas,” and t",
+        "author": "TJ Price",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 12 Jan 2026 11:00:39 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/01/the-minotaur-is-patient-a-schizothemia.html"
+      },
+      {
+        "id": "9c365fe9",
+        "title": "It Happened Again",
+        "excerpt": "The ups and downs of the stock market.\nThe post It Happened Again appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 06 Jan 2026 20:45:12 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://awealthofcommonsense.com/2026/01/it-happened-again/"
+      },
+      {
+        "id": "d013d789",
+        "title": "\"Robustness\" Is Not Replication",
+        "excerpt": "We must be clear about what we are doing",
+        "author": "Nicholas Decker",
+        "publication": {
+          "name": "Nicholas Decker",
+          "slug": "nicholas-decker",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 19 Jan 2026 13:46:19 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://nicholasdecker.substack.com/p/robustness-is-not-replication"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-17",
     "title": "Random Digest: January 17, 2026",
     "subtitle": "10 hand-picked articles from our collection",
