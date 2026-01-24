@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-24",
+    "title": "Random Digest: January 24, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-24T02:28:38.244Z",
+    "articles": [
+      {
+        "id": "17af1232",
+        "title": "Podcast links: the future of football",
+        "excerpt": "Fridays are all about podcast links here at Abnormal Returns. You can also check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 16:11:35 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/01/23/podcast-links-the-future-of-football/"
+      },
+      {
+        "id": "dd844cb8",
+        "title": "DeBriefed 16 January 2026: Three years of record heat; China and India coal milestone; Beijing’s 2026 climate outlook",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 16 January 2026: Three years of record heat; China and India coal miles",
+        "author": "Anika Patel",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 13:57:18 +0000",
+        "readTime": 1,
+        "wordCount": 41,
+        "url": "https://www.carbonbrief.org/debriefed-16-january-2026-three-years-of-record-heat-china-and-india-coal-milestone-beijings-2026-climate-outlook/"
+      },
+      {
+        "id": "d76a2626",
+        "title": "🌻 chinese peptide physiognomy",
+        "excerpt": "the new language of bio-acceleration",
+        "author": "Jasmine Sun",
+        "publication": {
+          "name": "Jasmi News",
+          "slug": "jasmi-news",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 13 Jan 2026 16:53:38 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://jasmi.news/p/bio-acc-dictionary"
+      },
+      {
+        "id": "50488f02",
+        "title": "LLMs are lagging indicators",
+        "excerpt": "Why you should hire recent graduates",
+        "author": "Hollis Robbins",
+        "publication": {
+          "name": "Hollis Robbins",
+          "slug": "hollis-robbins",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 23:43:27 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://hollisrobbinsanecdotal.substack.com/p/llms-are-lagging-indicators"
+      },
+      {
+        "id": "4ee8ba6c",
+        "title": "Iván Cepeda on the Risk of US Meddling in Colombia’s Election",
+        "excerpt": "Left-wing Colombian presidential candidate Iván Cepeda speaks to Jacobin about the accomplishments of Gustavo Petro, the US attack on Venezuela, and the Trump administration’s dangerous interventions ",
+        "author": "Iván Cepeda",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-01-11T11:46:59.000Z",
+        "readTime": 11,
+        "wordCount": 2070,
+        "url": "https://jacobin.com/2026/01/cepeda-colombia-elections-petro-trump/"
+      },
+      {
+        "id": "c74222a4",
+        "title": "No, willpower isn’t a muscle – here’s a better way to think of it",
+        "excerpt": "The muscle metaphor based on ego-depletion theory hasn’t survived scrutiny. But there’s an alternative that holds promise\n- by Alberto De Luca\nRead on Psyche",
+        "author": "Alberto De Luca",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 22 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://psyche.co/ideas/no-willpower-isnt-a-muscle-heres-a-better-way-to-think-of-it?utm_source=rss-feed"
+      },
+      {
+        "id": "85d74252",
+        "title": "Can you build data centers in a desert without draining the water supply? Utah is finding out.",
+        "excerpt": "Politicians are pushing for one of the driest states to become a haven for data centers.",
+        "author": "Leia Larsen",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 21 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/technology/utah-data-center-water-supply-meta-novva/"
+      },
+      {
+        "id": "b4358868",
+        "title": "The “Far Side” Had It All Wrong—Cows Really Can Use Sophisticated Tools",
+        "excerpt": "Upending Gary Larson’s premise that cows are too daft to use tools \nThe post The “Far Side” Had It All Wrong—Cows Really Can Use Sophisticated Tools appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 19 Jan 2026 16:02:00 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://nautil.us/the-far-side-had-it-all-wrong-cows-really-can-use-sophisticated-tools-1262026/"
+      },
+      {
+        "id": "83be025b",
+        "title": "By the Content of their Character: Christian Love and Virtue Ethics in Martin Luther King’s Writings.",
+        "excerpt": "an unpublished paper presented at the Philosophy Born Of Struggle conference",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sun, 18 Jan 2026 17:34:00 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://gregorybsadler.substack.com/p/by-the-content-of-their-character"
+      },
+      {
+        "id": "4235850a",
+        "title": "Coffee Break: The President Fixes Health Care While Unfixing the Air We Breathe, Among Other Things",
+        "excerpt": "Part the First: The President Fixes Healthcare. Oh, joy!  A very long time ago I told myself that, surely, by the time I was eligible for Medicare the United States would have fixed our healthcare sys",
+        "author": "KLG",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 19:00:16 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://www.nakedcapitalism.com/2026/01/coffee-break-the-president-fixes-health-care-while-unfixing-the-air-we-breathe-among-other-things.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-20",
     "title": "Random Digest: January 20, 2026",
     "subtitle": "10 hand-picked articles from our collection",
