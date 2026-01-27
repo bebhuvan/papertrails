@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-27",
+    "title": "Random Digest: January 27, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-27T02:39:13.387Z",
+    "articles": [
+      {
+        "id": "b08cf6d8",
+        "title": "Is Being Virtuous Good for You – or Just People Around You? A Study Suggests Traits Like Compassion May Support Your Own Well-Being",
+        "excerpt": "Is being virtuous more than just its own reward?",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 26 Jan 2026 14:55:43 +0000",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.nakedcapitalism.com/2026/01/is-being-virtuous-good-for-you-or-just-people-around-you-a-study-suggests-traits-like-compassion-may-support-your-own-well-being.html"
+      },
+      {
+        "id": "4027ed0f",
+        "title": "The Power of Grievance",
+        "excerpt": "What history reveals about authoritarianism’s animating force.",
+        "author": "Benjamin Carter Hett",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 21 Jan 2026 00:00:00 -0500",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.foreignaffairs.com/united-states/power-grievance"
+      },
+      {
+        "id": "ceca3460",
+        "title": "The consequences of Trump’s war on climate in 7 charts",
+        "excerpt": "Seven snapshots reveal how climate rollbacks altered the trajectory of U.S. energy, environmental protection, and economic security.",
+        "author": "Grist staff",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 21 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://grist.org/politics/the-consequences-of-trumps-war-on-climate-in-7-charts/"
+      },
+      {
+        "id": "ef1c1bf7",
+        "title": "On the preparations before writing an essay",
+        "excerpt": "Shooting raw footage",
+        "author": "Henrik Karlsson",
+        "publication": {
+          "name": "Henrik Karlsson",
+          "slug": "henrik-karlsson",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 15 Jan 2026 11:03:57 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.henrikkarlsson.xyz/p/on-the-preparations-before-writing"
+      },
+      {
+        "id": "1f2a1b40",
+        "title": "The Winners Write the History Books",
+        "excerpt": "Some thoughts on America as an economic superpower.\nThe post The Winners Write the History Books appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 20 Jan 2026 15:30:35 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://awealthofcommonsense.com/2026/01/the-winners-write-the-history-books-2/"
+      },
+      {
+        "id": "9be66045",
+        "title": "The climate contradictions in MAHA’s new food pyramid",
+        "excerpt": "A Q&A with Sam Kass, a former Obama nutrition advisor, on the Trump administration’s new dietary guidelines and what they mean for the climate.",
+        "author": "Frida Garza",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 09:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/food-and-agriculture/climate-contradictions-maha-new-food-pyramid/"
+      },
+      {
+        "id": "440e5456",
+        "title": "Metascience: Accelerating scientific progress",
+        "excerpt": "Talks and writing from Progress Conference 2025",
+        "author": "Ben Thomas",
+        "publication": {
+          "name": "Roots of Progress",
+          "slug": "roots-of-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 15:52:55 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://newsletter.rootsofprogress.org/p/metascience-accelerating-scientific"
+      },
+      {
+        "id": "d17a9ca8",
+        "title": "How The ‘AI Job Shock’ Will Differ From The ‘China Trade Shock’",
+        "excerpt": "The post How The ‘AI Job Shock’ Will Differ From The ‘China Trade Shock’ appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 16 Jan 2026 17:49:28 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://www.noemamag.com/how-the-ai-job-shock-will-differ-from-the-china-trade-shock"
+      },
+      {
+        "id": "8c843d70",
+        "title": "Europe has more bargaining strength than it thinks",
+        "excerpt": "But less than it would have if it were thinking straight",
+        "author": "Henry Farrell",
+        "publication": {
+          "name": "Programmable Mutter",
+          "slug": "programmable-mutter",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 21 Jan 2026 15:21:19 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.programmablemutter.com/p/europe-has-more-bargaining-strength"
+      },
+      {
+        "id": "ff8930e8",
+        "title": "How to build team spirit",
+        "excerpt": "The glue, or spirit, that binds certain teams is not mystical – you can cultivate it by changing how you work together\n- by Leigh Thompson\nRead on Psyche",
+        "author": "Leigh Thompson",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 20 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://psyche.co/guides/how-to-build-team-spirit?utm_source=rss-feed"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-24",
     "title": "Random Digest: January 24, 2026",
     "subtitle": "10 hand-picked articles from our collection",
