@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-01-31",
+    "title": "Random Digest: January 31, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-01-31T03:05:02.656Z",
+    "articles": [
+      {
+        "id": "5bfb560c",
+        "title": "Talk Your Book: How to Fix the Plumbing of the Financial System",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 26 Jan 2026 12:00:29 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/talk-your-book-how-to-fix-the-plumbing-of-the-financial-system"
+      },
+      {
+        "id": "a6c81b35",
+        "title": "Thursday discussion post",
+        "excerpt": "Some say it’s the most consequential vote of the year.",
+        "author": "Halina Bennet",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 22 Jan 2026 23:01:16 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.slowboring.com/p/thursday-discussion-post-b7a"
+      },
+      {
+        "id": "a321eef4",
+        "title": "Understanding Peer Momentum",
+        "excerpt": "An Extension to Traditional Momentum Strategies",
+        "author": "Larry Swedroe",
+        "publication": {
+          "name": "Larry Swedroe",
+          "slug": "larry-swedroe",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 28 Jan 2026 15:31:40 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://larryswedroe.substack.com/p/understanding-peer-momentum"
+      },
+      {
+        "id": "4736b1d0",
+        "title": "Men Have Grown Twice As Much As Women Over Past Century",
+        "excerpt": "Rob Henderson's Office Hours #24",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 16:26:44 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://www.robkhenderson.com/p/men-have-grown-twice-as-much-as-women"
+      },
+      {
+        "id": "3f7ed1b9",
+        "title": "The EPA wants to eliminate one of the few ways that tribes can protect their water",
+        "excerpt": "The agency’s plan would narrow water quality reviews and make it harder for tribes to enforce treaty rights.",
+        "author": "Miacel Spotted Elk",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 27 Jan 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/indigenous/the-epa-wants-to-eliminate-one-of-the-few-ways-that-tribes-can-protect-their-water/"
+      },
+      {
+        "id": "bc59a392",
+        "title": "Minor Differences Repeating Forever",
+        "excerpt": "The Zoothesia Finale",
+        "author": "Spencer Nitkey - Writer",
+        "publication": {
+          "name": "Protocolized",
+          "slug": "protocolized",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 19:58:38 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://protocolized.summerofprotocols.com/p/minor-differences-repeating-forever"
+      },
+      {
+        "id": "bf2a260c",
+        "title": "How Giant Kangaroos Moved Across Ancient Australia",
+        "excerpt": "Structure of fossil foot and ankle bones was robust enough for occasional hopping\nThe post How Giant Kangaroos Moved Across Ancient Australia appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 22 Jan 2026 16:13:36 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://nautil.us/how-giant-kangaroos-moved-across-ancient-australia-1262823/"
+      },
+      {
+        "id": "4e668755",
+        "title": "Orphaned And Unpublished Papers",
+        "excerpt": "for those interested in reading portions of my earlier work",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 20 Jan 2026 16:37:30 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://gregorybsadler.substack.com/p/orphaned-and-unpublished-papers"
+      },
+      {
+        "id": "b5e232dd",
+        "title": "Q&A: What UK’s ‘warm homes plan’ means for climate change and energy bills",
+        "excerpt": "The UK government has released its long-awaited “warm homes plan”, detailing support to help people...\nThe post Q&A: What UK’s ‘warm homes plan’ means for climate change and energy bills appeared firs",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 14:05:49 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/qa-what-uks-warm-homes-plan-means-for-climate-change-and-energy-bills/"
+      },
+      {
+        "id": "95f1794d",
+        "title": "A Spell Against Fear: Tracy K. Smith on Poetry and The Art of Productive Impatience",
+        "excerpt": "“What do you regard as the lowest depth of misery?” asked the Proust Questionnaire. “Living in fear,” answered David Bowie. The most menacing word of the three is the smallest, for fear really is some",
+        "author": "Maria Popova",
+        "publication": {
+          "name": "The Marginalian",
+          "slug": "the-marginalian",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 22 Jan 2026 22:19:42 +0000",
+        "readTime": 1,
+        "wordCount": 102,
+        "url": "https://www.themarginalian.org/2026/01/22/tracy-k-smith-fear-less/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-27",
     "title": "Random Digest: January 27, 2026",
     "subtitle": "10 hand-picked articles from our collection",
