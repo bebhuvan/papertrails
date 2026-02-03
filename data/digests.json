@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-03",
+    "title": "Random Digest: February 3, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-03T03:17:43.228Z",
+    "articles": [
+      {
+        "id": "0cff0374",
+        "title": "When German Shepherds Got Their Cursed Genes",
+        "excerpt": "DNA from museum specimens help detail the genetic bottleneck\nThe post When German Shepherds Got Their Cursed Genes appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 30 Jan 2026 22:13:46 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/when-german-shepherds-got-their-cursed-genes-1264691/"
+      },
+      {
+        "id": "1e9651f4",
+        "title": "2028 Democratic primary draft #2",
+        "excerpt": "Plus, more commentary on Minneapolis from my live show with Galen Druke and Clare Malone.",
+        "author": "Nate Silver",
+        "publication": {
+          "name": "Silver Bulletin",
+          "slug": "silver-bulletin",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 19:23:35 GMT",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://www.natesilver.net/p/2028-democratic-primary-draft-2"
+      },
+      {
+        "id": "f3f0310e",
+        "title": "Alan Baratz: Quantum Computing Explained",
+        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 26 Jan 2026 17:45:44 +0000",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/01/alan-baratz-quantum-computing-explained.html"
+      },
+      {
+        "id": "b999a648",
+        "title": "Oregon Coast Sunset",
+        "excerpt": "<img loading=\"lazy\" src=\"https://onfocus.b-cdn.net/onfocus/2026/01/Oregon-Coast-Sunset.jpeg\" width=\"640\" height=\"426\" alt=\"the sun setting just above the horizon with rolling waves in the foreground\">",
+        "author": "On Focus",
+        "publication": {
+          "name": "On Focus",
+          "slug": "on-focus",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 24 Jan 2026 17:35:58 -0800",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://www.onfocus.com/2026/01/9022/oregon-coast-sunset?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
+      },
+      {
+        "id": "123a5cb4",
+        "title": "Climate change and La Niña made ‘devastating’ southern African floods more intense",
+        "excerpt": "“Exceptionally heavy” rainfall that led to deadly flooding across southern Africa in recent weeks was...\nThe post Climate change and La Niña made ‘devastating’ southern African floods more intense app",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 04:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/climate-change-and-la-nina-made-devastating-southern-african-floods-more-intense/"
+      },
+      {
+        "id": "e0d5bb4b",
+        "title": "Fifty of the most interesting things I've learned",
+        "excerpt": "Plus a personal update",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 28 Jan 2026 16:44:25 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://benthams.substack.com/p/fifty-of-the-most-interesting-things"
+      },
+      {
+        "id": "511b1b67",
+        "title": "A melting Greenland is easier to exploit — but also more perilous",
+        "excerpt": "Climate change is opening up previously inaccessible land and sea, boosting global interest in Greenland.",
+        "author": "Kate Yoder",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 23 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://grist.org/climate/a-melting-greenland-is-easier-to-exploit-but-also-more-perilous/"
+      },
+      {
+        "id": "b68a4a71",
+        "title": "Personal finance links: controlling what you can control",
+        "excerpt": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week’s links including a look at normalizing...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 21 Jan 2026 14:00:25 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/01/21/personal-finance-links-controlling-what-you-can-control/"
+      },
+      {
+        "id": "8f692a5d",
+        "title": "How to find your InnSæi",
+        "excerpt": "In uncertain times, an Icelandic concept can help you reconnect with your intuition and follow your inner compass\n- by Hrund Gunnsteinsdóttir\nRead on Psyche",
+        "author": "Hrund Gunnsteinsdóttir",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 26 Jan 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://psyche.co/guides/how-to-find-your-innsaei-and-reconnect-with-your-intuition?utm_source=rss-feed"
+      },
+      {
+        "id": "334bd585",
+        "title": "NYC Is Testing Guaranteed Income for Homeless Youths. Here’s How It’s Going.",
+        "excerpt": "A new program to give a monthly stipend and other support to homeless young people in New York City is showing promising initial results.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 20 Jan 2026 14:55:21 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://www.nakedcapitalism.com/2026/01/nyc-is-testing-guaranteed-income-for-homeless-youths-heres-how-its-going.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-01-31",
     "title": "Random Digest: January 31, 2026",
     "subtitle": "10 hand-picked articles from our collection",
