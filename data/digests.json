@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-07",
+    "title": "Random Digest: February 7, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-07T03:08:33.756Z",
+    "articles": [
+      {
+        "id": "b9da1587",
+        "title": "How writing about nineteenth-century cities changed my mind",
+        "excerpt": "More pro-planning, less fussed about privatisation, more pro-monopolies",
+        "author": "Samuel Hughes",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 06 Feb 2026 15:26:22 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.worksinprogress.news/p/how-writing-about-nineteenth-century"
+      },
+      {
+        "id": "0d74a39b",
+        "title": "Podcast links: advice for living",
+        "excerpt": "Fridays are all about podcast links here at Abnormal Returns. You can also check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 06 Feb 2026 15:36:46 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/02/06/podcast-links-advice-for-living/"
+      },
+      {
+        "id": "f326bdcc",
+        "title": "Arming Ourselves Isn’t the Answer to Rising Authoritarianism",
+        "excerpt": "Expanding gun ownership in response to ICE’s horrific violence is not a path toward safety or liberation, argues epidemiologist Rachel Hoopsick. It is a path to more death, more political weakness, an",
+        "author": "Rachel Hoopsick",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-01-27T10:31:19.000Z",
+        "readTime": 12,
+        "wordCount": 2254,
+        "url": "https://jacobin.com/2026/01/gun-ownership-authoritarianism-collective-action/"
+      },
+      {
+        "id": "94155163",
+        "title": "Solar farms can be havens for rare plants. Just ask the threecorner milkvetch.",
+        "excerpt": "The Mojave Desert species is thriving at a solar farm near Las Vegas, perhaps because the panels slow evaporation.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/energy/solar-farms-can-be-havens-for-rare-plants-just-ask-the-threecorner-milkvetch/"
+      },
+      {
+        "id": "d3e45a39",
+        "title": "Extreme Inequality Presages The Revolt Against It",
+        "excerpt": "The post Extreme Inequality Presages The Revolt Against It appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 06 Feb 2026 17:46:26 +0000",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://www.noemamag.com/extreme-inequality-presages-the-revolt-against-it"
+      },
+      {
+        "id": "add00cbc",
+        "title": "this is your organisation on drugs",
+        "excerpt": "accounting hallucinations revisited",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 04 Feb 2026 17:00:57 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://backofmind.substack.com/p/this-is-your-organisation-on-drugs"
+      },
+      {
+        "id": "123a5cb4",
+        "title": "Climate change and La Niña made ‘devastating’ southern African floods more intense",
+        "excerpt": "“Exceptionally heavy” rainfall that led to deadly flooding across southern Africa in recent weeks was...\nThe post Climate change and La Niña made ‘devastating’ southern African floods more intense app",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 04:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/climate-change-and-la-nina-made-devastating-southern-african-floods-more-intense/"
+      },
+      {
+        "id": "a4cbe5a2",
+        "title": "AI manipulation ",
+        "excerpt": "A discussion with Sasha Brown, Seliem El-Sayed, and Canfer Akbulut",
+        "author": "Tom Rachman",
+        "publication": {
+          "name": "AI Policy Perspectives",
+          "slug": "ai-policy-perspectives",
+          "category": "Technology"
+        },
+        "publishedAt": "Thu, 05 Feb 2026 12:53:27 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.aipolicyperspectives.com/p/ai-manipulation"
+      },
+      {
+        "id": "0e717e20",
+        "title": "Anatomy of Extremism: What ICE Is Revealing in Minnesota",
+        "excerpt": "The federal persecution of immigrants and white citizens alike lays bare the unstable logic of in-group power.",
+        "author": "J.M. Berger",
+        "publication": {
+          "name": "MIT Press Reader",
+          "slug": "mit-press-reader",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 26 Jan 2026 10:55:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://thereader.mitpress.mit.edu/anatomy-of-extremism-what-ice-is-revealing-in-minnesota/"
+      },
+      {
+        "id": "f4af8b3e",
+        "title": "The World Files for Economic Divorce from America",
+        "excerpt": "What you do when your (trading) partner is abusive",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 29 Jan 2026 11:30:21 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://paulkrugman.substack.com/p/the-world-files-for-economic-divorce"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-03",
     "title": "Random Digest: February 3, 2026",
     "subtitle": "10 hand-picked articles from our collection",
