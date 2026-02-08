@@ -1,5 +1,753 @@
 [
   {
+    "title": "Randomly explore the independent web",
+    "link": "https://indieblog.page",
+    "author": "Chris Glass",
+    "publishedAt": "Sun, 08 Feb 2026 19:28:36 +0000",
+    "content": "Roll the dice and find a site made by a human, thanks to this site by Andreas Gohr. Some lovely RSS options to boot! / via Naive Weekly",
+    "excerpt": "Roll the dice and find a site made by a human, thanks to this site by Andreas Gohr. Some lovely RSS options to boot! / via Naive Weekly",
+    "id": "ef3b44c4",
+    "wordCount": 28,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Chris Glass",
+      "slug": "chris-glass",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Sunday Thread + Mailbag",
+    "link": "https://www.slowboring.com/p/sunday-thread-mailbag-1d9",
+    "author": "Halina Bennet",
+    "publishedAt": "Sun, 08 Feb 2026 18:01:46 GMT",
+    "content": "Ask your questions below.",
+    "excerpt": "Ask your questions below.",
+    "id": "8a4ac3de",
+    "wordCount": 4,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Slow Boring",
+      "slug": "slow-boring",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "What If Most Longtermists Are Wrong About The Primary Aim?",
+    "link": "https://benthams.substack.com/p/what-if-most-longtermists-are-wrong",
+    "author": "Bentham's Bulldog",
+    "publishedAt": "Sun, 08 Feb 2026 17:59:26 GMT",
+    "content": "The report that most changed my worldview",
+    "excerpt": "The report that most changed my worldview",
+    "id": "ac4c1191",
+    "wordCount": 7,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Bentham's Newsletter",
+      "slug": "benthams-newsletter",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Sunday links: a workable balance",
+    "link": "https://abnormalreturns.com/2026/02/08/sunday-links-a-workable-balance/",
+    "author": "abnormalreturns",
+    "publishedAt": "Sun, 08 Feb 2026 17:41:10 +0000",
+    "content": "",
+    "excerpt": "",
+    "id": "5c1d913b",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Abnormal Returns",
+      "slug": "abnormal-returns",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "The most important investing theme of 2026 is HALO",
+    "link": "https://www.downtownjoshbrown.com/p/the-most-important-investing-theme-of-2026-is-halo",
+    "author": "Josh Brown",
+    "publishedAt": "Sun, 08 Feb 2026 17:08:30 +0000",
+    "content": "Repeat after me: Heavy Assets, Low Obsolescence",
+    "excerpt": "Repeat after me: Heavy Assets, Low Obsolescence",
+    "id": "9a6bbfc7",
+    "wordCount": 7,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Idea Farm",
+      "slug": "idea-farm",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "The Limits to Trump’s Power in America and the World",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/the-limits-to-trumps-power-in-america-and-the-world.html",
+    "author": "Robin Varghese",
+    "publishedAt": "Sun, 08 Feb 2026 16:56:28 +0000",
+    "content": "Henry Farrell in Programmable Mutter: I did the Ezra Klein show last Friday, and it went up on the NYT website this morning. A whole lot has happened in the meantime. The way I think is through talking with other people, and a lot of thinking happened in the conversation. It wove together what happe",
+    "excerpt": "Henry Farrell in Programmable Mutter: I did the Ezra Klein show last Friday, and it went up on the NYT website this morning. A whole lot has happened in the meantime. The way I think is through talkin",
+    "id": "c1b53bcc",
+    "wordCount": 57,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Eternal Recurrences",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/eternal-recurrences.html",
+    "author": "Robin Varghese",
+    "publishedAt": "Sun, 08 Feb 2026 16:53:04 +0000",
+    "content": "In The Ideas Letter, Aaron Benanav, Leif Weatherby, and Evgeny Morozov debate AI, capitalism and socialism: Evgeny Morozov knows how to theorize (and, a fortiori, how to intellectually provoke) like few other mortals. The elegance of his argumentation and the sophistication of his critiques are lege",
+    "excerpt": "In The Ideas Letter, Aaron Benanav, Leif Weatherby, and Evgeny Morozov debate AI, capitalism and socialism: Evgeny Morozov knows how to theorize (and, a fortiori, how to intellectually provoke) like f",
+    "id": "6f4bda1a",
+    "wordCount": 58,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Trump’s Dollar",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/trumps-dollar.html",
+    "author": "Robin Varghese",
+    "publishedAt": "Sun, 08 Feb 2026 16:49:53 +0000",
+    "content": "Steffen Murau in Phenomenal World: One year into Donald Trump’s second term, the global economic order is being given a facelift that wouldn’t look out of place at his Mar-a-Lago beach club. The President has turned his famous penchant for tariffs—“the most beautiful word in the English language”—in",
+    "excerpt": "Steffen Murau in Phenomenal World: One year into Donald Trump’s second term, the global economic order is being given a facelift that wouldn’t look out of place at his Mar-a-Lago beach club. The Presi",
+    "id": "d5f91427",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Blessing of Burnout: Samin Nosrat on the Faustian Bargain of Achievement and the Simple Substance of the Good Life",
+    "link": "https://www.themarginalian.org/2026/02/08/samin-nosrat-yo-yo-ma-interview/",
+    "author": "Maria Popova",
+    "publishedAt": "Sun, 08 Feb 2026 16:40:25 +0000",
+    "content": "We live in a bipolar epoch — on one end, the blamethirsty finger of cancel culture and politicized othering; on the other, the zeal for designating people, real human beings with real human lives, as secular saints expected to give us unremitting consolation, inspiration, and encouragement. Both are",
+    "excerpt": "We live in a bipolar epoch — on one end, the blamethirsty finger of cancel culture and politicized othering; on the other, the zeal for designating people, real human beings with real human lives, as ",
+    "id": "26c63ab3",
+    "wordCount": 102,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Marginalian",
+      "slug": "the-marginalian",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity",
+    "link": "https://www.themarginalian.org/2026/02/08/polyvagal-theory/",
+    "author": "Maria Popova",
+    "publishedAt": "Sun, 08 Feb 2026 16:30:37 +0000",
+    "content": "\"The mind narrates what the nervous system knows. Story follows state.\"",
+    "excerpt": "\"The mind narrates what the nervous system knows. Story follows state.\"",
+    "id": "3eaeabcb",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Marginalian",
+      "slug": "the-marginalian",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Confederate flags and Shenandoah's timelessness",
+    "link": "https://www.commonreader.co.uk/p/confederate-flags-and-shenandoahs",
+    "author": "Henry Oliver",
+    "publishedAt": "Sun, 08 Feb 2026 16:03:04 GMT",
+    "content": "A startling, splendid, shocking place",
+    "excerpt": "A startling, splendid, shocking place",
+    "id": "0491312e",
+    "wordCount": 5,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Common Reader",
+      "slug": "common-reader",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "We mourn our craft",
+    "link": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/",
+    "author": "Chris Glass",
+    "publishedAt": "Sun, 08 Feb 2026 15:54:44 +0000",
+    "content": "This is an essay about coding and AI, but feels pertinent beyond. Options to face this precipice include falling off, rappelling down, gliding, wearing one of those wing suits, or some other options I can’t think of right now, but I’m sure computers will have ideas!",
+    "excerpt": "This is an essay about coding and AI, but feels pertinent beyond. Options to face this precipice include falling off, rappelling down, gliding, wearing one of those wing suits, or some other options I",
+    "id": "28a32442",
+    "wordCount": 46,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Chris Glass",
+      "slug": "chris-glass",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Billy Bass Nelson (1951 – 2026) Funkadelic Bassist",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/billy-bass-nelson-1951-2026-funkadelic-bassist.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 08 Feb 2026 15:43:41 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "1aa2070e",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": " The Guardian:  here&#8217;s how Substack makes money... ",
+    "link": "https://kottke.org/26/02/0048337-the-guardian-heres-how-su",
+    "author": "Jason Kottke",
+    "publishedAt": "2026-02-08T15:15:47.000Z",
+    "content": "The Guardian: here’s how Substack makes money hosting Nazi newsletters. These newsletters weren’t even hard to find or subtle: swastikas and in-app recommendations from one antisemitic newsletter to a bunch of others.",
+    "excerpt": "The Guardian: here’s how Substack makes money hosting Nazi newsletters. These newsletters weren’t even hard to find or subtle: swastikas and in-app recommendations from one antisemitic newsletter to a",
+    "id": "aa251219",
+    "wordCount": 32,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Kottke.org",
+      "slug": "kottke",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Hinternet Foundation",
+    "link": "https://www.the-hinternet.com/p/the-hinternet-foundation",
+    "author": "Hinternet Editorial Board",
+    "publishedAt": "Sun, 08 Feb 2026 15:09:18 GMT",
+    "content": "Programming and Announcements for 2026",
+    "excerpt": "Programming and Announcements for 2026",
+    "id": "220068ea",
+    "wordCount": 5,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Justin E.H. Smith",
+      "slug": "justin-eh-smith",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Iceberg Crashes",
+    "link": "https://awealthofcommonsense.com/2026/02/iceberg-crashes/",
+    "author": "Ben Carlson",
+    "publishedAt": "Sun, 08 Feb 2026 14:45:01 +0000",
+    "content": "PayPal is one of the great technology stories of the past 30 years. The payments company was founded in the dot-com bubble. The PayPal Mafia of founders and employees who struck it rich when the company was sold to eBay in 2002 includes Peter Thiel, Elon Musk, Reid Hoffman, Max Levchin and more. EBa",
+    "excerpt": "PayPal is one of the great technology stories of the past 30 years. The payments company was founded in the dot-com bubble. The PayPal Mafia of founders and employees who struck it rich when the compa",
+    "id": "180d274b",
+    "wordCount": 68,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "A Wealth of Common Sense",
+      "slug": "wealth-common-sense",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "John Forté (1975 – 2026) Rapper and Fugees Member",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/john-forte-1975-2026-rapper-and-fugees-member.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 08 Feb 2026 14:41:53 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "7b2ae082",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Two Faces of Neuroticism",
+    "link": "https://www.robkhenderson.com/p/the-two-faces-of-neuroticism",
+    "author": "Rob Henderson",
+    "publishedAt": "Sun, 08 Feb 2026 14:18:47 GMT",
+    "content": "",
+    "excerpt": "",
+    "id": "6ba7ec86",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Rob Henderson",
+      "slug": "rob-henderson",
+      "category": "Psychology"
+    }
+  },
+  {
+    "title": "Overshoot: The world is hitting point of no return on climate",
+    "link": "https://grist.org/science/overshoot-the-world-is-hitting-point-of-no-return-on-climate/",
+    "author": "Fred Pearce, Yale Environment 360",
+    "publishedAt": "Sun, 08 Feb 2026 14:00:00 +0000",
+    "content": "With warming set to pass the critical 1.5-degree limit, scientists are warning that the world is on course to trigger tipping points that would lead to cascading consequences — from the melting of ice sheets to the death of the Amazon rainforest — that could not be reversed.",
+    "excerpt": "With warming set to pass the critical 1.5-degree limit, scientists are warning that the world is on course to trigger tipping points that would lead to cascading consequences — from the melting of ice",
+    "id": "d5e53aeb",
+    "wordCount": 48,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Grist",
+      "slug": "grist",
+      "category": "Climate"
+    }
+  },
+  {
+    "title": "Performance of mamas: Isabella Rossellini",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/performance-of-mamas-isabella-rossellini.html",
+    "author": "Azra Raza",
+    "publishedAt": "Sun, 08 Feb 2026 13:45:25 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "cdcce10d",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Story of the First Human to Receive Neuralink Implants: “This Technology Has Brought My Life Back”",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/the-story-of-the-first-human-to-receive-neuralink-implants-this-technology-has-brought-my-life-back.html",
+    "author": "Azra Raza",
+    "publishedAt": "Sun, 08 Feb 2026 13:36:24 +0000",
+    "content": "From VOI: JAKARTA – Amid the excitement of the World Governments Summit (WGS) 2026 in Dubai, United Arab Emirates (UAE), a forum usually filled with majestic speeches, technological futurism and discussions of world leaders, there was a guest whose presence was the most silent, but his message was t",
+    "excerpt": "From VOI: JAKARTA – Amid the excitement of the World Governments Summit (WGS) 2026 in Dubai, United Arab Emirates (UAE), a forum usually filled with majestic speeches, technological futurism and discu",
+    "id": "735f0405",
+    "wordCount": 57,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Chuck Negron (1942 – 2026) Singer/Songwriter",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/chuck-negron-1942-2026-singer-songwriter.html",
+    "author": "Morgan Meis",
+    "publishedAt": "Sun, 08 Feb 2026 13:36:23 +0000",
+    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
+    "id": "c6fce530",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Top clicks this week on Abnormal Returns",
+    "link": "https://abnormalreturns.com/2026/02/08/top-clicks-this-week-on-abnormal-returns-838/",
+    "author": "abnormalreturns",
+    "publishedAt": "Sun, 08 Feb 2026 13:23:38 +0000",
+    "content": "Thanks for checking in with us this weekend. Here are the most clicked on items on Abnormal Returns for the week ended...",
+    "excerpt": "Thanks for checking in with us this weekend. Here are the most clicked on items on Abnormal Returns for the week ended...",
+    "id": "773676cc",
+    "wordCount": 22,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Abnormal Returns",
+      "slug": "abnormal-returns",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "Sunday Poem",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/sunday-poem-465.html",
+    "author": "Jim Culleny",
+    "publishedAt": "Sun, 08 Feb 2026 13:18:44 +0000",
+    "content": "my dream about being white —re: Black History Month in the U.S. hey music and me only white, hair a flutter of fall leaves circling my perfect line of a nose, no lips, no behind, hey white me and I’m wearing white history but there’s no future in those clothes so i take them off…",
+    "excerpt": "my dream about being white —re: Black History Month in the U.S. hey music and me only white, hair a flutter of fall leaves circling my perfect line of a nose, no lips, no behind, hey white me and I’m ",
+    "id": "e979b92b",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Go Left, Young Writers!",
+    "link": "https://jacobin.com/2026/02/new-masses-proletarian-literature-wright-gold/",
+    "author": "Devin Thomas O’Shea",
+    "publishedAt": "2026-02-08T12:48:31.000Z",
+    "content": "A century ago, a socialist magazine published a manifesto calling for workers to pick up the pen, heralding the dawn of America’s proletarian literary movement. Our society’s need for working-class writers remains as strong as ever.\nAmerican novelist and former New Masses contributor Richard Wright ",
+    "excerpt": "A century ago, a socialist magazine published a manifesto calling for workers to pick up the pen, heralding the dawn of America’s proletarian literary movement. Our society’s need for working-class wr",
+    "id": "cd2697eb",
+    "wordCount": 2531,
+    "readTime": 13,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Links 2/8/2026",
+    "link": "https://www.nakedcapitalism.com/2026/02/links-2-8-2026.html",
+    "author": "Haig Hovaness",
+    "publishedAt": "Sun, 08 Feb 2026 11:55:13 +0000",
+    "content": "<a href=\"https://www.nakedcapitalism.com/2026/02/Links-2-8-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/02/Two-goats.jpg\" \"width=\"300\" height=\"300\" class=aligncenter size-full wp-image-\"  /></a>\r\n",
+    "excerpt": "<a href=\"https://www.nakedcapitalism.com/2026/02/Links-2-8-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/02/Two-goats.jpg\" \"width=\"300\" height=\"300\" class=aligncenter si",
+    "id": "751b2e66",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Top Links 1007 US profits. Global public spending. The new nuclear arms race & cultivating your \"legitimate strangeness\". ",
+    "link": "https://adamtooze.substack.com/p/top-links-1007-us-profits-global",
+    "author": "Adam Tooze",
+    "publishedAt": "Sun, 08 Feb 2026 11:50:04 GMT",
+    "content": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "id": "ad236038",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Adam Tooze",
+      "slug": "adam-tooze",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Unions Are Going to Die Unless Something Big Changes Soon",
+    "link": "https://jacobin.com/2026/02/union-density-crisis-labor-organizing/",
+    "author": "Chris Brooks",
+    "publishedAt": "2026-02-08T11:46:27.000Z",
+    "content": "The labor movement isn’t just the weakest it’s been in a century. Without a radical and aggressive shift in organizing, US unions could effectively cease to matter in the very near future.\nUnions are in a death spiral, and the numbers show they could nearly vanish within our lifetime. That’s not ala",
+    "excerpt": "The labor movement isn’t just the weakest it’s been in a century. Without a radical and aggressive shift in organizing, US unions could effectively cease to matter in the very near future.\nUnions are ",
+    "id": "9d4cf1dc",
+    "wordCount": 3708,
+    "readTime": 19,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Federal Reserve 101, Part II: The Global Financial Crisis of 2008 and Its Aftermath",
+    "link": "https://paulkrugman.substack.com/p/federal-reserve-101-part-ii-the-global",
+    "author": "Paul Krugman",
+    "publishedAt": "Sun, 08 Feb 2026 11:34:22 GMT",
+    "content": "Why the Fed did what it did and why its critics were wrong",
+    "excerpt": "Why the Fed did what it did and why its critics were wrong",
+    "id": "0d58ec7e",
+    "wordCount": 13,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Paul Krugman",
+      "slug": "paul-krugman",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "The Sunday Morning Movie Presents: Paprika (2006) Run Time: 1H 38M",
+    "link": "https://www.nakedcapitalism.com/2026/02/the-sunday-morning-movie-presents-paprika-2006-run-time-1h-38m.html",
+    "author": "semper loquitur",
+    "publishedAt": "Sun, 08 Feb 2026 11:30:18 +0000",
+    "content": "Paprika is a movie about the boundaries between dreams and the waking world, and what happens when they break down.",
+    "excerpt": "Paprika is a movie about the boundaries between dreams and the waking world, and what happens when they break down.",
+    "id": "7ca627b7",
+    "wordCount": 20,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "The future of being human ⊗ For the sake of mutual interdependence",
+    "link": "https://sentiers.media/the-future-of-being-human-for-the-sake-of-mutual-interdependence-no-389/",
+    "author": "Patrick Tanguay",
+    "publishedAt": "Sun, 08 Feb 2026 11:00:43 GMT",
+    "content": "No.389 — The space trash apocalypse ⊗ Jeff Bezos, moral cretin ⊗ The futures cone reimagined ⊗ The Authoritarian Stack ⊗ Local energy networks saving lives ⊗ Tangible media",
+    "excerpt": "No.389 — The space trash apocalypse ⊗ Jeff Bezos, moral cretin ⊗ The futures cone reimagined ⊗ The Authoritarian Stack ⊗ Local energy networks saving lives ⊗ Tangible media",
+    "id": "e02e0e4b",
+    "wordCount": 29,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Sentiers",
+      "slug": "sentiers",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "The Literature of Limits IV: Hinduism, Forms, and the Infinite",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/the-culture-of-limits-iv-hinduism-forms-and-the-infinite.html",
+    "author": "Muhammad Aurangzeb Ahmad",
+    "publishedAt": "Sun, 08 Feb 2026 11:00:10 +0000",
+    "content": "by Muhammad Aurangzeb Ahmad This is the last part of our discussion on the culture of limits (Part I, Part II, and Part III). In Hindu thought limits that define finitude and infinity were never opposed in a simple or antagonistic way. Instead, they were understood as mutually implicated. One could ",
+    "excerpt": "by Muhammad Aurangzeb Ahmad This is the last part of our discussion on the culture of limits (Part I, Part II, and Part III). In Hindu thought limits that define finitude and infinity were never oppos",
+    "id": "ebdf3390",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Charity Is No Substitute for Economic Rights",
+    "link": "https://jacobin.com/2026/02/charity-inequality-poverty-economic-rights/",
+    "author": "Fran Quigley",
+    "publishedAt": "2026-02-08T10:45:19.000Z",
+    "content": "The United States is a global anomaly in our collective delusion about the power of charity to address human suffering. A far better approach would be to guarantee inalienable economic rights and structure society around their fulfillment.\nThen Microsoft chairman Bill Gates with then wife Melinda at",
+    "excerpt": "The United States is a global anomaly in our collective delusion about the power of charity to address human suffering. A far better approach would be to guarantee inalienable economic rights and stru",
+    "id": "99a983c5",
+    "wordCount": 1281,
+    "readTime": 7,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "With ICE Using Medicaid Data, Hospitals and States Are in a Bind Over Warning Immigrant Patients",
+    "link": "https://www.nakedcapitalism.com/2026/02/with-ice-using-medicaid-data-hospitals-and-states-are-in-a-bind-over-warning-immigrant-patients.html",
+    "author": "Conor Gallagher",
+    "publishedAt": "Sun, 08 Feb 2026 10:00:54 +0000",
+    "content": "ICE access to Medicaid data is forcing hospitals and states to consider alerting immigrant patients that information from emergency medical coverage applications could be used in efforts to remove them from the country.",
+    "excerpt": "ICE access to Medicaid data is forcing hospitals and states to consider alerting immigrant patients that information from emergency medical coverage applications could be used in efforts to remove the",
+    "id": "ca523b4d",
+    "wordCount": 33,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Weed Gummies With Dad",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/weed-gummies-with-dad.html",
+    "author": "Eric Schenck",
+    "publishedAt": "Sun, 08 Feb 2026 10:00:41 +0000",
+    "content": "by Eric Schenck I’ve gotten high with my dad about 10 times.  It’s certainly a unique life position to be in. There’s a specific routine we follow: I visit my parents for a few days. We catch up the first 24 hours and talk about everything you’d expect. I ask Dad if he wants to…",
+    "excerpt": "by Eric Schenck I’ve gotten high with my dad about 10 times.  It’s certainly a unique life position to be in. There’s a specific routine we follow: I visit my parents for a few days. We catch up the f",
+    "id": "34e84ac3",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "<cite>Heated Rivalry</cite> and Modest Fantasies for Monstrous Times",
+    "link": "https://jacobin.com/2026/02/love-heated-rivalry-pomialovsky-russian-literature/",
+    "author": "Helen Stuhr-Rommereim",
+    "publishedAt": "2026-02-08T09:58:12.000Z",
+    "content": "An obscure 19th-century Russian novel about love and class and a 21st-century gay hockey romance might seem worlds apart. But both Heated Rivalry and Molotov offer the same thing: small parables of tenderness and bravery in overwhelming times.\nAt their most modest, happy-ending romance stories like ",
+    "excerpt": "An obscure 19th-century Russian novel about love and class and a 21st-century gay hockey romance might seem worlds apart. But both Heated Rivalry and Molotov offer the same thing: small parables of te",
+    "id": "c5e91fd4",
+    "wordCount": 2386,
+    "readTime": 12,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "The Symphony of Silence: An Exploration of the Sound of Absence",
+    "link": "https://3quarksdaily.com/3quarksdaily/2026/02/the-symphony-of-silence-an-exploration-of-the-sound-of-absence.html",
+    "author": "Amir Zadnemat",
+    "publishedAt": "Sun, 08 Feb 2026 09:00:14 +0000",
+    "content": "by Amir Zadnemat Introduction: Flight from Tranquility In the age of noise, we have become refugees from silence. Imagine a world where every moment of wakefulness is filled with sound. From the jarring morning alarm to the podcast we listen to on the way to work; from the constant murmur of the off",
+    "excerpt": "by Amir Zadnemat Introduction: Flight from Tranquility In the age of noise, we have become refugees from silence. Imagine a world where every moment of wakefulness is filled with sound. From the jarri",
+    "id": "c4f8e93a",
+    "wordCount": 55,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "3 Quarks Daily",
+      "slug": "3-quarks-daily",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Cem Kaya and the Politics of Migration",
+    "link": "https://jacobin.com/2026/02/kaya-documentary-film-germany-turkey-immigration/",
+    "author": "Helen Mackreath",
+    "publishedAt": "2026-02-08T08:44:30.000Z",
+    "content": "Today deportations and restricted asylum rights are changing the terms of political belonging around the world. With surreal and darkly humorous archival works, German filmmaker Cem Kaya is exploring how anti-migrant racism is mediated through capitalism.\nEkim Zafer Acun (ŞOKOPOP) in Cem Kaya’s Pop,",
+    "excerpt": "Today deportations and restricted asylum rights are changing the terms of political belonging around the world. With surreal and darkly humorous archival works, German filmmaker Cem Kaya is exploring ",
+    "id": "2fca38a9",
+    "wordCount": 2268,
+    "readTime": 12,
+    "isPaid": false,
+    "publication": {
+      "name": "Jacobin",
+      "slug": "jacobin",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Weekend Update #171: The Week Trump Helped Putin Commit Two War Crimes",
+    "link": "https://phillipspobrien.substack.com/p/weekend-update-171-the-week-trump",
+    "author": "Phillips P. OBrien",
+    "publishedAt": "Sun, 08 Feb 2026 07:56:20 GMT",
+    "content": "Negotiating Over Ukraine, Europe Must Be There; US Sanctions Again, Really?",
+    "excerpt": "Negotiating Over Ukraine, Europe Must Be There; US Sanctions Again, Really?",
+    "id": "2f0a7147",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Phillips P. O'Brien",
+      "slug": "phillips-p-obrien",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Postscript",
+    "link": "https://tedium.co/2026/02/07/washington-post-layoffs-perspective/",
+    "author": "Ernie Smith",
+    "publishedAt": "2026-02-08T04:58:23.000Z",
+    "content": "Mass layoffs are a fact of life in journalism. Your favorite writers and editors have dealt with them. But they weren’t supposed to happen at The Post.\n\nOver the last week or so, I’ve been dealing with a bit of a nightmare. Our upstairs heat pump system got frozen over because of the recent weather ",
+    "excerpt": "Mass layoffs are a fact of life in journalism. Your favorite writers and editors have dealt with them. But they weren’t supposed to happen at The Post.\n\nOver the last week or so, I’ve been dealing wit",
+    "id": "8595ebec",
+    "wordCount": 1668,
+    "readTime": 9,
+    "isPaid": false,
+    "publication": {
+      "name": "Tedium",
+      "slug": "tedium",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "#332 The Budget Edition",
+    "link": "https://publicpolicy.substack.com/p/332-the-budget-edition",
+    "author": "Pranay Kotasthane",
+    "publishedAt": "Sun, 08 Feb 2026 01:35:56 GMT",
+    "content": "Trade Deal, the Rupee Defence, Market Signals, Semiconductors, and Defence",
+    "excerpt": "Trade Deal, the Rupee Defence, Market Signals, Semiconductors, and Defence",
+    "id": "add4f475",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Public Policy",
+      "slug": "public-policy",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Exclusive Video 20 - What Kinds Of Things Make You Feel Like You Are Living A Full Life?",
+    "link": "https://gregorybsadler.substack.com/p/exclusive-video-20-what-kinds-of",
+    "author": "Gregory B. Sadler",
+    "publishedAt": "Sun, 08 Feb 2026 00:17:51 GMT",
+    "content": "a question that had me thinking a bit today",
+    "excerpt": "a question that had me thinking a bit today",
+    "id": "4df3aae8",
+    "wordCount": 9,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Gregory B. Sadler",
+      "slug": "gregory-b-sadler",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "The mass market paperback is starting to fade away",
+    "link": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/99293-last-call-for-mass-market-paperbacks.html",
+    "author": "Chris Glass",
+    "publishedAt": "Sat, 07 Feb 2026 21:06:40 +0000",
+    "content": "The good news is that folks are still buying books, they’re just larger format paperbacks and hardcover versions. The pocketable ones are going by the wayside in airports and stores, but will live on a little longer in schools. (NYTimes also has an article about it)",
+    "excerpt": "The good news is that folks are still buying books, they’re just larger format paperbacks and hardcover versions. The pocketable ones are going by the wayside in airports and stores, but will live on ",
+    "id": "0d55edc6",
+    "wordCount": 46,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Chris Glass",
+      "slug": "chris-glass",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "What I Learned from Binge-Watching Cowboy Movies",
+    "link": "https://www.honest-broker.com/p/what-i-learned-from-binge-watching",
+    "author": "Ted Gioia",
+    "publishedAt": "Sat, 07 Feb 2026 19:50:36 GMT",
+    "content": "I hated cowboys when I was a youngster. But then something changed.",
+    "excerpt": "I hated cowboys when I was a youngster. But then something changed.",
+    "id": "c976c429",
+    "wordCount": 12,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Honest Broker",
+      "slug": "honest-broker",
+      "category": "Culture"
+    }
+  },
+  {
     "title": "Walking “a fine line between principled opposition and crankdom,” the film critic A.S. Hamrah rails against Rotten Tomatoes, texting at the movies, and digital projection",
     "link": "https://clereviewofbooks.com/capsules-of-dismay-on-a-s-hamrahs-anti-criticism/",
     "author": "Arts & Letters Daily",
@@ -85,6 +833,23 @@
     }
   },
   {
+    "title": "Leonard Cohen on the Antidote to Anger and the Meaning of Resistance",
+    "link": "https://www.themarginalian.org/2026/02/07/leonard-cohen-anger-resistance/",
+    "author": "Maria Popova",
+    "publishedAt": "Sat, 07 Feb 2026 17:44:36 +0000",
+    "content": "One of the commonest and most corrosive human reflexes is to react to helplessness with anger. We do it in our personal lives and we do it in our political lives. We are living through a time of uncommon helplessness and uncertainty, touching every aspect of our lives, and in such times another refl",
+    "excerpt": "One of the commonest and most corrosive human reflexes is to react to helplessness with anger. We do it in our personal lives and we do it in our political lives. We are living through a time of uncom",
+    "id": "b9cf3fd4",
+    "wordCount": 102,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Marginalian",
+      "slug": "the-marginalian",
+      "category": "Culture"
+    }
+  },
+  {
     "title": "Flummoxed by My Open Epstein Tabs",
     "link": "https://braddelong.substack.com/p/flummoxed-by-my-open-epstein-tabs",
     "author": "Brad DeLong",
@@ -132,6 +897,23 @@
     "publication": {
       "name": "The Culturist",
       "slug": "the-culturist",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Relationship Rupture and the Limbic System: The Physiology of Abandonment and Separation",
+    "link": "https://www.themarginalian.org/2026/02/07/general-theory-of-love-separation/",
+    "author": "Maria Popova",
+    "publishedAt": "Sat, 07 Feb 2026 15:25:30 +0000",
+    "content": "\"A relationship is a physiologic process, as real and as potent as any pill or surgical procedure.\"",
+    "excerpt": "\"A relationship is a physiologic process, as real and as potent as any pill or surgical procedure.\"",
+    "id": "f43f38d7",
+    "wordCount": 17,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Marginalian",
+      "slug": "the-marginalian",
       "category": "Culture"
     }
   },
@@ -388,6 +1170,23 @@
       "name": "Jacobin",
       "slug": "jacobin",
       "category": "Politics"
+    }
+  },
+  {
+    "title": "A Life of One’s Own: A Penetrating Century-Old Field Guide to Self-Possession, Mindful Perception, and the Art of Knowing What You Really Want",
+    "link": "https://www.themarginalian.org/2026/02/07/a-life-of-ones-own-joanna-field-marion-milner/",
+    "author": "Maria Popova",
+    "publishedAt": "Sat, 07 Feb 2026 09:47:01 +0000",
+    "content": "\"I did not know that I could only get the most out of life by giving myself up to it.\"",
+    "excerpt": "\"I did not know that I could only get the most out of life by giving myself up to it.\"",
+    "id": "0eaf76e9",
+    "wordCount": 20,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Marginalian",
+      "slug": "the-marginalian",
+      "category": "Culture"
     }
   },
   {
@@ -16198,805 +16997,6 @@
       "name": "Nautilus",
       "slug": "nautilus",
       "category": "Science"
-    }
-  },
-  {
-    "title": "Machine Learning in Investing",
-    "link": "https://larryswedroe.substack.com/p/machine-learning-in-investing",
-    "author": "Larry Swedroe",
-    "publishedAt": "Mon, 26 Jan 2026 22:27:00 GMT",
-    "content": "What Really Works?",
-    "excerpt": "What Really Works?",
-    "id": "778b2e1b",
-    "wordCount": 3,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Larry Swedroe",
-      "slug": "larry-swedroe",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "The lines have been drawn",
-    "link": "https://www.bloodinthemachine.com/p/the-lines-have-been-drawn",
-    "author": "Brian Merchant",
-    "publishedAt": "Mon, 26 Jan 2026 21:46:04 GMT",
-    "content": "Silicon Valley must decide which side it's on",
-    "excerpt": "Silicon Valley must decide which side it's on",
-    "id": "b19afdcd",
-    "wordCount": 8,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Blood in the Machine",
-      "slug": "blood-in-the-machine",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Cephalopod Atlas: Stunning, Sensual Illustrations from the World’s First Encyclopedia of Octopus and Squid Wonders from the Ocean Depths",
-    "link": "https://www.themarginalian.org/2026/01/26/cephalopod-atlas-carl-chun/",
-    "author": "Maria Popova",
-    "publishedAt": "Mon, 26 Jan 2026 21:32:51 +0000",
-    "content": "Ravishing otherworldly wonders of the cosmos beneath the surface, from the first expedition to prove that life exists in the depths.",
-    "excerpt": "Ravishing otherworldly wonders of the cosmos beneath the surface, from the first expedition to prove that life exists in the depths.",
-    "id": "8d49f434",
-    "wordCount": 21,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Marginalian",
-      "slug": "the-marginalian",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Workplace Loneliness Is Contagious",
-    "link": "https://nautil.us/workplace-loneliness-is-contagious-1263774/",
-    "author": "Jake Currie",
-    "publishedAt": "Mon, 26 Jan 2026 21:30:00 +0000",
-    "content": "A new meta-review captures a troubling trend in workplace loneliness\nThe post Workplace Loneliness Is Contagious appeared first on Nautilus.",
-    "excerpt": "A new meta-review captures a troubling trend in workplace loneliness\nThe post Workplace Loneliness Is Contagious appeared first on Nautilus.",
-    "id": "9daf41ba",
-    "wordCount": 20,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": " A collection of dartboards used in different areas of the UK. &#8220;The... ",
-    "link": "https://kottke.org/26/01/0048234-a-collection-of-dartboard",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T21:23:07.000Z",
-    "content": "A collection of dartboards used in different areas of the UK. “The closure of pubs and leagues not being fed with new players, unfortunately, leads to some of the boards just being consigned to history.”",
-    "excerpt": "A collection of dartboards used in different areas of the UK. “The closure of pubs and leagues not being fed with new players, unfortunately, leads to some of the boards just being consigned to histor",
-    "id": "e9c0c09c",
-    "wordCount": 35,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "It's \"Mental Illness Doesn't Do That\" Season Once Again",
-    "link": "https://freddiedeboer.substack.com/p/its-mental-illness-doesnt-do-that",
-    "author": "Freddie deBoer",
-    "publishedAt": "Mon, 26 Jan 2026 21:20:55 GMT",
-    "content": "wovon man nicht sprechen kann, darüber muss man schweigen",
-    "excerpt": "wovon man nicht sprechen kann, darüber muss man schweigen",
-    "id": "989a6548",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Freddie deBoer",
-      "slug": "freddie-deboer",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "QBERT NFL quarterback ratings",
-    "link": "https://www.natesilver.net/p/qbert-nfl-quarterback-ratings",
-    "author": "Nate Silver",
-    "publishedAt": "Mon, 26 Jan 2026 21:13:00 GMT",
-    "content": "Who's the best QB in the NFL? And the worst? Our advanced statistical ratings on every passer's past, present, and future.",
-    "excerpt": "Who's the best QB in the NFL? And the worst? Our advanced statistical ratings on every passer's past, present, and future.",
-    "id": "29ff1b2f",
-    "wordCount": 21,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Silver Bulletin",
-      "slug": "silver-bulletin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Weekly Top Picks #111: Davos Edition",
-    "link": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-111-davos-edition",
-    "author": "Alberto Romero",
-    "publishedAt": "Mon, 26 Jan 2026 20:58:54 GMT",
-    "content": "Aaaaaaand we are back!!!",
-    "excerpt": "Aaaaaaand we are back!!!",
-    "id": "61586168",
-    "wordCount": 4,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Algorithmic Bridge",
-      "slug": "algorithmic-bridge",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Links and short notes, 2026-01-26",
-    "link": "https://newsletter.rootsofprogress.org/p/links-and-short-notes-2026-01-26",
-    "author": "Jason Crawford",
-    "publishedAt": "Mon, 26 Jan 2026 20:57:05 GMT",
-    "content": "The wisdom of Vitalik, Voices from 2099, ultrasound BCI, preventative MRIs, a browser written by AI, and much, much more",
-    "excerpt": "The wisdom of Vitalik, Voices from 2099, ultrasound BCI, preventative MRIs, a browser written by AI, and much, much more",
-    "id": "b20b8a6a",
-    "wordCount": 20,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Roots of Progress",
-      "slug": "roots-of-progress",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "The Strange Paradox in the RFK Jr. Diet Guidelines",
-    "link": "https://nautil.us/the-strange-paradox-in-the-rfk-jr-diet-guidelines-1263763/",
-    "author": "Molly Glick",
-    "publishedAt": "Mon, 26 Jan 2026 20:30:06 +0000",
-    "content": "The new food pyramid defies decades of nutrition research—but one recommendation may align with some newer findings\nThe post The Strange Paradox in the RFK Jr. Diet Guidelines appeared first on Nautilus.",
-    "excerpt": "The new food pyramid defies decades of nutrition research—but one recommendation may align with some newer findings\nThe post The Strange Paradox in the RFK Jr. Diet Guidelines appeared first on Nautil",
-    "id": "f3e835da",
-    "wordCount": 32,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": " Scientists have detected a swole neutrino, a potential signal from a primordial... ",
-    "link": "https://kottke.org/26/01/0048240-scientists-have-detected-",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T20:11:02.000Z",
-    "content": "Scientists have detected a swole neutrino, a potential signal from a primordial black hole, which may have formed “before there were even atoms, let alone stars”.",
-    "excerpt": "Scientists have detected a swole neutrino, a potential signal from a primordial black hole, which may have formed “before there were even atoms, let alone stars”.",
-    "id": "7568a164",
-    "wordCount": 26,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Harold Bloom, James Wood, Jack Edwards. At just 27, Edwards, a YouTube and TikTok star, has become the most important literary critic in the world",
-    "link": "https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok",
-    "author": "Arts & Letters Daily",
-    "publishedAt": "2026-01-26T19:47:33.241Z",
-    "content": "Harold Bloom, James Wood, Jack Edwards. At just 27, Edwards, a YouTube and TikTok star, has become the most important literary critic in the world",
-    "excerpt": "Harold Bloom, James Wood, Jack Edwards. At just 27, Edwards, a YouTube and TikTok star, has become the most important literary critic in the world",
-    "id": "d8324f9e",
-    "wordCount": 25,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Arts & Letters Daily",
-      "slug": "arts-letters-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Margaret Atwood on Margaret Atwood. \"This is a very long book that is very ample on seemingly insignificant matters and oddly reticent on a few big ones\"",
-    "link": "https://newrepublic.com/article/204118/margaret-atwood-like-know-book-lives-memoir-review",
-    "author": "Arts & Letters Daily",
-    "publishedAt": "2026-01-26T19:47:33.241Z",
-    "content": "Margaret Atwood on Margaret Atwood. \"This is a very long book that is very ample on seemingly insignificant matters and oddly reticent on a few big ones\"",
-    "excerpt": "Margaret Atwood on Margaret Atwood. \"This is a very long book that is very ample on seemingly insignificant matters and oddly reticent on a few big ones\"",
-    "id": "85473072",
-    "wordCount": 27,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Arts & Letters Daily",
-      "slug": "arts-letters-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Tracing the California lineage of Charles Bukowski’s publisher",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/tracing-the-california-lineage-of-charles-bukowskis-publisher.html",
-    "author": "S. Abbas Raza",
-    "publishedAt": "Mon, 26 Jan 2026 19:45:07 +0000",
-    "content": "Joshua Bodwell at the Los Angeles Review of Books: By the mid-1960s, Charles Bukowski had become a sort of king of the underground, the most published poet in the “littles,” as the magazines, alternative newspapers, and small presses that proliferated in the 1960s were known. John Martin read Bukows",
-    "excerpt": "Joshua Bodwell at the Los Angeles Review of Books: By the mid-1960s, Charles Bukowski had become a sort of king of the underground, the most published poet in the “littles,” as the magazines, alternat",
-    "id": "4568251e",
-    "wordCount": 55,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Monday links: spending to stay in place",
-    "link": "https://abnormalreturns.com/2026/01/26/monday-links-spending-to-stay-in-place/",
-    "author": "abnormalreturns",
-    "publishedAt": "Mon, 26 Jan 2026 19:39:33 +0000",
-    "content": "",
-    "excerpt": "",
-    "id": "c045d13d",
-    "wordCount": 1,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Abnormal Returns",
-      "slug": "abnormal-returns",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "Straight-Tusk Elephants Once Roamed Europe. And We Used Their Bones as Hammers",
-    "link": "https://nautil.us/straight-tusk-elephants-once-roamed-europe-and-we-used-their-bones-as-hammers-1263752/",
-    "author": "Devin Reese",
-    "publishedAt": "Mon, 26 Jan 2026 19:32:03 +0000",
-    "content": "A 480,000-year-old battered bone is the earliest known flintstone hammer in Europe\nThe post Straight-Tusk Elephants Once Roamed Europe. And We Used Their Bones as Hammers appeared first on Nautilus.",
-    "excerpt": "A 480,000-year-old battered bone is the earliest known flintstone hammer in Europe\nThe post Straight-Tusk Elephants Once Roamed Europe. And We Used Their Bones as Hammers appeared first on Nautilus.",
-    "id": "9b3f83d1",
-    "wordCount": 30,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": " The Best Book Covers of the Past Decade ",
-    "link": "https://kottke.org/26/01/the-best-book-covers-of-the-past-decade",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T19:09:37.000Z",
-    "content": "Every year since 2016, Literary Hub has asked a group of book cover designers for their picks for the best book covers of the year. Using 10 years of data, here are their picks for the best covers of the last decade. I’ve included a few of my personal favorites below.\n\n\n\n\n\nTags: best of · book cover",
-    "excerpt": "Every year since 2016, Literary Hub has asked a group of book cover designers for their picks for the best book covers of the year. Using 10 years of data, here are their picks for the best covers of ",
-    "id": "7a772f73",
-    "wordCount": 63,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "10 Survival Skills in an AI-Controlled Society",
-    "link": "https://www.honest-broker.com/p/10-survival-skills-in-an-ai-controlled",
-    "author": "Ted Gioia",
-    "publishedAt": "Mon, 26 Jan 2026 19:01:23 GMT",
-    "content": "Why don't they teach these in college?",
-    "excerpt": "Why don't they teach these in college?",
-    "id": "89b55efb",
-    "wordCount": 7,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Honest Broker",
-      "slug": "honest-broker",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Coffee Break: Oracle Debt and TikTok Transition Troubles Vex the Ellison Media Empire",
-    "link": "https://www.nakedcapitalism.com/2026/01/oracle-tiktok-ellisons-finances-debt-media-empire-algorithm.html",
-    "author": "Nat Wilson Turner",
-    "publishedAt": "Mon, 26 Jan 2026 19:00:12 +0000",
-    "content": "Oracle has financial problems that threaten the Ellison media empire, while technical problems at TikTok complicate the transition to total info control.",
-    "excerpt": "Oracle has financial problems that threaten the Ellison media empire, while technical problems at TikTok complicate the transition to total info control.",
-    "id": "02108fd1",
-    "wordCount": 22,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Do Those Dominating a Situation Truly Bluff & Then Back Down?: Misreadings from Melos to Davos, & Beyond",
-    "link": "https://braddelong.substack.com/p/do-those-dominating-a-situation-truly",
-    "author": "Brad DeLong",
-    "publishedAt": "Mon, 26 Jan 2026 18:55:58 GMT",
-    "content": "Did Trump “dominate” Davos—or just do his chaos-monkey routine in other people’s Common European (& Atlantic-Arctic) Home? Or how not to read Thoukydides in the context of Trump’s grapples with the...",
-    "excerpt": "Did Trump “dominate” Davos—or just do his chaos-monkey routine in other people’s Common European (& Atlantic-Arctic) Home? Or how not to read Thoukydides in the context of Trump’s grapples with the...",
-    "id": "78ac304f",
-    "wordCount": 31,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Brad DeLong",
-      "slug": "brad-delong",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "A computational parallel to collective intelligence in human groups",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/a-computational-parallel-to-collective-intelligence-in-human-groups.html",
-    "author": "S. Abbas Raza",
-    "publishedAt": "Mon, 26 Jan 2026 18:45:20 +0000",
-    "content": "Junsol Kim, Shiyang Lai, Nino Scherrer, Blaise Agüera y Arcas, and James Evans in a new paper: Through quantitative analysis and mechanistic interpretability methods applied to reasoning traces, we find that reasoning models like DeepSeek-R1 and QwQ-32B exhibit much greater perspective diversity tha",
-    "excerpt": "Junsol Kim, Shiyang Lai, Nino Scherrer, Blaise Agüera y Arcas, and James Evans in a new paper: Through quantitative analysis and mechanistic interpretability methods applied to reasoning traces, we fi",
-    "id": "ffb05199",
-    "wordCount": 55,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Do Non-Alcoholic Drinks Actually Help You Stay Sober?",
-    "link": "https://nautil.us/do-non-alcoholic-drinks-actually-help-you-stay-sober-1263736/",
-    "author": "Zoe Cunniffe",
-    "publishedAt": "Mon, 26 Jan 2026 18:29:20 +0000",
-    "content": "They can make cutting back feel easier, but they might also make sobriety harder\nThe post Do Non-Alcoholic Drinks Actually Help You Stay Sober? appeared first on Nautilus.",
-    "excerpt": "They can make cutting back feel easier, but they might also make sobriety harder\nThe post Do Non-Alcoholic Drinks Actually Help You Stay Sober? appeared first on Nautilus.",
-    "id": "18f03120",
-    "wordCount": 28,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "The Pleasure of Being Left Alone",
-    "link": "https://www.themarginalian.org/2026/01/26/rose-macaulay-personal-pleasures/",
-    "author": "Maria Popova",
-    "publishedAt": "Mon, 26 Jan 2026 18:12:06 +0000",
-    "content": "\"An exquisite peace obtains: a drowsy, golden peace, flowing honey-sweet over my dwelling, soaking it, dripping like music from the walls... A peace for gods; a divine emptiness.\"",
-    "excerpt": "\"An exquisite peace obtains: a drowsy, golden peace, flowing honey-sweet over my dwelling, soaking it, dripping like music from the walls... A peace for gods; a divine emptiness.\"",
-    "id": "4ee0579e",
-    "wordCount": 28,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Marginalian",
-      "slug": "the-marginalian",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": " &#8220;For a month, I tried: swapping my iPhone for a Nokia which... ",
-    "link": "https://kottke.org/26/01/0048221-for-a-month-i-tried",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T18:04:54.000Z",
-    "content": "“For a month, I tried: swapping my iPhone for a Nokia which I can only use to text, call and play Snake; also, a Walkman and a film camera. I picked up physical copies of books, newspapers…” What Emma Russell learned from her digital detox.",
-    "excerpt": "“For a month, I tried: swapping my iPhone for a Nokia which I can only use to text, call and play Snake; also, a Walkman and a film camera. I picked up physical copies of books, newspapers…” What Emma",
-    "id": "48d8af8d",
-    "wordCount": 45,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Alan Baratz: Quantum Computing Explained",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/alan-baratz-quantum-computing-explained.html",
-    "author": "S. Abbas Raza",
-    "publishedAt": "Mon, 26 Jan 2026 17:45:44 +0000",
-    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "id": "f3f0310e",
-    "wordCount": 12,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Etzel Cardeña – Theories of Consciousness",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/etzel-cardena-theories-of-consciousness.html",
-    "author": "Morgan Meis",
-    "publishedAt": "Mon, 26 Jan 2026 17:14:18 +0000",
-    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "id": "bd316876",
-    "wordCount": 12,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "The Middle Powers Step Up",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/the-middle-powers-step-up.html",
-    "author": "S. Abbas Raza",
-    "publishedAt": "Mon, 26 Jan 2026 16:45:52 +0000",
-    "content": "Nathan Gardels at Noema: When the United States summarily defected from the world order it had built since the end of World War II, effectively joining the revisionist powers of China and Russia, it was clear we were headed back to the kind of Great Power spheres of influence that characterized the ",
-    "excerpt": "Nathan Gardels at Noema: When the United States summarily defected from the world order it had built since the end of World War II, effectively joining the revisionist powers of China and Russia, it w",
-    "id": "9638e389",
-    "wordCount": 55,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "I Don't Think The Administration's Default Policy Should Be Lying About You Being A Terrorist After They Kill You ",
-    "link": "https://benthams.substack.com/p/i-dont-think-the-administrations",
-    "author": "Bentham's Bulldog",
-    "publishedAt": "Mon, 26 Jan 2026 16:34:13 GMT",
-    "content": "But it is",
-    "excerpt": "But it is",
-    "id": "fcc47d8c",
-    "wordCount": 3,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Bentham's Newsletter",
-      "slug": "benthams-newsletter",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "What Are 2D Particles?",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/what-are-2d-particles.html",
-    "author": "Morgan Meis",
-    "publishedAt": "Mon, 26 Jan 2026 16:11:20 +0000",
-    "content": "Elay Shech at Aeon Magazine: Everything around you – from tables and trees to distant stars and the great diversity of animal and plant life – is built from a small set of elementary particles. According to established scientific theories, these particles fall into two basic and deeply distinct cate",
-    "excerpt": "Elay Shech at Aeon Magazine: Everything around you – from tables and trees to distant stars and the great diversity of animal and plant life – is built from a small set of elementary particles. Accord",
-    "id": "4f7a53f8",
-    "wordCount": 55,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": " &#8220;The imperial boomerang is the theory that governments that develop repressive techniques... ",
-    "link": "https://kottke.org/26/01/0048235-the-imperial-boomerang-is",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T16:03:52.000Z",
-    "content": "“The imperial boomerang is the theory that governments that develop repressive techniques to control colonial territories will eventually deploy those same techniques domestically against their own citizens.”",
-    "excerpt": "“The imperial boomerang is the theory that governments that develop repressive techniques to control colonial territories will eventually deploy those same techniques domestically against their own ci",
-    "id": "148690bd",
-    "wordCount": 27,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Is Particle Physics Dead, Dying, or Just Hard?",
-    "link": "https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/",
-    "author": "Natalie Wolchover",
-    "publishedAt": "Mon, 26 Jan 2026 15:36:37 +0000",
-    "content": "Columnist Natalie Wolchover checks in with particle physicists more than a decade after the field entered a profound crisis.             \nThe post Is Particle Physics Dead, Dying, or Just Hard? first appeared on Quanta Magazine",
-    "excerpt": "Columnist Natalie Wolchover checks in with particle physicists more than a decade after the field entered a profound crisis.             \nThe post Is Particle Physics Dead, Dying, or Just Hard? first ",
-    "id": "94e5a41e",
-    "wordCount": 34,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Quanta Magazine",
-      "slug": "quanta-magazine",
-      "category": "Science"
-    }
-  },
-  {
-    "title": " M. Gessen: &#8220;It&#8217;s only natural that our brains struggle to find logic... ",
-    "link": "https://kottke.org/26/01/0048236-m-gessen-its-only-natural",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T15:35:54.000Z",
-    "content": "M. Gessen: “It’s only natural that our brains struggle to find logic in what we are seeing. There is a logic, and this logic has a name. It’s called state terror.”",
-    "excerpt": "M. Gessen: “It’s only natural that our brains struggle to find logic in what we are seeing. There is a logic, and this logic has a name. It’s called state terror.”",
-    "id": "391223c0",
-    "wordCount": 31,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Adviser links: the math of wealth",
-    "link": "https://abnormalreturns.com/2026/01/26/adviser-links-the-math-of-wealth/",
-    "author": "abnormalreturns",
-    "publishedAt": "Mon, 26 Jan 2026 15:30:36 +0000",
-    "content": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
-    "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
-    "id": "f1b512d0",
-    "wordCount": 22,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Abnormal Returns",
-      "slug": "abnormal-returns",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "It Only Snows Like This for Children",
-    "link": "https://www.theintrinsicperspective.com/p/it-only-snows-like-this-for-children",
-    "author": "Erik Hoel",
-    "publishedAt": "Mon, 26 Jan 2026 15:18:23 GMT",
-    "content": "The Lore of the World: Snow",
-    "excerpt": "The Lore of the World: Snow",
-    "id": "7a438ec8",
-    "wordCount": 6,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Erik Hoel",
-      "slug": "erik-hoel",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Why Labor Unions Can’t Ignore ICE",
-    "link": "https://jacobin.com/2026/01/minneapolis-ice-immigration-worker-organizing/",
-    "author": "Alex N. Press",
-    "publishedAt": "2026-01-26T15:09:52.000Z",
-    "content": "From agriculture to meatpacking to service work, immigration enforcement functions as labor discipline. Minnesota’s mass strike against ICE points toward a reckoning with the agency that the labor movement can’t avoid.\nThe labor movement has no choice but to take on ICE. (Richard Tsong-Taatarii / Mi",
-    "excerpt": "From agriculture to meatpacking to service work, immigration enforcement functions as labor discipline. Minnesota’s mass strike against ICE points toward a reckoning with the agency that the labor mov",
-    "id": "752b32a5",
-    "wordCount": 1199,
-    "readTime": 6,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": " Thomas Zimmer on the stakes of Minnesota&#8217;s struggle against tyranny. &#8220;A society... ",
-    "link": "https://kottke.org/26/01/0048238-thomas-zimmer-on-the-stak",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T15:09:40.000Z",
-    "content": "Thomas Zimmer on the stakes of Minnesota’s struggle against tyranny. “A society that has any aspiration to be free and democratic cannot — it must not! — tolerate the existence of an agency like ICE.”",
-    "excerpt": "Thomas Zimmer on the stakes of Minnesota’s struggle against tyranny. “A society that has any aspiration to be free and democratic cannot — it must not! — tolerate the existence of an agency like ICE.”",
-    "id": "f5c502ce",
-    "wordCount": 35,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "“Sex-Positivity” Broke Contemporary Literature",
-    "link": "https://www.pensandpoison.org/p/how-sex-positivity-broke-contemporary",
-    "author": "Liza Libes",
-    "publishedAt": "Mon, 26 Jan 2026 15:08:29 GMT",
-    "content": "Contemporary Literature Can No Longer Speak Honestly About Sex",
-    "excerpt": "Contemporary Literature Can No Longer Speak Honestly About Sex",
-    "id": "029bad2f",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Pens and Poison",
-      "slug": "pens-and-poison",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "The Purest Definition of Love",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/the-purest-definition-of-love.html",
-    "author": "Morgan Meis",
-    "publishedAt": "Mon, 26 Jan 2026 15:06:41 +0000",
-    "content": "Maria Popova at The Marginalian: Few things in life cause us more suffering than the confusions of love, all the wrong destinations at which we arrive by following a broken compass, having mistaken myriad things for love: admiration, desire, intellectual affinity, common ground. This is why knowing ",
-    "excerpt": "Maria Popova at The Marginalian: Few things in life cause us more suffering than the confusions of love, all the wrong destinations at which we arrive by following a broken compass, having mistaken my",
-    "id": "ffff6c91",
-    "wordCount": 57,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Is Being Virtuous Good for You – or Just People Around You? A Study Suggests Traits Like Compassion May Support Your Own Well-Being",
-    "link": "https://www.nakedcapitalism.com/2026/01/is-being-virtuous-good-for-you-or-just-people-around-you-a-study-suggests-traits-like-compassion-may-support-your-own-well-being.html",
-    "author": "Yves Smith",
-    "publishedAt": "Mon, 26 Jan 2026 14:55:43 +0000",
-    "content": "Is being virtuous more than just its own reward?",
-    "excerpt": "Is being virtuous more than just its own reward?",
-    "id": "b08cf6d8",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": " ICE/DHS has killed nine people in 2026 (that we know of): Keith... ",
-    "link": "https://kottke.org/26/01/0048239-icedhs-has-killed-nine-pe",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T14:49:37.000Z",
-    "content": "ICE/DHS has killed nine people in 2026 (that we know of): Keith Porter, Parady La, Heber Sanchaz Domínguez, Victor Manuel Diaz, Luis Beltran Yanez-Cruz, Luis Gustavo Nunez Caceres, and Geraldo Lunas Campos, Alex Pretti, and Renee Good.",
-    "excerpt": "ICE/DHS has killed nine people in 2026 (that we know of): Keith Porter, Parady La, Heber Sanchaz Domínguez, Victor Manuel Diaz, Luis Beltran Yanez-Cruz, Luis Gustavo Nunez Caceres, and Geraldo Lunas C",
-    "id": "f48b5cb2",
-    "wordCount": 37,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Pluralistic: Trump and the unmighty dollar (26 Jan 2026)",
-    "link": "https://pluralistic.net/2026/01/26/i-dont-want/",
-    "author": "Cory Doctorow",
-    "publishedAt": "Mon, 26 Jan 2026 14:42:10 +0000",
-    "content": "Today's links Trump and the unmighty dollar: \"Flipping the table over in a poker game rigged in your favor because you resent having to pretend to play the game at all.\" Hey look at this: Delights to delectate. Object permanence: H2G2 v BBC; Anti-capitalist bank rave; Narrative and magic; It's still",
-    "excerpt": "Today's links Trump and the unmighty dollar: \"Flipping the table over in a poker game rigged in your favor because you resent having to pretend to play the game at all.\" Hey look at this: Delights to ",
-    "id": "b2dd0e14",
-    "wordCount": 4337,
-    "readTime": 22,
-    "isPaid": false,
-    "publication": {
-      "name": "Pluralistic",
-      "slug": "pluralistic",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": " Emily Witt reports on The Battle for Minneapolis for the New Yorker.... ",
-    "link": "https://kottke.org/26/01/0048237-emily-witt-reports-on-the",
-    "author": "Jason Kottke",
-    "publishedAt": "2026-01-26T14:37:02.000Z",
-    "content": "Emily Witt reports on The Battle for Minneapolis for the New Yorker. “Federal agents attempting to stop U.S. citizens from monitoring them have broken observers’ car windows, doused them with pepper spray, and shoved protesters to the ground.”",
-    "excerpt": "Emily Witt reports on The Battle for Minneapolis for the New Yorker. “Federal agents attempting to stop U.S. citizens from monitoring them have broken observers’ car windows, doused them with pepper s",
-    "id": "1b5ea8f6",
-    "wordCount": 38,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Kottke.org",
-      "slug": "kottke",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "CROSSPOST: SARAH JEONG: It doesn’t matter if Alex Pretti had a gun",
-    "link": "https://braddelong.substack.com/p/crosspost-sarah-jeong-it-doesnt-matter",
-    "author": "Brad DeLong",
-    "publishedAt": "Mon, 26 Jan 2026 14:26:49 GMT",
-    "content": "“What is the point of law enforcement that doesn’t follow the law?” Sarah Jeong asks, rhetorically putting her finger on the bulls-eye. Public reason is supposed to be the space in which we argue...",
-    "excerpt": "“What is the point of law enforcement that doesn’t follow the law?” Sarah Jeong asks, rhetorically putting her finger on the bulls-eye. Public reason is supposed to be the space in which we argue...",
-    "id": "de14d7d3",
-    "wordCount": 34,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Brad DeLong",
-      "slug": "brad-delong",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Inferno",
-    "link": "https://mailchi.mp/verdadcap/biotech-investing-1353364",
-    "author": "Campaign Archive",
-    "publishedAt": "Mon, 26 Jan 2026 14:00:00 +0000",
-    "content": "96\n            \n        \n        \n        \n        \n        \n        Inferno\n        \n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdisplay:block;\n\t\t\tmargin:0;\n\t\t\tpadding:0;\n\t\t}\n\t\timg,a img{\n\t\t\tborder:0;\n\t\t\theight:auto;\n\t\t\toutline:non",
-    "excerpt": "96\n            \n        \n        \n        \n        \n        \n        Inferno\n        \n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h4,h5,h6{\n\t\t\tdi",
-    "id": "16f80181",
-    "wordCount": 831,
-    "readTime": 5,
-    "isPaid": false,
-    "publication": {
-      "name": "Campaign Archive Newsletter",
-      "slug": "campaign-archive-newsletter",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "Trump Awards",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/trump-awards.html",
-    "author": "Azra Raza",
-    "publishedAt": "Mon, 26 Jan 2026 13:38:05 +0000",
-    "content": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-    "id": "98d1b54c",
-    "wordCount": 12,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Why Experts Can’t Agree on Whether AI Has a Mind",
-    "link": "https://3quarksdaily.com/3quarksdaily/2026/01/why-experts-cant-agree-on-whether-ai-has-a-mind.html",
-    "author": "Azra Raza",
-    "publishedAt": "Mon, 26 Jan 2026 13:32:46 +0000",
-    "content": "Tharin Pillay in Time Magazine: “I’m not used to getting nasty emails from a holy man,” says Professor Michael Levin, a developmental biologist at Tufts University. Levin was presenting his research to a group of engineers interested in spiritual matters in India, arguing that properties like “mind”",
-    "excerpt": "Tharin Pillay in Time Magazine: “I’m not used to getting nasty emails from a holy man,” says Professor Michael Levin, a developmental biologist at Tufts University. Levin was presenting his research t",
-    "id": "d2acf2df",
-    "wordCount": 56,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "3 Quarks Daily",
-      "slug": "3-quarks-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Import AI 442: Winners and losers in the AI economy; math proof automation; and industrialization of cyber espionage",
-    "link": "https://jack-clark.net/2026/01/26/import-ai-442-winners-and-losers-in-the-ai-economy-math-proof-automation-and-industrialization-of-cyber-espionage/",
-    "author": "Jack Clark",
-    "publishedAt": "Mon, 26 Jan 2026 13:31:29 +0000",
-    "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The era of math proof automation has arrived:…Numina-Lean-Agent shows how math will never be the same…In the past few years, large-s",
-    "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The era of math proof automation",
-    "id": "0fe4a4f4",
-    "wordCount": 56,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Jack Clark",
-      "slug": "jack-clark",
-      "category": "Technology"
     }
   }
 ]
