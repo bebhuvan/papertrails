@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-10",
+    "title": "Random Digest: February 10, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-10T03:38:21.764Z",
+    "articles": [
+      {
+        "id": "cc420f12",
+        "title": " Your Friends Are Still Acting Like Everything is Normal in America. What... ",
+        "excerpt": "Your Friends Are Still Acting Like Everything is Normal in America. What Do You Do? “The first obligation we all have is an epistemic one: It’s to know what kind of reality we are actually inhabiting.",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-01-29T15:24:23.000Z",
+        "readTime": 1,
+        "wordCount": 38,
+        "url": "https://kottke.org/26/01/0048268-your-friends-are-still-ac"
+      },
+      {
+        "id": "880d293c",
+        "title": "The US doesn’t need to generate as much new electricity as you think",
+        "excerpt": "Load shifting and improving energy efficiency could reduce the need for new power plants, but utilities often profit more from building than saving power.",
+        "author": "Tik Root",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 04 Feb 2026 09:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/energy/the-u-s-doesnt-need-to-generate-as-much-new-electricity-as-you-think/"
+      },
+      {
+        "id": "83fc87b1",
+        "title": "Saturday links: how software looks and feels",
+        "excerpt": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Sat, 31 Jan 2026 14:12:55 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/01/31/saturday-links-how-software-looks-and-feels/"
+      },
+      {
+        "id": "b4f3acf1",
+        "title": "The Devastating Disease Neglected for Decades",
+        "excerpt": "Despite high-tech new therapies, people with sickle cell anemia still encounter stigma today\nThe post The Devastating Disease Neglected for Decades appeared first on Nautilus.",
+        "author": "Molly Glick",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 30 Jan 2026 20:52:57 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://nautil.us/the-devastating-disease-neglected-for-decades-1264672/"
+      },
+      {
+        "id": "df9211db",
+        "title": "Technology Connections on Renewable Energy",
+        "excerpt": "You are being misled about renewable energy technology.\n\r\n\nSome essential viewing about the current state of solar energy along with a healthy dose of righteous snark about the current administration.",
+        "author": "On Focus",
+        "publication": {
+          "name": "On Focus",
+          "slug": "on-focus",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 31 Jan 2026 10:43:24 -0800",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://www.onfocus.com/2026/01/9030/youtube-on?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
+      },
+      {
+        "id": "b6ed8a38",
+        "title": "The Sunday Morning Movie Presents: Lilya 4-Ever (2002) Run Time: 1H 44M Plus Bonus Horror",
+        "excerpt": "Lilya 4-Ever is a film about the desperation of post-Soviet Russia and it's exploitation by the West told through the life of a young prostitute.",
+        "author": "semper loquitur",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Sun, 01 Feb 2026 11:30:31 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://www.nakedcapitalism.com/2026/02/the-sunday-morning-movie-presents-lilya-4-ever-2002-run-time-1h-44m-plus-bonus-horror.html"
+      },
+      {
+        "id": "e06d140c",
+        "title": "Open Thread 419",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 02 Feb 2026 13:16:48 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/open-thread-419"
+      },
+      {
+        "id": "400b835e",
+        "title": "Linda",
+        "excerpt": "We trust our therapists with our deepest thoughts, yet we know almost nothing about them – Josephine needs to know more\n- Directed by Josephine Sittenfeld\nWatch on Psyche",
+        "author": "Psyche Video",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 06 Feb 2026 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://psyche.co/videos/the-questions-we-cant-ask-our-therapists-but-are-dying-to?utm_source=rss-feed"
+      },
+      {
+        "id": "dc6f7b3a",
+        "title": "Saturday discussion post",
+        "excerpt": "",
+        "author": "Halina Bennet",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Sat, 07 Feb 2026 18:00:48 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.slowboring.com/p/saturday-discussion-post-88a"
+      },
+      {
+        "id": "c47d2473",
+        "title": "Cropped 28 January 2026: Ocean biodiversity boost; Nature and national security; Mangrove defence",
+        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 28 January 2026: Ocean biodiversity boost; Nature and national security; Mangrove defe",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 28 Jan 2026 15:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/cropped-28-january-2026-ocean-biodiversity-boost-nature-and-national-security-mangrove-defence/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-07",
     "title": "Random Digest: February 7, 2026",
     "subtitle": "10 hand-picked articles from our collection",
