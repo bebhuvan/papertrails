@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-14",
+    "title": "Random Digest: February 14, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-14T03:12:07.217Z",
+    "articles": [
+      {
+        "id": "8595ebec",
+        "title": "Postscript",
+        "excerpt": "Mass layoffs are a fact of life in journalism. Your favorite writers and editors have dealt with them. But they weren’t supposed to happen at The Post.\n\nOver the last week or so, I’ve been dealing wit",
+        "author": "Ernie Smith",
+        "publication": {
+          "name": "Tedium",
+          "slug": "tedium",
+          "category": "Technology"
+        },
+        "publishedAt": "2026-02-08T04:58:23.000Z",
+        "readTime": 9,
+        "wordCount": 1668,
+        "url": "https://tedium.co/2026/02/07/washington-post-layoffs-perspective/"
+      },
+      {
+        "id": "880d293c",
+        "title": "The US doesn’t need to generate as much new electricity as you think",
+        "excerpt": "Load shifting and improving energy efficiency could reduce the need for new power plants, but utilities often profit more from building than saving power.",
+        "author": "Tik Root",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 04 Feb 2026 09:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/energy/the-u-s-doesnt-need-to-generate-as-much-new-electricity-as-you-think/"
+      },
+      {
+        "id": "b31b6ee3",
+        "title": "What Birds Dream About: The Evolution of REM and How We Practice the Possible in Our Sleep",
+        "excerpt": "\"It may be that in REM, this gloaming between waking consciousness and the unconscious, we practice the possible into the real... It may be that we evolved to dream ourselves into reality — a laborato",
+        "author": "Maria Popova",
+        "publication": {
+          "name": "The Marginalian",
+          "slug": "the-marginalian",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 04 Feb 2026 15:22:57 +0000",
+        "readTime": 1,
+        "wordCount": 43,
+        "url": "https://www.themarginalian.org/2026/02/04/birds-dream-rem/"
+      },
+      {
+        "id": "25dfce1f",
+        "title": "Dream Engineering Could Help You Solve Problems While You Sleep",
+        "excerpt": "“Sleeping on it” comes of age\nThe post Dream Engineering Could Help You Solve Problems While You Sleep appeared first on Nautilus.",
+        "author": "Kristen French",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 05 Feb 2026 21:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/dream-engineering-could-help-you-solve-problems-while-you-sleep-1265958/"
+      },
+      {
+        "id": "3d30096a",
+        "title": "Adviser links: a primary information channel",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 09 Feb 2026 15:11:37 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/02/09/adviser-links-a-primary-information-channel/"
+      },
+      {
+        "id": "800af97c",
+        "title": "The hard art of comfort",
+        "excerpt": "Sick in a London hospital, I understood the Book of Job and his rage at all the miserable comforters\n- by Lisa Simone Kingstone\nRead on Psyche",
+        "author": "Lisa Simone Kingstone",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 11 Feb 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://psyche.co/turning-points/i-had-cancer-did-i-need-all-the-miserable-comforters-too?utm_source=rss-feed"
+      },
+      {
+        "id": "8a434bea",
+        "title": "“Movement Parties” and Democratic Socialists of America",
+        "excerpt": "The rapid growth of DSA in recent decades is part of a global phenomenon of voters and activists from the Left and Right who distrust the political establishment and traditional parties, and have form",
+        "author": "David Duhalde",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-02-09T12:00:45.000Z",
+        "readTime": 13,
+        "wordCount": 2563,
+        "url": "https://jacobin.com/2026/02/movement-parties-dsa-organize-ecosocialism/"
+      },
+      {
+        "id": "f91238b3",
+        "title": "What over a century of ice data can tell us about the Great Lakes’ future",
+        "excerpt": "Using old records, scientists created a new dataset on how ice coverage has shifted since 1897. Researchers are already using it to study a declining fish species.",
+        "author": "Vivian La",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 09 Feb 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://grist.org/science/great-lakes-ice-science-climate/"
+      },
+      {
+        "id": "1d7bd655",
+        "title": "Point Dume",
+        "excerpt": "Sur les traces de Henry Miller et John Fante",
+        "author": "Hinternet Editorial Board",
+        "publication": {
+          "name": "Justin E.H. Smith",
+          "slug": "justin-eh-smith",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 05 Feb 2026 14:35:17 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.the-hinternet.com/p/point-dume-0a6"
+      },
+      {
+        "id": "ce06492f",
+        "title": "My Favorite Corners of the Internet to Explore Instead of Doomscrolling",
+        "excerpt": "My ultimate guide of platforms, apps, websites, and digital archives that make up my digital world.",
+        "author": "Mapu",
+        "publication": {
+          "name": "MAPUC",
+          "slug": "mapuc",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 13 Feb 2026 14:01:20 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://mapuc.substack.com/p/my-favorite-corners-of-the-internet"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-10",
     "title": "Random Digest: February 10, 2026",
     "subtitle": "10 hand-picked articles from our collection",
