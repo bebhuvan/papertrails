@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-17",
+    "title": "Random Digest: February 17, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-17T03:19:17.707Z",
+    "articles": [
+      {
+        "id": "51ad4b98",
+        "title": "Weimar Germany and the Fatal Flaw",
+        "excerpt": "Dan Gardner at PastPresentFuture: Billie Eilish’s anti-ICE message at the Grammies — “no one is illegal on stolen land” — reminded me of Weimar Germany. For a complex reason. I’ve never been a fan of ",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 13 Feb 2026 16:45:59 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/02/weimar-germany-and-the-fatal-flaw.html"
+      },
+      {
+        "id": "6eeb52af",
+        "title": "Q&A: What does Trump’s repeal of US ‘endangerment finding’ mean for climate action?",
+        "excerpt": "On 12 February, US president Donald Trump revoked the “endangerment finding”, the bedrock of federal...\nThe post Q&A: What does Trump’s repeal of US ‘endangerment finding’ mean for climate action? app",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 16 Feb 2026 15:11:09 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/qa-what-does-trumps-repeal-of-us-endangerment-finding-mean-for-climate-action/"
+      },
+      {
+        "id": "4b7d0644",
+        "title": "Top Links 1004 Hedge fund correlations. The great fashion reshuffle. Soviet rocket man and China in Myanmar. ",
+        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+        "author": "Adam Tooze",
+        "publication": {
+          "name": "Adam Tooze",
+          "slug": "adam-tooze",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 05 Feb 2026 11:50:19 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://adamtooze.substack.com/p/top-links-1004-hedge-fund-correlations"
+      },
+      {
+        "id": "d07122f7",
+        "title": "How to Understand Nature From a Marxist Perspective",
+        "excerpt": "Nobody today denies that capitalism exploits nature. The disagreement is over why. Political theorist Alyssa Battistoni spoke to Jacobin about capitalism’s complex relationship to what economists once",
+        "author": "Alyssa Battistoni",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-02-07T09:46:40.000Z",
+        "readTime": 18,
+        "wordCount": 3442,
+        "url": "https://jacobin.com/2026/02/nature-capitalism-marxism-ecology-freedom/"
+      },
+      {
+        "id": "e22b0272",
+        "title": "Offshore wind showed up big during the East Coast’s brutal cold",
+        "excerpt": "America’s two utility-scale offshore wind farms performed as well as gas power plants and better than coal in January — including during Winter Storm Fern.",
+        "author": "Maria Gallucci",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 14 Feb 2026 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/energy/offshore-wind-showed-up-big-during-the-east-coasts-brutal-cold/"
+      },
+      {
+        "id": "83ed4dfc",
+        "title": "A Guide to Surviving the Great Forgetting: How to (re)train your memory",
+        "excerpt": "For those of you who prefer to read off paper rather than the screen, we have converted the post into an easily printable pdf file here.",
+        "author": "Ruth Gaskovski",
+        "publication": {
+          "name": "School of the Unconformed",
+          "slug": "school-unconformed",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 13 Feb 2026 11:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://schooloftheunconformed.substack.com/p/the-guide-to-surviving-the-great"
+      },
+      {
+        "id": "25dfce1f",
+        "title": "Dream Engineering Could Help You Solve Problems While You Sleep",
+        "excerpt": "“Sleeping on it” comes of age\nThe post Dream Engineering Could Help You Solve Problems While You Sleep appeared first on Nautilus.",
+        "author": "Kristen French",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 05 Feb 2026 21:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/dream-engineering-could-help-you-solve-problems-while-you-sleep-1265958/"
+      },
+      {
+        "id": "012a8c8a",
+        "title": "Why we should embrace ‘nepantla’ – the in-betweenness of life",
+        "excerpt": "In an age of strong political commitments, a Nahuatl word encapsulates the freedom to let go of what has become oppressive\n- by Carlos Alberto Sánchez\nRead on Psyche",
+        "author": "Carlos Alberto Sánchez",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 10 Feb 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://psyche.co/ideas/why-we-should-embrace-nepantla-the-in-betweenness-of-life?utm_source=rss-feed"
+      },
+      {
+        "id": "726ee572",
+        "title": "Pluralistic: Luxury Kafka (06 Feb 2026)",
+        "excerpt": "Today's links Luxury Kafka: US Immigration on the easiest setting. Hey look at this: Delights to delectate. Object permanence: Whisky PC; Anitfeatures; Silicon Roundabout; Steampunk Etch-A-Sketch; MLM",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 06 Feb 2026 08:43:22 +0000",
+        "readTime": 14,
+        "wordCount": 2737,
+        "url": "https://pluralistic.net/2026/02/06/doge-ball/"
+      },
+      {
+        "id": "0f2730d6",
+        "title": "Research links: behavioral inefficiencies",
+        "excerpt": "Tuesdays are all about academic (and practitioner) literature at Abnormal Returns. You can check out last week’s edition including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 03 Feb 2026 14:52:27 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/02/03/research-links-behavioral-inefficiencies/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-14",
     "title": "Random Digest: February 14, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 37,
         "url": "https://www.epsilontheory.com/sunday-music-unassisted-by-rasco/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-08-25",
-    "title": "Random Digest: August 25, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-08-25T07:14:55.265Z",
-    "articles": [
-      {
-        "id": "1b0c14d9",
-        "title": "Will tax cuts create more readers?",
-        "excerpt": "Denmark proposes ending VAT on books",
-        "author": "Henry Oliver",
-        "publication": {
-          "name": "Common Reader",
-          "slug": "common-reader",
-          "category": "Culture"
-        },
-        "publishedAt": "Thu, 21 Aug 2025 21:41:52 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://www.commonreader.co.uk/p/will-tax-cuts-create-more-readers"
-      },
-      {
-        "id": "15403e32",
-        "title": "DeBriefed 15 August 2025: Raging wildfires; Xi’s priorities; Factchecking the Trump climate report",
-        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 15 August 2025: Raging wildfires; Xi’s priorities; Factchecking the Tru",
-        "author": "Anika Patel",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 15 Aug 2025 12:51:27 +0000",
-        "readTime": 1,
-        "wordCount": 36,
-        "url": "https://www.carbonbrief.org/debriefed-15-august-2025-raging-wildfires-xis-priorities-factchecking-the-trump-climate-report/"
-      },
-      {
-        "id": "7e844b27",
-        "title": "What Really Happened in the 2016 Election",
-        "excerpt": "Debunking Russiagate Myths",
-        "author": "Richard Hanania",
-        "publication": {
-          "name": "Richard Hanania",
-          "slug": "richard-hanania",
-          "category": "Politics"
-        },
-        "publishedAt": "Tue, 05 Aug 2025 01:03:03 GMT",
-        "readTime": 1,
-        "wordCount": 3,
-        "url": "https://www.richardhanania.com/p/what-really-happened-in-the-2016"
-      },
-      {
-        "id": "46b9314e",
-        "title": "Me talking about AI elsewhere",
-        "excerpt": "I’ve been popping up in a few places lately. Here’s a round-up: a talk, an academic paper, and a blog post.\nRethink AI, WIRED x Kendryl\nI spoke about AI agents as part of a Wired event called Rethink ",
-        "author": "Matt Webb",
-        "publication": {
-          "name": "Interconnected",
-          "slug": "interconnected",
-          "category": "Technology"
-        },
-        "publishedAt": "Thu, 14 Aug 2025 20:10:00 +0000",
-        "readTime": 7,
-        "wordCount": 1262,
-        "url": "https://interconnected.org/home/2025/08/14/elsewhere"
-      },
-      {
-        "id": "45b0c9b1",
-        "title": "The Gulf World That Air Conditioning Wrought",
-        "excerpt": "The post The Gulf World That Air Conditioning Wrought appeared first on NOEMA.",
-        "author": "Marianne Dhenin",
-        "publication": {
-          "name": "Noema",
-          "slug": "noema",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Tue, 05 Aug 2025 15:57:47 +0000",
-        "readTime": 1,
-        "wordCount": 13,
-        "url": "https://www.noemamag.com/the-gulf-world-that-air-conditioning-wrought"
-      },
-      {
-        "id": "7832f9a9",
-        "title": "You MUST read this post",
-        "excerpt": "Two surprising discoveries about obedience",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Thu, 14 Aug 2025 16:06:51 GMT",
-        "readTime": 1,
-        "wordCount": 5,
-        "url": "https://smallpotatoes.paulbloom.net/p/you-must-read-this-post"
-      },
-      {
-        "id": "5a9b6af2",
-        "title": "Tuesday links: protecting the financial system",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Tue, 12 Aug 2025 17:40:28 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/08/12/tuesday-links-protecting-the-financial-system/"
-      },
-      {
-        "id": "60f23f4a",
-        "title": "HOISTED FROM THE ARCHIVES: Cory Doctorow on FanFiction",
-        "excerpt": "FanFic, wetware, and the battle for narrative: Cory Doctorow dissects fiction’s strange empathy machine from Virgil to LiveJournal, or, who owns the dragons?: the cognitive science of fanfiction...",
-        "author": "Brad DeLong",
-        "publication": {
-          "name": "Brad DeLong",
-          "slug": "brad-delong",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 12 Aug 2025 03:01:22 GMT",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://braddelong.substack.com/p/hoisted-from-the-archives-cory-doctorow"
-      },
-      {
-        "id": "3b815ca6",
-        "title": "How climate change endangers mothers and children",
-        "excerpt": "Rising temperatures are rewriting the earliest stages of life, according to a new report.",
-        "author": "Zoya Teirstein",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 13 Aug 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://grist.org/health/how-climate-change-endangers-mothers-and-children/"
-      },
-      {
-        "id": "da36b6dd",
-        "title": "What Does It Mean To Be Thirsty?",
-        "excerpt": "The effects of insufficient water are felt by every cell in the body, but it’s the brain that manifests our experience of thirst.            \nThe post What Does It Mean To Be Thirsty? first appeared o",
-        "author": "Dan Samorodnitsky",
-        "publication": {
-          "name": "Quanta Magazine",
-          "slug": "quanta-magazine",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 11 Aug 2025 14:41:43 +0000",
-        "readTime": 1,
-        "wordCount": 37,
-        "url": "https://www.quantamagazine.org/what-does-it-mean-to-be-thirsty-20250811/"
       }
     ]
   }
