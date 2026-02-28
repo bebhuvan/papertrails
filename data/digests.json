@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-02-28",
+    "title": "Random Digest: February 28, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-02-28T02:42:13.041Z",
+    "articles": [
+      {
+        "id": "25a89da6",
+        "title": "Mayors need to understand the problem ",
+        "excerpt": "Plus my favorite dad-lit, the farmer vote, and the futile effort to constrain presidential war powers",
+        "author": "Matthew Yglesias",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 27 Feb 2026 11:00:47 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.slowboring.com/p/mayors-need-to-understand-the-problem"
+      },
+      {
+        "id": "e2575aff",
+        "title": "Why Are We Worthwhile?",
+        "excerpt": "by Sherman J. Clark We do not need philosophers to tell us that human beings matter. Various versions of that conviction is already at work everywhere we look. A sense that people are worthwhile shape",
+        "author": "Sherman Clark",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 16 Feb 2026 11:00:38 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/02/why-are-we-worthwhile.html"
+      },
+      {
+        "id": "5cf69cab",
+        "title": "tante.cc on Acting ethically",
+        "excerpt": "Acting ethically in an imperfect world\n\r\n\n\r\nArtifacts and technologies have certain logics built into their structure that do require certain arrangements around them or that bring forward certain arr",
+        "author": "On Focus",
+        "publication": {
+          "name": "On Focus",
+          "slug": "on-focus",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 21 Feb 2026 09:08:48 -0800",
+        "readTime": 1,
+        "wordCount": 60,
+        "url": "https://www.onfocus.com/2026/02/9036/acting-ethically-in-an-imperfect-world?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
+      },
+      {
+        "id": "c0ea22f3",
+        "title": "Philosophy of the Unconscious",
+        "excerpt": "Old Course with a New Look, Free to All Members of The Portal",
+        "author": "Cadell Last",
+        "publication": {
+          "name": "Philosophy Portal",
+          "slug": "philosophy-portal",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 24 Feb 2026 10:52:51 GMT",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://philosophyportal.substack.com/p/philosophy-of-the-unconscious"
+      },
+      {
+        "id": "1a552608",
+        "title": "Research links: lower hit rates",
+        "excerpt": "Tuesdays are all about academic (and practitioner) literature at Abnormal Returns. You can check out last week’s edition including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 17 Feb 2026 14:50:19 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/02/17/research-links-lower-hit-rates/"
+      },
+      {
+        "id": "e3e45065",
+        "title": "The Buses Really SHOULD Be Free",
+        "excerpt": "Where the evidence stands on subsidizing public transit",
+        "author": "Nicholas Decker",
+        "publication": {
+          "name": "Nicholas Decker",
+          "slug": "nicholas-decker",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 17 Feb 2026 03:20:01 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://nicholasdecker.substack.com/p/the-buses-really-should-be-free"
+      },
+      {
+        "id": "6fe239d8",
+        "title": "The Ancient Cold Snaps That May Have Shaped Human Evolution",
+        "excerpt": "Here’s when Earth’s climate became chaotic\nThe post The Ancient Cold Snaps That May Have Shaped Human Evolution appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 24 Feb 2026 15:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/the-ancient-cold-snaps-that-may-have-shaped-human-evolution-1269997/"
+      },
+      {
+        "id": "380db858",
+        "title": "Jesse Jackson’s vision for America embraced environmental justice",
+        "excerpt": "The civil rights leader, who died earlier this week, linked segregation, pollution, and political power.",
+        "author": "Juanpablo Ramirez-Franco",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 20 Feb 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://grist.org/equity/jesse-jacksons-vision-for-america-embraced-environmental-justice/"
+      },
+      {
+        "id": "b657385d",
+        "title": "Ma Jun: ‘No business interest’ in Chinese coal power due to cheaper renewables ",
+        "excerpt": "Open and transparent data can accelerate the decarbonisation of China’s industries and boost public interest...\nThe post Ma Jun: ‘No business interest’ in Chinese coal power due to cheaper renewables ",
+        "author": "Anika Patel",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 19 Feb 2026 12:41:28 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/ma-jun-no-business-interest-in-chinese-coal-power-due-to-cheaper-renewables/"
+      },
+      {
+        "id": "a8eb5a58",
+        "title": "three times is political action",
+        "excerpt": "the levers not working",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 18 Feb 2026 18:26:53 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://backofmind.substack.com/p/three-times-is-political-action"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-24",
     "title": "Random Digest: February 24, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 24,
         "url": "https://grist.org/transportation/us-ev-sales-are-booming-for-now/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-09-06",
-    "title": "Random Digest: September 6, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-09-06T02:05:50.402Z",
-    "articles": [
-      {
-        "id": "c85f9b7d",
-        "title": "The Curious Case of Steve Bannon’s Tactics",
-        "excerpt": "Self-described Leninist Steve Bannon recognized that online platforms and movement tactics can be turned into political weapons. His success shows how tactics developed for solidarity can be twisted i",
-        "author": "Brian Nuckols",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-08-27T14:05:57.000Z",
-        "readTime": 12,
-        "wordCount": 2273,
-        "url": "https://jacobin.com/2025/08/bannon-online-media-wow-coordination/"
-      },
-      {
-        "id": "1d687d7c",
-        "title": "On Dan Wang’s Brand-New \"Breakneck\": The World's Dynamos China & America, & Building Our Common Global Future Home",
-        "excerpt": "The Sledgehammer & the Gavel at Dawn & Dusk: Synthesis, strife, and the race to shape the twenty-first century; how China & America build—and block—their common future. Dan Wang’s brand-new...",
-        "author": "Brad DeLong",
-        "publication": {
-          "name": "Brad DeLong",
-          "slug": "brad-delong",
-          "category": "Economics"
-        },
-        "publishedAt": "Mon, 25 Aug 2025 13:40:22 GMT",
-        "readTime": 1,
-        "wordCount": 30,
-        "url": "https://braddelong.substack.com/p/on-dan-wangs-brand-new-breakneck"
-      },
-      {
-        "id": "e2818b7e",
-        "title": "Inside the AI Industry's Plot to Kill AGI",
-        "excerpt": "They had a dream, then turned nightmare",
-        "author": "Alberto Romero",
-        "publication": {
-          "name": "The Algorithmic Bridge",
-          "slug": "algorithmic-bridge",
-          "category": "Technology"
-        },
-        "publishedAt": "Thu, 28 Aug 2025 12:53:53 GMT",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://www.thealgorithmicbridge.com/p/inside-the-ai-industrys-plot-to-kill"
-      },
-      {
-        "id": "ae9db736",
-        "title": "Monday links: building something from scratch",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Mon, 25 Aug 2025 17:16:55 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/08/25/monday-links-building-something-from-scratch/"
-      },
-      {
-        "id": "ba241b32",
-        "title": "\"Systems collapse, things break down, and time tends irreversibly towards disorder and eventual annihilation\"",
-        "excerpt": "\"Systems collapse, things break down, and time tends irreversibly towards disorder and eventual annihilation\"",
-        "author": "Arts & Letters Daily",
-        "publication": {
-          "name": "Arts & Letters Daily",
-          "slug": "arts-letters-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "2025-08-26T19:39:29.133Z",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://aeon.co/essays/philosophers-must-reckon-with-the-meaning-of-thermodynamics"
-      },
-      {
-        "id": "399433e1",
-        "title": "Essence is fluttering",
-        "excerpt": "As Zhuangzi saw, there is no immutably true self. Instead our identity is as dynamic and alive as a butterfly in flight\n- by Alexander Douglas\nRead on Psyche",
-        "author": "Alexander Douglas",
-        "publication": {
-          "name": "Aeon",
-          "slug": "aeon",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 01 Sep 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 29,
-        "url": "https://aeon.co/essays/how-to-be-yourself-when-you-have-no-self-lessons-from-zhuangzi?utm_source=rss-feed"
-      },
-      {
-        "id": "f306819d",
-        "title": "Inside a Georgia beach’s high-tech fight against erosion",
-        "excerpt": "Armed with drones and lasers, scientists are creating detailed 3D maps of Tybee Island’s shifting shoreline.",
-        "author": "Emily Jones",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 22 Aug 2025 08:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 16,
-        "url": "https://grist.org/science/inside-a-georgia-beachs-high-tech-fight-against-erosion/"
-      },
-      {
-        "id": "e2f25553",
-        "title": "respect for the problem",
-        "excerpt": "more wisdom from Will",
-        "author": "Dan Davies",
-        "publication": {
-          "name": "Back of Mind",
-          "slug": "back-of-mind",
-          "category": "Psychology"
-        },
-        "publishedAt": "Fri, 05 Sep 2025 14:24:50 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://backofmind.substack.com/p/respect-for-the-problem"
-      },
-      {
-        "id": "d887876c",
-        "title": "How to become President of China with Dan Wang",
-        "excerpt": "Episode five of the Works in Progress podcast is about why China outbuilds America",
-        "author": "Sam Bowman",
-        "publication": {
-          "name": "Works in Progress",
-          "slug": "works-in-progress",
-          "category": "Science"
-        },
-        "publishedAt": "Thu, 28 Aug 2025 09:12:12 GMT",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://www.worksinprogress.news/p/how-to-become-president-of-china"
-      },
-      {
-        "id": "f123f781",
-        "title": "Josh Hawley’s ‘huge win’ will be a big loss for clean energy — and ratepayers",
-        "excerpt": "It's only been a few weeks since the Trump administration and Missouri Republicans killed the Grain Belt Express transmission line, but it's already clear rates will go up.",
-        "author": "Sophie Hurwitz",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Tue, 02 Sep 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://grist.org/energy/josh-hawleys-huge-win-will-be-a-big-loss-for-clean-energy-and-ratepayers/"
       }
     ]
   }
