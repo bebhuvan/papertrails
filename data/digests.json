@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-03-03",
+    "title": "Random Digest: March 3, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-03-03T03:18:28.699Z",
+    "articles": [
+      {
+        "id": "46f259c9",
+        "title": "Ski resorts are increasingly reliant on snowmaking. But at what cost?",
+        "excerpt": "As the climate changes, mountains and nordic facilities have begun relying more on energy and water-intensive machine-made snow.",
+        "author": "Susan Shain",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 26 Feb 2026 09:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/energy/ski-resorts-are-increasingly-reliant-on-snowmaking-but-at-what-cost/"
+      },
+      {
+        "id": "385f8c6f",
+        "title": "The DOJ’s Top Antitrust Officer Has Left as Lobbying Surges",
+        "excerpt": "The head of the DOJ’s antitrust division has been ousted after clashing with Attorney General Pam Bondi over how aggressively to crack down on corporate crimes. Her removal lays bare a broader fight w",
+        "author": "Veronica Riccobene",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-02-18T10:57:49.000Z",
+        "readTime": 4,
+        "wordCount": 771,
+        "url": "https://jacobin.com/2026/02/doj-antitrust-slater-lobbying-bondi/"
+      },
+      {
+        "id": "6de6e3ea",
+        "title": "Did Trump just overplay his hand?",
+        "excerpt": "We will learn a lot about Silicon Valley in the upcoming days",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 27 Feb 2026 22:55:51 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://garymarcus.substack.com/p/did-trump-just-overplay-his-hand"
+      },
+      {
+        "id": "91d508be",
+        "title": "Catspeak",
+        "excerpt": "by Brooks Riley Enjoying the content on 3QD? Help keep us going by donating now.",
+        "author": "Brooks Riley (Catspeak)",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 25 Feb 2026 09:00:42 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/02/catspeak-456.html"
+      },
+      {
+        "id": "5d069734",
+        "title": "The Trump administration’s favorite nuclear startup has ties to Russia and Epstein",
+        "excerpt": "Nuclear experts aren’t sure the company could manage to make small reactors both cost-effective and scalable.",
+        "author": "Kiera Butler",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 28 Feb 2026 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/energy/the-trump-administrations-favorite-nuclear-startup-has-ties-to-russia-and-epstein/"
+      },
+      {
+        "id": "86e76f04",
+        "title": "Podcast links: talking tech",
+        "excerpt": "Fridays are all about podcast links here at Abnormal Returns. You can also check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 27 Feb 2026 14:36:20 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/02/27/podcast-links-talking-tech/"
+      },
+      {
+        "id": "a56b4189",
+        "title": "What helps you feel better might depend on where you grew up",
+        "excerpt": "Research on the common strategies used to deal with emotions suggests their usefulness differs from culture to culture\n- by Mark Chen\nRead on Psyche",
+        "author": "Mark Chen",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 25 Feb 2026 11:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://psyche.co/ideas/what-helps-you-feel-better-might-depend-on-where-you-grew-up?utm_source=rss-feed"
+      },
+      {
+        "id": "50fe20bc",
+        "title": "How the Triceratops Used Its Giant Nose",
+        "excerpt": "Its outsized nasal cavities helped it maintain body temperature\nThe post How the Triceratops Used Its Giant Nose appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 24 Feb 2026 13:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://nautil.us/how-the-triceratops-used-its-giant-nose-1269977/"
+      },
+      {
+        "id": "42077023",
+        "title": "Year of the Soul",
+        "excerpt": "A new poem by Tao Lin.",
+        "author": "Tao Lin",
+        "publication": {
+          "name": "Cluny Journal",
+          "slug": "cluny-journal",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 26 Feb 2026 14:01:41 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.clunyjournal.com/p/year-of-the-soul"
+      },
+      {
+        "id": "b7e2da7d",
+        "title": "HOISTED FROM THE ARCHIVES: Anchoring Your Thoughts Against the Blizzard of Trumpist Lies Is Very Important for You!",
+        "excerpt": "STILL VERY IMPORTANT: Proper mental hygiene is essential if you are to be a useful part of humanity-as-an-anthology-intelligence over the next four years. Start now! Remember: Ukraine has never...",
+        "author": "Brad DeLong",
+        "publication": {
+          "name": "Brad DeLong",
+          "slug": "brad-delong",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 26 Feb 2026 22:33:46 GMT",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://braddelong.substack.com/p/hoisted-from-the-archives-anchoring"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-02-28",
     "title": "Random Digest: February 28, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 3,
         "url": "https://www.robkhenderson.com/p/the-unspeakable-cancel-culture-success"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-09-09",
-    "title": "Random Digest: September 9, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-09-09T02:10:48.999Z",
-    "articles": [
-      {
-        "id": "d3bff254",
-        "title": "A Billion Abominations A Day",
-        "excerpt": "by Mike Bendzela Some people are haunted by words others have spoken, or by events they’ve seen and heard in various media, or by embarrassing episodes from their pasts. I can be just as vulnerable to",
-        "author": "Mike Bendzela",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Sun, 31 Aug 2025 09:00:54 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/08/a-billion-abominations-a-day.html"
-      },
-      {
-        "id": "edc81434",
-        "title": "Happy 2nd Birthday to Small Potatoes ",
-        "excerpt": "“At two years, children are caught between babyhood and childhood.",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Tue, 26 Aug 2025 15:00:15 GMT",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://smallpotatoes.paulbloom.net/p/happy-2nd-birthday-to-small-potatoes"
-      },
-      {
-        "id": "c1b6202e",
-        "title": "How the Pharma Industry Botched Alzheimer’s Treatment",
-        "excerpt": "Journalist Charles Piller has exposed a pattern of shoddy and even fraudulent practices in Alzheimer’s research. It shows the drug research system needs serious reform, but health secretary Robert F. ",
-        "author": "Michael Chanan",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-08-28T12:25:34.000Z",
-        "readTime": 11,
-        "wordCount": 2189,
-        "url": "https://jacobin.com/2025/08/big-pharma-alzheimer-drugs-research/"
-      },
-      {
-        "id": "7d978cd7",
-        "title": "Tuesday links: reliable drivers of bad decisions",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Tue, 26 Aug 2025 17:11:00 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/08/26/tuesday-links-reliable-drivers-of-bad-decisions/"
-      },
-      {
-        "id": "887b119b",
-        "title": "Pluralistic: The worst possible antitrust outcome (03 Sep 2025)",
-        "excerpt": "Today's links The worst possible antitrust outcome: Hope you like enshittification. Hey look at this: Delights to delectate. Object permanence: Amazon drivers hang phones from trees; DVD Jon v Windows",
-        "author": "Cory Doctorow",
-        "publication": {
-          "name": "Pluralistic",
-          "slug": "pluralistic",
-          "category": "Technology"
-        },
-        "publishedAt": "Wed, 03 Sep 2025 20:02:29 +0000",
-        "readTime": 11,
-        "wordCount": 2094,
-        "url": "https://pluralistic.net/2025/09/03/unpunishing-process/"
-      },
-      {
-        "id": "1c4289f7",
-        "title": "Media to consume this week instead of doomscrolling - 31.08.25",
-        "excerpt": "Notes on echo chambers, archetypes, AI and books, commodification of the self, consumer behavior, politics and fashion, and more.",
-        "author": "Mapu",
-        "publication": {
-          "name": "MAPUC",
-          "slug": "mapuc",
-          "category": "Economics"
-        },
-        "publishedAt": "Sun, 31 Aug 2025 16:55:20 GMT",
-        "readTime": 1,
-        "wordCount": 19,
-        "url": "https://mapuc.substack.com/p/media-to-consume-this-week-instead-9bd"
-      },
-      {
-        "id": "99f83013",
-        "title": "Every Objection To Taking The Giving What We Can Pledge Is Wrong ",
-        "excerpt": "The reasons people give for not donating don't stand up to scrutiny",
-        "author": "Bentham's Bulldog",
-        "publication": {
-          "name": "Bentham's Newsletter",
-          "slug": "benthams-newsletter",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Thu, 04 Sep 2025 15:27:35 GMT",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://benthams.substack.com/p/every-objection-to-taking-the-giving"
-      },
-      {
-        "id": "3d83423e",
-        "title": "Extreme Heat Will Change You",
-        "excerpt": "High temperatures can alter our bodies at the molecular level\nThe post Extreme Heat Will Change You appeared first on Nautilus.",
-        "author": "Diana Kwon",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 27 Aug 2025 20:54:34 +0000",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://nautil.us/extreme-heat-will-change-you-1232228/"
-      },
-      {
-        "id": "5d5ec52e",
-        "title": "American Samoa says no to deep-sea mining. The Trump administration might do it anyway.",
-        "excerpt": "The CEO of a seabed mining startup says the decision about mining leases will be made in Washington, D.C.",
-        "author": "Anita Hofschneider",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 03 Sep 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 19,
-        "url": "https://grist.org/indigenous/american-samoa-says-no-to-deep-sea-mining-trump-administration/"
-      },
-      {
-        "id": "77bf9437",
-        "title": "US EV sales are booming — for now",
-        "excerpt": "Changes in U.S. government support for electric vehicles have led to a buying bonanza — and a darker long-term future for the auto industry.",
-        "author": "Aarian Marshall",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Sat, 30 Aug 2025 13:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 24,
-        "url": "https://grist.org/transportation/us-ev-sales-are-booming-for-now/"
       }
     ]
   }
