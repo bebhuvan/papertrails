@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-03-14",
+    "title": "Random Digest: March 14, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-03-14T03:10:44.270Z",
+    "articles": [
+      {
+        "id": "189c1e4c",
+        "title": "\"All Lawful Use\": Much More Than You Wanted To Know",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sun, 01 Mar 2026 19:52:04 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/all-lawful-use-much-more-than-you"
+      },
+      {
+        "id": "ec17d2c0",
+        "title": "Ancient People Traded Live Parrots Across South America for Thousands of Years",
+        "excerpt": "Polly has been wanting a cracker for millenia\nThe post Ancient People Traded Live Parrots Across South America for Thousands of Years appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 10 Mar 2026 16:03:00 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://nautil.us/ancient-people-traded-live-parrots-across-south-america-for-thousands-of-years-1278765/"
+      },
+      {
+        "id": "b1c0ccb8",
+        "title": "Status Anxiety, OnlyFans, Outliers",
+        "excerpt": "Links and recommendations",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 11 Mar 2026 14:33:24 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/status-anxiety-onlyfans-outliers"
+      },
+      {
+        "id": "e784ce6a",
+        "title": "Can Sun Tzu’s The Art of War Predict the Outcome of the War on Iran?",
+        "excerpt": "To cut through today’s fog of information, Sun Tzu’s The Art of War offers a lens to understand the possible direction of the war on Iran.",
+        "author": "Curro Jimenez",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 12 Mar 2026 18:00:11 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://www.nakedcapitalism.com/2026/03/can-sun-tzus-the-art-of-war-predict-the-outcome-of-the-war-on-iran.html"
+      },
+      {
+        "id": "be699de8",
+        "title": "A Sit-Down with Rick Wurster, CEO of Charles Schwab",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 13 Mar 2026 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/a-sit-down-with-rick-wurster-ceo-of-charles-schwab"
+      },
+      {
+        "id": "5b5a1569",
+        "title": "Why thinning a forest could get you more drinking water",
+        "excerpt": "Scientists have shown how actively managing forests to prevent wildfires can also boost the snowpack, a critical source of hydration in the American west.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 06 Mar 2026 09:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/drought/why-thinning-a-forest-could-get-you-more-drinking-water/"
+      },
+      {
+        "id": "11d1ce27",
+        "title": "The planet is overheating. Why is the news looking away?",
+        "excerpt": "Since 2021, global media coverage of climate change has dropped 38 percent. Blame wars, political chaos, and Jeffrey Epstein.",
+        "author": "Kate Yoder",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 11 Mar 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/language/global-heating-climate-news-drought-chaos/"
+      },
+      {
+        "id": "f3aa0a90",
+        "title": "Writing about getting to the Funnery",
+        "excerpt": "Learning about AI through teaching about it",
+        "author": "Rob Nelson",
+        "publication": {
+          "name": "AI Log Blog",
+          "slug": "ai-log-blog",
+          "category": "Technology"
+        },
+        "publishedAt": "Sun, 08 Mar 2026 11:24:31 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.ailog.blog/p/writing-about-getting-to-the-funnery"
+      },
+      {
+        "id": "f9c05e45",
+        "title": "A High School Socialist Is Taking on the Bosses in Texas",
+        "excerpt": "High school student Reese Armstrong is mounting a socialist campaign for commissioner in Travis County, Texas. It’s a safe bet that Armstrong’s focus on public health care, social housing investment, ",
+        "author": "Reese Armstrong",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-03-03T09:42:47.000Z",
+        "readTime": 13,
+        "wordCount": 2410,
+        "url": "https://jacobin.com/2026/03/armstrong-texas-austin-travis-election/"
+      },
+      {
+        "id": "e9527c83",
+        "title": "The Air Power Illusion",
+        "excerpt": "Robert Pape at Escalation Trap: Across more than a century of modern warfare, one pattern stands out for its consistency. In war after war, cities have burned, infrastructure has collapsed, leaders ha",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 06 Mar 2026 16:45:54 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/03/the-air-power-illusion.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-03-10",
     "title": "Random Digest: March 10, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 75,
         "url": "https://www.nplusonemag.com/issue-51/fiction-drama/construction/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-09-20",
-    "title": "Random Digest: September 20, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-09-20T02:01:54.284Z",
-    "articles": [
-      {
-        "id": "abec698c",
-        "title": "Why feminism worked best in the West with Alice Evans",
-        "excerpt": "Episode six of the Works in Progress podcast is about dating, drinking and tax",
-        "author": "Aria Babu",
-        "publication": {
-          "name": "Works in Progress",
-          "slug": "works-in-progress",
-          "category": "Science"
-        },
-        "publishedAt": "Thu, 11 Sep 2025 12:43:56 GMT",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://www.worksinprogress.news/p/why-feminism-worked-best-in-the-west"
-      },
-      {
-        "id": "a0e4f90d",
-        "title": "I'm Gruesome For Newsom",
-        "excerpt": "...",
-        "author": "Scott Alexander",
-        "publication": {
-          "name": "Astral Codex Ten",
-          "slug": "astral-codex-ten",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Tue, 09 Sep 2025 20:36:26 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.astralcodexten.com/p/im-gruesome-for-newsom"
-      },
-      {
-        "id": "4737e3f7",
-        "title": "Guest post: How the role of carbon storage has been hugely overestimated",
-        "excerpt": "Removing carbon dioxide (CO2) from the atmosphere is widely expected to play a key role...\nThe post Guest post: How the role of carbon storage has been hugely overestimated appeared first on Carbon Br",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 08 Sep 2025 14:38:43 +0000",
-        "readTime": 1,
-        "wordCount": 34,
-        "url": "https://www.carbonbrief.org/guest-post-how-the-role-of-carbon-storage-has-been-hugely-overestimated/"
-      },
-      {
-        "id": "c023cbd0",
-        "title": "How to start growing your own food",
-        "excerpt": "A vegetable garden is more than a source of sustenance – it’s a psychological sanctuary. Here’s how to create your own\n- by Gary Pilarchik\nRead on Psyche",
-        "author": "Gary Pilarchik",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Fri, 12 Sep 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://psyche.co/guides/how-to-start-growing-your-own-food-with-a-vegetable-garden?utm_source=rss-feed"
-      },
-      {
-        "id": "e6c83804",
-        "title": "What comes after the chatbot?",
-        "excerpt": "Notes and image credits for my talk at theAAC&U AI Institute",
-        "author": "Rob Nelson",
-        "publication": {
-          "name": "AI Log Blog",
-          "slug": "ai-log-blog",
-          "category": "Technology"
-        },
-        "publishedAt": "Fri, 12 Sep 2025 11:28:16 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.ailog.blog/p/what-comes-after-the-chatbot"
-      },
-      {
-        "id": "d35abd2b",
-        "title": "The Costs of South Africa’s Ideological Foreign Policy",
-        "excerpt": "Washington and Pretoria were at odds long before Trump.",
-        "author": "Michelle Gavin",
-        "publication": {
-          "name": "Foreign Affairs",
-          "slug": "foreign-affairs",
-          "category": "Politics"
-        },
-        "publishedAt": "Wed, 17 Sep 2025 00:00:00 -0400",
-        "readTime": 1,
-        "wordCount": 9,
-        "url": "https://www.foreignaffairs.com/south-africa/costs-south-africas-ideological-foreign-policy"
-      },
-      {
-        "id": "05ea61e3",
-        "title": "Tuesday links: a diabolical doctor",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Tue, 16 Sep 2025 16:32:14 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/09/16/tuesday-links-a-diabolical-doctor/"
-      },
-      {
-        "id": "ae68524c",
-        "title": "Scott Bessent, Sleazy Smearer",
-        "excerpt": "About the Treasury secretary’s vile, dishonest slander of the Fed",
-        "author": "Paul Krugman",
-        "publication": {
-          "name": "Paul Krugman",
-          "slug": "paul-krugman",
-          "category": "Economics"
-        },
-        "publishedAt": "Mon, 08 Sep 2025 10:31:36 GMT",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://paulkrugman.substack.com/p/scott-bessent-sleazy-smearer"
-      },
-      {
-        "id": "39e88372",
-        "title": "US taxpayers will pay billions in new fossil fuel subsidies thanks to the Big Beautiful Bill",
-        "excerpt": "A report finds that President Trump’s flagship legislation will grant $40 billion in new subsidies to the oil and gas industry over the next decade.",
-        "author": "Molly Taft, WIRED",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Sun, 14 Sep 2025 13:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://grist.org/politics/us-taxpayers-will-pay-billions-in-new-fossil-fuel-subsidies-thanks-to-the-big-beautiful-bill/"
-      },
-      {
-        "id": "0e0528ab",
-        "title": "Donald Trump Wants to Remake the Global Financial System",
-        "excerpt": "An interview with Mona Ali in Jacobin: John-Baptiste Oduor: Donald Trump’s push for the firing of Federal Reserve Board of Governors member Lisa Cook has led many to worry that this might be a precurs",
-        "author": "Robin Varghese",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Sun, 07 Sep 2025 17:45:52 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/09/donald-trump-wants-to-remake-the-global-financial-system.html"
       }
     ]
   }
