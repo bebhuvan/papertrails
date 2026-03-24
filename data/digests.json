@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-03-24",
+    "title": "Random Digest: March 24, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-03-24T03:18:08.997Z",
+    "articles": [
+      {
+        "id": "729da883",
+        "title": "Wednesday links: highly skewed information",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 11 Mar 2026 17:26:54 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/03/11/wednesday-links-highly-skewed-information/"
+      },
+      {
+        "id": "ec81d97a",
+        "title": "Newly Discovered Species Changes the Origin Story of Magic Mushrooms",
+        "excerpt": "There’s a new psychedelic mushroom in town\nThe post Newly Discovered Species Changes the Origin Story of Magic Mushrooms appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 13 Mar 2026 19:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://nautil.us/newly-discovered-species-changes-the-origin-story-of-magic-mushrooms-1278902/"
+      },
+      {
+        "id": "31719afc",
+        "title": "Match Week Is a Scam That Exploits Medical Residents",
+        "excerpt": "Every year, an algorithm assigns thousands of medical students to residencies they can’t leave, can’t negotiate with, and can’t refuse. The Match system creates a captive workforce that stiffs residen",
+        "author": "Nicholas Liu",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-03-18T13:03:02.000Z",
+        "readTime": 11,
+        "wordCount": 2085,
+        "url": "https://jacobin.com/2026/03/match-week-doctors-residents-unions/"
+      },
+      {
+        "id": "52fad9ed",
+        "title": "Cropped 11 March 2026: Iran water worries | Seabed-mining treaty progress | Women farmers and climate change",
+        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 11 March 2026: Iran water worries | Seabed-mining treaty progress | Women farmers and ",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 11 Mar 2026 16:31:32 +0000",
+        "readTime": 1,
+        "wordCount": 39,
+        "url": "https://www.carbonbrief.org/cropped-11-march-2026-iran-water-worries-seabed-mining-treaty-progress-women-farmers-and-climate-change/"
+      },
+      {
+        "id": "be852867",
+        "title": "Stargazing really is good for the soul",
+        "excerpt": "A trip to the telescopes of the Atacama Desert led me to research showing the benefits of feeling connected to the night sky\n- by Richard Fisher\nRead on Psyche",
+        "author": "Richard Fisher",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 20 Mar 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://psyche.co/notes-to-self/a-desert-trip-showed-me-stargazing-is-good-for-the-soul?utm_source=rss-feed"
+      },
+      {
+        "id": "64bc4447",
+        "title": "Early Socratic dialogues: Lysis",
+        "excerpt": "What is friendship?",
+        "author": "Massimo Pigliucci",
+        "publication": {
+          "name": "Figs in Winter",
+          "slug": "figs-in-winter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 17 Mar 2026 10:01:46 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://figsinwintertime.substack.com/p/early-socratic-dialogues-lysis"
+      },
+      {
+        "id": "0e4a7ddd",
+        "title": "DeBriefed 13 March 2026: War and oil | Why gas drives electricity prices | Japan’s ‘vulnerability’ to Iran crisis",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 13 March 2026: War and oil | Why gas drives electricity prices | Japan’",
+        "author": "Joe Goodman",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 13 Mar 2026 16:53:04 +0000",
+        "readTime": 1,
+        "wordCount": 42,
+        "url": "https://www.carbonbrief.org/debriefed-13-march-2026-war-and-oil-why-gas-drives-electricity-prices-japans-vulnerability-to-iran-crisis/"
+      },
+      {
+        "id": "2127c086",
+        "title": "Canary Media on Balcony Solar",
+        "excerpt": "Balcony solar is taking state legislatures by storm\n\r\n\n\r\nIn more than half of U.S. states, Republican and Democratic lawmakers have introduced legislation that would boost adoption of DIY solar system",
+        "author": "On Focus",
+        "publication": {
+          "name": "On Focus",
+          "slug": "on-focus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 13 Mar 2026 07:40:16 -0700",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.onfocus.com/2026/03/9050/balcony-solar-is-taking-state-legislatures-by?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
+      },
+      {
+        "id": "66b35785",
+        "title": "Roots and the Meaning of Life",
+        "excerpt": "They are so far out of sight for us, creatures of the upper world, that we don’t readily think of them. But as soon as we do, as soon as we plunge the mind into the cold dark humus to which the body w",
+        "author": "Maria Popova",
+        "publication": {
+          "name": "The Marginalian",
+          "slug": "the-marginalian",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 16 Mar 2026 00:44:27 +0000",
+        "readTime": 1,
+        "wordCount": 102,
+        "url": "https://www.themarginalian.org/2026/03/15/roots/"
+      },
+      {
+        "id": "79a1b0da",
+        "title": "Causal Evidence on Cost-of-Living Shocks: How the Energy Crisis Affected Energy Demand, Labour Supply, and Financial Strain",
+        "excerpt": "Quelle surprise! Poorer households have to make across-the-board spending cuts when hit with a price shock.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 17 Mar 2026 09:43:02 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.nakedcapitalism.com/2026/03/causal-evidence-on-cost-of-living-shocks-how-the-energy-crisis-affected-energy-demand-labour-supply-and-financial-strain.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-03-21",
     "title": "Random Digest: March 21, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 18,
         "url": "https://grist.org/culture/how-disasters-change-our-love-lives-for-better-and-for-worse/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-09-30",
-    "title": "Random Digest: September 30, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-09-30T02:07:28.059Z",
-    "articles": [
-      {
-        "id": "62a138b7",
-        "title": "The Milton Friedman Question",
-        "excerpt": "A critical look at the anarcho-libertarian (per his son) propagandist Milton Friedman.",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Sat, 27 Sep 2025 08:57:19 +0000",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://www.nakedcapitalism.com/2025/09/the-milton-friedman-question.html"
-      },
-      {
-        "id": "2cc2e1cf",
-        "title": "We're about to find out if Silicon Valley owns Gavin Newsom",
-        "excerpt": "A guide to the AI and tech bills that have passed the California legislature, and await the governor's signature — or veto.",
-        "author": "Brian Merchant",
-        "publication": {
-          "name": "Blood in the Machine",
-          "slug": "blood-in-the-machine",
-          "category": "Culture"
-        },
-        "publishedAt": "Fri, 26 Sep 2025 18:22:29 GMT",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://www.bloodinthemachine.com/p/were-about-to-find-out-if-silicon"
-      },
-      {
-        "id": "b2eece93",
-        "title": "La Cumplida shows how coffee can restore ecosystems and economies",
-        "excerpt": "La Cumplida has turned deforested hills into thriving shade-grown coffee farms, showing that healing the land can also grow profits.",
-        "author": "Grist Creative",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 29 Sep 2025 14:01:50 +0000",
-        "readTime": 1,
-        "wordCount": 20,
-        "url": "https://grist.org/sponsored/regenerative-agriculture-coffee-la-cumplida-nicaragua-rainforest-alliance/"
-      },
-      {
-        "id": "03ff1817",
-        "title": "How Bear Markets Work",
-        "excerpt": "Some thoughts on stock market symmetry and asymmetry.\nThe post How Bear Markets Work appeared first on A Wealth of Common Sense.\n...",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Sun, 28 Sep 2025 14:33:04 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://awealthofcommonsense.com/2025/09/how-bear-markets-work/"
-      },
-      {
-        "id": "3aa8188d",
-        "title": "Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30",
-        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at C",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 24 Sep 2025 15:20:36 +0000",
-        "readTime": 1,
-        "wordCount": 37,
-        "url": "https://www.carbonbrief.org/cropped-24-september-2025-high-seas-treaty-milestone-erratic-water-cycle-family-food-at-cop30/"
-      },
-      {
-        "id": "dbe2f1c5",
-        "title": "The world is on track for record harvests this year",
-        "excerpt": "What do the latest projections expect for global food production and yields of different crops?",
-        "author": "Hannah Ritchie",
-        "publication": {
-          "name": "Sustainability by Numbers",
-          "slug": "sustainability-by-numbers",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 22 Sep 2025 05:45:59 GMT",
-        "readTime": 1,
-        "wordCount": 15,
-        "url": "https://www.sustainabilitybynumbers.com/p/food-projections-2025"
-      },
-      {
-        "id": "fb421359",
-        "title": "American students are getting dumber",
-        "excerpt": "It started before Covid, and it keeps getting worse.",
-        "author": "Matthew Yglesias",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 22 Sep 2025 10:01:11 GMT",
-        "readTime": 1,
-        "wordCount": 9,
-        "url": "https://www.slowboring.com/p/american-students-are-getting-dumber"
-      },
-      {
-        "id": "27cc9fa3",
-        "title": "Video And Podcast Resources On Søren Kierkegaard's The Present Age and The Crowd Is Untruth",
-        "excerpt": "nine lectures on these seminal Existentialist works",
-        "author": "Gregory B. Sadler",
-        "publication": {
-          "name": "Gregory B. Sadler",
-          "slug": "gregory-b-sadler",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Wed, 24 Sep 2025 02:37:38 GMT",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://gregorybsadler.substack.com/p/video-and-podcast-resources-on-sren"
-      },
-      {
-        "id": "0b7dcace",
-        "title": "If Anyone Builds It, Does Everybody Die?",
-        "excerpt": "What should we make of this widely-discussed new book?",
-        "author": "Gary Marcus",
-        "publication": {
-          "name": "Gary Marcus",
-          "slug": "gary-marcus",
-          "category": "Technology"
-        },
-        "publishedAt": "Wed, 17 Sep 2025 16:21:02 GMT",
-        "readTime": 1,
-        "wordCount": 9,
-        "url": "https://garymarcus.substack.com/p/if-anyone-builds-it-does-everybody"
-      },
-      {
-        "id": "dda9ccf0",
-        "title": "How to be happier in five steps (with zero weird tricks)",
-        "excerpt": "There‘s no ‘one weird‘ happiness trick. Instead, here are five practices that are proven to help attain this elusive goal\n- Video by The Well\nWatch on Psyche",
-        "author": "Psyche Video",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 22 Sep 2025 10:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://psyche.co/videos/were-naturally-bad-at-predicting-what-will-make-us-happy-heres-how-to-adjust?utm_source=rss-feed"
       }
     ]
   }
