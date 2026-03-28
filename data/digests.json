@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-03-28",
+    "title": "Random Digest: March 28, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-03-28T03:20:53.887Z",
+    "articles": [
+      {
+        "id": "539d0b30",
+        "title": "The Worst and the Dumbest",
+        "excerpt": "Has the U.S. military been Kudlowized?",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 27 Mar 2026 13:14:23 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://paulkrugman.substack.com/p/the-worst-and-the-dumbest"
+      },
+      {
+        "id": "03c76d17",
+        "title": "Live with Phillips P. OBrien and Bohdan Zhelobchuk",
+        "excerpt": "A recording from Phillips P. OBrien's live video",
+        "author": "Phillips P. OBrien",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 26 Mar 2026 17:14:32 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-and-bohdan"
+      },
+      {
+        "id": "1dbc1121",
+        "title": "The Invention of Zero: How Ancient Mesopotamia Created the Mathematical Concept of Nought and Ancient India Gave It Symbolic Form",
+        "excerpt": "\"If you look at zero you see nothing; but look through it and you will see the world.\"",
+        "author": "Maria Popova",
+        "publication": {
+          "name": "The Marginalian",
+          "slug": "the-marginalian",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 24 Mar 2026 14:18:27 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://www.themarginalian.org/2026/03/24/zero-robert-kaplan/"
+      },
+      {
+        "id": "68162d21",
+        "title": "Dostoevsky's Dinner Parties",
+        "excerpt": "Speaking about Dostoevsky's \"Devils\" - Part 1",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 20 Mar 2026 14:44:35 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://www.robkhenderson.com/p/dostoevskys-dinner-parties"
+      },
+      {
+        "id": "92412c9c",
+        "title": "NPR on The Trump Trucker Crackdown",
+        "excerpt": "The Trump administration's crackdown on immigrant truckers shifts into higher gear\n\r\n\n\r\nRivera was brought to the U.S. illegally from Mexico when he was 2 years old. He's enrolled in the Deferred Acti",
+        "author": "On Focus",
+        "publication": {
+          "name": "On Focus",
+          "slug": "on-focus",
+          "category": "Technology"
+        },
+        "publishedAt": "Mon, 16 Mar 2026 22:46:36 -0700",
+        "readTime": 1,
+        "wordCount": 88,
+        "url": "https://www.onfocus.com/2026/03/9055/the-trump-administrations-crackdown-on-immigrant?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
+      },
+      {
+        "id": "a5a130a1",
+        "title": "Adviser links: simple and strategic reflection",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 23 Mar 2026 14:36:55 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/03/23/adviser-links-simple-and-strategic-reflection/"
+      },
+      {
+        "id": "f558fb99",
+        "title": "Q&A: What does India’s new Paris Agreement pledge mean for climate action?",
+        "excerpt": "India has set a new target to reduce its “emissions intensity” – greenhouse gas emissions...\nThe post Q&A: What does India’s new Paris Agreement pledge mean for climate action? appeared first on Carbo",
+        "author": "Aruna Chandrasekhar",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 27 Mar 2026 12:21:14 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/qa-what-does-indias-new-paris-agreement-pledge-mean-for-climate-action/"
+      },
+      {
+        "id": "b7969580",
+        "title": "Species slowdown: Is nature’s ability to self-repair stalling?",
+        "excerpt": "When scientists recently analyzed hundreds of studies of ecosystems, they were surprised to see a marked slowing in the rate of species turnover.",
+        "author": "Fred Pearce, Yale Environment 360",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sun, 15 Mar 2026 13:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://grist.org/science/species-slowdown-is-natures-ability-to-self-repair-stalling/"
+      },
+      {
+        "id": "ab7c4ce8",
+        "title": "Open Thread 425",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 16 Mar 2026 05:18:25 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/open-thread-425"
+      },
+      {
+        "id": "dc80cdf5",
+        "title": "The Secret of Fireflies’ Synchronous Flashing",
+        "excerpt": "How males adjust their behavior to keep the beat\nThe post The Secret of Fireflies’ Synchronous Flashing appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 17 Mar 2026 20:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://nautil.us/the-secret-of-fireflies-synchronous-flashing-1279006/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-03-24",
     "title": "Random Digest: March 24, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 1,
         "url": "https://www.theirrelevantinvestor.com/p/animal-spirits-a-mania-is-brewing"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-04",
-    "title": "Random Digest: October 4, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-04T01:57:27.370Z",
-    "articles": [
-      {
-        "id": "dcd72a25",
-        "title": "Top clicks this week on Abnormal Returns",
-        "excerpt": "Thanks for checking in with us this weekend. Here are the most clicked on items on Abnormal Returns for the week ended...",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Sun, 28 Sep 2025 11:52:19 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://abnormalreturns.com/2025/09/28/top-clicks-this-week-on-abnormal-returns-819/"
-      },
-      {
-        "id": "12031131",
-        "title": "Hooray! Met Our Third Target! On to the Fourth: Continuing Expanded Daily Links",
-        "excerpt": "The fundraiser is going nicely but many of you have yet to contribute! How about chipping in for the daily essential of our morning Links?",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Wed, 01 Oct 2025 18:58:28 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://www.nakedcapitalism.com/2025/10/hooray-met-our-third-target-on-to-the-fourth-continuing-expanded-daily-links.html"
-      },
-      {
-        "id": "4c1f99e8",
-        "title": "A Diverse World Of Sovereign AI Zones",
-        "excerpt": "The post A Diverse World Of Sovereign AI Zones appeared first on NOEMA.",
-        "author": "Nathan Gardels",
-        "publication": {
-          "name": "Noema",
-          "slug": "noema",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Fri, 26 Sep 2025 17:21:45 +0000",
-        "readTime": 1,
-        "wordCount": 13,
-        "url": "https://www.noemamag.com/a-diverse-world-of-sovereign-ai-zones"
-      },
-      {
-        "id": "df600a7b",
-        "title": "Saturday discussion thread",
-        "excerpt": "What’s on your mind?",
-        "author": "Halina Bennet",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Sat, 20 Sep 2025 17:01:10 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://www.slowboring.com/p/saturday-discussion-thread-85e"
-      },
-      {
-        "id": "d0711011",
-        "title": "Man Ray: When Objects Dream",
-        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-        "author": "Morgan Meis",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Fri, 26 Sep 2025 11:11:39 +0000",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/09/man-ray-when-objects-dream.html"
-      },
-      {
-        "id": "e796b4dd",
-        "title": "Techdirt on The 'Debate Me Bro' Grift",
-        "excerpt": "The “Debate Me Bro” Grift: How Trolls Weaponized The Marketplace Of Ideas\n\r\n\n\r\nThe fundamental issue with “debate me bro” culture isn’t just that it’s obnoxious, it’s that it creates a false equivalen",
-        "author": "On Focus",
-        "publication": {
-          "name": "On Focus",
-          "slug": "on-focus",
-          "category": "Technology"
-        },
-        "publishedAt": "Sat, 20 Sep 2025 10:20:14 -0700",
-        "readTime": 1,
-        "wordCount": 105,
-        "url": "https://www.onfocus.com/2025/09/8963/the-debate-me-bro-grift-how-trolls?owa_source=onfocus&owa_medium=RSS&owa_campaign=feed"
-      },
-      {
-        "id": "b0df03cb",
-        "title": "Is Life a Form of Computation?",
-        "excerpt": "Alan Turing and John von Neumann saw it early: the logic of life and the logic of code may be one and the same.\nThe post Is Life a Form of Computation? appeared first on Nautilus.",
-        "author": "Blaise Agüera y Arcas",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 24 Sep 2025 09:50:00 +0000",
-        "readTime": 1,
-        "wordCount": 36,
-        "url": "https://nautil.us/is-life-a-form-of-computation-1238864/"
-      },
-      {
-        "id": "be862d16",
-        "title": "Revealed: Use of heat ‘emergencies’ for rough sleepers hits record in England and Wales",
-        "excerpt": "A record number of heat-related “emergencies” have been triggered by councils this year to help...\nThe post Revealed: Use of heat ‘emergencies’ for rough sleepers hits record in England and Wales appe",
-        "author": "Josh Gabbatiss",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 25 Sep 2025 07:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 36,
-        "url": "https://www.carbonbrief.org/revealed-use-of-heat-emergencies-for-rough-sleepers-hits-record-in-england-and-wales/"
-      },
-      {
-        "id": "99c07e9d",
-        "title": "Radicalization, Defense Mechanisms, Fashion",
-        "excerpt": "Links and recommendations",
-        "author": "Rob Henderson",
-        "publication": {
-          "name": "Rob Henderson",
-          "slug": "rob-henderson",
-          "category": "Psychology"
-        },
-        "publishedAt": "Tue, 23 Sep 2025 13:06:25 GMT",
-        "readTime": 1,
-        "wordCount": 3,
-        "url": "https://www.robkhenderson.com/p/radicalization-defense-mechanisms"
-      },
-      {
-        "id": "14bf580e",
-        "title": "How disasters change our love lives — for better and for worse",
-        "excerpt": "Some couples broke under the pressure of Hurricane Helene. Others found something solid and surprising in each other.",
-        "author": "Katie Myers",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 08:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 18,
-        "url": "https://grist.org/culture/how-disasters-change-our-love-lives-for-better-and-for-worse/"
       }
     ]
   }
