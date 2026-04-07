@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-07",
+    "title": "Random Digest: April 7, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-07T03:36:37.274Z",
+    "articles": [
+      {
+        "id": "661b6b55",
+        "title": "How to recognise a phobia (and get help)",
+        "excerpt": "Is it normal fear you’re feeling, or is it a real problem? Learn the signs of phobias and how to break free from one\n- by Bunmi Olatunji\nRead on Psyche",
+        "author": "Bunmi Olatunji",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://psyche.co/guides/how-to-recognise-a-phobia-and-get-help?utm_source=rss-feed"
+      },
+      {
+        "id": "a6ad9be9",
+        "title": "Wednesday links: the trust infrastructure",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 17:05:12 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/04/01/wednesday-links-the-trust-infrastructure/"
+      },
+      {
+        "id": "0f79e079",
+        "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
+        "excerpt": "Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006); Wonder",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 10:59:24 +0000",
+        "readTime": 10,
+        "wordCount": 1955,
+        "url": "https://pluralistic.net/2026/04/01/minilateralism/"
+      },
+      {
+        "id": "d256a670",
+        "title": "\"Predictive History\" and the Second Coming ",
+        "excerpt": "Evil Cabals and Angelic Communities",
+        "author": "Tom Morgan",
+        "publication": {
+          "name": "The Leading Edge",
+          "slug": "leading-edge",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 27 Mar 2026 14:52:47 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://newsletter.theleading-edge.org/p/predictive-history-and-the-second"
+      },
+      {
+        "id": "84d17292",
+        "title": "Private Credit and the New World of Financial Risk",
+        "excerpt": "There’s a whiff of 2008 in the air",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Sun, 05 Apr 2026 10:31:21 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world"
+      },
+      {
+        "id": "b51f07fd",
+        "title": "Analysis: India’s CO2 emissions in 2025 grew at slowest rate in two decades",
+        "excerpt": "India’s carbon dioxide (CO2) emissions grew by 0.5% in the second half of 2025 and...\nThe post Analysis: India’s CO2 emissions in 2025 grew at slowest rate in two decades appeared first on Carbon Brie",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 26 Mar 2026 00:01:00 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://www.carbonbrief.org/analysis-indias-co2-emissions-in-2025-grew-at-slowest-rate-in-two-decades/"
+      },
+      {
+        "id": "bfeb9ae0",
+        "title": "Days are enormous",
+        "excerpt": "+ personal update and reading recommendations",
+        "author": "Henrik Karlsson",
+        "publication": {
+          "name": "Henrik Karlsson",
+          "slug": "henrik-karlsson",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 11:14:48 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://www.henrikkarlsson.xyz/p/days-are-enormous"
+      },
+      {
+        "id": "4780ec3f",
+        "title": "Trump’s Historic Blunder in Iran",
+        "excerpt": "Both the White House and Israel wanted swift regime change in Iran. Instead they’ve triggered a spiraling conflict with no plausible endgame.\nIran was never on the brink of starting a war. Now Washing",
+        "author": "Jason Brownlee",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-03-24T11:37:23.000Z",
+        "readTime": 34,
+        "wordCount": 6703,
+        "url": "https://jacobin.com/2026/03/trump-iran-israel-regime-change/"
+      },
+      {
+        "id": "6f6eacf8",
+        "title": "DeBriefed 27 Mach 2026: North Sea myths debunked | India’s climate plan | IPCC and Indigenous knowledge",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 27 Mach 2026: North Sea myths debunked | India’s climate plan | IPCC an",
+        "author": "Roz Pidcock",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 27 Mar 2026 15:35:42 +0000",
+        "readTime": 1,
+        "wordCount": 40,
+        "url": "https://www.carbonbrief.org/debriefed-27-mach-2026-north-sea-myths-debunked-indias-climate-plan-ipcc-and-indigenous-knowledge/"
+      },
+      {
+        "id": "3392b005",
+        "title": "How Science Fiction Can Save Us",
+        "excerpt": "Three scientists share their bold vision for turning stories into testable experiments\nThe post How Science Fiction Can Save Us appeared first on Nautilus.",
+        "author": "Iyad Rahwan",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 27 Mar 2026 16:05:23 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://nautil.us/how-science-fiction-can-save-us-1279301/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-04",
     "title": "Random Digest: April 4, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 8,
         "url": "https://paulkrugman.substack.com/p/how-crypto-became-a-trump-trade"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-14",
-    "title": "Random Digest: October 14, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-14T02:10:07.598Z",
-    "articles": [
-      {
-        "id": "bbcb44e1",
-        "title": "Small farmers are more squeezed than ever. A California grant program offers a lifeline.",
-        "excerpt": "A recent report shows that the state’s farm-to-school grant program has been effective at supporting economically disadvantaged farmers in the face of mounting federal cuts.",
-        "author": "Frida Garza",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://grist.org/food-and-agriculture/california-farm-to-school-grant-program-offers-a-lifeline/"
-      },
-      {
-        "id": "3138e6fe",
-        "title": "The Compound and Friends: How Peter Lynch Became The Greatest Fund Manager Of All Time",
-        "excerpt": "",
-        "author": "Michael Batnick",
-        "publication": {
-          "name": "Meb Faber Research",
-          "slug": "meb-faber-research",
-          "category": "Finance"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 11:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.theirrelevantinvestor.com/p/the-compound-and-friends-how-peter-lynch-became-the-greatest-fund-manager-of-all-time"
-      },
-      {
-        "id": "412cd516",
-        "title": "Easier Said Than Done: Hybrid Deterrence By Punishment",
-        "excerpt": "This week, Minna Ålander turns to the question of how to move from defensive reactions to Russian hybrid warfare to an effective deterrent. (Spoiler: not easy)",
-        "author": "Minna Ålander",
-        "publication": {
-          "name": "Phillips P. O'Brien",
-          "slug": "phillips-p-obrien",
-          "category": "Politics"
-        },
-        "publishedAt": "Fri, 10 Oct 2025 10:34:44 GMT",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://phillipspobrien.substack.com/p/easier-said-than-done-hybrid-deterrence"
-      },
-      {
-        "id": "47179b36",
-        "title": "Links 10/3/2025",
-        "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/10/links-10-3-2025.html\"><img class=\"aligncenter size-large wp-image-299229\" src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-20",
-        "author": "Conor Gallagher",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 10:55:19 +0000",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.nakedcapitalism.com/2025/10/links-10-3-2025.html"
-      },
-      {
-        "id": "24989c73",
-        "title": "AI Acceleration Vs. Precaution",
-        "excerpt": "The post AI Acceleration Vs. Precaution appeared first on NOEMA.",
-        "author": "Nathan Gardels",
-        "publication": {
-          "name": "Noema",
-          "slug": "noema",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 15:44:41 +0000",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://www.noemamag.com/ai-acceleration-vs-precaution"
-      },
-      {
-        "id": "c2d77f84",
-        "title": "The Campaign for Vertical Television",
-        "excerpt": "TV networks should have an extra channel that shows exclusively portrait mode content.\ni.e. BBC Vertical.\nAlso: Netflix Vertical, National Geographic Vertical, ESPN Vertical, etc.\nWhy?\nBecause there’s",
-        "author": "Matt Webb",
-        "publication": {
-          "name": "Interconnected",
-          "slug": "interconnected",
-          "category": "Technology"
-        },
-        "publishedAt": "Wed, 01 Oct 2025 18:47:00 +0000",
-        "readTime": 6,
-        "wordCount": 1199,
-        "url": "https://interconnected.org/home/2025/10/01/vertical"
-      },
-      {
-        "id": "3740e826",
-        "title": "What Made Horses Rideable",
-        "excerpt": "How horse genetics and human culture co-evolved\nThe post What Made Horses Rideable appeared first on Nautilus.",
-        "author": "CD Davidson-Hiers",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Thu, 02 Oct 2025 09:50:00 +0000",
-        "readTime": 1,
-        "wordCount": 17,
-        "url": "https://nautil.us/what-made-horses-rideable-1240132/"
-      },
-      {
-        "id": "3a103bab",
-        "title": "The kids who sued America over climate change aren’t done yet",
-        "excerpt": "They want an international human rights body to hold the U.S. accountable — and are spotlighting Indigenous communities on the frontlines.",
-        "author": "Anita Hofschneider",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 08:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://grist.org/global-indigenous-affairs-desk/the-kids-who-sued-america-over-climate-change-arent-done-yet/"
-      },
-      {
-        "id": "86755daf",
-        "title": "Iain McGilchrist – Idealism: Arguing Pro and Con",
-        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-        "author": "Morgan Meis",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Fri, 10 Oct 2025 17:36:58 +0000",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/iain-mcgilchrist-idealism-arguing-pro-and-con.html"
-      },
-      {
-        "id": "59d54a43",
-        "title": "How luxury brands engineer desire with behavioural economics",
-        "excerpt": "From scarcity to market architecture, luxury fashion is manipulating our tastes. But a vintage countermovement has begun\n- by Charlotte Wren\nRead on Psyche",
-        "author": "Charlotte Wren",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Fri, 03 Oct 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 24,
-        "url": "https://psyche.co/ideas/how-luxury-brands-engineer-desire-with-behavioural-economics?utm_source=rss-feed"
       }
     ]
   }
