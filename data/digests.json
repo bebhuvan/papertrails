@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-11",
+    "title": "Random Digest: April 11, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-11T03:23:39.681Z",
+    "articles": [
+      {
+        "id": "9b8df432",
+        "title": "brain donors of the firm",
+        "excerpt": "giving it all away and paying for the privilege",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 08 Apr 2026 13:29:27 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://backofmind.substack.com/p/brain-donors-of-the-firm"
+      },
+      {
+        "id": "7adaa2ab",
+        "title": "Your opinion, please",
+        "excerpt": "From poetry to politics, this radio show asked listeners to speak their minds. Decades later, their words still resonate\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 08 Apr 2026 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://aeon.co/videos/a-vivid-portrait-of-montana-built-from-call-in-radio-clips?utm_source=rss-feed"
+      },
+      {
+        "id": "fbb11ba3",
+        "title": "How the Stock Market Performs After a Correction",
+        "excerpt": "How does the stock market perform after it's down 10%, 20% or 30%?\nThe post How the Stock Market Performs After a Correction appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Sun, 29 Mar 2026 13:47:37 +0000",
+        "readTime": 1,
+        "wordCount": 32,
+        "url": "https://awealthofcommonsense.com/2026/03/how-the-stock-market-performs-after-a-correction/"
+      },
+      {
+        "id": "57204f50",
+        "title": "Perhaps There Are Options Other Than \"Toxic Confidence\" and Insecurity-as-Identity",
+        "excerpt": "everything that is not forbidden is compulsory",
+        "author": "Freddie deBoer",
+        "publication": {
+          "name": "Freddie deBoer",
+          "slug": "freddie-deboer",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 02 Apr 2026 15:48:13 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://freddiedeboer.substack.com/p/perhaps-there-are-options-other-than"
+      },
+      {
+        "id": "0f79e079",
+        "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
+        "excerpt": "Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006); Wonder",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 10:59:24 +0000",
+        "readTime": 10,
+        "wordCount": 1955,
+        "url": "https://pluralistic.net/2026/04/01/minilateralism/"
+      },
+      {
+        "id": "66491c74",
+        "title": "Now We Know What the Insects of the Jurassic Period Sounded Like",
+        "excerpt": "Thanks to crickets and relatives playing their “washboards”\nThe post Now We Know What the Insects of the Jurassic Period Sounded Like appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://nautil.us/what-the-insects-of-the-jurassic-period-sounded-like-1279350/"
+      },
+      {
+        "id": "4150f5ef",
+        "title": "Oceans are absorbing the Earth’s excess energy. That’s bad news for food systems.",
+        "excerpt": "As the planet traps more energy than it releases, the pathways for global food production are being upended.",
+        "author": "Frida Garza",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 31 Mar 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/food-and-agriculture/oceans-are-absorbing-the-earths-excess-energy-thats-bad-news-for-food-systems/"
+      },
+      {
+        "id": "19dc2bc5",
+        "title": "In Nebraska, wildfires are turning cattle ranching into a tricky business",
+        "excerpt": "Nearly a million acres in the state have burned this year. One expert calls it ‘a new kind of wildfire era.’",
+        "author": "Anila Yoganathan",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 09 Apr 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/extreme-weather/in-nebraska-wildfires-are-turning-cattle-ranching-into-a-tricky-business/"
+      },
+      {
+        "id": "4634529e",
+        "title": "Contemporary Governance & Contemporary Prosperity & Past Settler Colonialism & Its Ilk: What Can We Infer, Really?",
+        "excerpt": "Colonial origins, causal claims, the baggage left behind in the overhead bin via the absence of a structural model, settler-colonist mortality, modern pro-prosperity “institutions”, and structural...",
+        "author": "Brad DeLong",
+        "publication": {
+          "name": "Brad DeLong",
+          "slug": "brad-delong",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 09 Apr 2026 00:32:42 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://braddelong.substack.com/p/contemporary-governance-and-contemporary"
+      },
+      {
+        "id": "08666000",
+        "title": "Are criminals born or made?",
+        "excerpt": "Sophie McBain in The Guardian: In 2021, the psychologist and writer Kathryn Paige Harden co-authored a paper outlining her research into the genetic patterns linked to a higher risk of developing subs",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 15:45:10 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/04/are-criminals-born-or-made.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-07",
     "title": "Random Digest: April 7, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 6,
         "url": "https://www.thealgorithmicbridge.com/p/why-i-dont-want-ai-to-do-my-chores"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-18",
-    "title": "Random Digest: October 18, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-18T02:05:45.760Z",
-    "articles": [
-      {
-        "id": "79b2eb28",
-        "title": "Overshoot: Exploring the implications of meeting 1.5C climate goal ‘from above’",
-        "excerpt": "The first-ever international conference on the contentious topic of “overshoot” was held last week in...\nThe post Overshoot: Exploring the implications of meeting 1.5C climate goal ‘from above’ appear",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 08 Oct 2025 12:36:21 +0000",
-        "readTime": 1,
-        "wordCount": 33,
-        "url": "https://www.carbonbrief.org/overshoot-exploring-the-implications-of-meeting-1-5c-climate-goal-from-above/"
-      },
-      {
-        "id": "7585a1d9",
-        "title": "Do no harm",
-        "excerpt": "After 17 years of struggling with a heroin addiction, Raina finds a path to recovery through compassion and connection\n- by Aeon Video\nWatch on Aeon",
-        "author": "Aeon Video",
-        "publication": {
-          "name": "Aeon",
-          "slug": "aeon",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 10:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://aeon.co/videos/after-17-years-of-addiction-raina-finds-a-lifeline-in-compassion?utm_source=rss-feed"
-      },
-      {
-        "id": "5c9fa0eb",
-        "title": "The Black Panthers Who Never Came Home",
-        "excerpt": "Fifty-nine years after Huey Newton and Bobby Seale founded the Black Panthers, Charlotte and Pete O’Neal remain in exile in Tanzania. Their story, told through interviews, archives, and firsthand repo",
-        "author": "Jaclynn Ashly",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-10-15T13:01:20.000Z",
-        "readTime": 23,
-        "wordCount": 4582,
-        "url": "https://jacobin.com/2025/10/black-panthers-oneal-tanzania-legacy/"
-      },
-      {
-        "id": "a81eb949",
-        "title": "The Neuron That Wanted to Be God",
-        "excerpt": "7,000 words to tell an 80-year-old story",
-        "author": "Alberto Romero",
-        "publication": {
-          "name": "The Algorithmic Bridge",
-          "slug": "algorithmic-bridge",
-          "category": "Technology"
-        },
-        "publishedAt": "Tue, 07 Oct 2025 16:16:41 GMT",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://www.thealgorithmicbridge.com/p/the-neuron-that-wanted-to-be-god"
-      },
-      {
-        "id": "643c7740",
-        "title": "When celebrities break up, everyone’s a forensic expert",
-        "excerpt": "From The Washington Post: The clues that Nicole Kidman and Keith Urban’s nearly 20-year marriage was cracking up were everywhere, according to an internet full of sleuths. You could tell when Urban re",
-        "author": "Azra Raza",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Sun, 12 Oct 2025 12:38:21 +0000",
-        "readTime": 1,
-        "wordCount": 56,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/when-celebrities-break-up-everyones-a-forensic-expert.html"
-      },
-      {
-        "id": "1335d62a",
-        "title": "Does anyone want to buy Small Potatoes for $150 Million? ",
-        "excerpt": "Podcast with Robert Wright",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 13:46:55 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://smallpotatoes.paulbloom.net/p/does-anyone-want-to-buy-small-potatoes"
-      },
-      {
-        "id": "30c1be52",
-        "title": "What makes Joel Mokyr great",
-        "excerpt": "His Nobel is a triumph for history and the importance of ideas",
-        "author": "Anton Howes",
-        "publication": {
-          "name": "Works in Progress",
-          "slug": "works-in-progress",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 17:06:58 GMT",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://www.worksinprogress.news/p/what-makes-joel-mokyr-great"
-      },
-      {
-        "id": "6cd0d313",
-        "title": "Longform links: the great paradoxes of life",
-        "excerpt": "Thursdays are all about longform links on Abnormal Returns. Wherever possible, free links for premium sites are used. You can check out...",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Thu, 09 Oct 2025 14:21:55 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://abnormalreturns.com/2025/10/09/longform-links-the-great-paradoxes-of-life/"
-      },
-      {
-        "id": "f1b48516",
-        "title": "As Trump champions fossil fuels, the world is betting on renewable energy",
-        "excerpt": "Despite a U.S. retreat, solar and wind are overtaking fossil fuels globally, according to two new reports.",
-        "author": "Zoya Teirstein",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 09 Oct 2025 08:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 17,
-        "url": "https://grist.org/international/global-renewable-energy-report-2025-ember/"
-      },
-      {
-        "id": "82917b83",
-        "title": "How Crypto Became a Trump Trade",
-        "excerpt": "It’s primarily a vehicle for crony capitalism now",
-        "author": "Paul Krugman",
-        "publication": {
-          "name": "Paul Krugman",
-          "slug": "paul-krugman",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 14 Oct 2025 10:31:03 GMT",
-        "readTime": 1,
-        "wordCount": 8,
-        "url": "https://paulkrugman.substack.com/p/how-crypto-became-a-trump-trade"
       }
     ]
   }
