@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-14",
+    "title": "Random Digest: April 14, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-14T03:48:16.086Z",
+    "articles": [
+      {
+        "id": "64016978",
+        "title": "Top Links 1059 California running on batteries. The ethanol racket. Little treats. Monarch of my sorrows. ",
+        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+        "author": "Adam Tooze",
+        "publication": {
+          "name": "Adam Tooze",
+          "slug": "adam-tooze",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 10:45:52 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://adamtooze.substack.com/p/top-links-1059-california-running"
+      },
+      {
+        "id": "627c6ac9",
+        "title": "Will Trump \"Withdraw\" From NATO? ",
+        "excerpt": "Probably Not Now: It Would Not Be In Putin's Interest",
+        "author": "Phillips P. OBrien",
+        "publication": {
+          "name": "Phillips P. O'Brien",
+          "slug": "phillips-p-obrien",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 03 Apr 2026 08:18:58 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://phillipspobrien.substack.com/p/will-trump-withdraw-from-nato"
+      },
+      {
+        "id": "de035f6c",
+        "title": "Why Do We Tell Ourselves Scary Stories About AI?",
+        "excerpt": "Our tales of AI developing the will to survive, commandeer resources, and manipulate people say more about us than they do about language models.             \nThe post Why Do We Tell Ourselves Scary S",
+        "author": "Amanda Gefter",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 10 Apr 2026 14:25:09 +0000",
+        "readTime": 1,
+        "wordCount": 40,
+        "url": "https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410/"
+      },
+      {
+        "id": "e40632fb",
+        "title": "Adviser links: the first year",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 13 Apr 2026 14:47:43 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/04/13/adviser-links-the-first-year/"
+      },
+      {
+        "id": "881227fd",
+        "title": "Fame Doesn’t Sell Books",
+        "excerpt": "Something else is required, even above and beyond talent",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Sun, 12 Apr 2026 14:04:22 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://www.robkhenderson.com/p/fame-doesnt-sell-books"
+      },
+      {
+        "id": "22c47e24",
+        "title": "Political Slop ",
+        "excerpt": "The ubiquity of nonsense",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 15:16:43 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://benthams.substack.com/p/political-slop"
+      },
+      {
+        "id": "d90514bf",
+        "title": " Not sure what level of prank/gag/stunt this is (note... ",
+        "excerpt": "Not sure what level of prank/gag/stunt this is (note today’s date), but this is supposedly a fully functional compass that only points to the Olive Garden in Times Square.",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-04-01T17:39:08.000Z",
+        "readTime": 1,
+        "wordCount": 29,
+        "url": "https://kottke.org/26/04/0048645-not-sure-what-level-of"
+      },
+      {
+        "id": "6c586129",
+        "title": "Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)",
+        "excerpt": "Today's links EU ready to cave to Trump on tech: Surrendermonkeys ahoy. Hey look at this: Delights to delectate. Object permanence: \"Among a Thousand Fireflies\"; \"fiscal\" not \"physical\"; Ontario's pus",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Sat, 04 Apr 2026 07:49:19 +0000",
+        "readTime": 11,
+        "wordCount": 2110,
+        "url": "https://pluralistic.net/2026/04/04/digital-subjugation/"
+      },
+      {
+        "id": "cde4d9e8",
+        "title": "Pocket gardens: The tiny urban oases with surprisingly big benefits",
+        "excerpt": "Little bits of greenery are popping up in cities, making summers more bearable for urbanites.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 01 Apr 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://grist.org/cities/pocket-gardens-the-tiny-urban-oases-with-surprisingly-big-benefits/"
+      },
+      {
+        "id": "58686cfd",
+        "title": "Solar was poised to help Puerto Ricans survive blackouts — until Trump axed nearly $1B in funding",
+        "excerpt": "The money is being redirected to the Puerto Rico Electric Power Authority, a government-owned utility with a checkered past.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 02 Apr 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/energy/puerto-rico-solar-funding-prepa-fossil-fuel-trump/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-11",
     "title": "Random Digest: April 11, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 25,
         "url": "https://nautil.us/the-problem-with-farmed-seafood-1243674/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-21",
-    "title": "Random Digest: October 21, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-21T02:14:26.366Z",
-    "articles": [
-      {
-        "id": "5f7f9832",
-        "title": "The Compound and Friends: There's Never Just One Cockroach ",
-        "excerpt": "",
-        "author": "Michael Batnick",
-        "publication": {
-          "name": "Meb Faber Research",
-          "slug": "meb-faber-research",
-          "category": "Finance"
-        },
-        "publishedAt": "Fri, 17 Oct 2025 11:00:23 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.theirrelevantinvestor.com/p/the-compound-and-friends-there-s-never-just-one-cockroach"
-      },
-      {
-        "id": "41baffb0",
-        "title": "The circle held",
-        "excerpt": "A bike crash left my husband paralysed. What happened next taught me something profound about community\n- by Sadie Witkowski\nRead on Psyche",
-        "author": "Sadie Witkowski",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 15 Oct 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://psyche.co/turning-points/when-my-husband-became-paralysed-our-circle-held-us-together?utm_source=rss-feed"
-      },
-      {
-        "id": "e24f41f5",
-        "title": "Day off discussion thread",
-        "excerpt": "We have the day off, so please enjoy this photo I took in upstate New York early this spring and thread your thoughts below.",
-        "author": "Halina Bennet",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 22:00:53 GMT",
-        "readTime": 1,
-        "wordCount": 24,
-        "url": "https://www.slowboring.com/p/day-off-discussion-thread"
-      },
-      {
-        "id": "f1b48516",
-        "title": "As Trump champions fossil fuels, the world is betting on renewable energy",
-        "excerpt": "Despite a U.S. retreat, solar and wind are overtaking fossil fuels globally, according to two new reports.",
-        "author": "Zoya Teirstein",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 09 Oct 2025 08:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 17,
-        "url": "https://grist.org/international/global-renewable-energy-report-2025-ember/"
-      },
-      {
-        "id": "91833c28",
-        "title": "‘We’re Not Going to Forget’: Pritzker Warns Trump Enforcers Miller, Homan, Bovino That Immunity Not Forever",
-        "excerpt": "Governor Pritzker has gotten out of bed to threaten Team Trump over ICE abuses. But this still amounts to a wet noodle lashing.",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Fri, 17 Oct 2025 13:55:07 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://www.nakedcapitalism.com/2025/10/were-not-going-to-forget-pritzker-warns-trump-enforcers-miller-homan-bovino-that-immunity-not-forever.html"
-      },
-      {
-        "id": "4aae857c",
-        "title": "A Guide to Surviving the Age of Post-Literacy: How to raise (or become) a reader",
-        "excerpt": "For those of you who prefer to read off paper rather than the screen, we have converted the post into an easily printable pdf file.",
-        "author": "Ruth Gaskovski",
-        "publication": {
-          "name": "School of the Unconformed",
-          "slug": "school-unconformed",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Wed, 15 Oct 2025 10:01:49 GMT",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://schooloftheunconformed.substack.com/p/a-guide-to-surviving-the-age-of-post"
-      },
-      {
-        "id": "c4036267",
-        "title": "From genocide to ecocide: After years of war, Gaza faces an environmental crisis ‘above imagination’",
-        "excerpt": "A new report by scientists in Israel details the emerging environmental crisis in Palestine.",
-        "author": "Sophie Hurwitz",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 17 Oct 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://grist.org/international/from-genocide-to-ecocide-after-years-of-war-gaza-faces-an-environmental-crisis-above-imagination/"
-      },
-      {
-        "id": "4d5aedd6",
-        "title": "Genes Have Harnessed Physics to Help Grow Living Things",
-        "excerpt": "The same pulling force that causes “tears” in a glass of wine also shapes embryos. It’s another example of how genes exploit mechanical forces for growth and development.            \nThe post Genes Ha",
-        "author": "Anna Demming",
-        "publication": {
-          "name": "Quanta Magazine",
-          "slug": "quanta-magazine",
-          "category": "Science"
-        },
-        "publishedAt": "Fri, 10 Oct 2025 14:22:45 +0000",
-        "readTime": 1,
-        "wordCount": 44,
-        "url": "https://www.quantamagazine.org/genes-have-harnessed-physics-to-help-grow-living-things-20251010/"
-      },
-      {
-        "id": "62fda1e1",
-        "title": "How One Country’s Russian Gas Crisis Became a Green Energy Boom",
-        "excerpt": "The village of Volintiri is about as remote as you can get in Europe. Set in the rural southeast of Moldova, one of the poorest and least visited countries on the continent, it is only a couple of mil",
-        "author": "Georgeta Carasiucenco",
-        "publication": {
-          "name": "Reasons to be Cheerful",
-          "slug": "reasons-to-be-cheerful",
-          "category": "Culture"
-        },
-        "publishedAt": "Thu, 16 Oct 2025 08:00:03 +0000",
-        "readTime": 1,
-        "wordCount": 70,
-        "url": "https://reasonstobecheerful.world/moldova-citizen-owned-energy-powers-resilience/"
-      },
-      {
-        "id": "67e9ad81",
-        "title": "Why I Don’t Want AI to Do My Chores",
-        "excerpt": "Or much else for that matter",
-        "author": "Alberto Romero",
-        "publication": {
-          "name": "The Algorithmic Bridge",
-          "slug": "algorithmic-bridge",
-          "category": "Technology"
-        },
-        "publishedAt": "Mon, 06 Oct 2025 16:51:44 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://www.thealgorithmicbridge.com/p/why-i-dont-want-ai-to-do-my-chores"
       }
     ]
   }
