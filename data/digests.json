@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-18",
+    "title": "Random Digest: April 18, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-18T03:35:21.623Z",
+    "articles": [
+      {
+        "id": "cc1cec21",
+        "title": "Cropped 8 April 2026: Iran war drives up food prices | Two nature talks conclude | Return of UK’s tallest bird",
+        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 8 April 2026: Iran war drives up food prices | Two nature talks conclude | Return of U",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 08 Apr 2026 13:59:06 +0000",
+        "readTime": 1,
+        "wordCount": 43,
+        "url": "https://www.carbonbrief.org/cropped-8-april-2026-iran-war-drives-up-food-prices-two-nature-talks-conclude-return-of-uks-tallest-bird/"
+      },
+      {
+        "id": "3d01161a",
+        "title": "What Mexico Can Teach New York About Public Groceries",
+        "excerpt": "Zohran Mamdani’s proposal for government-run grocery stores echoes a long-running system in Mexico — one that delivers affordability, but not without trade-offs.\nNYC’s grocery plan isn’t a “socialist ",
+        "author": "Lara-Nour Walton",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-04-15T09:34:33.000Z",
+        "readTime": 9,
+        "wordCount": 1614,
+        "url": "https://jacobin.com/2026/04/mexico-superissste-government-groceries-mamdani/"
+      },
+      {
+        "id": "6e0c6957",
+        "title": "Was the Grand Canyon Born from an Ancient Lake Spillover?",
+        "excerpt": "It’s a surprisingly controversial question\nThe post Was the Grand Canyon Born from an Ancient Lake Spillover? appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 16 Apr 2026 19:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://nautil.us/was-the-grand-canyon-born-from-an-ancient-lake-spillover-1279922/"
+      },
+      {
+        "id": "f29a9f5a",
+        "title": "Try seeing your personality as dimensional",
+        "excerpt": "I recently learned the distinction between seeing personality in terms of types vs traits – the latter is liberating\n- by Amy Arthur\nRead on Psyche",
+        "author": "Amy Arthur",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 15 Apr 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://psyche.co/notes-to-self/the-benefits-of-seeing-your-personality-as-dimensional?utm_source=rss-feed"
+      },
+      {
+        "id": "14a83f3a",
+        "title": "MicroLEDs vs. Lasers: The Linewidth Tradeoff",
+        "excerpt": "Why spectral purity defines the speed limits of datacenter optics",
+        "author": "Vikram Sekar",
+        "publication": {
+          "name": "Vik's Newsletter",
+          "slug": "viks-newsletter",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 16:40:58 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://www.viksnewsletter.com/p/microleds-vs-lasers-the-linewidth-tradeoff"
+      },
+      {
+        "id": "851dfe16",
+        "title": "Talking with Lisa Graves",
+        "excerpt": "On the corruption of our politics — and the Supreme Court",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Sat, 11 Apr 2026 10:31:23 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://paulkrugman.substack.com/p/talking-with-lisa-graves"
+      },
+      {
+        "id": "22bbae8c",
+        "title": "Introducing Carbon Brief’s 2026 cohort of contributing editors",
+        "excerpt": "Carbon Brief’s editorial team is supported by an international group of academics, each specialising in...\nThe post Introducing Carbon Brief’s 2026 cohort of contributing editors appeared first on Car",
+        "author": "Leo Hickman",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 09:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://www.carbonbrief.org/introducing-carbon-briefs-2026-cohort-of-contributing-editors/"
+      },
+      {
+        "id": "6c88a452",
+        "title": "Our Uphill Battle",
+        "excerpt": "I recently said our civ will fall if we do not find finish the industrial revolution, and apply the industry trio of math, big orgs, and capitalism to more areas of life.",
+        "author": "Robin Hanson",
+        "publication": {
+          "name": "Overcoming Bias",
+          "slug": "overcoming-bias",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sun, 05 Apr 2026 20:22:23 GMT",
+        "readTime": 1,
+        "wordCount": 32,
+        "url": "https://www.overcomingbias.com/p/our-uphill-battle"
+      },
+      {
+        "id": "23104770",
+        "title": "Friday links: encouraging lawbreaking",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Fri, 10 Apr 2026 16:39:27 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/04/10/friday-links-encouraging-lawbreaking/"
+      },
+      {
+        "id": "c809ce69",
+        "title": "William H. Gass Newly Reissued",
+        "excerpt": "Greg Cwik at the LARB: WILLIAM H. GASS, the portly pontiff of English prose, felt for literature an intense ardor that imbues his audacious fiction and his studious, poetic criticism with almost frigh",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 15 Apr 2026 12:51:24 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/04/william-h-gass-newly-reissued.html"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-14",
     "title": "Random Digest: April 14, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 8,
         "wordCount": 1428,
         "url": "https://tedium.co/2025/10/22/pitchfork-doesnt-need-comments/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-25",
-    "title": "Random Digest: October 25, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-25T02:10:43.500Z",
-    "articles": [
-      {
-        "id": "70153c98",
-        "title": "Two Positive Trends in Household Wealth",
-        "excerpt": "Low income Americans and young people are more involved in the stock market than ever before.\nThe post Two Positive Trends in Household Wealth appeared first on A Wealth of Common Sense.\n...",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Tue, 14 Oct 2025 17:24:25 +0000",
-        "readTime": 1,
-        "wordCount": 33,
-        "url": "https://awealthofcommonsense.com/2025/10/two-positive-trends-in-household-wealth/"
-      },
-      {
-        "id": "7a02b487",
-        "title": "For Women in the Workplace, the Struggle Is Real",
-        "excerpt": "We have come a long way, but we have much more work to do.",
-        "author": "Alison Rand",
-        "publication": {
-          "name": "MIT Press Reader",
-          "slug": "mit-press-reader",
-          "category": "Culture"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 09:54:00 +0000",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://thereader.mitpress.mit.edu/for-women-in-the-workplace-the-struggle-is-real/"
-      },
-      {
-        "id": "a63b49a9",
-        "title": "Teleological Explanations: Purposes, Functions, and Goals in Biology",
-        "excerpt": "When we talk about living things, we often describe their parts as if they have purposes or goals or functions. Explanations like these are called teleological: they explain biological features in ter",
-        "author": "1000-Word Philosophy: An Introductory Anthology",
-        "publication": {
-          "name": "1000 Word Philosophy",
-          "slug": "1000-word-philosophy",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Sat, 18 Oct 2025 17:16:57 +0000",
-        "readTime": 1,
-        "wordCount": 71,
-        "url": "https://1000wordphilosophy.com/2025/10/18/teleology/?utm_source=rss&utm_medium=rss&utm_campaign=teleology"
-      },
-      {
-        "id": "43a0b420",
-        "title": "Tuesday discussion post",
-        "excerpt": "Did we learn nothing from Signalgate? And other stories this week",
-        "author": "Halina Bennet",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Tue, 21 Oct 2025 22:00:31 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.slowboring.com/p/tuesday-discussion-post-12e"
-      },
-      {
-        "id": "92ec07de",
-        "title": "Some wholesome media",
-        "excerpt": "I’m on my hols. Some recommendations.\nWatch The Ballad of Wallis Island.\nCharming, poignant comedy about a washed-up folk musician and loss. By Tim Key and Tom Basden.\nNow I knew Basden can write - th",
-        "author": "Matt Webb",
-        "publication": {
-          "name": "Interconnected",
-          "slug": "interconnected",
-          "category": "Technology"
-        },
-        "publishedAt": "Fri, 24 Oct 2025 14:23:00 +0000",
-        "readTime": 2,
-        "wordCount": 287,
-        "url": "https://interconnected.org/home/2025/10/23/wholesome"
-      },
-      {
-        "id": "f523c3d3",
-        "title": "Links 10/14/2025",
-        "excerpt": "<a href=\"https://www.nakedcapitalism.com/2025/10/Links-10-14-2025.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2025/10/00-Duchess-and-Moogie-scaled.jpg\" alt=\"\" width=\"225\" height",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 14 Oct 2025 10:55:50 +0000",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://www.nakedcapitalism.com/2025/10/links-10-14-2025.html"
-      },
-      {
-        "id": "438a3d73",
-        "title": "Mind the accent",
-        "excerpt": "When I spoke like someone I wasn’t, people listened more closely. What did that say about them – and me?\n- by Erica Mayor\nRead on Psyche",
-        "author": "Erica Mayor",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 27,
-        "url": "https://psyche.co/turning-points/how-my-fake-accent-became-a-full-blown-identity-experiment?utm_source=rss-feed"
-      },
-      {
-        "id": "42c88111",
-        "title": "UN report: Five charts showing how global deforestation is declining",
-        "excerpt": "The amount of forest lost around the world has reduced by millions of hectares each...\nThe post UN report: Five charts showing how global deforestation is declining appeared first on Carbon Brief.",
-        "author": "Orla Dwyer",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 24 Oct 2025 12:51:14 +0000",
-        "readTime": 1,
-        "wordCount": 32,
-        "url": "https://www.carbonbrief.org/un-report-five-charts-showing-how-global-deforestation-is-declining/"
-      },
-      {
-        "id": "ee45c69d",
-        "title": "The humble plant that could save the world — or destroy it",
-        "excerpt": "Clean energy expansion could destroy this crucial climate solution.",
-        "author": "Anna North, Vox",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 22 Oct 2025 08:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 9,
-        "url": "https://grist.org/science/the-humble-plant-that-could-save-the-world-or-destroy-it/"
-      },
-      {
-        "id": "aac23f96",
-        "title": "The Problem with Farmed Seafood",
-        "excerpt": "We're decimating the ocean to feed farmed fish. But an innovative solution has surfaced.\nThe post The Problem with Farmed Seafood appeared first on Nautilus.",
-        "author": "John Steele",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 22 Oct 2025 20:02:54 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://nautil.us/the-problem-with-farmed-seafood-1243674/"
       }
     ]
   }
