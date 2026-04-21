@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-21",
+    "title": "Random Digest: April 21, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-21T03:49:53.119Z",
+    "articles": [
+      {
+        "id": "466ac8c2",
+        "title": "Weekly Dose of Optimism #188",
+        "excerpt": "AI vs. Alzheimer's, Substrate x GDM, Robot Lamp, Artemis II, Primer + Extra Doses",
+        "author": "Packy McCormick",
+        "publication": {
+          "name": "Not Boring",
+          "slug": "not-boring",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 10 Apr 2026 12:32:59 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.notboring.co/p/weekly-dose-of-optimism-188"
+      },
+      {
+        "id": "21790a9e",
+        "title": "What you call gate keeping I call quality control",
+        "excerpt": "In defense of quality editors, criticis, and peer reviewers",
+        "author": "Massimo Pigliucci",
+        "publication": {
+          "name": "Figs in Winter",
+          "slug": "figs-in-winter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 09 Apr 2026 10:01:06 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://figsinwintertime.substack.com/p/what-you-call-gate-keeping-i-call"
+      },
+      {
+        "id": "38c9a2ac",
+        "title": "A lot of developmental psychology isn't worth doing ",
+        "excerpt": "A complaint about my field",
+        "author": "Paul Bloom",
+        "publication": {
+          "name": "Small Potatoes",
+          "slug": "small-potatoes",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 08 Apr 2026 15:05:35 GMT",
+        "readTime": 1,
+        "wordCount": 5,
+        "url": "https://smallpotatoes.paulbloom.net/p/a-lot-of-developmental-psychology-f0a"
+      },
+      {
+        "id": "750658da",
+        "title": "The Centaur Era",
+        "excerpt": "The question isn't what AI can do, it's what you can do with AI",
+        "author": "Steve Newman",
+        "publication": {
+          "name": "Second Thoughts AI",
+          "slug": "second-thoughts-ai",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 17 Apr 2026 23:59:25 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://secondthoughts.ai/p/the-centaur-era"
+      },
+      {
+        "id": "4fa2c1a1",
+        "title": "Analysis: How Chinese media is covering the Iran energy crisis",
+        "excerpt": "As the closure of the Strait of Hormuz wreaks havoc on fossil-fuel supplies across the...\nThe post Analysis: How Chinese media is covering the Iran energy crisis appeared first on Carbon Brief.",
+        "author": "Anika Patel",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 13:56:48 +0000",
+        "readTime": 1,
+        "wordCount": 32,
+        "url": "https://www.carbonbrief.org/analysis-how-chinese-media-is-covering-the-iran-energy-crisis/"
+      },
+      {
+        "id": "f5e1c7a3",
+        "title": "Trump: \"A whole civilization will die tonight\" if Iran does not reach a deal to open the Strait of Hormuz",
+        "excerpt": "Also open thread.",
+        "author": "eugyppius",
+        "publication": {
+          "name": "Eugyppius",
+          "slug": "eugyppius",
+          "category": "Politics"
+        },
+        "publishedAt": "Tue, 07 Apr 2026 16:36:06 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.eugyppius.com/p/trump-a-whole-civilization-will-die"
+      },
+      {
+        "id": "2aef1ddc",
+        "title": "My AI thinks Civics is Black Studies",
+        "excerpt": "Is there really a civics-sized hole in university curricula?",
+        "author": "Hollis Robbins",
+        "publication": {
+          "name": "Hollis Robbins",
+          "slug": "hollis-robbins",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 17 Apr 2026 22:37:41 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://hollisrobbinsanecdotal.substack.com/p/my-ai-thinks-civics-is-black-studies"
+      },
+      {
+        "id": "a5d3debd",
+        "title": "The world desperately needs to decarbonize shipping. Can nations find a consensus?",
+        "excerpt": "The shipping industry is responsible for 3 percent of global climate emissions. The Trump administration and the Iran war are complicating efforts to clean it up.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 20 Apr 2026 08:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://grist.org/politics/the-world-desperately-needs-to-decarbonize-shipping-can-nations-find-a-consensus-imo/"
+      },
+      {
+        "id": "11051d84",
+        "title": "Thursday links: a job in a system",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 09 Apr 2026 19:52:21 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/04/09/thursday-links-a-job-in-a-system/"
+      },
+      {
+        "id": "eea61d8f",
+        "title": "The Genetic Roots of Extreme Morning Sickness",
+        "excerpt": "It’s much more than just nausea \nThe post The Genetic Roots of Extreme Morning Sickness appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 15 Apr 2026 22:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://nautil.us/the-genetic-roots-of-extreme-morning-sickness-1279900/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-18",
     "title": "Random Digest: April 18, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 22,
         "url": "https://grist.org/transportation/shipping-carbon-tax-international-maritime-organization-trump/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-10-28",
-    "title": "Random Digest: October 28, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-10-28T02:13:28.688Z",
-    "articles": [
-      {
-        "id": "eb1adfa7",
-        "title": "Has Consumption Inequality Increased With Income Inequality?",
-        "excerpt": "Why income and wealth are poor proxies for the real thing",
-        "author": "Nicholas Decker",
-        "publication": {
-          "name": "Nicholas Decker",
-          "slug": "nicholas-decker",
-          "category": "Economics"
-        },
-        "publishedAt": "Wed, 15 Oct 2025 11:33:25 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://nicholasdecker.substack.com/p/has-consumption-inequality-increased"
-      },
-      {
-        "id": "1d8d3c3f",
-        "title": "Why is there so little money in politics?",
-        "excerpt": "Scott Alexander at Astral Codex Ten: During the 2018 election, Americans – candidates, parties, PACs, and small donors like you – spent a combined $5 billion pushing their preferred candidates. Althou",
-        "author": "S. Abbas Raza",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 21 Oct 2025 15:45:23 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/why-is-there-so-little-money-in-politics.html"
-      },
-      {
-        "id": "27c2cabe",
-        "title": "Thursday discussion post",
-        "excerpt": "A switch-up for Oklahoma’s public schools",
-        "author": "Halina Bennet",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Thu, 16 Oct 2025 22:02:05 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://www.slowboring.com/p/thursday-discussion-post"
-      },
-      {
-        "id": "c648692f",
-        "title": "The sauna life",
-        "excerpt": "Each cycle of steam and cold brought me closer to the land, my mother, and the version of myself I’d left behind\n- by Katja Pettinen\nRead on Psyche",
-        "author": "Katja Pettinen",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 20 Oct 2025 10:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 29,
-        "url": "https://psyche.co/turning-points/immersed-in-finlands-sauna-culture-i-found-my-way-home?utm_source=rss-feed"
-      },
-      {
-        "id": "ce2863c3",
-        "title": "How To Vastly Increase Your Charitable Impact ",
-        "excerpt": "Invest to give",
-        "author": "Bentham's Bulldog",
-        "publication": {
-          "name": "Bentham's Newsletter",
-          "slug": "benthams-newsletter",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Fri, 17 Oct 2025 15:44:45 GMT",
-        "readTime": 1,
-        "wordCount": 3,
-        "url": "https://benthams.substack.com/p/how-to-vastly-increase-your-charitable"
-      },
-      {
-        "id": "3e82d14f",
-        "title": "DeBriefed: Earth’s first ‘tipping point’; Climate adviser interview; How warming affects children’s health",
-        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed: Earth’s first ‘tipping point’; Climate adviser interview; How warming ",
-        "author": "Emma Hancox",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 17 Oct 2025 14:32:19 +0000",
-        "readTime": 1,
-        "wordCount": 36,
-        "url": "https://www.carbonbrief.org/debriefed-earths-first-tipping-point-climate-adviser-interview-how-warming-affects-childrens-health/"
-      },
-      {
-        "id": "f2c0cc19",
-        "title": "The entire world was ready to reduce shipping emissions. Then Trump stepped in.",
-        "excerpt": "After the Trump administration threatened countries with tariffs and visa restrictions, a first-ever global carbon tax is left to an uncertain future.",
-        "author": "Naveena Sadasivam",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 23 Oct 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://grist.org/transportation/shipping-carbon-tax-international-maritime-organization-trump/"
-      },
-      {
-        "id": "564c1358",
-        "title": "Psilocybin Lifted Her Burden",
-        "excerpt": "The Covid pandemic left this frontline medical worker burned out, angry, and depressed. Then she got high.\nThe post Psilocybin Lifted Her Burden appeared first on Nautilus.",
-        "author": "Grigori Guitchounts",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 20 Oct 2025 09:50:00 +0000",
-        "readTime": 1,
-        "wordCount": 27,
-        "url": "https://nautil.us/psilocybin-lifted-her-burden-1242615/"
-      },
-      {
-        "id": "f6bf53b9",
-        "title": "Talk Your Book: How Infrastructure Funds Work",
-        "excerpt": "",
-        "author": "Michael Batnick",
-        "publication": {
-          "name": "Meb Faber Research",
-          "slug": "meb-faber-research",
-          "category": "Finance"
-        },
-        "publishedAt": "Mon, 13 Oct 2025 11:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.theirrelevantinvestor.com/p/talk-your-book-how-infrastructure-funds-work"
-      },
-      {
-        "id": "36608d21",
-        "title": "Pitchfork Doesn’t Need Comments",
-        "excerpt": "The legendary music site’s message board is the broader internet—where people are going to agree or disagree with its ratings and keep it in the conversation. But on-site comments are apparently comin",
-        "author": "Ernie Smith",
-        "publication": {
-          "name": "Tedium",
-          "slug": "tedium",
-          "category": "Technology"
-        },
-        "publishedAt": "2025-10-22T23:54:55.000Z",
-        "readTime": 8,
-        "wordCount": 1428,
-        "url": "https://tedium.co/2025/10/22/pitchfork-doesnt-need-comments/"
       }
     ]
   }
