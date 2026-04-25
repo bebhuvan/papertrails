@@ -1,5 +1,515 @@
 [
   {
+    "title": "Saturday discussion post",
+    "link": "https://www.slowboring.com/p/saturday-discussion-post-b74",
+    "author": "Halina Bennet",
+    "publishedAt": "Sat, 25 Apr 2026 17:01:29 GMT",
+    "content": "",
+    "excerpt": "",
+    "id": "37c12431",
+    "wordCount": 1,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Slow Boring",
+      "slug": "slow-boring",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "We Need to Start Bringing our Pinterest Boards to Life",
+    "link": "https://mapuc.substack.com/p/we-need-to-start-bringing-our-pinterest",
+    "author": "Mapu",
+    "publishedAt": "Sat, 25 Apr 2026 17:01:26 GMT",
+    "content": "Field notes on a phone-free Coachella + my first zine!",
+    "excerpt": "Field notes on a phone-free Coachella + my first zine!",
+    "id": "0032a211",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "MAPUC",
+      "slug": "mapuc",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "My Best Idea: Decision Markets",
+    "link": "https://www.overcomingbias.com/p/my-best-idea-decision-markets",
+    "author": "Robin Hanson",
+    "publishedAt": "Sat, 25 Apr 2026 16:58:15 GMT",
+    "content": "Many (Poincaré 1908, Schumpeter 1911, Ogburn 1922) have said that, as there are so many good ideas out there, most innovation is just simple combos of prior good ideas.",
+    "excerpt": "Many (Poincaré 1908, Schumpeter 1911, Ogburn 1922) have said that, as there are so many good ideas out there, most innovation is just simple combos of prior good ideas.",
+    "id": "059e1c6f",
+    "wordCount": 29,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Overcoming Bias",
+      "slug": "overcoming-bias",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Exclusive Video 24 - A Common Emotional Difficulty Arising For Cat Shelter Volunteers",
+    "link": "https://gregorybsadler.substack.com/p/exclusive-video-24-a-common-emotional",
+    "author": "Gregory B. Sadler",
+    "publishedAt": "Sat, 25 Apr 2026 16:55:34 GMT",
+    "content": "it can be a real challenge for some of our volunteers",
+    "excerpt": "it can be a real challenge for some of our volunteers",
+    "id": "bc905334",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Gregory B. Sadler",
+      "slug": "gregory-b-sadler",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Common Charity Assumptions Are Wrong ",
+    "link": "https://benthams.substack.com/p/common-charity-assumptions-are-wrong",
+    "author": "Bentham's Bulldog",
+    "publishedAt": "Sat, 25 Apr 2026 15:47:18 GMT",
+    "content": "Thinking in effects, not dollars",
+    "excerpt": "Thinking in effects, not dollars",
+    "id": "b9594d9c",
+    "wordCount": 5,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Bentham's Newsletter",
+      "slug": "benthams-newsletter",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Can Nvidia Double From Here? ",
+    "link": "https://www.downtownjoshbrown.com/p/can-nvidia-double-from-here",
+    "author": "Josh Brown",
+    "publishedAt": "Sat, 25 Apr 2026 14:18:53 +0000",
+    "content": "The company's real moat may be on the software side, I'll explain it.",
+    "excerpt": "The company's real moat may be on the software side, I'll explain it.",
+    "id": "e1bb81c6",
+    "wordCount": 13,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Idea Farm",
+      "slug": "idea-farm",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "Reading List 04/25/26",
+    "link": "https://www.construction-physics.com/p/reading-list-042526",
+    "author": "Brian Potter",
+    "publishedAt": "Sat, 25 Apr 2026 14:16:17 GMT",
+    "content": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
+    "excerpt": "Transformer steel manufacturing, textile engineering, bringing power plants online quickly, infrasound, and more.",
+    "id": "9dbc1da7",
+    "wordCount": 13,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Construction Physics",
+      "slug": "construction-physics",
+      "category": "Science"
+    }
+  },
+  {
+    "title": "How to Actually Learn a Language",
+    "link": "https://www.theculturist.io/p/how-to-learn-a-language",
+    "author": "The Culturist",
+    "publishedAt": "Sat, 25 Apr 2026 14:13:51 GMT",
+    "content": "Hint: not with Duolingo...",
+    "excerpt": "Hint: not with Duolingo...",
+    "id": "92aa908f",
+    "wordCount": 4,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "The Culturist",
+      "slug": "the-culturist",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Nearly half of US children are breathing dangerous levels of air pollution, report warns",
+    "link": "https://grist.org/equity/nearly-half-of-us-children-are-breathing-dangerous-levels-of-air-pollution-report-warns/",
+    "author": "Maya Yang, The Guardian",
+    "publishedAt": "Sat, 25 Apr 2026 13:00:00 +0000",
+    "content": "The American Lung Association report comes amid the EPA’s expansive rollback of environmental protections.",
+    "excerpt": "The American Lung Association report comes amid the EPA’s expansive rollback of environmental protections.",
+    "id": "519df82d",
+    "wordCount": 14,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Grist",
+      "slug": "grist",
+      "category": "Climate"
+    }
+  },
+  {
+    "title": "Saturday links: making good stuff",
+    "link": "https://abnormalreturns.com/2026/04/25/saturday-links-making-good-stuff/",
+    "author": "abnormalreturns",
+    "publishedAt": "Sat, 25 Apr 2026 12:47:14 +0000",
+    "content": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
+    "excerpt": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
+    "id": "e6a1d276",
+    "wordCount": 22,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Abnormal Returns",
+      "slug": "abnormal-returns",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "International Structure of Marxist Death Drive",
+    "link": "https://philosophyportal.substack.com/p/international-structure-of-marxist",
+    "author": "Cadell Last",
+    "publishedAt": "Sat, 25 Apr 2026 11:53:09 GMT",
+    "content": "Or: taking responsibility for the repetition compulsion of 1789-1848 in the challenge of reformulating an internationalism capable of socialism",
+    "excerpt": "Or: taking responsibility for the repetition compulsion of 1789-1848 in the challenge of reformulating an internationalism capable of socialism",
+    "id": "08644d9e",
+    "wordCount": 19,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Philosophy Portal",
+      "slug": "philosophy-portal",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)",
+    "link": "https://pluralistic.net/2026/04/25/machiavellian/",
+    "author": "Cory Doctorow",
+    "publishedAt": "Sat, 25 Apr 2026 11:17:58 +0000",
+    "content": "Today's links Ada Palmer's \"Inventing the Renaissance\": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the dot-bomb; RIAA sues PC-less family; John Deere v infosec; Foxconn v Wisconsin; Copyfraud x torturers' rep",
+    "excerpt": "Today's links Ada Palmer's \"Inventing the Renaissance\": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the dot-b",
+    "id": "6f8b9f50",
+    "wordCount": 2134,
+    "readTime": 11,
+    "isPaid": false,
+    "publication": {
+      "name": "Pluralistic",
+      "slug": "pluralistic",
+      "category": "Technology"
+    }
+  },
+  {
+    "title": "Links 4/25/2026",
+    "link": "https://www.nakedcapitalism.com/2026/04/links-4-25-2026.html",
+    "author": "Yves Smith",
+    "publishedAt": "Sat, 25 Apr 2026 10:55:09 +0000",
+    "content": "<a href=\"https://www.nakedcapitalism.com/2026/04/links-4-25-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-25-at-12.23.57 AM.png\" alt=\"\" width=\"300\" height=\"264\" class=\"aligncenter size-full wp-image-309335\" /></a>",
+    "excerpt": "<a href=\"https://www.nakedcapitalism.com/2026/04/links-4-25-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-25-at-12.23.57 AM.png\" alt=\"\" width=\"300\"",
+    "id": "04da9f7a",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Iran War: Waiting Is the Hardest Part, Back to Pakistan, USraeli Attack Incoming?",
+    "link": "https://www.nakedcapitalism.com/2026/04/iran-war-negotiations-pakistan-kushner-witkoff-aragachi-attack.html",
+    "author": "Nat Wilson Turner",
+    "publishedAt": "Sat, 25 Apr 2026 10:54:47 +0000",
+    "content": "All of the ominous signs that have preceded previous \"suprise attacks\" on Iran are here: the markets are closed for the weekend, Kushner and Witkoff are headed to Pakistan for negotiations, and US forces are assembling across West Asia.",
+    "excerpt": "All of the ominous signs that have preceded previous \"suprise attacks\" on Iran are here: the markets are closed for the weekend, Kushner and Witkoff are headed to Pakistan for negotiations, and US for",
+    "id": "545282ca",
+    "wordCount": 39,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Top Links 1083 China investing in batteries, India in dockyards. Big cuts in big tech & \"Talking with Sartre\".",
+    "link": "https://adamtooze.substack.com/p/top-links-1083-china-investing-in",
+    "author": "Adam Tooze",
+    "publishedAt": "Sat, 25 Apr 2026 10:45:50 GMT",
+    "content": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "id": "bc781e33",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Adam Tooze",
+      "slug": "adam-tooze",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Talking Vibes With Jared Bernstein",
+    "link": "https://paulkrugman.substack.com/p/talking-vibes-with-jared-bernstein",
+    "author": "Paul Krugman",
+    "publishedAt": "Sat, 25 Apr 2026 10:30:25 GMT",
+    "content": "More on why people feel so bad about the economy",
+    "excerpt": "More on why people feel so bad about the economy",
+    "id": "b3ed35ab",
+    "wordCount": 10,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Paul Krugman",
+      "slug": "paul-krugman",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Suggested Readings",
+    "link": "https://figsinwintertime.substack.com/p/suggested-readings-cf5",
+    "author": "Massimo Pigliucci",
+    "publishedAt": "Sat, 25 Apr 2026 10:00:49 GMT",
+    "content": "A few recommendations by Figs in Winter for your reading pleasure",
+    "excerpt": "A few recommendations by Figs in Winter for your reading pleasure",
+    "id": "5f945d7e",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Figs in Winter",
+      "slug": "figs-in-winter",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "To Solve Homelessness, Fix the Economy",
+    "link": "https://www.nakedcapitalism.com/2026/04/to-solve-homelessness-fix-the-economy.html",
+    "author": "Yves Smith",
+    "publishedAt": "Sat, 25 Apr 2026 05:06:12 +0000",
+    "content": "A dangerous right-wing solution to homelessness is to hide the unhoused in out-of-sight detention camps",
+    "excerpt": "A dangerous right-wing solution to homelessness is to hide the unhoused in out-of-sight detention camps",
+    "id": "7904eda1",
+    "wordCount": 15,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Naked Capitalism",
+      "slug": "naked-capitalism",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "the thrill of living privately",
+    "link": "https://plumpits.substack.com/p/the-thrill-of-living-privately",
+    "author": "Kylee",
+    "publishedAt": "Sat, 25 Apr 2026 04:03:47 GMT",
+    "content": "there is a difference between being known and being known about",
+    "excerpt": "there is a difference between being known and being known about",
+    "id": "72013e2e",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Plumpits",
+      "slug": "plumpits",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Why Focus On Mid-Level Goals?",
+    "link": "https://www.overcomingbias.com/p/why-focus-on-mid-level-goals",
+    "author": "Robin Hanson",
+    "publishedAt": "Sat, 25 Apr 2026 01:55:40 GMT",
+    "content": "Human action plans are often organized around goal hierarchies, with lower-level subgoals helping to achieve higher-level goals.",
+    "excerpt": "Human action plans are often organized around goal hierarchies, with lower-level subgoals helping to achieve higher-level goals.",
+    "id": "5e7a5391",
+    "wordCount": 17,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Overcoming Bias",
+      "slug": "overcoming-bias",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Parachute",
+    "link": "https://parachuteapps.com/parachute",
+    "author": "Chris Glass",
+    "publishedAt": "Sat, 25 Apr 2026 01:01:16 +0000",
+    "content": "Oh, this looks like a way easier iCloud Photo backup option for simple folk like myself — it’s point-and-click with easier options for target backups. / tip of the hat to Mike with the tip",
+    "excerpt": "Oh, this looks like a way easier iCloud Photo backup option for simple folk like myself — it’s point-and-click with easier options for target backups. / tip of the hat to Mike with the tip",
+    "id": "0fd330f9",
+    "wordCount": 35,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Chris Glass",
+      "slug": "chris-glass",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "The Stranger, The Drama, and the criticism of Ben Lerner",
+    "link": "https://www.commonreader.co.uk/p/the-stranger-the-drama-and-the-criticism",
+    "author": "Henry Oliver",
+    "publishedAt": "Sat, 25 Apr 2026 00:52:23 GMT",
+    "content": "Two new films and one great review",
+    "excerpt": "Two new films and one great review",
+    "id": "22c11981",
+    "wordCount": 7,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Common Reader",
+      "slug": "common-reader",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Second Cohort: Studying Philosophy Outside Traditional Academia",
+    "link": "https://gregorybsadler.substack.com/p/second-cohort-studying-philosophy",
+    "author": "Gregory B. Sadler",
+    "publishedAt": "Sat, 25 Apr 2026 00:46:35 GMT",
+    "content": "our next 1-day workshop session is coming up on May 9!",
+    "excerpt": "our next 1-day workshop session is coming up on May 9!",
+    "id": "31962829",
+    "wordCount": 11,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Gregory B. Sadler",
+      "slug": "gregory-b-sadler",
+      "category": "Philosophy"
+    }
+  },
+  {
+    "title": "Why shoplifting is bad",
+    "link": "https://www.noahpinion.blog/p/why-shoplifting-is-bad",
+    "author": "Noah Smith",
+    "publishedAt": "Fri, 24 Apr 2026 22:30:08 GMT",
+    "content": "It may feel like a small act of rebellion, but it hurts a lot of people who don't deserve it.",
+    "excerpt": "It may feel like a small act of rebellion, but it hurts a lot of people who don't deserve it.",
+    "id": "c9a91368",
+    "wordCount": 20,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Noahpinion",
+      "slug": "noahpinion",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "What the offline discourse class is talking about",
+    "link": "https://www.slowboring.com/p/what-the-offline-discourse-class",
+    "author": "Halina Bennet",
+    "publishedAt": "Fri, 24 Apr 2026 22:01:39 GMT",
+    "content": "Swing-state letter writers are not arguing about whether petty theft is a new kind of political protest.",
+    "excerpt": "Swing-state letter writers are not arguing about whether petty theft is a new kind of political protest.",
+    "id": "470e50f6",
+    "wordCount": 17,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Slow Boring",
+      "slug": "slow-boring",
+      "category": "Politics"
+    }
+  },
+  {
+    "title": "Why Volcanoes Sometimes Shoot Out Lightning",
+    "link": "https://nautil.us/why-volcanoes-sometimes-shoot-out-lightning-1280235/",
+    "author": "Jake Currie",
+    "publishedAt": "Fri, 24 Apr 2026 21:30:00 +0000",
+    "content": "Tiny grains produce big charges\nThe post Why Volcanoes Sometimes Shoot Out Lightning appeared first on Nautilus.",
+    "excerpt": "Tiny grains produce big charges\nThe post Why Volcanoes Sometimes Shoot Out Lightning appeared first on Nautilus.",
+    "id": "8ee538b7",
+    "wordCount": 17,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Nautilus",
+      "slug": "nautilus",
+      "category": "Science"
+    }
+  },
+  {
+    "title": " Vintage Weekly Bus Passes ",
+    "link": "https://kottke.org/15/02/vintage-weekly-bus-passes",
+    "author": "Jason Kottke",
+    "publishedAt": "2026-04-24T20:55:00.000Z",
+    "content": "A collection of weekly bus passes from Milwaukee, WI. Years covered are 1930-1979. Was there a new design every single week? (via @slowernet)\n\n \n\n         \n[This is a vintage post originally from Feb 2015.]\nTags: design · timeless posts",
+    "excerpt": "A collection of weekly bus passes from Milwaukee, WI. Years covered are 1930-1979. Was there a new design every single week? (via @slowernet)\n\n \n\n         \n[This is a vintage post originally from Feb ",
+    "id": "80e9fefc",
+    "wordCount": 37,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Kottke.org",
+      "slug": "kottke",
+      "category": "Culture"
+    }
+  },
+  {
+    "title": "Final Assignment for Econ 196: Simulating Krugman on Lewis on the Development of Underdevelopment",
+    "link": "https://braddelong.substack.com/p/final-assignment-for-econ-196-simulating",
+    "author": "Brad DeLong",
+    "publishedAt": "Fri, 24 Apr 2026 20:48:09 GMT",
+    "content": "Students do before 2026-05-03 Su: what I am doing about my feeling that teaching econ without data science is now professional malpractice…",
+    "excerpt": "Students do before 2026-05-03 Su: what I am doing about my feeling that teaching econ without data science is now professional malpractice…",
+    "id": "c445bc2b",
+    "wordCount": 22,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Brad DeLong",
+      "slug": "brad-delong",
+      "category": "Economics"
+    }
+  },
+  {
+    "title": "Don’t Fight the Stock Market",
+    "link": "https://awealthofcommonsense.com/2026/04/dont-fight-the-stock-market/",
+    "author": "Ben Carlson",
+    "publishedAt": "Fri, 24 Apr 2026 20:30:14 +0000",
+    "content": "Why the stock market does make sense right now.\nThe post Don’t Fight the Stock Market appeared first on A Wealth of Common Sense.\n...",
+    "excerpt": "Why the stock market does make sense right now.\nThe post Don’t Fight the Stock Market appeared first on A Wealth of Common Sense.\n...",
+    "id": "4d953847",
+    "wordCount": 25,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "A Wealth of Common Sense",
+      "slug": "wealth-common-sense",
+      "category": "Finance"
+    }
+  },
+  {
+    "title": "These Bees Change Color with the Weather",
+    "link": "https://nautil.us/these-bees-change-color-with-the-weather-1280222/",
+    "author": "Devin Reese",
+    "publishedAt": "Fri, 24 Apr 2026 20:30:00 +0000",
+    "content": "But the biological significance of their shifts is a mystery\nThe post These Bees Change Color with the Weather appeared first on Nautilus.",
+    "excerpt": "But the biological significance of their shifts is a mystery\nThe post These Bees Change Color with the Weather appeared first on Nautilus.",
+    "id": "ee5b49f9",
+    "wordCount": 23,
+    "readTime": 1,
+    "isPaid": false,
+    "publication": {
+      "name": "Nautilus",
+      "slug": "nautilus",
+      "category": "Science"
+    }
+  },
+  {
     "title": "Tantrums, tears, and meltdowns. The history of chess grandmasters is replete with tragic stories of lives undone by delusion and paranoia",
     "link": "https://thewalrus.ca/the-stress-of-elite-chess-is-wearing-down-the-games-champions",
     "author": "Arts & Letters Daily",
@@ -16487,516 +16997,6 @@
       "name": "The Marginalian",
       "slug": "the-marginalian",
       "category": "Culture"
-    }
-  },
-  {
-    "title": "on choosing a life you love",
-    "link": "https://plumpits.substack.com/p/on-choosing-a-life-you-love",
-    "author": "Kylee",
-    "publishedAt": "Sun, 12 Apr 2026 02:12:28 GMT",
-    "content": "your life is the way you choose to respond to the circumstances",
-    "excerpt": "your life is the way you choose to respond to the circumstances",
-    "id": "ea54fbd5",
-    "wordCount": 12,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Plumpits",
-      "slug": "plumpits",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "#341 Misaligned Expectations",
-    "link": "https://publicpolicy.substack.com/p/341-misaligned-expectations",
-    "author": "Pranay Kotasthane",
-    "publishedAt": "Sun, 12 Apr 2026 01:13:42 GMT",
-    "content": "What to Expect from the Islamabad Talks, Pakistan's Role in the Talks, and Geography Comes Back to Bite",
-    "excerpt": "What to Expect from the Islamabad Talks, Pakistan's Role in the Talks, and Geography Comes Back to Bite",
-    "id": "2acc96dc",
-    "wordCount": 18,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Public Policy",
-      "slug": "public-policy",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Episode 51 - When What Other People Do Just Doesn't Make Sense",
-    "link": "https://gregorybsadler.substack.com/p/episode-51-when-what-other-people",
-    "author": "Gregory B. Sadler",
-    "publishedAt": "Sun, 12 Apr 2026 00:59:48 GMT",
-    "content": "we sometimes get people wrong by assuming they're more like us than they are",
-    "excerpt": "we sometimes get people wrong by assuming they're more like us than they are",
-    "id": "4f07df0e",
-    "wordCount": 14,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Gregory B. Sadler",
-      "slug": "gregory-b-sadler",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Jamaica Kincaid: “I find England ugly…I hate England; the weather is like a jail sentence…the food in England is like a jail sentence”",
-    "link": "https://www.thenation.com/article/culture/jamaica-kincaid-essays/",
-    "author": "Arts & Letters Daily",
-    "publishedAt": "2026-04-11T19:58:56.725Z",
-    "content": "Jamaica Kincaid: “I find England ugly…I hate England; the weather is like a jail sentence…the food in England is like a jail sentence”",
-    "excerpt": "Jamaica Kincaid: “I find England ugly…I hate England; the weather is like a jail sentence…the food in England is like a jail sentence”",
-    "id": "dfd46c88",
-    "wordCount": 23,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Arts & Letters Daily",
-      "slug": "arts-letters-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Making it in a non-existent profession. The economics of the writing life are grim, mercurial, and infrequently discussed",
-    "link": "https://thebaffler.com/odds-and-ends/the-profession-that-does-not-exist-symposium",
-    "author": "Arts & Letters Daily",
-    "publishedAt": "2026-04-11T19:58:56.725Z",
-    "content": "Making it in a non-existent profession. The economics of the writing life are grim, mercurial, and infrequently discussed",
-    "excerpt": "Making it in a non-existent profession. The economics of the writing life are grim, mercurial, and infrequently discussed",
-    "id": "e3f0acf0",
-    "wordCount": 18,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Arts & Letters Daily",
-      "slug": "arts-letters-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "\"Most historians would rather go out naked in public than prune their copious footnotes.\" Not Albert O. Hirschman ",
-    "link": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
-    "author": "Arts & Letters Daily",
-    "publishedAt": "2026-04-11T19:58:56.725Z",
-    "content": "\"Most historians would rather go out naked in public than prune their copious footnotes.\" Not Albert O. Hirschman",
-    "excerpt": "\"Most historians would rather go out naked in public than prune their copious footnotes.\" Not Albert O. Hirschman",
-    "id": "614e9fee",
-    "wordCount": 18,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Arts & Letters Daily",
-      "slug": "arts-letters-daily",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "AI Will Be Met With Violence, and Nothing Good Will Come of It",
-    "link": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
-    "author": "Alberto Romero",
-    "publishedAt": "Sat, 11 Apr 2026 19:23:52 GMT",
-    "content": "It has started",
-    "excerpt": "It has started",
-    "id": "b7836206",
-    "wordCount": 3,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Algorithmic Bridge",
-      "slug": "algorithmic-bridge",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "The Man Who Read Everything",
-    "link": "https://www.commonreader.co.uk/p/the-man-who-read-everything",
-    "author": "Henry Oliver",
-    "publishedAt": "Sat, 11 Apr 2026 19:15:57 GMT",
-    "content": "Letters of Harold Bloom and six poets",
-    "excerpt": "Letters of Harold Bloom and six poets",
-    "id": "c4fa971a",
-    "wordCount": 7,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Common Reader",
-      "slug": "common-reader",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Is the Day of the Data Center About to Be Over?",
-    "link": "https://braddelong.substack.com/p/is-the-day-of-the-data-center-about",
-    "author": "Brad DeLong",
-    "publishedAt": "Sat, 11 Apr 2026 18:14:08 GMT",
-    "content": "Marco Arment's Setup as the Canary in the Coal Mine—or, Rather, as the 50 Mac Mini Server Farm Vastly More Efficient than the NVIDIA-Powered Cloud-Bound Hyperscalers...",
-    "excerpt": "Marco Arment's Setup as the Canary in the Coal Mine—or, Rather, as the 50 Mac Mini Server Farm Vastly More Efficient than the NVIDIA-Powered Cloud-Bound Hyperscalers...",
-    "id": "962716be",
-    "wordCount": 26,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Brad DeLong",
-      "slug": "brad-delong",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "The Eternal Lyric of Love and Loss: “Goodnight Moon” Author Margaret Wise Brown’s Little-Known Poems for the Tragic Love of Her Life",
-    "link": "https://www.themarginalian.org/2026/04/11/margaret-wise-brown-michael-strange-poems/",
-    "author": "Maria Popova",
-    "publishedAt": "Sat, 11 Apr 2026 17:29:35 +0000",
-    "content": "\"One who has dared to be gloriously good and gloriously bad in one life. No Limbo for her. Rather let life itself grow living monuments out of trees and living words so that death can never take from our half-lives this radiant living that was lived among us.\"",
-    "excerpt": "\"One who has dared to be gloriously good and gloriously bad in one life. No Limbo for her. Rather let life itself grow living monuments out of trees and living words so that death can never take from ",
-    "id": "a1a566f8",
-    "wordCount": 48,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Marginalian",
-      "slug": "the-marginalian",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Trial, Triumph, and the Art of the Possible: The Remarkable Story Behind Beethoven’s “Ode to Joy”",
-    "link": "https://www.themarginalian.org/2026/04/11/beethoven-ode-to-joy/",
-    "author": "Maria Popova",
-    "publishedAt": "Sat, 11 Apr 2026 17:28:10 +0000",
-    "content": "A hymn of rage, a hymn of redemption, and a timeless love letter to the possible.",
-    "excerpt": "A hymn of rage, a hymn of redemption, and a timeless love letter to the possible.",
-    "id": "16a1c5cd",
-    "wordCount": 16,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Marginalian",
-      "slug": "the-marginalian",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "The Dostoevskian Moment\n",
-    "link": "https://www.palladiummag.com/2026/04/11/the-dostoevskian-moment/",
-    "author": "James Poulos",
-    "publishedAt": "Sat, 11 Apr 2026 17:21:29 +0000",
-    "content": "As we accelerate toward superintelligence, our quest for self-mastery takes a spiritual turn.\nThe Dostoevskian Moment\n appeared first on Palladium.",
-    "excerpt": "As we accelerate toward superintelligence, our quest for self-mastery takes a spiritual turn.\nThe Dostoevskian Moment\n appeared first on Palladium.",
-    "id": "7bd27418",
-    "wordCount": 20,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Palladium",
-      "slug": "palladium",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Saturday discussion post",
-    "link": "https://www.slowboring.com/p/saturday-discussion-post-387",
-    "author": "Halina Bennet",
-    "publishedAt": "Sat, 11 Apr 2026 17:00:46 GMT",
-    "content": "A dollhouse for your Saturday:",
-    "excerpt": "A dollhouse for your Saturday:",
-    "id": "194d6fac",
-    "wordCount": 5,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Slow Boring",
-      "slug": "slow-boring",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "The biggest advance in AI since the LLM",
-    "link": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
-    "author": "Gary Marcus",
-    "publishedAt": "Sat, 11 Apr 2026 16:19:38 GMT",
-    "content": "Why Claude Code changes everything",
-    "excerpt": "Why Claude Code changes everything",
-    "id": "e45385d8",
-    "wordCount": 5,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Gary Marcus",
-      "slug": "gary-marcus",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Asia’s Rise and the Self-Undermining Logic of Neoliberalism",
-    "link": "https://branko2f7.substack.com/p/asias-rise-and-the-self-undermining",
-    "author": "Branko Milanovic",
-    "publishedAt": "Sat, 11 Apr 2026 15:51:03 GMT",
-    "content": "My conversation with Alice Liu from the Carter Center",
-    "excerpt": "My conversation with Alice Liu from the Carter Center",
-    "id": "60e72237",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Branko Milanovic",
-      "slug": "branko-milanovic",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Delusions of Grandeur, Hungary Edition",
-    "link": "https://paulkrugman.substack.com/p/delusions-of-grandeur-hungary-edition",
-    "author": "Paul Krugman",
-    "publishedAt": "Sat, 11 Apr 2026 15:40:34 GMT",
-    "content": "Trump really doesn't understand America's role in the world",
-    "excerpt": "Trump really doesn't understand America's role in the world",
-    "id": "389d298d",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Paul Krugman",
-      "slug": "paul-krugman",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "“AI polls” are fake polls",
-    "link": "https://www.natesilver.net/p/ai-polls-are-fake-polls",
-    "author": "Eli McKown-Dawson",
-    "publishedAt": "Sat, 11 Apr 2026 15:38:26 GMT",
-    "content": "But they might be useful as something else: models.",
-    "excerpt": "But they might be useful as something else: models.",
-    "id": "31be70ec",
-    "wordCount": 9,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Silver Bulletin",
-      "slug": "silver-bulletin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "What Continental Philosophy Defenders Cannot Explain",
-    "link": "https://benthams.substack.com/p/what-continental-philosophy-defenders",
-    "author": "Bentham's Bulldog",
-    "publishedAt": "Sat, 11 Apr 2026 15:34:20 GMT",
-    "content": "How we know continental philosophy is largely nonsense",
-    "excerpt": "How we know continental philosophy is largely nonsense",
-    "id": "2e3bca49",
-    "wordCount": 8,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Bentham's Newsletter",
-      "slug": "benthams-newsletter",
-      "category": "Philosophy"
-    }
-  },
-  {
-    "title": "Tolkien's Guide to Defeating Evil",
-    "link": "https://www.theculturist.io/p/tolkiens-advice-for-overcoming-evil",
-    "author": "The Culturist",
-    "publishedAt": "Sat, 11 Apr 2026 14:15:39 GMT",
-    "content": "Why your fight always matters",
-    "excerpt": "Why your fight always matters",
-    "id": "5ccf8291",
-    "wordCount": 5,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "The Culturist",
-      "slug": "the-culturist",
-      "category": "Culture"
-    }
-  },
-  {
-    "title": "Pluralistic: Don't Be Evil (11 Apr 2026)",
-    "link": "https://pluralistic.net/2026/04/11/obvious-terrible-ideas/",
-    "author": "Cory Doctorow",
-    "publishedAt": "Sat, 11 Apr 2026 13:34:48 +0000",
-    "content": "Today's links Don't Be Evil: Evil genius is just a lack of shame. Hey look at this: Delights to delectate. Object permanence: FBI x Trotsky; Jakob Nielsen x headlines; Floppy disk stained glass; Zero tolerance for mismatched socks; EFF v DOGE. Upcoming appearances: Toronto, San Francisco, London, Be",
-    "excerpt": "Today's links Don't Be Evil: Evil genius is just a lack of shame. Hey look at this: Delights to delectate. Object permanence: FBI x Trotsky; Jakob Nielsen x headlines; Floppy disk stained glass; Zero ",
-    "id": "568c136e",
-    "wordCount": 2097,
-    "readTime": 11,
-    "isPaid": false,
-    "publication": {
-      "name": "Pluralistic",
-      "slug": "pluralistic",
-      "category": "Technology"
-    }
-  },
-  {
-    "title": "Why the Cease-Fire With Iran Will Hold",
-    "link": "https://www.foreignaffairs.com/iran/why-ceasefire-iran-will-hold-trump-negotiations",
-    "author": "Gideon Rose",
-    "publishedAt": "Sat, 11 Apr 2026 09:30:00 -0400",
-    "content": "The de-escalatory logic that will shape negotiations.",
-    "excerpt": "The de-escalatory logic that will shape negotiations.",
-    "id": "710ef906",
-    "wordCount": 7,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Foreign Affairs",
-      "slug": "foreign-affairs",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Oil companies accused of massive accounting fraud in New Mexico",
-    "link": "https://grist.org/energy/oil-companies-accused-of-massive-accounting-fraud-in-new-mexico/",
-    "author": "Jerry Redfern, Capital and Main",
-    "publishedAt": "Sat, 11 Apr 2026 13:00:00 +0000",
-    "content": "A lawsuit claims ExxonMobil and others underreported debts by $194 million, calling it “a playbook” for how companies dump old wells and expenses on states.",
-    "excerpt": "A lawsuit claims ExxonMobil and others underreported debts by $194 million, calling it “a playbook” for how companies dump old wells and expenses on states.",
-    "id": "70b794b5",
-    "wordCount": 25,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Grist",
-      "slug": "grist",
-      "category": "Climate"
-    }
-  },
-  {
-    "title": "Ben Lerner Hears Ghosts in the Wires",
-    "link": "https://jacobin.com/2026/04/lerner-transcription-victorian-gothic-telephones/",
-    "author": "Jonah Walters",
-    "publishedAt": "2026-04-11T12:46:08.000Z",
-    "content": "Critics read Ben Lerner’s new novel, Transcription, as a commentary on smartphones. But with gothic style and a Victorian temperament, it meditates on a much older technology — the spectral quality of disembodied speech introduced at the dawn of telephonics.\nTranscription, the new novel by Ben Lerne",
-    "excerpt": "Critics read Ben Lerner’s new novel, Transcription, as a commentary on smartphones. But with gothic style and a Victorian temperament, it meditates on a much older technology — the spectral quality of",
-    "id": "2f5cb3b0",
-    "wordCount": 2354,
-    "readTime": 12,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Saturday links: denying scientific consensus",
-    "link": "https://abnormalreturns.com/2026/04/11/saturday-links-denying-scientific-consensus/",
-    "author": "abnormalreturns",
-    "publishedAt": "Sat, 11 Apr 2026 12:44:18 +0000",
-    "content": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
-    "excerpt": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
-    "id": "5a13c5c7",
-    "wordCount": 22,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Abnormal Returns",
-      "slug": "abnormal-returns",
-      "category": "Finance"
-    }
-  },
-  {
-    "title": "Reading List 04/11/2026",
-    "link": "https://www.construction-physics.com/p/reading-list-04112026",
-    "author": "Brian Potter",
-    "publishedAt": "Sat, 11 Apr 2026 12:02:56 GMT",
-    "content": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
-    "excerpt": "Is the Strait of Hormuz open yet, building code cost benefit analysis, Intel joining Terafab, sponge cities, and more.",
-    "id": "a570c880",
-    "wordCount": 19,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Construction Physics",
-      "slug": "construction-physics",
-      "category": "Science"
-    }
-  },
-  {
-    "title": "Capitalist Profits Depend on Stealing Our Future",
-    "link": "https://jacobin.com/2026/04/capitalism-future-profit-investment-speculation-growth/",
-    "author": "Timothy Mitchell",
-    "publishedAt": "2026-04-11T11:44:10.000Z",
-    "content": "Capitalists have succeeded in arranging the future as a calculable source of extraordinary wealth, enriching a few in the present by imposing debts on the vast majority — and undermining the environmental conditions for a better tomorrow.\nCapitalist profitability increasingly depends on the extracti",
-    "excerpt": "Capitalists have succeeded in arranging the future as a calculable source of extraordinary wealth, enriching a few in the present by imposing debts on the vast majority — and undermining the environme",
-    "id": "ff3bfcd0",
-    "wordCount": 3102,
-    "readTime": 16,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
-    }
-  },
-  {
-    "title": "Interview: Why the Gulf struggles to see India as a credible strategic player, plus IMEC in the 'past tense'",
-    "link": "https://rohanvenkat.substack.com/p/interview-why-the-gulf-struggles",
-    "author": "Rohan Venkat",
-    "publishedAt": "Sat, 11 Apr 2026 11:13:08 GMT",
-    "content": "An interview with Jean-Loup Samaan, author of 'New Military Strategies in the Gulf: The Mirage of Autonomy in Saudi Arabia, the UAE, and Qatar'",
-    "excerpt": "An interview with Jean-Loup Samaan, author of 'New Military Strategies in the Gulf: The Mirage of Autonomy in Saudi Arabia, the UAE, and Qatar'",
-    "id": "4501d53d",
-    "wordCount": 24,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Rohan Venkat",
-      "slug": "rohan-venkat",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Links 4/11/2026",
-    "link": "https://www.nakedcapitalism.com/2026/04/links-4-11-2026.html",
-    "author": "Yves Smith",
-    "publishedAt": "Sat, 11 Apr 2026 10:59:10 +0000",
-    "content": "<a href=\"https://www.nakedcapitalism.com/2026/04/links-4-11-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-11-at-3.03.45 PM.png\" alt=\"\" width=\"300\" height=\"271\" class=\"aligncenter size-full wp-image-308535\" /></a>",
-    "excerpt": "<a href=\"https://www.nakedcapitalism.com/2026/04/links-4-11-2026.html\"><img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-11-at-3.03.45 PM.png\" alt=\"\" width=\"300\" ",
-    "id": "92d97482",
-    "wordCount": 11,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Iran War: Talks  Delayed;  Concerns That Conflict Destined to Resume; US to Concede Release of Some Iran Frozen Assets?",
-    "link": "https://www.nakedcapitalism.com/2026/04/iran-war-talks-delayed-concerns-that-conflict-destined-to-resume-us-to-concede-release-of-some-iran-frozen-assets.html",
-    "author": "Yves Smith",
-    "publishedAt": "Sat, 11 Apr 2026 10:56:23 +0000",
-    "content": "Iran war: In a telling sign, the start of talks has been pushed back due to disagreements over process.",
-    "excerpt": "Iran war: In a telling sign, the start of talks has been pushed back due to disagreements over process.",
-    "id": "5df12907",
-    "wordCount": 19,
-    "readTime": 1,
-    "isPaid": false,
-    "publication": {
-      "name": "Naked Capitalism",
-      "slug": "naked-capitalism",
-      "category": "Economics"
-    }
-  },
-  {
-    "title": "Zohran Mamdani’s Toughest Task in 100 Days: Taxing the Rich",
-    "link": "https://jacobin.com/2026/04/mamdani-mayoralty-municipal-socialism-policy-strategy/",
-    "author": "Nick French",
-    "publishedAt": "2026-04-11T10:45:07.000Z",
-    "content": "Zohran Mamdani’s early wins are a testament to what a talented left-wing municipal executive can accomplish even in the face of major obstacles. But much of his ambitious agenda will remain blocked if he can’t convince the state to tax the rich.\nUsing the mayor’s office to craft new forms of mass mo",
-    "excerpt": "Zohran Mamdani’s early wins are a testament to what a talented left-wing municipal executive can accomplish even in the face of major obstacles. But much of his ambitious agenda will remain blocked if",
-    "id": "1b2b2d36",
-    "wordCount": 2159,
-    "readTime": 11,
-    "isPaid": false,
-    "publication": {
-      "name": "Jacobin",
-      "slug": "jacobin",
-      "category": "Politics"
     }
   }
 ]
