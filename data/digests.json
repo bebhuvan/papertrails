@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-04-25",
+    "title": "Random Digest: April 25, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-04-25T03:38:35.590Z",
+    "articles": [
+      {
+        "id": "3d44be4c",
+        "title": "The Bra-and-Girdle Maker That Fashioned the Impossible for NASA",
+        "excerpt": "Crafting a spacesuit demanded perfection from seamstresses to gluers to engineers — every stitch could mean life or death\nThe post The Bra-and-Girdle Maker That Fashioned the Impossible for NASA appea",
+        "author": "Nicholas de Monchaux",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 14 Apr 2026 21:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://nautil.us/the-bra-and-girdle-maker-that-fashioned-the-impossible-for-nasa-1279841/"
+      },
+      {
+        "id": "40fd19b9",
+        "title": "authentic is as authentic does, or is it?",
+        "excerpt": "an annoying thought experiment",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 17 Apr 2026 12:50:57 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://backofmind.substack.com/p/authentic-is-as-authentic-does-or"
+      },
+      {
+        "id": "4e4fc200",
+        "title": "How to Stand Out When Everyone Uses AI",
+        "excerpt": "No one is safe from this deadly trap",
+        "author": "Alberto Romero",
+        "publication": {
+          "name": "The Algorithmic Bridge",
+          "slug": "algorithmic-bridge",
+          "category": "Technology"
+        },
+        "publishedAt": "Mon, 20 Apr 2026 17:46:04 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.thealgorithmicbridge.com/p/how-to-stand-out-when-everyone-uses"
+      },
+      {
+        "id": "c8ff9978",
+        "title": "AMOC: Is global warming tipping key Atlantic ocean currents towards ‘collapse’?",
+        "excerpt": "The Atlantic Meridional Overturning Circulation (AMOC) is a vast system of ocean currents that helps...\nThe post AMOC: Is global warming tipping key Atlantic ocean currents towards ‘collapse’? appeare",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 24 Apr 2026 10:43:37 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/amoc-is-global-warming-tipping-key-atlantic-ocean-currents-towards-collapse/"
+      },
+      {
+        "id": "b3171995",
+        "title": "Dwight Macdonald After the Death of Liberalism",
+        "excerpt": "The defining feature of American imperialism is its combination of an enormous capacity for death and destruction with an equally enormous sense of self-entitlement. Cold War journalist Dwight Macdona",
+        "author": "Matt McManus",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-04-16T10:11:41.000Z",
+        "readTime": 9,
+        "wordCount": 1692,
+        "url": "https://jacobin.com/2026/04/macdonald-cold-war-liberalism-vietnam/"
+      },
+      {
+        "id": "605d0ad6",
+        "title": "Woman of Letters party in San Francisco (May 30th)",
+        "excerpt": "My nonfiction book, What’s So Great About The Great Books? is coming out on May 19th.",
+        "author": "Naomi Kanakia",
+        "publication": {
+          "name": "Woman of Letters",
+          "slug": "woman-of-letters",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 14 Apr 2026 13:01:13 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://www.woman-of-letters.com/p/woman-of-letters-party-in-san-francisco"
+      },
+      {
+        "id": "63abef8c",
+        "title": "Cropped 22 April 2026: Global food ‘catastrophe’ | BECCS emissions | UK solar farm controversy",
+        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 22 April 2026: Global food ‘catastrophe’ | BECCS emissions | UK solar farm controversy",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 14:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 37,
+        "url": "https://www.carbonbrief.org/cropped-22-april-2026-global-food-catastrophe-beccs-emissions-uk-solar-farm-controversy/"
+      },
+      {
+        "id": "004c164d",
+        "title": "Top Links 1080 The largest companies in the world. Indian divergence. RIP Robert Skidelsky & Black Boys on Mopeds. ",
+        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+        "author": "Adam Tooze",
+        "publication": {
+          "name": "Adam Tooze",
+          "slug": "adam-tooze",
+          "category": "Economics"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 10:45:51 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://adamtooze.substack.com/p/top-links-1080-the-largest-companies"
+      },
+      {
+        "id": "e1993397",
+        "title": "Butterfly (Papillon)",
+        "excerpt": "Crafting each frame by hand, an animator paints the story of an Olympic swimmer’s return after surviving the Holocaust\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://aeon.co/videos/the-swimmer-who-went-from-the-olympics-to-auschwitz-and-back-again?utm_source=rss-feed"
+      },
+      {
+        "id": "02a5c633",
+        "title": "Thursday links: abundant AI",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 16 Apr 2026 20:35:32 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/04/16/thursday-links-abundant-ai/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-21",
     "title": "Random Digest: April 21, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 16,
         "url": "https://www.viksnewsletter.com/p/executive-brief-the-boring-chips"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-01",
-    "title": "Random Digest: November 1, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-01T02:20:10.569Z",
-    "articles": [
-      {
-        "id": "bf5e1689",
-        "title": "Our age of kings",
-        "excerpt": "Strongman leaders are trying to bring order to a world disrupted by new media. But the \"cure\" is worse than the disease.",
-        "author": "Noah Smith",
-        "publication": {
-          "name": "Noahpinion",
-          "slug": "noahpinion",
-          "category": "Economics"
-        },
-        "publishedAt": "Sun, 26 Oct 2025 10:03:31 GMT",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://www.noahpinion.blog/p/our-age-of-kings"
-      },
-      {
-        "id": "2002a15b",
-        "title": "Q&A: The UK government’s ‘carbon budget delivery plan’ for 2035",
-        "excerpt": "The UK government has set out a long-awaited plan explaining how it will cut emissions...\nThe post Q&A: The UK government’s ‘carbon budget delivery plan’ for 2035 appeared first on Carbon Brief.",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 31 Oct 2025 13:25:53 +0000",
-        "readTime": 1,
-        "wordCount": 32,
-        "url": "https://www.carbonbrief.org/qa-the-uk-governments-carbon-budget-delivery-plan-for-2035/"
-      },
-      {
-        "id": "f1a6e84c",
-        "title": "Wednesday links: missing out",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Wed, 29 Oct 2025 16:49:31 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/10/29/wednesday-links-missing-out-2/"
-      },
-      {
-        "id": "4af824c0",
-        "title": "The Corruption of Civil Rights and the Capitulation of Higher Ed",
-        "excerpt": "By weaponizing Title VI of the Civil Rights Act, the Trump administration is using antidiscrimination law to protect privilege and entrench inequality. Yet rather than uniting to resist these sham inv",
-        "author": "James Brandt",
-        "publication": {
-          "name": "Law and Political Economy",
-          "slug": "lpe-project",
-          "category": "Politics"
-        },
-        "publishedAt": "Thu, 23 Oct 2025 11:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 53,
-        "url": "https://lpeproject.org/blog/the-corruption-of-civil-rights-and-the-capitulation-of-higher-ed/"
-      },
-      {
-        "id": "42f3b7e7",
-        "title": "Dragoncatcher: Cloudflare cache confusion",
-        "excerpt": "",
-        "author": "Robin Sloan",
-        "publication": {
-          "name": "Robin Sloan",
-          "slug": "robin-sloan",
-          "category": "Technology"
-        },
-        "publishedAt": "2025-10-26T12:00:00.000Z",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.robinsloan.com/lab/cache-confusion/"
-      },
-      {
-        "id": "a6a5b405",
-        "title": "Links (92)",
-        "excerpt": "Book Review of Breakneck from Noah Smith, endorsed\nOn China and rare earths\nRotating detonation engines\nProgress in pan-cancer therapy\nDOGE and its consequences in the federal government\nThe AI revolu",
-        "author": "Nintil",
-        "publication": {
-          "name": "Nintil",
-          "slug": "nintil",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 27 Oct 2025 00:00:00 +0000",
-        "readTime": 2,
-        "wordCount": 277,
-        "url": "https://nintil.com/links-92/"
-      },
-      {
-        "id": "4512dce7",
-        "title": "I Could Have Died of Anorexia. Today, Girls Are Being Pushed Toward Something Worse.",
-        "excerpt": "What My Struggle with Anorexia Taught Me About Transgender Hormone Therapy",
-        "author": "Liza Libes",
-        "publication": {
-          "name": "Pens and Poison",
-          "slug": "pens-and-poison",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 21 Oct 2025 13:03:19 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.pensandpoison.org/p/let-our-hormones-be"
-      },
-      {
-        "id": "867ecefe",
-        "title": "If you're so smart",
-        "excerpt": "What psychologists fail at—and where we shine",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 20 Oct 2025 13:51:21 GMT",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://smallpotatoes.paulbloom.net/p/if-youre-so-smart"
-      },
-      {
-        "id": "4f2de6fe",
-        "title": "Backyard caterpillars",
-        "excerpt": "From poison spikes to fake snake eyes, caterpillars employ many clever strategies to survive to their dazzling adulthoods\n- by Aeon Video\nWatch on Aeon",
-        "author": "Aeon Video",
-        "publication": {
-          "name": "Aeon",
-          "slug": "aeon",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 27 Oct 2025 10:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://aeon.co/videos/close-ups-reveal-how-caterpillars-live-long-enough-to-cocoon?utm_source=rss-feed"
-      },
-      {
-        "id": "f2c0cc19",
-        "title": "The entire world was ready to reduce shipping emissions. Then Trump stepped in.",
-        "excerpt": "After the Trump administration threatened countries with tariffs and visa restrictions, a first-ever global carbon tax is left to an uncertain future.",
-        "author": "Naveena Sadasivam",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 23 Oct 2025 08:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://grist.org/transportation/shipping-carbon-tax-international-maritime-organization-trump/"
       }
     ]
   }
