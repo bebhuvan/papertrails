@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-05-02",
+    "title": "Random Digest: May 2, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-02T03:58:37.098Z",
+    "articles": [
+      {
+        "id": "6a623681",
+        "title": "Monday links: beliefs and behaviors",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 17:02:54 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/04/27/monday-links-beliefs-and-behaviors/"
+      },
+      {
+        "id": "4e4dea00",
+        "title": "What Can We Gain by Losing Infinity?",
+        "excerpt": "Ultrafinitism, a philosophy that rejects the infinite, has long been dismissed as mathematical heresy. But it is also producing new insights in math and beyond.            \nThe post What Can We Gain b",
+        "author": "Gregory Barber",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 29 Apr 2026 14:50:04 +0000",
+        "readTime": 1,
+        "wordCount": 39,
+        "url": "https://www.quantamagazine.org/what-can-we-gain-by-losing-infinity-20260429/"
+      },
+      {
+        "id": "1167bea6",
+        "title": "Social Credit",
+        "excerpt": "I cannot help but be a bit sick when I think about sports.",
+        "author": "Nicholas Decker",
+        "publication": {
+          "name": "Nicholas Decker",
+          "slug": "nicholas-decker",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 21 Apr 2026 11:04:06 GMT",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://nicholasdecker.substack.com/p/social-credit"
+      },
+      {
+        "id": "d208ba8e",
+        "title": "A strong month in a fragile market",
+        "excerpt": "March data shows momentum, but a build-to-rent crackdown and tighter capital markets threaten to stall future supply.",
+        "author": "Halina Bennet",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Wed, 29 Apr 2026 22:01:11 GMT",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.slowboring.com/p/a-strong-month-in-a-fragile-market"
+      },
+      {
+        "id": "c1d8508a",
+        "title": "Revealed: Scientists tell Colombia fossil-fuel transition summit to ‘halt new expansion’",
+        "excerpt": "Countries attending a first-of-its-kind fossil-fuel summit have been asked to consider “action recommendations” such as...\nThe post Revealed: Scientists tell Colombia fossil-fuel transition summit to ",
+        "author": "Daisy Dunne",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 20 Apr 2026 10:22:18 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.carbonbrief.org/revealed-scientists-tell-colombia-fossil-fuel-transition-summit-to-halt-new-expansion/"
+      },
+      {
+        "id": "dc31d629",
+        "title": "Stoic Ethics: The Good, The Bad, and The Indifferent (part 4)",
+        "excerpt": "an invited talk given to 52 Living Ideas community of learners",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sat, 18 Apr 2026 00:26:20 GMT",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://gregorybsadler.substack.com/p/stoic-ethics-the-good-the-bad-and-f23"
+      },
+      {
+        "id": "0e0aa1bf",
+        "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
+        "excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training forma",
+        "author": "Jack Clark",
+        "publication": {
+          "name": "Jack Clark",
+          "slug": "jack-clark",
+          "category": "Technology"
+        },
+        "publishedAt": "Mon, 20 Apr 2026 12:30:19 +0000",
+        "readTime": 1,
+        "wordCount": 56,
+        "url": "https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/"
+      },
+      {
+        "id": "9c991a36",
+        "title": "The Best Lack All Conviction: Russell’s Other Paradox",
+        "excerpt": "by Jochen Szangolies Recently, a meme has been making the rounds, alleging that with JD Vance lecturing the Pope on Catholicism, Pierre Poilievre lecturing Mark Carney on economics, RFK jr. explaining",
+        "author": "Jochen Szangolies",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 10:00:35 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/04/the-best-lack-all-conviction-russells-other-paradox.html"
+      },
+      {
+        "id": "25d87f3e",
+        "title": "Why it’s so hard to agree on what counts as true",
+        "excerpt": "New research has mapped people’s contrasting conceptions of the truth. No wonder so many arguments feel irresolvable\n- by Lukas S Huber, David-Elias Künstle & Kevin Reuter\nRead on Psyche",
+        "author": "Lukas S Huber, David-Elias Künstle & Kevin Reuter",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://psyche.co/ideas/why-its-so-hard-to-agree-on-what-counts-as-true?utm_source=rss-feed"
+      },
+      {
+        "id": "caa44781",
+        "title": "Michigan wins key legal battle over Line 5 pipeline",
+        "excerpt": "A unanimous Supreme Court ruling clears the way for state court proceedings in the decades-long dispute over the pipeline crossing between Lakes Michigan and Huron.",
+        "author": "Vivian La",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 08:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/climate-energy/michigan-wins-key-legal-battle-over-line-5-pipeline/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-04-28",
     "title": "Random Digest: April 28, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7946,6 @@
         "readTime": 1,
         "wordCount": 28,
         "url": "https://nautil.us/a-martian-mystery-may-finally-be-solved-1246769/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-08",
-    "title": "Random Digest: November 8, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-08T02:10:42.489Z",
-    "articles": [
-      {
-        "id": "f5c6f21d",
-        "title": "Tuesday links: holding the system together",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Tue, 28 Oct 2025 20:07:20 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/10/28/tuesday-links-holding-the-system-together/"
-      },
-      {
-        "id": "4f2de6fe",
-        "title": "Backyard caterpillars",
-        "excerpt": "From poison spikes to fake snake eyes, caterpillars employ many clever strategies to survive to their dazzling adulthoods\n- by Aeon Video\nWatch on Aeon",
-        "author": "Aeon Video",
-        "publication": {
-          "name": "Aeon",
-          "slug": "aeon",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 27 Oct 2025 10:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://aeon.co/videos/close-ups-reveal-how-caterpillars-live-long-enough-to-cocoon?utm_source=rss-feed"
-      },
-      {
-        "id": "748db8a8",
-        "title": "Hogs at the AI Slop Trough, Gulf States, UFC Edition",
-        "excerpt": "Various hogs are lined up at the AI slop trough under the banner of Trump 2.0, including Elon Musk and various Gulf States.",
-        "author": "Nat Wilson Turner",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 28 Oct 2025 10:45:30 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://www.nakedcapitalism.com/2025/10/ai-slop-trump-elon-musk-saudi-arabia-uae-ufc-dubai-ai-slop.html"
-      },
-      {
-        "id": "3b8832cb",
-        "title": "Intellectual Violence",
-        "excerpt": "Andrei Kolesnikov in Public Seminar: In the age of mature Putinism, violence and control, accompanied by a new morality based on so-called “traditional values,” have become crucial instruments for man",
-        "author": "Robin Varghese",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Sun, 26 Oct 2025 16:01:27 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/intellectual-violence.html"
-      },
-      {
-        "id": "5ce4ea05",
-        "title": "How to tolerate annoying things",
-        "excerpt": "Hassles are part of life, but the way we react often makes them worse. ACT skills can help you handle them with greater ease\n- by Patricia E Zurita Ona\nRead on Psyche",
-        "author": "Patricia E Zurita Ona",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 03 Nov 2025 11:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 33,
-        "url": "https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease?utm_source=rss-feed"
-      },
-      {
-        "id": "e775a7b3",
-        "title": "Shark Data Suggests Animals Scale Like Geometric Objects",
-        "excerpt": "Despite their wide variety of sizes, niches and shapes, sharks scale geometrically, pointing to possible fundamental constraints on evolution.            \nThe post Shark Data Suggests Animals Scale Li",
-        "author": "Joanna Thompson",
-        "publication": {
-          "name": "Quanta Magazine",
-          "slug": "quanta-magazine",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 27 Oct 2025 14:55:18 +0000",
-        "readTime": 1,
-        "wordCount": 34,
-        "url": "https://www.quantamagazine.org/shark-data-suggests-animals-scale-like-geometric-objects-20251027/"
-      },
-      {
-        "id": "a3e83aa6",
-        "title": "Pluralistic: There's one thing EVERY government can do to shrink Big Tech (01 Nov 2025)",
-        "excerpt": "Today's links There's one thing EVERY government can do to shrink Big Tech: The path to a post-American internet. Hey look at this: Delights to delectate. Object permanence: D2020; Sony rootkit; Publi",
-        "author": "Cory Doctorow",
-        "publication": {
-          "name": "Pluralistic",
-          "slug": "pluralistic",
-          "category": "Technology"
-        },
-        "publishedAt": "Sat, 01 Nov 2025 19:56:25 +0000",
-        "readTime": 12,
-        "wordCount": 2383,
-        "url": "https://pluralistic.net/2025/11/01/redistribution-vs-predistribution/"
-      },
-      {
-        "id": "318c9be3",
-        "title": "DeBriefed 7 November 2025: Belém COP begins; UN warns of 1.5C breach; changing roles of climate scientists",
-        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 7 November 2025: Belém COP begins; UN warns of 1.5C breach; changing ro",
-        "author": "Roz Pidcock",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 07 Nov 2025 14:52:31 +0000",
-        "readTime": 1,
-        "wordCount": 40,
-        "url": "https://www.carbonbrief.org/debriefed-7-november-2025-belem-cop-begins-un-warns-of-1-5c-breach-changing-roles-of-climate-scientists/"
-      },
-      {
-        "id": "f0d45232",
-        "title": "Toxic wastewater from oil fields keeps pouring out of the ground. Oklahoma regulators failed to stop it.",
-        "excerpt": "Salt water laced with cancer-causing chemicals, a byproduct of oil and gas drilling, is spewing from old wells. Experts warn of a pollution crisis spreading underground and threatening Oklahoma’s drin",
-        "author": "Nick Bowlin, The Frontier",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 29 Oct 2025 09:35:00 +0000",
-        "readTime": 1,
-        "wordCount": 31,
-        "url": "https://grist.org/accountability/toxic-wastewater-from-oil-fields-keeps-pouring-out-of-the-ground-oklahoma-regulators-failed-to-stop-it/"
-      },
-      {
-        "id": "6cefaa29",
-        "title": "The Pacific Islands Challenge ",
-        "excerpt": "In America’s tug of war with China, oceanic democracy is caught in the middle.",
-        "author": "Michael Kovrig",
-        "publication": {
-          "name": "Foreign Affairs",
-          "slug": "foreign-affairs",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 03 Nov 2025 00:00:00 -0500",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://www.foreignaffairs.com/china/pacific-islands-challenge"
       }
     ]
   }
