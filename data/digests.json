@@ -1,5 +1,163 @@
 [
   {
+    "id": "digest-2026-05-05",
+    "title": "Random Digest: May 5, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-05T03:55:21.138Z",
+    "articles": [
+      {
+        "id": "5d10ec6a",
+        "title": "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship",
+        "excerpt": "It is in relationships that we discover both our depths and our limits, there that we anneal ourselves and transcend ourselves, there that we are hurt the most and there that we find the most healing.",
+        "author": "Maria Popova",
+        "publication": {
+          "name": "The Marginalian",
+          "slug": "the-marginalian",
+          "category": "Culture"
+        },
+        "publishedAt": "Tue, 21 Apr 2026 14:35:07 +0000",
+        "readTime": 1,
+        "wordCount": 102,
+        "url": "https://www.themarginalian.org/2026/04/21/simone-de-beauvoir-love-friendship/"
+      },
+      {
+        "id": "97090175",
+        "title": "The ramifications of record-shattering heat on the West’s ecosystems",
+        "excerpt": "\"It was the worst possible way to end the winter that was already worse than normal.\"",
+        "author": "Christine Peterson, High Country News",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Sat, 02 May 2026 13:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/extreme-heat/the-ramifications-of-record-shattering-heat-on-the-wests-ecosystems/"
+      },
+      {
+        "id": "424731b9",
+        "title": "Q&A with Ethan Mollick",
+        "excerpt": "\"People like AI when they use it themselves; they don’t like AI writ large\"",
+        "author": "Tom Rachman",
+        "publication": {
+          "name": "AI Policy Perspectives",
+          "slug": "ai-policy-perspectives",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 09:48:49 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.aipolicyperspectives.com/p/q-and-a-with-ethan-mollick"
+      },
+      {
+        "id": "5e7a5391",
+        "title": "Why Focus On Mid-Level Goals?",
+        "excerpt": "Human action plans are often organized around goal hierarchies, with lower-level subgoals helping to achieve higher-level goals.",
+        "author": "Robin Hanson",
+        "publication": {
+          "name": "Overcoming Bias",
+          "slug": "overcoming-bias",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Sat, 25 Apr 2026 01:55:40 GMT",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.overcomingbias.com/p/why-focus-on-mid-level-goals"
+      },
+      {
+        "id": "521f9ab1",
+        "title": "Research links: data exploration",
+        "excerpt": "Tuesdays are all about academic (and practitioner) literature at Abnormal Returns. You can check out last week’s edition including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 28 Apr 2026 13:42:18 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/04/28/research-links-data-exploration/"
+      },
+      {
+        "id": "47f250a8",
+        "title": "Satyajit Das: The Re-Shaping of the Persian Gulf and Energy Markets",
+        "excerpt": "Are the Gulf states a wild card that could unblock the impasse between the US and Iran?",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 30 Apr 2026 06:19:51 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.nakedcapitalism.com/2026/04/satyajit-das-the-re-shaping-of-the-persian-gulf-and-energy-markets.html"
+      },
+      {
+        "id": "6f06799c",
+        "title": "We Are Watching the Rise of Democratic Fascism",
+        "excerpt": "“American fascism would . . . be correspondingly democratic in the American fashion.”\n— Bertolt Brecht, Journals\nAt the end of last year, Donald Trump deployed more than two thousand Immigration and C",
+        "author": "Carolin Amlinger",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-05-03T12:57:36.437Z",
+        "readTime": 20,
+        "wordCount": 3900
+      },
+      {
+        "id": "b9d12be5",
+        "title": "The triumph of logical English, Out loud",
+        "excerpt": "English prose has become much easier to read. But shorter sentences had little to do with it.",
+        "author": "Works in Progress",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 28 Apr 2026 14:03:10 GMT",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://www.worksinprogress.news/p/the-triumph-of-logical-english-out"
+      },
+      {
+        "id": "70b8075d",
+        "title": "American Dream, Intolerance, Thirst Traps",
+        "excerpt": "Links and recommendations",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 11:45:51 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/american-dream-intolerance-thirst"
+      },
+      {
+        "id": "c379c4b7",
+        "title": "What’s driving the catastrophic wildfires in Georgia",
+        "excerpt": "Drought conditions have been worsening for months in the Southeast. Now tens of thousands of acres are burning, displacing people and destroying dozens of homes.",
+        "author": "Emily Jones",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 22 Apr 2026 22:55:50 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://grist.org/extreme-weather/whats-driving-the-catastrophic-wildfires-in-georgia/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-02",
     "title": "Random Digest: May 2, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7787,165 +7945,6 @@
         "readTime": 1,
         "wordCount": 59,
         "url": "https://3quarksdaily.com/3quarksdaily/2025/11/on-guillermo-del-toros-adaptation-of-frankenstein.html"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-11",
-    "title": "Random Digest: November 11, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-11T02:19:27.554Z",
-    "articles": [
-      {
-        "id": "9a68ba68",
-        "title": "Should You Ever Pay Off Your 3% Mortgage Early?",
-        "excerpt": "Is it ever wise to pay off a 3% mortgage?\nThe post Should You Ever Pay Off Your 3% Mortgage Early? appeared first on A Wealth of Common Sense.\n...",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Sat, 01 Nov 2025 03:01:36 +0000",
-        "readTime": 1,
-        "wordCount": 30,
-        "url": "https://awealthofcommonsense.com/2025/10/should-you-ever-pay-off-your-3-mortgage-early/"
-      },
-      {
-        "id": "7995f5c4",
-        "title": "Are we all living in Florida now? The rise of ‘don’t say climate’ politics.",
-        "excerpt": "Talking about climate change may be politically radioactive, but adjusting to its effects is no longer optional.",
-        "author": "Kate Yoder",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 10 Nov 2025 09:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 17,
-        "url": "https://grist.org/language/florida-adaptation-dont-say-climate-politics-bill-gates/"
-      },
-      {
-        "id": "c75b0ab9",
-        "title": "What Are We Becoming?",
-        "excerpt": "Moving from Matter to Mind",
-        "author": "Tom Morgan",
-        "publication": {
-          "name": "The Leading Edge",
-          "slug": "leading-edge",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 03 Nov 2025 19:01:41 GMT",
-        "readTime": 1,
-        "wordCount": 5,
-        "url": "https://newsletter.theleading-edge.org/p/what-are-we-becoming"
-      },
-      {
-        "id": "dda59784",
-        "title": "Revolutions in Russia in 1917: February and October",
-        "excerpt": "A summary of the tumultuous events of Russia's 1917 revolutions.",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Wed, 05 Nov 2025 14:55:25 +0000",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://www.nakedcapitalism.com/2025/11/revolutions-in-russia-in-1917-february-and-october.html"
-      },
-      {
-        "id": "1f85e10c",
-        "title": "The Christopher Knight Problem",
-        "excerpt": "by Christopher Hall Some time ago – I can’t remember if it was before, during, or after the pandemic – I read Michael Finkel’s The Stranger in the Woods: The Extraordinary Story of the Last True Hermi",
-        "author": "Christopher Hall",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Fri, 31 Oct 2025 10:00:46 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/10/the-christopher-knight-problem.html"
-      },
-      {
-        "id": "85d24d9d",
-        "title": "No doubt about it: Climate change made Hurricane Melissa way worse",
-        "excerpt": "An analysis of the storm found “all aspects of this event were amplified by climate change, and that we'll see more of the same.”",
-        "author": "Matt Simon",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 06 Nov 2025 05:01:00 +0000",
-        "readTime": 1,
-        "wordCount": 24,
-        "url": "https://grist.org/climate/no-doubt-about-it-climate-change-made-hurricane-melissa-way-worse/"
-      },
-      {
-        "id": "6ec56ce1",
-        "title": "Dragoncatcher: Companies without commitments",
-        "excerpt": "",
-        "author": "Robin Sloan",
-        "publication": {
-          "name": "Robin Sloan",
-          "slug": "robin-sloan",
-          "category": "Technology"
-        },
-        "publishedAt": "2025-11-03T06:00:00.000Z",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.robinsloan.com/lab/commitments/"
-      },
-      {
-        "id": "58f06ed2",
-        "title": "The NFL Media Needs to CALM DOWN",
-        "excerpt": "there is no part of our media more fully in thrall to the tyranny of the immediate",
-        "author": "Freddie deBoer",
-        "publication": {
-          "name": "Freddie deBoer",
-          "slug": "freddie-deboer",
-          "category": "Politics"
-        },
-        "publishedAt": "Thu, 30 Oct 2025 17:45:47 GMT",
-        "readTime": 1,
-        "wordCount": 17,
-        "url": "https://freddiedeboer.substack.com/p/the-nfl-media-needs-to-calm-down"
-      },
-      {
-        "id": "a55499f8",
-        "title": "the annoying black box",
-        "excerpt": "cognitive load and its discontent",
-        "author": "Dan Davies",
-        "publication": {
-          "name": "Back of Mind",
-          "slug": "back-of-mind",
-          "category": "Psychology"
-        },
-        "publishedAt": "Fri, 31 Oct 2025 16:16:11 GMT",
-        "readTime": 1,
-        "wordCount": 5,
-        "url": "https://backofmind.substack.com/p/the-annoying-black-box"
-      },
-      {
-        "id": "a2931efa",
-        "title": "A Martian Mystery May Finally Be Solved",
-        "excerpt": "Scientists might have finally uncovered the origins of bold streaks on the Red Planet’s surface\nThe post A Martian Mystery May Finally Be Solved appeared first on Nautilus.",
-        "author": "Molly Glick",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Fri, 07 Nov 2025 19:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://nautil.us/a-martian-mystery-may-finally-be-solved-1246769/"
       }
     ]
   }
