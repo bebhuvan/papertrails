@@ -1,5 +1,163 @@
 [
   {
+    "id": "digest-2026-05-09",
+    "title": "Random Digest: May 9, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-09T04:02:01.631Z",
+    "articles": [
+      {
+        "id": "def73033",
+        "title": "Adviser links: controlling the controllable",
+        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 14:18:22 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/04/27/adviser-links-controlling-the-controllable/"
+      },
+      {
+        "id": "183e16cd",
+        "title": "The huge, untapped potential of planting rooftop gardens in cities",
+        "excerpt": "To adapt to a rapidly warming world, metropolises are looking to green roofs, which boost biodiversity and reduce temperatures and flooding.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/cities/the-huge-untapped-potential-of-planting-rooftop-gardens-in-cities/"
+      },
+      {
+        "id": "e8876410",
+        "title": "The Black Executioner",
+        "excerpt": "Denva Gallant at Aeon Magazine: Mark’s composure is only one element in a larger visual system. Around him, other bodies strain, bind and strike. At the centre of the martyrdom scene stands a Black wo",
+        "author": "Morgan Meis",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Wed, 29 Apr 2026 13:07:32 +0000",
+        "readTime": 1,
+        "wordCount": 55,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/04/the-black-executioner.html"
+      },
+      {
+        "id": "d0f98d59",
+        "title": "DeBriefed 1 May 2026: Countries chart path away from fossil fuels | China’s clean-tech surge | Global forest loss slows",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 1 May 2026: Countries chart path away from fossil fuels | China’s clean",
+        "author": "Daisy Dunne",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 01 May 2026 15:28:36 +0000",
+        "readTime": 1,
+        "wordCount": 43,
+        "url": "https://www.carbonbrief.org/debriefed-1-may-2026-countries-chart-path-away-from-fossil-fuels-chinas-clean-tech-surge-global-forest-loss-slows/"
+      },
+      {
+        "id": "af37720c",
+        "title": "Iran War: Narrative Dissolution as Ceasefire Continues Except in Lebanon",
+        "excerpt": "A western media distracted by Saturday night's alleged attack on Trump is letting the Iran War narrative dissolve into several related streams as the ceasefire continues, except in Lebanon and the hig",
+        "author": "Nat Wilson Turner",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 27 Apr 2026 10:54:30 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.nakedcapitalism.com/2026/04/iran-war-narrative-dissolution-ceasefire-lebanon-negotiations-blockade.html"
+      },
+      {
+        "id": "c64c2a58",
+        "title": "The Ethiopian running secret",
+        "excerpt": "One school of training is highly personalised, technical and data-driven. The other is the one that wins marathons\n- by Michael Crawley & Geoff Burns\nRead on Aeon",
+        "author": "Michael Crawley & Geoff Burns",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 30 Apr 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://aeon.co/essays/what-ethiopian-running-says-about-the-limits-of-human-ability?utm_source=rss-feed"
+      },
+      {
+        "id": "0de4db21",
+        "title": "Tony Mazzocchi Embodied the Best of the Labor Movement",
+        "excerpt": "In 1948, the radical sociologist C. Wright Mills published a book called , which examined the careers of postwar labor leaders who emerged from industrial union struggles in the 1930s. At the time, th",
+        "author": "Steve Early",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-05-03T15:56:47.507Z",
+        "readTime": 11,
+        "wordCount": 2155
+      },
+      {
+        "id": "c666103e",
+        "title": "How the AI Industry Runs on Its Own Money",
+        "excerpt": "It will end really well or really badly",
+        "author": "Alberto Romero",
+        "publication": {
+          "name": "The Algorithmic Bridge",
+          "slug": "algorithmic-bridge",
+          "category": "Technology"
+        },
+        "publishedAt": "Wed, 06 May 2026 20:23:11 GMT",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://www.thealgorithmicbridge.com/p/how-the-ai-industry-runs-on-its-own"
+      },
+      {
+        "id": "a5edcdc2",
+        "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+        "excerpt": "yeehaw",
+        "author": "Adam Mastroianni",
+        "publication": {
+          "name": "Experimental History",
+          "slug": "experimental-history",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 28 Apr 2026 17:48:50 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition"
+      },
+      {
+        "id": "8a91731c",
+        "title": "The Predictive Powers of Bear Poop",
+        "excerpt": "It doesn’t even need to leave the intestines to tell a story\nThe post The Predictive Powers of Bear Poop appeared first on Nautilus.",
+        "author": "Devin Reese",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Tue, 28 Apr 2026 17:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://nautil.us/the-predictive-powers-of-bear-poop-1280275/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-05",
     "title": "Random Digest: May 5, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7786,165 +7944,6 @@
         "readTime": 1,
         "wordCount": 6,
         "url": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-15",
-    "title": "Random Digest: November 15, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-15T02:15:05.033Z",
-    "articles": [
-      {
-        "id": "7c790d1f",
-        "title": "Personal finance links: your next career step",
-        "excerpt": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week’s links including a look at how...",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Wed, 05 Nov 2025 13:55:03 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://abnormalreturns.com/2025/11/05/personal-finance-links-your-next-career-step/"
-      },
-      {
-        "id": "6a1cb978",
-        "title": "The Partial",
-        "excerpt": "Issue #69: Calibrating...",
-        "author": "Marie-Hélène Lebeault - Author",
-        "publication": {
-          "name": "Protocolized",
-          "slug": "protocolized",
-          "category": "Technology"
-        },
-        "publishedAt": "Sun, 09 Nov 2025 03:01:07 GMT",
-        "readTime": 1,
-        "wordCount": 3,
-        "url": "https://protocolized.summerofprotocols.com/p/the-partial"
-      },
-      {
-        "id": "65f6f4a7",
-        "title": "Top Links 911 The end of Fed dominance. Rules v. napkins. Old people playing on phones & JFK and Malraux on the transcendent importance of TV. ",
-        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-        "author": "Adam Tooze",
-        "publication": {
-          "name": "Adam Tooze",
-          "slug": "adam-tooze",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 04 Nov 2025 11:58:21 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://adamtooze.substack.com/p/top-links-911-the-end-of-fed-dominance"
-      },
-      {
-        "id": "af3ed053",
-        "title": "In What Sense Is Life Suffering?",
-        "excerpt": "...",
-        "author": "Scott Alexander",
-        "publication": {
-          "name": "Astral Codex Ten",
-          "slug": "astral-codex-ten",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Fri, 07 Nov 2025 09:39:19 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.astralcodexten.com/p/in-what-sense-is-life-suffering"
-      },
-      {
-        "id": "4a1a82d1",
-        "title": "Start Demagoguing Against the Old",
-        "excerpt": "It's better to adopt political narratives that get closer to the truth",
-        "author": "Richard Hanania",
-        "publication": {
-          "name": "Richard Hanania",
-          "slug": "richard-hanania",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 10 Nov 2025 11:23:27 GMT",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://www.richardhanania.com/p/start-demagoguing-against-the-old"
-      },
-      {
-        "id": "f3ec3760",
-        "title": "In Georgia, power bills beat out party politics",
-        "excerpt": "Will the new Democratic public service commissioners advance clean energy and shake up next year’s midterms?",
-        "author": "Emily Jones",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 06 Nov 2025 21:13:47 +0000",
-        "readTime": 1,
-        "wordCount": 16,
-        "url": "https://grist.org/georgia-psc/in-georgia-power-bills-beat-out-party-politics/"
-      },
-      {
-        "id": "87638dc0",
-        "title": "Carl Sagan Shared a Shocking Space Secret",
-        "excerpt": "The legendary astronomer once unveiled a top-secret plan to detonate a nuclear bomb on the moon\nThe post Carl Sagan Shared a Shocking Space Secret appeared first on Nautilus.",
-        "author": "Molly Glick",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Mon, 10 Nov 2025 17:15:30 +0000",
-        "readTime": 1,
-        "wordCount": 29,
-        "url": "https://nautil.us/carl-sagan-shared-a-shocking-space-secret-1247145/"
-      },
-      {
-        "id": "8c5179bc",
-        "title": "IEA: Fossil-fuel use will peak before 2030 – unless ‘stated policies’ are abandoned",
-        "excerpt": "The world’s fossil-fuel use is still on track to peak before 2030, despite a surge...\nThe post IEA: Fossil-fuel use will peak before 2030 – unless ‘stated policies’ are abandoned appeared first on Car",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 12 Nov 2025 05:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 35,
-        "url": "https://www.carbonbrief.org/iea-fossil-fuel-use-will-peak-before-2030-unless-stated-policies-are-abandoned/"
-      },
-      {
-        "id": "4fedf501",
-        "title": "How to use breathing to control emotions",
-        "excerpt": "Your breath is a powerful tool for managing your emotions – a psychiatrist explains the science and three proven techniques\n- Video by Dr Tracey Marks\nWatch on Psyche",
-        "author": "Psyche Video",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Thu, 06 Nov 2025 11:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 29,
-        "url": "https://psyche.co/videos/the-interplay-between-breath-and-emotion-and-how-to-access-it?utm_source=rss-feed"
-      },
-      {
-        "id": "62dedc19",
-        "title": "On Guillermo del Toro’s adaptation of Frankenstein",
-        "excerpt": "Tyler Dean at Artforum: GUILLERMO DEL TORO‘S new film adaptation of Frankenstein, 2025, hews closely to Mary Shelley’s 1818 novel while weaving in design elements and plot points from its many cinemat",
-        "author": "Morgan Meis",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 11 Nov 2025 17:59:52 +0000",
-        "readTime": 1,
-        "wordCount": 59,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/11/on-guillermo-del-toros-adaptation-of-frankenstein.html"
       }
     ]
   }
