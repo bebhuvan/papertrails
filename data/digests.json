@@ -1,5 +1,163 @@
 [
   {
+    "id": "digest-2026-05-12",
+    "title": "Random Digest: May 12, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-12T04:12:56.099Z",
+    "articles": [
+      {
+        "id": "e8619b8f",
+        "title": "When The Bill Comes Due",
+        "excerpt": "Be wary of the cool new AI tools Anthropic and OpenAI are throwing—because you’ll eventually get stuck with the bill. (By the way, did you know there are cheaper options?)\n\nI think the point where it ",
+        "author": "Ernie Smith",
+        "publication": {
+          "name": "Tedium",
+          "slug": "tedium",
+          "category": "Technology"
+        },
+        "publishedAt": "2026-04-29T03:30:00.000Z",
+        "readTime": 8,
+        "wordCount": 1410,
+        "url": "https://tedium.co/2026/04/28/openai-anthropic-ai-tools-expensive-alternatives/"
+      },
+      {
+        "id": "5ab467bb",
+        "title": "Well, I Can Hammer the CPUs & the GPUs & the NPUs of an M4Max MacStudio After All!: Chart of the Day",
+        "excerpt": "A world full of dark compute as the journey from ENIAC to Nvidia built a world of idle transistors; or, your MacStudio vs. the planet’s datacenters: a thought experiment in silicon and power…",
+        "author": "Brad DeLong",
+        "publication": {
+          "name": "Brad DeLong",
+          "slug": "brad-delong",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 07 May 2026 13:38:33 GMT",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://braddelong.substack.com/p/well-i-can-hammer-the-cpus-and-the"
+      },
+      {
+        "id": "f910973d",
+        "title": "the plurality of accountability (sinks)",
+        "excerpt": "taking the parallax view",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 01 May 2026 14:11:44 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://backofmind.substack.com/p/the-plurality-of-accountability-sinks"
+      },
+      {
+        "id": "82c6f3a3",
+        "title": "Socrates's pupils — part II",
+        "excerpt": "The paths of pleasure and logic",
+        "author": "Massimo Pigliucci",
+        "publication": {
+          "name": "Figs in Winter",
+          "slug": "figs-in-winter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 30 Apr 2026 10:00:37 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://figsinwintertime.substack.com/p/socratess-pupils-part-ii"
+      },
+      {
+        "id": "6d2191d8",
+        "title": "Should Roundup labels warn users about the cancer risk? It’s up to the Supreme Court.",
+        "excerpt": "The ruling could reshape pesticide regulation and test President Trump's base from within.",
+        "author": "Ayurella Horn-Muller",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 04 May 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://grist.org/food-and-agriculture/should-roundup-labels-warn-users-about-the-cancer-risk-its-up-to-the-supreme-court/"
+      },
+      {
+        "id": "a6e8e5c6",
+        "title": "Some Things I’ve Learned Lately",
+        "excerpt": "Hyperinflation, The Wizard of Oz, wealth inequality and energy gains.\nThe post Some Things I’ve Learned Lately appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 05 May 2026 23:26:50 +0000",
+        "readTime": 1,
+        "wordCount": 26,
+        "url": "https://awealthofcommonsense.com/2026/05/some-things-ive-learned-lately/"
+      },
+      {
+        "id": "4ba34331",
+        "title": " Am&#8230;am I  &#8220;alternatively influential&#8221; ?... ",
+        "excerpt": "Am…am I “alternatively influential”? Defined roughly as “public thinkers and tastemakers who have real clout in their own demesnes despite only modest internet followings”.",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-05-01T19:04:25.000Z",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://kottke.org/26/05/0048823-amam-i-alternatively-infl"
+      },
+      {
+        "id": "89061f3b",
+        "title": "While Zach Galifianakis finds peace in gardening, I’m at war with raccoons",
+        "excerpt": "Take it from the comedian and actor: “We should all know how to garden. It’s a better hobby than jetskiing.”",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 01 May 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://grist.org/food-and-agriculture/while-zach-galifianakis-finds-peace-in-gardening-im-at-war-with-raccoons/"
+      },
+      {
+        "id": "b6402025",
+        "title": "The Devil Wears Prada 2 Hits the Right Bleak Notes",
+        "excerpt": "to the top of the box office in the first days of its theatrical run — a surprise to no one who saw the first  twenty years ago, then watched its popularity grow over the decades from a brisk, lively ",
+        "author": "Eileen Jones",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-05-06T17:20:44.207Z",
+        "readTime": 7,
+        "wordCount": 1292
+      },
+      {
+        "id": "b386145d",
+        "title": "What is happening in the world",
+        "excerpt": "AI, stagnation, populism, my theory of wokeism, and more",
+        "author": "Jason Crawford",
+        "publication": {
+          "name": "Roots of Progress",
+          "slug": "roots-of-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Sun, 03 May 2026 18:17:14 GMT",
+        "readTime": 1,
+        "wordCount": 9,
+        "url": "https://newsletter.rootsofprogress.org/p/what-is-happening-in-the-world"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-09",
     "title": "Random Digest: May 9, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7785,165 +7943,6 @@
         "readTime": 1,
         "wordCount": 22,
         "url": "https://abnormalreturns.com/2025/11/20/longform-links-getting-your-moneys-worth/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-18",
-    "title": "Random Digest: November 18, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-18T02:18:12.756Z",
-    "articles": [
-      {
-        "id": "8b5fff94",
-        "title": "‘We are not here for theater’: Can the ‘most Indigenous COP’ live up to the hype?",
-        "excerpt": "Brazil’s push to spotlight Indigenous voices at COP30 could redefine what inclusion looks like — or expose how shallow it’s been.",
-        "author": "Amanda Magnani",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 10 Nov 2025 09:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://grist.org/global-indigenous-affairs-desk/we-are-not-here-for-theater-can-the-most-indigenous-cop-live-up-to-the-hype/"
-      },
-      {
-        "id": "eba7c8a9",
-        "title": " If you&#8217;re looking for a typeface with Radio Shack logo vibes, try... ",
-        "excerpt": "If you’re looking for a typeface with Radio Shack logo vibes, try Megazoid.\n\n        \n\n        \n\n         \n💬 Join the discussion on kottke.org →",
-        "author": "Jason Kottke",
-        "publication": {
-          "name": "Kottke.org",
-          "slug": "kottke",
-          "category": "Culture"
-        },
-        "publishedAt": "2025-11-10T15:19:44.000Z",
-        "readTime": 1,
-        "wordCount": 20,
-        "url": "https://kottke.org/25/11/0047813-if-youre-looking-for-a"
-      },
-      {
-        "id": "9af5f18b",
-        "title": "From Deep Blue Mud, Unexpected Life Emerges",
-        "excerpt": "Surprise biology in deep-sea mud volcanoes\nThe post From Deep Blue Mud, Unexpected Life Emerges appeared first on Nautilus.",
-        "author": "Devin Reese",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Tue, 11 Nov 2025 20:27:23 +0000",
-        "readTime": 1,
-        "wordCount": 19,
-        "url": "https://nautil.us/from-deep-blue-mud-unexpected-life-emerges-1247288/"
-      },
-      {
-        "id": "75996e9b",
-        "title": "How Brazil’s New Digital Payments System Managed to Enrage (and Terrify) Both Wall Street and Silicon Valley",
-        "excerpt": "A mobile payments system that is publicly controlled, easy to use and without fees (for individuals and small businesses) is \"tough to beat.”",
-        "author": "Nick Corbishley",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Tue, 04 Nov 2025 11:45:09 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://www.nakedcapitalism.com/2025/11/how-brazil-managed-to-infuriate-and-terrify-wall-street-and-silicon-valley-at-the-same-time.html"
-      },
-      {
-        "id": "9d7ad7fa",
-        "title": "No-Corner Futarchy",
-        "excerpt": "In March 1980, the Hunt Brothers tried but failed to corner the silver market.",
-        "author": "Robin Hanson",
-        "publication": {
-          "name": "Overcoming Bias",
-          "slug": "overcoming-bias",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Thu, 06 Nov 2025 20:33:44 GMT",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://www.overcomingbias.com/p/no-corner-futarchy"
-      },
-      {
-        "id": "af4cd9f3",
-        "title": "Adviser links: building deeper connections",
-        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Mon, 17 Nov 2025 15:14:51 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://abnormalreturns.com/2025/11/17/adviser-links-building-deeper-connections/"
-      },
-      {
-        "id": "e180ac1b",
-        "title": "Donald Trump, Jeffrey Epstein, and Israel",
-        "excerpt": "We know that Donald Trump was extremely close with an incredibly prolific child sex abuser, Jeffrey Epstein. But recent revelations raise another question: Was Trump’s association with Epstein used by",
-        "author": "Branko Marcetic",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-11-17T13:33:28.000Z",
-        "readTime": 7,
-        "wordCount": 1274,
-        "url": "https://jacobin.com/2025/11/trump-epstein-israel-intelligence-blackmail/"
-      },
-      {
-        "id": "d595a7ac",
-        "title": "Analysis: China’s CO2 emissions have now been flat or falling for 18 months",
-        "excerpt": "China’s carbon dioxide (CO2) emissions were unchanged from a year earlier in the third quarter...\nThe post Analysis: China’s CO2 emissions have now been flat or falling for 18 months appeared first on",
-        "author": "Lauri Myllyvirta",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Tue, 11 Nov 2025 00:01:00 +0000",
-        "readTime": 1,
-        "wordCount": 35,
-        "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-18-months/"
-      },
-      {
-        "id": "9ab70155",
-        "title": "Bridge Atlas Episode 4: Alignment",
-        "excerpt": "Issue #72: A conversation with Alex Stokes and Emmett Shear",
-        "author": "Protocolized",
-        "publication": {
-          "name": "Protocolized",
-          "slug": "protocolized",
-          "category": "Technology"
-        },
-        "publishedAt": "Sat, 15 Nov 2025 22:45:35 GMT",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://protocolized.summerofprotocols.com/p/bridge-atlas-episode-4-alignment"
-      },
-      {
-        "id": "7d43a8d2",
-        "title": "You say potato, I say leprosy",
-        "excerpt": "Links 'n' updates for Fall 2025",
-        "author": "Adam Mastroianni",
-        "publication": {
-          "name": "Experimental History",
-          "slug": "experimental-history",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 12 Nov 2025 00:45:53 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy"
       }
     ]
   }
