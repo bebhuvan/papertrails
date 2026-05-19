@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-05-19",
+    "title": "Random Digest: May 19, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-19T04:40:50.448Z",
+    "articles": [
+      {
+        "id": "27fd7b0a",
+        "title": "Can Selective Breeding Save Bulldogs from Their Breathing Problems?",
+        "excerpt": "New research is pointing to relief for out flattest-faced dogs\nThe post Can Selective Breeding Save Bulldogs from Their Breathing Problems? appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 13 May 2026 18:32:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://nautil.us/can-selective-breeding-save-bulldogs-from-their-breathing-problems-1280724/"
+      },
+      {
+        "id": "f0fe05fe",
+        "title": "Washington Is Closer Than Ever to Pulling Off Its 66-Year Dream of Regime Change in Cuba",
+        "excerpt": "The fact that the head of the CIA is in Havana meeting with senior government figures suggests that things could be about to move -- and possibly break -- very quickly.",
+        "author": "Nick Corbishley",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 15 May 2026 10:45:06 +0000",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://www.nakedcapitalism.com/2026/05/is-the-us-about-to-attack-cuba.html"
+      },
+      {
+        "id": "aab4538c",
+        "title": "Report: Nevada’s lithium boom comes at the expense of Indigenous rights",
+        "excerpt": "As demand for critical minerals surges, Indigenous leaders and Amnesty International say mining projects are advancing without tribal consent.",
+        "author": "Joseph Lee",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 12 May 2026 20:55:29 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/indigenous/report-nevadas-lithium-boom-comes-at-the-expense-of-indigenous-rights/"
+      },
+      {
+        "id": "10e3fb44",
+        "title": "  Could This Fish Be a Notebook?  &#8220;David Byrne... ",
+        "excerpt": "Could This Fish Be a Notebook? “David Byrne learns how fisheries from Iceland to the Great Lakes are using 100% of their catch — and shares his tips for making fish head soup.”",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-05-05T16:20:00.000Z",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://kottke.org/26/05/0048873-could-this-fish-be-a-note"
+      },
+      {
+        "id": "dfc0b54e",
+        "title": "The AI trial of the century ends with a whimper",
+        "excerpt": "and so there are some things we will never know",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Mon, 18 May 2026 18:30:21 GMT",
+        "readTime": 1,
+        "wordCount": 10,
+        "url": "https://garymarcus.substack.com/p/the-ai-trial-of-the-century-ends"
+      },
+      {
+        "id": "d088c7c0",
+        "title": "How to know what politicians really think ",
+        "excerpt": "Plus AOC vs. Mamdani, the DC mayor’s race, and plot vs. story",
+        "author": "Matthew Yglesias",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 15 May 2026 10:01:02 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.slowboring.com/p/how-to-know-what-politicians-really"
+      },
+      {
+        "id": "a92fe1e8",
+        "title": "Priced for Perfection",
+        "excerpt": "96\n            \n        \n        \n        \n        \n        \n        Priced for Perfection\n        \n    \n\t\tp{\n\t\t\tmargin:10px 0;\n\t\t\tpadding:0;\n\t\t}\n\t\ttable{\n\t\t\tborder-collapse:collapse;\n\t\t}\n\t\th1,h2,h3,h",
+        "author": "Campaign Archive",
+        "publication": {
+          "name": "Campaign Archive Newsletter",
+          "slug": "campaign-archive-newsletter",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 18 May 2026 13:00:00 +0000",
+        "readTime": 7,
+        "wordCount": 1364,
+        "url": "https://mailchi.mp/verdadcap/priced-for-perfection"
+      },
+      {
+        "id": "2d2ad893",
+        "title": "Virtual Civil Society Is Coming To China",
+        "excerpt": "The post Virtual Civil Society Is Coming To China appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 08 May 2026 16:45:43 +0000",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://www.noemamag.com/virtual-civil-society-is-coming-to-china"
+      },
+      {
+        "id": "7c187d5f",
+        "title": "You're Invited: A Conversation About the \"Troubled\" Film",
+        "excerpt": "",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 14 May 2026 14:10:33 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.robkhenderson.com/p/youre-invited-a-conversation-about"
+      },
+      {
+        "id": "0e03b4a2",
+        "title": "The solution to urban heat is much, much simpler than you think",
+        "excerpt": "No shade, but cities aren’t planting enough trees.",
+        "author": "Matt Simon",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 08 May 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 8,
+        "url": "https://grist.org/cities/the-solution-to-urban-heat-is-much-much-simpler-than-you-think/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-16",
     "title": "Random Digest: May 16, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7783,165 +7942,6 @@
         "readTime": 1,
         "wordCount": 1,
         "url": "https://www.robinsloan.com/lab/companies-ideas/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-25",
-    "title": "Random Digest: November 25, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-25T02:19:46.378Z",
-    "articles": [
-      {
-        "id": "02d97a25",
-        "title": "Can Mamdani supercharge New York’s clean energy revolution?",
-        "excerpt": "New York Mayor-elect Zohran Mamdani promised power to the people. Clean energy advocates want him to take that literally.",
-        "author": "Sophie Hurwitz",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 19 Nov 2025 09:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 19,
-        "url": "https://grist.org/energy/can-mamdani-supercharge-new-yorks-clean-energy-revolution/"
-      },
-      {
-        "id": "ddbf9242",
-        "title": "This Is a Laser Blast Straight to the Psyche",
-        "excerpt": "In a demonstration of long-distant space communication, NASA beamed photons to a receiver millions of miles from Earth\nThe post This Is a Laser Blast Straight to the Psyche appeared first on Nautilus.",
-        "author": "Bob Grant",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 12 Nov 2025 01:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 33,
-        "url": "https://nautil.us/this-is-a-laser-blast-straight-to-the-psyche-1247317/"
-      },
-      {
-        "id": "b99f7a01",
-        "title": "Open Thread 409",
-        "excerpt": "...",
-        "author": "Scott Alexander",
-        "publication": {
-          "name": "Astral Codex Ten",
-          "slug": "astral-codex-ten",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 24 Nov 2025 13:01:58 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.astralcodexten.com/p/open-thread-409"
-      },
-      {
-        "id": "0e56d489",
-        "title": "Pluralistic: Boss preppers (22 Nov 2025)",
-        "excerpt": "Today's links Boss preppers: What does a captain of industry have to offer after the shit hits the fan? Hey look at this: Delights to delectate. Object permanence: Yahoo blocks webmail for adblockers;",
-        "author": "Cory Doctorow",
-        "publication": {
-          "name": "Pluralistic",
-          "slug": "pluralistic",
-          "category": "Technology"
-        },
-        "publishedAt": "Sat, 22 Nov 2025 19:08:09 +0000",
-        "readTime": 11,
-        "wordCount": 2007,
-        "url": "https://pluralistic.net/2025/11/22/eschatology-watch/"
-      },
-      {
-        "id": "33911b82",
-        "title": "Unionized Starbucks Workers Are on Strike Across the US",
-        "excerpt": "Starbucks workers at 65 stores in 40 cities across the US walked out Thursday, striking against what they describe as unfair labor practices and the company’s stonewalling at the bargaining table. The",
-        "author": "Jenny Brown",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-11-15T09:03:03.000Z",
-        "readTime": 4,
-        "wordCount": 747,
-        "url": "https://jacobin.com/2025/11/starbucks-union-red-cup-strike/"
-      },
-      {
-        "id": "0920a81c",
-        "title": "Viewpoint diversity and its limits",
-        "excerpt": "Affirmative action for iconoclasts?",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Mon, 17 Nov 2025 14:15:33 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://smallpotatoes.paulbloom.net/p/viewpoint-diversity-and-its-limits"
-      },
-      {
-        "id": "0feb7737",
-        "title": "Cropped 19 November 2025: COP30 edition",
-        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 19 November 2025: COP30 edition appeared first on Carbon Brief.",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 19 Nov 2025 14:56:27 +0000",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://www.carbonbrief.org/cropped-19-november-2025-cop30-edition/"
-      },
-      {
-        "id": "5c5a89dc",
-        "title": "Thursday links: an overwhelming swirl",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Thu, 13 Nov 2025 17:58:24 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/11/13/thursday-links-an-overwhelming-swirl/"
-      },
-      {
-        "id": "7e0260d6",
-        "title": " How Mira Nair Built the World That Made Zohran Mamdani. &#8220;Zohran has... ",
-        "excerpt": "How Mira Nair Built the World That Made Zohran Mamdani. “Zohran has been marinated in love, not just from us, his parents, but from intergenerational family life. He’s so secure in knowing who he is.”",
-        "author": "Jason Kottke",
-        "publication": {
-          "name": "Kottke.org",
-          "slug": "kottke",
-          "category": "Culture"
-        },
-        "publishedAt": "2025-11-17T22:47:40.000Z",
-        "readTime": 1,
-        "wordCount": 35,
-        "url": "https://kottke.org/25/11/0047859-how-mira-nair-built-the"
-      },
-      {
-        "id": "ec4c1331",
-        "title": "Cliffwater Corporate Lending Fund Makes History with ‘A’ Rating from S&P Global",
-        "excerpt": "A Milestone Achievement for Interval Funds",
-        "author": "Larry Swedroe",
-        "publication": {
-          "name": "Larry Swedroe",
-          "slug": "larry-swedroe",
-          "category": "Economics"
-        },
-        "publishedAt": "Fri, 21 Nov 2025 13:00:09 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://larryswedroe.substack.com/p/cliffwater-corporate-lending-fund"
       }
     ]
   }
