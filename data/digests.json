@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-05-23",
+    "title": "Random Digest: May 23, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-23T04:23:11.710Z",
+    "articles": [
+      {
+        "id": "86faf22e",
+        "title": "Talk Your Book: Is the Nasdaq 100 in Another Bubble? ",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 18 May 2026 11:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/talk-your-book-is-the-nasdaq-100-in-another-bubble"
+      },
+      {
+        "id": "5b737fa0",
+        "title": "🍪 TWiC: GaN vs SiC, Wolfspeed, Semtech",
+        "excerpt": "A random collection of unfinished thoughts through the week that needs exploring.",
+        "author": "Vikram Sekar",
+        "publication": {
+          "name": "Vik's Newsletter",
+          "slug": "viks-newsletter",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 15 May 2026 16:39:57 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.viksnewsletter.com/p/twic-gan-vs-sic-wolfspeed-semtech"
+      },
+      {
+        "id": "ef024431",
+        "title": "In a rare show of global unity, countries adopt landmark climate ruling",
+        "excerpt": "Despite U.S. opposition, an overwhelming majority of nations agreed that failing to address climate change could be grounds to seek reparations.",
+        "author": "Naveena Sadasivam",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 22 May 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 21,
+        "url": "https://grist.org/international/in-a-rare-show-of-global-unity-countries-adopt-landmark-climate-ruling/"
+      },
+      {
+        "id": "f47083e6",
+        "title": "Trump gutted USAID. Hunger and violence followed.",
+        "excerpt": "Researchers are just beginning to understand the human cost of America's retreat from international aid.",
+        "author": "Ayurella Horn-Muller",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 19 May 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://grist.org/food-and-agriculture/trump-gutted-usaid-hunger-and-violence-followed/"
+      },
+      {
+        "id": "8f16c074",
+        "title": "Nate's 3 rules for constitutional hardball",
+        "excerpt": "A “democracy agenda” should be principled, create a stable equilibrium, and pass muster with voters.",
+        "author": "Nate Silver",
+        "publication": {
+          "name": "Silver Bulletin",
+          "slug": "silver-bulletin",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 15 May 2026 16:38:45 GMT",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://www.natesilver.net/p/nates-3-rules-for-constitutional"
+      },
+      {
+        "id": "9282f48b",
+        "title": " I have always liked Steve Kerr, but I did not expect to... ",
+        "excerpt": "I have always liked Steve Kerr, but I did not expect to read this whole 15,000-word profile of him at ESPN. Really interesting throughout.",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-05-18T14:45:00.000Z",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://kottke.org/26/05/0048963-this-whole-15000-word-pro"
+      },
+      {
+        "id": "08d81e85",
+        "title": "Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstellar Visitors",
+        "excerpt": "Astronomers are preparing for a new era of big-data astronomy, and results are already starting to arrive.            \nThe post Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstel",
+        "author": "Jonathan O'Callaghan",
+        "publication": {
+          "name": "Quanta Magazine",
+          "slug": "quanta-magazine",
+          "category": "Science"
+        },
+        "publishedAt": "Fri, 15 May 2026 13:50:50 +0000",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/"
+      },
+      {
+        "id": "eecca4e3",
+        "title": "My President Went to China, and All I Got Was Even More Expensive Gasoline",
+        "excerpt": "Higher oil exports hurt most Americans",
+        "author": "Paul Krugman",
+        "publication": {
+          "name": "Paul Krugman",
+          "slug": "paul-krugman",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 15 May 2026 10:31:09 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://paulkrugman.substack.com/p/my-president-went-to-china-and-all"
+      },
+      {
+        "id": "ccd8a6a3",
+        "title": "Hidden Open Thread 434.5",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Thu, 21 May 2026 00:10:27 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/hidden-open-thread-4345"
+      },
+      {
+        "id": "8b1ba82b",
+        "title": "True resilience is not about bouncing back",
+        "excerpt": "I hate talk of resilience: it places an expectation on people to return to how they were. That’s not how real recovery works\n- by Philip T Starks\nRead on Psyche",
+        "author": "Philip T Starks",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 12 May 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 31,
+        "url": "https://psyche.co/ideas/true-resilience-is-not-about-bouncing-back"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-19",
     "title": "Random Digest: May 19, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7783,165 +7942,6 @@
         "readTime": 1,
         "wordCount": 29,
         "url": "https://awealthofcommonsense.com/2025/11/how-much-will-the-stock-market-fall-in-2026/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-11-29",
-    "title": "Random Digest: November 29, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-11-29T02:17:00.944Z",
-    "articles": [
-      {
-        "id": "57e4276c",
-        "title": "Easter Island Statue Construction Wasn’t a Top-Down Affair",
-        "excerpt": "New research reveals moai creation was a decentralized process\nThe post Easter Island Statue Construction Wasn’t a Top-Down Affair appeared first on Nautilus.",
-        "author": "Jake Currie",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 26 Nov 2025 19:02:00 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://nautil.us/easter-island-statue-construction-wasnt-a-top-down-affair-1250397/"
-      },
-      {
-        "id": "33cbf10b",
-        "title": "You Don't Need a Better Pickup Line. You Need a Better Life. ",
-        "excerpt": "",
-        "author": "Rob Henderson",
-        "publication": {
-          "name": "Rob Henderson",
-          "slug": "rob-henderson",
-          "category": "Psychology"
-        },
-        "publishedAt": "Sun, 23 Nov 2025 15:36:42 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.robkhenderson.com/p/you-dont-need-a-better-pickup-line"
-      },
-      {
-        "id": "af4cd9f3",
-        "title": "Adviser links: building deeper connections",
-        "excerpt": "Mondays are all about financial adviser-related links here at Abnormal Returns. You can check out last week’s links including a look at...",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Mon, 17 Nov 2025 15:14:51 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://abnormalreturns.com/2025/11/17/adviser-links-building-deeper-connections/"
-      },
-      {
-        "id": "072dfaed",
-        "title": "Secret Squirrel writes about Alice Munro",
-        "excerpt": "is her fiction a celebration of the cruelty of the erotic?",
-        "author": "Henry Oliver",
-        "publication": {
-          "name": "Common Reader",
-          "slug": "common-reader",
-          "category": "Culture"
-        },
-        "publishedAt": "Thu, 20 Nov 2025 01:48:03 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.commonreader.co.uk/p/secret-squirrel-writes-about-alice"
-      },
-      {
-        "id": "14dc2d65",
-        "title": "Social Reuse of Seized Assets",
-        "excerpt": "The Taxcast goes to West Yorkshire in the North of England to see social reuse of seized assets in action.",
-        "author": "Conor Gallagher",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Mon, 17 Nov 2025 09:00:43 +0000",
-        "readTime": 1,
-        "wordCount": 20,
-        "url": "https://www.nakedcapitalism.com/2025/11/social-reuse-of-seized-assets.html"
-      },
-      {
-        "id": "b1602d5d",
-        "title": "At COP30 in Brazil, countries plan to armor themselves against a warming world",
-        "excerpt": "In the eyes of many leaders of developing countries, the success of COP30 hinges on the billions of dollars they need to prepare for climate disasters.",
-        "author": "Zoya Teirstein",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 20 Nov 2025 00:07:43 +0000",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://grist.org/cop30/cop30-brazil-adaptation-finance/"
-      },
-      {
-        "id": "cc8e1a55",
-        "title": "How gas stations can become the best place to charge your EV",
-        "excerpt": "Fuel retailers are betting that fast chargers, clean bathrooms, and tasty snacks will draw EV drivers — and keep their stations central to how motorists refuel.",
-        "author": "Benton Graham",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 24 Nov 2025 09:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://grist.org/solutions/how-gas-stations-can-become-the-best-place-to-charge-your-ev/"
-      },
-      {
-        "id": "b2898af4",
-        "title": "Fear is the Heart of All Bad Things",
-        "excerpt": "when you choose to drive your kid to school instead of letting them walk or take the bus, you're endangering them",
-        "author": "Freddie deBoer",
-        "publication": {
-          "name": "Freddie deBoer",
-          "slug": "freddie-deboer",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 17 Nov 2025 13:03:06 GMT",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://freddiedeboer.substack.com/p/fear-is-the-heart-of-all-bad-things"
-      },
-      {
-        "id": "51efeaaf",
-        "title": "The Case For AI ‘Datarails’",
-        "excerpt": "The post The Case For AI ‘Datarails’ appeared first on NOEMA.",
-        "author": "Martin Skladany",
-        "publication": {
-          "name": "Noema",
-          "slug": "noema",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Thu, 20 Nov 2025 17:33:25 +0000",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://www.noemamag.com/the-case-for-ai-datarails"
-      },
-      {
-        "id": "7f8b0961",
-        "title": "Dragoncatcher: The age of scaling",
-        "excerpt": "",
-        "author": "Robin Sloan",
-        "publication": {
-          "name": "Robin Sloan",
-          "slug": "robin-sloan",
-          "category": "Technology"
-        },
-        "publishedAt": "2025-11-25T16:00:00.000Z",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.robinsloan.com/lab/companies-ideas/"
       }
     ]
   }
