@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-05-30",
+    "title": "Random Digest: May 30, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-05-30T04:32:41.714Z",
+    "articles": [
+      {
+        "id": "6696b181",
+        "title": "This “Feathered Dragon” Shook Its Tail Feathers in the Time of Dinosaurs",
+        "excerpt": "Some things never go out of style\nThe post This “Feathered Dragon” Shook Its Tail Feathers in the Time of Dinosaurs appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 28 May 2026 12:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://nautil.us/this-feathered-dragon-shook-its-tail-feathers-in-the-time-of-dinosaurs-1281472/"
+      },
+      {
+        "id": "a9a098c7",
+        "title": "This one weird trick might cost your retirement fund billions",
+        "excerpt": "You should scream to your congresspeople",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 22 May 2026 13:41:19 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://garymarcus.substack.com/p/this-one-weird-trick-might-cost-your"
+      },
+      {
+        "id": "0768c76d",
+        "title": "How to be defiant",
+        "excerpt": "Staying silent often feels like the safe choice, but the costs can be profound. Here’s how to stand up for yourself\n- by Sunita Sah\nRead on Psyche",
+        "author": "Sunita Sah",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Mon, 25 May 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://psyche.co/guides/how-to-be-defiant"
+      },
+      {
+        "id": "03dc8a96",
+        "title": "Animal Spirits: The Fat Pitch For Bears",
+        "excerpt": "",
+        "author": "Michael Batnick",
+        "publication": {
+          "name": "Meb Faber Research",
+          "slug": "meb-faber-research",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 20 May 2026 11:15:00 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.theirrelevantinvestor.com/p/animal-spirits-the-fat-pitch-for-bears"
+      },
+      {
+        "id": "fe2ca910",
+        "title": "New Paradigms Won't Save You",
+        "excerpt": "...",
+        "author": "Scott Alexander",
+        "publication": {
+          "name": "Astral Codex Ten",
+          "slug": "astral-codex-ten",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 22 May 2026 08:49:25 GMT",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://www.astralcodexten.com/p/new-paradigms-wont-save-you"
+      },
+      {
+        "id": "9b13a0bc",
+        "title": " There are no lightsabers in The Mandalorian and Grogu,  a... ",
+        "excerpt": "There are no lightsabers in The Mandalorian and Grogu, a first for Star Wars films. There are also no Wilhelm screams in the movie, which is weird because I thought I heard snippets of it everywhere (",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-05-28T15:45:00.000Z",
+        "readTime": 1,
+        "wordCount": 43,
+        "url": "https://kottke.org/26/05/0049027-a-first-for-star-wars-fil"
+      },
+      {
+        "id": "558bbe01",
+        "title": "Iran War: Trump’s Latest TACO on Iran Strike Pits Gulf States Against Israel; Bond Market Tremors Add to Hard-to-Deny Signs of Economic Stress",
+        "excerpt": "Today's Iran war update: Has seemingly irresistible force Israel met immovable objects in the form of Gulf states and the bond markets?",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Tue, 19 May 2026 10:58:22 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://www.nakedcapitalism.com/2026/05/iran-war-trumps-latest-taco-on-iran-strike-pits-gulf-states-against-israel-bond-market-tremors-add-to-hard-to-deny-signs-of-economic-stress.html"
+      },
+      {
+        "id": "cb5169b3",
+        "title": "Māori climate risk worsened by colonization, report finds",
+        "excerpt": "A sweeping national climate assessment argues that exclusion from decision-making has amplified Indigenous vulnerability to floods, storms, and erosion.",
+        "author": "Te Aniwaniwa Paterson",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 19 May 2026 08:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 19,
+        "url": "https://grist.org/global-indigenous-affairs-desk/maori-climate-risk-worsened-by-colonization-report-finds/"
+      },
+      {
+        "id": "5f23b656",
+        "title": "Wildfire smoke engulfed their cities. Did it make their babies sick?",
+        "excerpt": "Years after wildfire scares, parents are left wondering if their children's chronic illnesses began with what was in the air before they were born.",
+        "author": "Zoya Teirstein",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 28 May 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/health/wildfire-smoke-engulfed-their-cities-did-it-make-their-babies-sick/"
+      },
+      {
+        "id": "cadfd631",
+        "title": "LLMs and the Library Card Fallacy",
+        "excerpt": "the LLM tutor story is the Khan Academy story is the MOOCs story",
+        "author": "Freddie deBoer",
+        "publication": {
+          "name": "Freddie deBoer",
+          "slug": "freddie-deboer",
+          "category": "Politics"
+        },
+        "publishedAt": "Thu, 21 May 2026 20:10:47 GMT",
+        "readTime": 1,
+        "wordCount": 13,
+        "url": "https://freddiedeboer.substack.com/p/llms-and-the-library-card-fallacy"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-05-26",
     "title": "Random Digest: May 26, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7782,165 +7941,6 @@
         "readTime": 1,
         "wordCount": 8,
         "url": "https://www.thealgorithmicbridge.com/p/the-death-of-the-english-language"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-06",
-    "title": "Random Digest: December 6, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-06T02:16:23.182Z",
-    "articles": [
-      {
-        "id": "2667093e",
-        "title": "Pluralistic: Google steers Americans looking for health care into \"junk insurance\" (25 Nov 2025)",
-        "excerpt": "Today's links Google steers Americans looking for health care into \"junk insurance\" : An enshittified search monopolist meets the worst health care system imaginable. Hey look at this: Delights to del",
-        "author": "Cory Doctorow",
-        "publication": {
-          "name": "Pluralistic",
-          "slug": "pluralistic",
-          "category": "Technology"
-        },
-        "publishedAt": "Tue, 25 Nov 2025 16:19:19 +0000",
-        "readTime": 12,
-        "wordCount": 2258,
-        "url": "https://pluralistic.net/2025/11/25/open-season/"
-      },
-      {
-        "id": "d675173a",
-        "title": "Here’s Why Some Insomniacs Can’t Sleep",
-        "excerpt": "Downshifting from the noise of the day is easier for some than others\nThe post Here’s Why Some Insomniacs Can’t Sleep appeared first on Nautilus.",
-        "author": "Bob Grant",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Thu, 04 Dec 2025 01:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://nautil.us/heres-why-some-insomniacs-cant-sleep-1252355/"
-      },
-      {
-        "id": "ae9125df",
-        "title": "Dealing With Turbulent Times: Be The “Purple Thread”",
-        "excerpt": "how to remain engaged with a world that seems to be going off-kilter",
-        "author": "Gregory B. Sadler",
-        "publication": {
-          "name": "Gregory B. Sadler",
-          "slug": "gregory-b-sadler",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Sat, 22 Nov 2025 03:07:12 GMT",
-        "readTime": 1,
-        "wordCount": 13,
-        "url": "https://gregorybsadler.substack.com/p/dealing-with-turbulent-times-be-the"
-      },
-      {
-        "id": "f5712371",
-        "title": "Synthetic tongue rates chillies’ heat — and spares human tasters",
-        "excerpt": "Jenna Ahart in Nature: A gel-based artificial tongue can determine the spiciness of a wide range of foods, from the forgiving bell pepper to the more formidable ‘facing heaven’ chili of Sichuan cuisin",
-        "author": "Azra Raza",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Mon, 24 Nov 2025 14:38:37 +0000",
-        "readTime": 1,
-        "wordCount": 62,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/11/synthetic-tongue-rates-chillies-heat-and-spares-human-tasters.html"
-      },
-      {
-        "id": "1fca8b22",
-        "title": "Trump to Disaster Victims: Drop Dead",
-        "excerpt": "Sorry, but we don’t help the little people",
-        "author": "Paul Krugman",
-        "publication": {
-          "name": "Paul Krugman",
-          "slug": "paul-krugman",
-          "category": "Economics"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 11:31:14 GMT",
-        "readTime": 1,
-        "wordCount": 8,
-        "url": "https://paulkrugman.substack.com/p/trump-to-disaster-victims-drop-dead"
-      },
-      {
-        "id": "8abd8190",
-        "title": "For maximisers, bad choices really sting",
-        "excerpt": "We all make wrong decisions, but if you’re a ‘maximiser’ rather than a ‘satisficer’, the regret hurts all the more\n- by Richard Fisher\nRead on Psyche",
-        "author": "Richard Fisher",
-        "publication": {
-          "name": "Psyche",
-          "slug": "psyche",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 11:00:00 GMT",
-        "readTime": 1,
-        "wordCount": 27,
-        "url": "https://psyche.co/notes-to-self/ive-experienced-the-intense-regret-of-being-a-maximiser?utm_source=rss-feed"
-      },
-      {
-        "id": "f3058fde",
-        "title": "Revealed: Leak casts doubt on COP30’s ‘informal list’ of fossil-fuel roadmap opponents",
-        "excerpt": "A confused – and, at times, contradictory – story has emerged about precisely which countries...\nThe post Revealed: Leak casts doubt on COP30’s ‘informal list’ of fossil-fuel roadmap opponents appeare",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 28 Nov 2025 13:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 34,
-        "url": "https://www.carbonbrief.org/revealed-leak-casts-doubt-on-cop30s-informal-list-of-fossil-fuel-roadmap-opponents/"
-      },
-      {
-        "id": "2c6107b2",
-        "title": "Animal Spirits: Age of Discontentment",
-        "excerpt": "On today's show we discuss why boring plain vanilla portfolios are hard to beat, predicting the 2026 stock market, Robinhood is Netflix, teens investing in stocks, all-time highs in rich people, the c",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 12:15:35 +0000",
-        "readTime": 1,
-        "wordCount": 69,
-        "url": "https://awealthofcommonsense.com/2025/12/animal-spirits-age-of-discontentment/"
-      },
-      {
-        "id": "de69e740",
-        "title": "Zillow deletes climate risk data from listings after complaints it harms sales",
-        "excerpt": "The site removed the feature after real estate agents and some homeowners alleged that the scores appear arbitrary and hurt sales.",
-        "author": "Oliver Milman, The Guardian",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 04 Dec 2025 09:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://grist.org/housing/zillow-deletes-climate-risk-data-from-listings-after-complaints-it-harms-sales/"
-      },
-      {
-        "id": "8e5a240c",
-        "title": "The Rise of Chile’s Hard Right",
-        "excerpt": "The first round of voting in Chile’s general election in November saw the shocking rise of the far right and the collapse of the country’s new left. It’s a crushing but not total defeat for the moveme",
-        "author": "René Rojas",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-12-02T13:22:13.000Z",
-        "readTime": 20,
-        "wordCount": 3868,
-        "url": "https://jacobin.com/2025/12/chile-far-right-election-boric/"
       }
     ]
   }
