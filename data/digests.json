@@ -1,5 +1,163 @@
 [
   {
+    "id": "digest-2026-06-06",
+    "title": "Random Digest: June 6, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-06-06T04:35:35.204Z",
+    "articles": [
+      {
+        "id": "2f330b61",
+        "title": "The Housing Market Recession",
+        "excerpt": "The luck of the draw in your career.\nThe post The Housing Market Recession appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Tue, 02 Jun 2026 18:40:23 +0000",
+        "readTime": 1,
+        "wordCount": 23,
+        "url": "https://awealthofcommonsense.com/2026/06/the-housing-market-recession/"
+      },
+      {
+        "id": "6b973aec",
+        "title": "American Communists Did a Lot Right and a Lot Wrong",
+        "excerpt": "I was a small child while the Eastern Bloc was collapsing. During this time, my parents and I would vacation in Upstate New York at a retreat called Arrow Park. The austere resort was known for being ",
+        "author": "David Duhalde",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-06-01T14:37:08.570Z",
+        "readTime": 20,
+        "wordCount": 3831
+      },
+      {
+        "id": "90104d7f",
+        "title": "Links 5/28/2026",
+        "excerpt": "<a href=\"https://www.nakedcapitalism.com/2026/05/links-5-28-2026.html\"><img class=\"aligncenter size-large wp-image-310952\" src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Screenshot-20",
+        "author": "Conor Gallagher",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Thu, 28 May 2026 10:58:03 +0000",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.nakedcapitalism.com/2026/05/links-5-28-2026.html"
+      },
+      {
+        "id": "10bb9884",
+        "title": "The roots of goodness",
+        "excerpt": "Ervin Staub survived the Holocaust as a child. As a psychologist, he spent a lifetime asking how cruelty takes hold – and whether kindness can, too\n- by Michael Bond\nRead on Psyche",
+        "author": "Michael Bond",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Wed, 27 May 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 33,
+        "url": "https://psyche.co/portraits/holocaust-survivor-ervin-staub-how-to-stop-evil-taking-root"
+      },
+      {
+        "id": "f51902e9",
+        "title": "A simple — yet expensive — way to climate-proof the grid: Bury the power lines",
+        "excerpt": "Underground power lines are far less vulnerable to extreme weather, but burying them doesn't come cheap. After a historic ice storm in northern Michigan, utilities there are reconsidering the cost.",
+        "author": "Vivian La",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 01 Jun 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://grist.org/solutions/a-simple-yet-expensive-way-to-climate-proof-the-grid-bury-the-power-lines/"
+      },
+      {
+        "id": "776fcd00",
+        "title": "The meatseller",
+        "excerpt": "Selinna is 15 when she leaves her home in Nigeria, bound for Italy, a journey as perilous as it is transformative\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Wed, 27 May 2026 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 28,
+        "url": "https://aeon.co/videos/brutal-beautiful-animation-traces-an-african-teens-journey-to-italy"
+      },
+      {
+        "id": "f9cbff54",
+        "title": "Pluralistic: The tedious power of storytelling (02 Jun 2026) must-we-pretend",
+        "excerpt": "Today's links The tedious power of storytelling: \"Excitement\" is to art as \"falsifiablilty\" is to science. Hey look at this: Delights to delectate. Object permanence: Lost Marx Bros musical; USPTO v D",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Tue, 02 Jun 2026 09:18:16 +0000",
+        "readTime": 17,
+        "wordCount": 3374,
+        "url": "https://pluralistic.net/2026/06/02/must-we-pretend/"
+      },
+      {
+        "id": "7083922f",
+        "title": "Inside Germany’s ‘Schools Without Racism’",
+        "excerpt": "Above the entrance of a high school in Renningen, Germany, a promise is written in large letters: School without Racism – School with Courage. Inside, that promise is tested. On a cold day in January,",
+        "author": "Michaela Haas",
+        "publication": {
+          "name": "Reasons to be Cheerful",
+          "slug": "reasons-to-be-cheerful",
+          "category": "Culture"
+        },
+        "publishedAt": "Thu, 28 May 2026 08:00:34 +0000",
+        "readTime": 1,
+        "wordCount": 64,
+        "url": "https://reasonstobecheerful.world/inside-germanys-schools-without-racism/"
+      },
+      {
+        "id": "d47b1252",
+        "title": "The Iceman’s Microbiome",
+        "excerpt": "Ötzi commensal microorganisms included a surprisingly cold-tolerant yeast\nThe post The Iceman’s Microbiome appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 03 Jun 2026 18:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 17,
+        "url": "https://nautil.us/the-icemans-microbiome-1281661/"
+      },
+      {
+        "id": "62657a6c",
+        "title": "DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans resea",
+        "author": "Anika Patel",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 05 Jun 2026 13:35:57 +0000",
+        "readTime": 1,
+        "wordCount": 41,
+        "url": "https://www.carbonbrief.org/debriefed-5-june-2026-uk-eyes-2040-emissions-cut-us-dismantling-oceans-research-chinas-solar-slump/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-06-02",
     "title": "Random Digest: June 2, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7782,165 +7940,6 @@
         "readTime": 1,
         "wordCount": 25,
         "url": "https://grist.org/indigenous/the-navajo-nation-said-no-to-a-hydropower-project-trump-officials-want-to-ensure-tribes-cant-do-that-again/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-13",
-    "title": "Random Digest: December 13, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-13T02:19:38.724Z",
-    "articles": [
-      {
-        "id": "8cc6bf3f",
-        "title": "U.S. Seizes Oil Tanker Off Venezuelan Coast",
-        "excerpt": "Some updates on the US capture of an oil tanker that had just departed from Venezuela.",
-        "author": "Yves Smith",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Thu, 11 Dec 2025 06:26:16 +0000",
-        "readTime": 1,
-        "wordCount": 16,
-        "url": "https://www.nakedcapitalism.com/2025/12/u-s-seizes-oil-tanker-off-venezuelan-coast.html"
-      },
-      {
-        "id": "e0be573d",
-        "title": "The Portal Experiment 2.0",
-        "excerpt": "Exploring the Necessity of a \"Community of Communities\" in 2025",
-        "author": "Cadell Last",
-        "publication": {
-          "name": "Philosophy Portal",
-          "slug": "philosophy-portal",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 15:57:06 GMT",
-        "readTime": 1,
-        "wordCount": 10,
-        "url": "https://philosophyportal.substack.com/p/the-portal-experiment-20"
-      },
-      {
-        "id": "5301d8de",
-        "title": "How Europe Lost",
-        "excerpt": "Can the continent escape its Trump trap?",
-        "author": "Matthias Matthijs, Nathalie Tocci",
-        "publication": {
-          "name": "Foreign Affairs",
-          "slug": "foreign-affairs",
-          "category": "Politics"
-        },
-        "publishedAt": "Fri, 12 Dec 2025 00:00:00 -0500",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://www.foreignaffairs.com/united-states/how-europe-lost-matthijs-tocci"
-      },
-      {
-        "id": "bcf6d956",
-        "title": "Depending On The Kindness Of Strangers",
-        "excerpt": "by Mike O’Brien Like many other video gamers (nearly eight million, in fact), I have spent no small portion of recent weeks in the robot-infested, post-diluvian wastes of late-22nd-Century Italy, loot",
-        "author": "Mike O'Brien",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 09 Dec 2025 10:00:40 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/depending-on-the-kindness-of-strangers.html"
-      },
-      {
-        "id": "35af1843",
-        "title": "WINE Cooler",
-        "excerpt": "Lessons on laying out the 404 Media zine using a relatively weird setup—on Linux, using Affinity, with the help of the Windows translation layer WINE.\n\nI write a lot these days, but my path into journ",
-        "author": "Ernie Smith",
-        "publication": {
-          "name": "Tedium",
-          "slug": "tedium",
-          "category": "Technology"
-        },
-        "publishedAt": "2025-12-11T03:23:57.000Z",
-        "readTime": 9,
-        "wordCount": 1797,
-        "url": "https://tedium.co/2025/12/10/404-media-zine-linux-affinity/"
-      },
-      {
-        "id": "67f3e6b6",
-        "title": "Millions of Years Ago These Animals Shaped the Arabian Sea",
-        "excerpt": "Like modern sea cows, these Late Miocene marine mammals engineered their ecosystems\nThe post Millions of Years Ago These Animals Shaped the Arabian Sea appeared first on Nautilus.",
-        "author": "Devin Reese",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 10 Dec 2025 19:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://nautil.us/millions-of-years-ago-these-animals-shaped-the-arabian-sea-1253837/"
-      },
-      {
-        "id": "fa5d6d97",
-        "title": "New England kicks off $450M plan to supercharge heat pump adoption",
-        "excerpt": "The program aims to use federal funds awarded under the Biden administration to deploy more than 500,000 heat pumps in the chilly region over the next few years.",
-        "author": "Sarah Shemkus, Canary Media",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Sat, 29 Nov 2025 14:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 28,
-        "url": "https://grist.org/energy/new-england-kicks-off-450m-plan-to-supercharge-heat-pump-adoption/"
-      },
-      {
-        "id": "cd5ff18e",
-        "title": "read it in the original",
-        "excerpt": "a call for indications of interest",
-        "author": "Dan Davies",
-        "publication": {
-          "name": "Back of Mind",
-          "slug": "back-of-mind",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 18:01:03 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://backofmind.substack.com/p/read-it-in-the-original"
-      },
-      {
-        "id": "dae4e464",
-        "title": "Asia-Pacific faces ‘$500bn-a-year’ hit from rising seas if current policies continue",
-        "excerpt": "Coastal flooding could bring $500bn of annual damages to the Asia-Pacific by the year 2100,...\nThe post Asia-Pacific faces ‘$500bn-a-year’ hit from rising seas if current policies continue appeared fi",
-        "author": "Ayesha Tandon",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Tue, 02 Dec 2025 16:44:48 +0000",
-        "readTime": 1,
-        "wordCount": 33,
-        "url": "https://www.carbonbrief.org/asia-pacific-faces-500bn-a-year-hit-from-rising-seas-if-current-policies-continue/"
-      },
-      {
-        "id": "b52dea7f",
-        "title": "Wednesday links: the degenerate moment",
-        "excerpt": "",
-        "author": "abnormalreturns",
-        "publication": {
-          "name": "Abnormal Returns",
-          "slug": "abnormal-returns",
-          "category": "Finance"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 16:48:16 +0000",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://abnormalreturns.com/2025/12/03/wednesday-links-the-degenerate-moment/"
       }
     ]
   }
