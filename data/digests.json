@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-06-09",
+    "title": "Random Digest: June 9, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-06-09T04:44:01.162Z",
+    "articles": [
+      {
+        "id": "5dbcb716",
+        "title": "Official Corruption, Obsession, Hidden Crimes",
+        "excerpt": "Links and recommendations",
+        "author": "Rob Henderson",
+        "publication": {
+          "name": "Rob Henderson",
+          "slug": "rob-henderson",
+          "category": "Psychology"
+        },
+        "publishedAt": "Thu, 04 Jun 2026 14:10:11 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://www.robkhenderson.com/p/official-corruption-obsession-hidden"
+      },
+      {
+        "id": "aca460c2",
+        "title": "The Different Kinds of Investors",
+        "excerpt": "The many ways to be successful as an investor.\nThe post The Different Kinds of Investors appeared first on A Wealth of Common Sense.\n...",
+        "author": "Ben Carlson",
+        "publication": {
+          "name": "A Wealth of Common Sense",
+          "slug": "wealth-common-sense",
+          "category": "Finance"
+        },
+        "publishedAt": "Mon, 01 Jun 2026 02:58:39 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://awealthofcommonsense.com/2026/05/the-different-kinds-of-investors/"
+      },
+      {
+        "id": "9c239792",
+        "title": "Can the UAE Go It Alone?",
+        "excerpt": "A risky quest for strategic autonomy in a war-torn Middle East.",
+        "author": "Andrew Leber",
+        "publication": {
+          "name": "Foreign Affairs",
+          "slug": "foreign-affairs",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 05 Jun 2026 00:00:00 -0400",
+        "readTime": 1,
+        "wordCount": 11,
+        "url": "https://www.foreignaffairs.com/united-arab-emirates/can-uae-go-it-alone"
+      },
+      {
+        "id": "f8410660",
+        "title": "Letters To A Young Philosopher 13: Asking Questions That Can Actually Be Answered",
+        "excerpt": "William Gass to the rescue (sort of)",
+        "author": "Gregory B. Sadler",
+        "publication": {
+          "name": "Gregory B. Sadler",
+          "slug": "gregory-b-sadler",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 26 May 2026 03:25:18 GMT",
+        "readTime": 1,
+        "wordCount": 7,
+        "url": "https://gregorybsadler.substack.com/p/letters-to-a-young-philosopher-13"
+      },
+      {
+        "id": "7aafc795",
+        "title": "‘I need Chevron’: The oil company at the center of the California governor’s race",
+        "excerpt": "California is trying to phase out fossil fuels, but it still needs gas. That makes for messy politics.",
+        "author": "Jake Bittle",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Tue, 26 May 2026 08:30:00 +0000",
+        "readTime": 1,
+        "wordCount": 18,
+        "url": "https://grist.org/politics/chevron-oil-california-governor-becerra-steyer/"
+      },
+      {
+        "id": "b9ee671e",
+        "title": "  On The Fuel Efficiency of Launching My Enemies Into The... ",
+        "excerpt": "On The Fuel Efficiency of Launching My Enemies Into The Sun. Incredibly nerdy and fun: does it require more power to eject a person from the solar system or launch them into the Sun?",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-05-28T18:01:00.000Z",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://kottke.org/26/05/0049031-on-the-fuel-efficiency-of"
+      },
+      {
+        "id": "62bcbfea",
+        "title": "A different game",
+        "excerpt": "On football’s extreme commercialization",
+        "author": "Branko Milanovic",
+        "publication": {
+          "name": "Branko Milanovic",
+          "slug": "branko-milanovic",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 01 Jun 2026 14:52:48 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://branko2f7.substack.com/p/a-different-game"
+      },
+      {
+        "id": "de1093a4",
+        "title": "Pluralistic: Refining humanity (05 Jun 2026)",
+        "excerpt": "Today's links Refining humanity: What our technology is shows us what we're not. Hey look at this: Delights to delectate. Object permanence: GNU Radio; France v \"follow us on Twitter\"; Aaronsw vindica",
+        "author": "Cory Doctorow",
+        "publication": {
+          "name": "Pluralistic",
+          "slug": "pluralistic",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 05 Jun 2026 20:49:39 +0000",
+        "readTime": 18,
+        "wordCount": 3548,
+        "url": "https://pluralistic.net/2026/06/05/defining-humanity/"
+      },
+      {
+        "id": "dfc46701",
+        "title": "The Supernova That Sparked the Original Scientific Revolution",
+        "excerpt": "Centuries before we started debating the transformative effect of AI on science, a new light in the sky shone the way\nThe post The Supernova That Sparked the Original Scientific Revolution appeared fi",
+        "author": "Bob Grant",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 27 May 2026 22:00:00 +0000",
+        "readTime": 1,
+        "wordCount": 35,
+        "url": "https://nautil.us/the-supernova-that-sparked-the-original-scientific-revolution-1281459/"
+      },
+      {
+        "id": "860338c9",
+        "title": "New York backtracked on its climate goals. Here’s why.",
+        "excerpt": "Lawmakers wanted to lead the energy transition, but Governor Kathy Hochul is worried about the cost of ditching natural gas.",
+        "author": "Jake Bittle",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 03 Jun 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 20,
+        "url": "https://grist.org/politics/new-york-kathy-hochul-climate-law-clcpa-natural-gas-methane/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-06-06",
     "title": "Random Digest: June 6, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7781,165 +7940,6 @@
         "readTime": 1,
         "wordCount": 34,
         "url": "https://www.carbonbrief.org/iea-declining-coal-demand-in-china-set-to-outweigh-trumps-pro-coal-policies/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-16",
-    "title": "Random Digest: December 16, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-16T02:27:52.831Z",
-    "articles": [
-      {
-        "id": "8e5a240c",
-        "title": "The Rise of Chile’s Hard Right",
-        "excerpt": "The first round of voting in Chile’s general election in November saw the shocking rise of the far right and the collapse of the country’s new left. It’s a crushing but not total defeat for the moveme",
-        "author": "René Rojas",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-12-02T13:22:13.000Z",
-        "readTime": 20,
-        "wordCount": 3868,
-        "url": "https://jacobin.com/2025/12/chile-far-right-election-boric/"
-      },
-      {
-        "id": "9ffbea03",
-        "title": "Gramsci’s nightmare ⊗ A small slice of human knowledge",
-        "excerpt": "No.383 —The future of rules-based international order  ⊗ The Agentic AI Foundation ⊗ Protecting the Ecuadorian Amazon ⊗ Iceland’s flowing textures",
-        "author": "Patrick Tanguay",
-        "publication": {
-          "name": "Sentiers",
-          "slug": "sentiers",
-          "category": "Technology"
-        },
-        "publishedAt": "Sun, 14 Dec 2025 11:00:01 GMT",
-        "readTime": 1,
-        "wordCount": 21,
-        "url": "https://sentiers.media/gramscis-nightmare-a-small-slice-of-human-knowledge-no-383/"
-      },
-      {
-        "id": "dcc16cc6",
-        "title": "Boring Investing Still Works",
-        "excerpt": "Boring is beautiful in 2025.\nThe post Boring Investing Still Works appeared first on A Wealth of Common Sense.\n...",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Fri, 05 Dec 2025 21:30:25 +0000",
-        "readTime": 1,
-        "wordCount": 20,
-        "url": "https://awealthofcommonsense.com/2025/12/boring-investing-still-works/"
-      },
-      {
-        "id": "997a2d34",
-        "title": "Hamnet Is Beautifully Acted and Gorgeously Shot, but It Misses the Point",
-        "excerpt": "Dana Stevens in Slate: The curiosity that drove the Irish novelist Maggie O’Farrell to write her bestselling 2020 novel Hamnet sprang from the scarcity of documentation about the book’s title characte",
-        "author": "Azra Raza",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 02 Dec 2025 13:53:49 +0000",
-        "readTime": 1,
-        "wordCount": 58,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/hamnet-is-beautifully-acted-and-gorgeously-shot-but-it-misses-the-point.html"
-      },
-      {
-        "id": "dd60d914",
-        "title": "Top Links 944 America's K-shaped economy. Zero haircuts. The Great Derangement & the language of the body.",
-        "excerpt": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-        "author": "Adam Tooze",
-        "publication": {
-          "name": "Adam Tooze",
-          "slug": "adam-tooze",
-          "category": "Economics"
-        },
-        "publishedAt": "Sun, 07 Dec 2025 11:54:33 GMT",
-        "readTime": 1,
-        "wordCount": 11,
-        "url": "https://adamtooze.substack.com/p/top-links-944-americas-k-shaped-economy"
-      },
-      {
-        "id": "cd5ff18e",
-        "title": "read it in the original",
-        "excerpt": "a call for indications of interest",
-        "author": "Dan Davies",
-        "publication": {
-          "name": "Back of Mind",
-          "slug": "back-of-mind",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 03 Dec 2025 18:01:03 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://backofmind.substack.com/p/read-it-in-the-original"
-      },
-      {
-        "id": "abbdbcd6",
-        "title": "This Black Hole Blasts Cosmic Wind at 130 Million Miles Per Hour",
-        "excerpt": "A staggering glimpse into our beautiful, violent universe\nThe post This Black Hole Blasts Cosmic Wind at 130 Million Miles Per Hour appeared first on Nautilus.",
-        "author": "Jake Currie",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Wed, 10 Dec 2025 01:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://nautil.us/this-black-hole-blasts-cosmic-wind-at-130-million-miles-per-hour-1253723/"
-      },
-      {
-        "id": "5e080f7e",
-        "title": "How a species of bamboo could help protect the South from future floods",
-        "excerpt": "In the face of mounting climate disasters, tribes, scientists, and Southern communities are rallying around a nearly forgotten native plant.",
-        "author": "Emily Cataneo",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 11 Dec 2025 09:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 20,
-        "url": "https://grist.org/solutions/how-rivercane-a-native-bamboo-could-help-protect-the-south-from-future-floods/"
-      },
-      {
-        "id": "f52fc373",
-        "title": "Against Asking For Definitions ",
-        "excerpt": "You can use words without knowing their definitions",
-        "author": "Bentham's Bulldog",
-        "publication": {
-          "name": "Bentham's Newsletter",
-          "slug": "benthams-newsletter",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Thu, 04 Dec 2025 17:02:03 GMT",
-        "readTime": 1,
-        "wordCount": 8,
-        "url": "https://benthams.substack.com/p/against-asking-for-definitions"
-      },
-      {
-        "id": "a62e3db1",
-        "title": "The Navajo Nation said no to a hydropower project. Trump officials want to ensure tribes can’t do that again.",
-        "excerpt": "The U.S. Energy Secretary said allowing tribes to weigh in on energy projects on their land creates \"unnecessary burdens to the development of critical infrastructure.\"",
-        "author": "Miacel Spotted Elk",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 10 Dec 2025 09:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://grist.org/indigenous/the-navajo-nation-said-no-to-a-hydropower-project-trump-officials-want-to-ensure-tribes-cant-do-that-again/"
       }
     ]
   }
