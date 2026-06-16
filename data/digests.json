@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-06-16",
+    "title": "Random Digest: June 16, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-06-16T06:04:27.989Z",
+    "articles": [
+      {
+        "id": "d64e0203",
+        "title": "UN officials urge Russia to free Indigenous climate advocate",
+        "excerpt": "Daria Egereva and her colleague have been jailed for six months. A growing chorus of voices wants them released at a court hearing Thursday.",
+        "author": "Anita Hofschneider",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Wed, 10 Jun 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://grist.org/indigenous/u-n-officials-urge-the-release-of-an-indigenous-climate-advocate-jailed-in-russia/"
+      },
+      {
+        "id": "57554714",
+        "title": " The Three Ways to Make a Living ",
+        "excerpt": "Well, this is kinda depressing, courtesy of Jason Zweig’s father:\nThere are three ways to make a living:\n1) Lie to people who want to be lied to, and you’ll get rich.\n2) Tell the truth to those who wa",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-06-03T15:00:00.000Z",
+        "readTime": 1,
+        "wordCount": 95,
+        "url": "https://kottke.org/26/06/the-three-ways-to-make-a-living"
+      },
+      {
+        "id": "60957828",
+        "title": "Why are so many Democrats going quiet on climate change?",
+        "excerpt": "The common wisdom says it's a losing issue. Evidence suggests it actually helps Democrats.",
+        "author": "Kate Yoder",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Mon, 08 Jun 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://grist.org/politics/democrats-quiet-climate-change-autopsy-report/"
+      },
+      {
+        "id": "4ef925a3",
+        "title": "Iran War: Hezbollah Rejects Israel-Favoring Ceasefire, Casting More Doubt on “Deal”: Iran Agrees to Inspection of Bushehr Plant but No Enriched Uranium Concessions; Trump Warned of Oil Cliff as Private Debt Fund Wobbles Rise",
+        "excerpt": "Today's Iran war news: The US-Iran impasse is undeniable to everyone ex Team Trump as Israel balks and the oil cliff comes ever closer.",
+        "author": "Yves Smith",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 05 Jun 2026 10:54:38 +0000",
+        "readTime": 1,
+        "wordCount": 24,
+        "url": "https://www.nakedcapitalism.com/2026/06/iran-war-hezbollah-rejects-israel-favoring-ceasefire-casting-more-doubt-on-deal-iran-agrees-to-inspection-of-bushear-plant-but-no-enriched-uranium-concessions-trump-warned-of-oil-cliff-as-priv.html"
+      },
+      {
+        "id": "45d53d19",
+        "title": "Personal finance links: a proven failure",
+        "excerpt": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week’s links including a look at the...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Wed, 10 Jun 2026 13:21:37 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/06/10/personal-finance-links-a-proven-failure/"
+      },
+      {
+        "id": "ac0010ac",
+        "title": "Stop eating Lady Gaga's Oreos",
+        "excerpt": "OR: The Great Switcheroo",
+        "author": "Adam Mastroianni",
+        "publication": {
+          "name": "Experimental History",
+          "slug": "experimental-history",
+          "category": "Psychology"
+        },
+        "publishedAt": "Tue, 09 Jun 2026 16:58:56 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos"
+      },
+      {
+        "id": "1c5ba5d0",
+        "title": "Rare Meteorite Hints at Ancient Planetary Collision in Our Solar System",
+        "excerpt": "It’s the first definitive proof of the angrite parent body\nThe post Rare Meteorite Hints at Ancient Planetary Collision in Our Solar System appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Wed, 03 Jun 2026 14:21:00 +0000",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://nautil.us/rare-meteorite-hints-at-ancient-planetary-collision-in-our-solar-system-1281647/"
+      },
+      {
+        "id": "24ee1898",
+        "title": "How We Liberate Animals ",
+        "excerpt": "Fighting to win",
+        "author": "Bentham's Bulldog",
+        "publication": {
+          "name": "Bentham's Newsletter",
+          "slug": "benthams-newsletter",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 15:26:21 GMT",
+        "readTime": 1,
+        "wordCount": 3,
+        "url": "https://benthams.substack.com/p/how-we-liberate-animals"
+      },
+      {
+        "id": "81655f42",
+        "title": "Like All Good Things, Sports Are Owned by the Rich Now",
+        "excerpt": "the Knicks have brought joy to a city that's being eaten by the worst people alive",
+        "author": "Freddie deBoer",
+        "publication": {
+          "name": "Freddie deBoer",
+          "slug": "freddie-deboer",
+          "category": "Politics"
+        },
+        "publishedAt": "Mon, 15 Jun 2026 12:02:39 GMT",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://freddiedeboer.substack.com/p/like-all-good-things-sports-are-owned"
+      },
+      {
+        "id": "1ce33d5c",
+        "title": "You can’t get more 2026 than that",
+        "excerpt": "Hallucination of the day:",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 13:58:12 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://garymarcus.substack.com/p/you-cant-get-more-2026-than-that"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-06-13",
     "title": "Random Digest: June 13, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7780,165 +7939,6 @@
         "readTime": 1,
         "wordCount": 55,
         "url": "https://3quarksdaily.com/3quarksdaily/2025/12/raja-shehadeh-believes-israelis-and-palestinians-can-still-find-peace.html"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-23",
-    "title": "Random Digest: December 23, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-23T02:28:34.074Z",
-    "articles": [
-      {
-        "id": "7899fa73",
-        "title": "Why Teach?",
-        "excerpt": "During my twenties, my friends would circle constantly circle around the same topic.",
-        "author": "Naomi Kanakia",
-        "publication": {
-          "name": "Woman of Letters",
-          "slug": "woman-of-letters",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 09 Dec 2025 15:03:12 GMT",
-        "readTime": 1,
-        "wordCount": 13,
-        "url": "https://www.woman-of-letters.com/p/why-teach"
-      },
-      {
-        "id": "1eabbaa1",
-        "title": "Links For December 2025",
-        "excerpt": "...",
-        "author": "Scott Alexander",
-        "publication": {
-          "name": "Astral Codex Ten",
-          "slug": "astral-codex-ten",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Wed, 10 Dec 2025 16:51:08 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.astralcodexten.com/p/links-for-december-2025"
-      },
-      {
-        "id": "fc0abb64",
-        "title": "The EPA website got the basics of climate science right. Until last week.",
-        "excerpt": "The Trump administration purged 80 pages of facts about climate change — including that it's caused by humans.",
-        "author": "Kate Yoder",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Thu, 11 Dec 2025 09:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 18,
-        "url": "https://grist.org/politics/epa-website-erases-climate-science-basics/"
-      },
-      {
-        "id": "d7f0224e",
-        "title": "A sad day for America",
-        "excerpt": "Trump goes all in on Silicon Valley, leaving US citizens, and even his own party behind.",
-        "author": "Gary Marcus",
-        "publication": {
-          "name": "Gary Marcus",
-          "slug": "gary-marcus",
-          "category": "Technology"
-        },
-        "publishedAt": "Fri, 12 Dec 2025 01:50:42 GMT",
-        "readTime": 1,
-        "wordCount": 16,
-        "url": "https://garymarcus.substack.com/p/a-sad-day-for-america"
-      },
-      {
-        "id": "f734944e",
-        "title": "One word sums up climate politics in 2025: Greenlash",
-        "excerpt": "In a year shaped by Trump's return to the White House, the new administration touted \"energy dominance\" and protesters threw eggs at \"swasticars.\"",
-        "author": "Kate Yoder",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Fri, 19 Dec 2025 09:30:00 +0000",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://grist.org/words-of-the-year/climate-politics-2025-greenlash-swasticar-trump/"
-      },
-      {
-        "id": "4298a3c5",
-        "title": "Is it irresponsible for academics to refuse to use AI?",
-        "excerpt": "Maybe not yet—but we’re getting there",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Thu, 18 Dec 2025 19:03:42 GMT",
-        "readTime": 1,
-        "wordCount": 6,
-        "url": "https://smallpotatoes.paulbloom.net/p/is-it-irresponsible-for-academics"
-      },
-      {
-        "id": "c2533d88",
-        "title": "Animal Spirits: All-Time Highs Should Feel Better Than This",
-        "excerpt": "On today's show we discuss the stock market rally is broadening out, no one wants an AI bubble, the return outlook for 2026, Howard Marks on how to invest today, hedging an AI bubble, concentration ri",
-        "author": "Ben Carlson",
-        "publication": {
-          "name": "A Wealth of Common Sense",
-          "slug": "wealth-common-sense",
-          "category": "Finance"
-        },
-        "publishedAt": "Wed, 17 Dec 2025 12:15:54 +0000",
-        "readTime": 1,
-        "wordCount": 72,
-        "url": "https://awealthofcommonsense.com/2025/12/animal-spirits-all-time-highs-should-feel-better-than-this/"
-      },
-      {
-        "id": "677efbf2",
-        "title": "The book is out!",
-        "excerpt": "Christmas came early to the Lindsey household this year, as a box of hot-off-the-press copies of The Permanent Problem arrived over the weekend.",
-        "author": "Brink Lindsey",
-        "publication": {
-          "name": "Brink Lindsey",
-          "slug": "brink-lindsey",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 15 Dec 2025 07:17:00 GMT",
-        "readTime": 1,
-        "wordCount": 23,
-        "url": "https://brinklindsey.substack.com/p/the-book-is-out"
-      },
-      {
-        "id": "ac78e0be",
-        "title": "Why Is Spain Spinning?",
-        "excerpt": "It isn’t because the Iberian Peninsula is dizzy\nThe post Why Is Spain Spinning? appeared first on Nautilus.",
-        "author": "Bob Grant",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Fri, 19 Dec 2025 03:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 18,
-        "url": "https://nautil.us/why-is-spain-spinning-1255475/"
-      },
-      {
-        "id": "6beb1a1d",
-        "title": "The 25 Best Pieces of Media I Consumed in 2025",
-        "excerpt": "A look back at the essays, videos, articles, and podcasts that shaped my year.",
-        "author": "Mapu",
-        "publication": {
-          "name": "MAPUC",
-          "slug": "mapuc",
-          "category": "Economics"
-        },
-        "publishedAt": "Fri, 19 Dec 2025 14:02:15 GMT",
-        "readTime": 1,
-        "wordCount": 14,
-        "url": "https://mapuc.substack.com/p/the-25-best-pieces-of-media-i-consumed"
       }
     ]
   }
