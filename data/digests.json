@@ -1,5 +1,163 @@
 [
   {
+    "id": "digest-2026-06-20",
+    "title": "Random Digest: June 20, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-06-20T04:49:51.939Z",
+    "articles": [
+      {
+        "id": "29f78b55",
+        "title": "Reforming Capitalism Is Not Enough",
+        "excerpt": "Victorian Trades Hall is the oldest continuously operating trades hall in the world. And even before it was constructed, in 1856, the stonemasons and building workers of Melbourne downed their tools a",
+        "author": "Bhaskar Sunkara",
+        "publication": {
+          "name": "Jacobin",
+          "slug": "jacobin",
+          "category": "Politics"
+        },
+        "publishedAt": "2026-06-08T16:03:17.973Z",
+        "readTime": 26,
+        "wordCount": 5044
+      },
+      {
+        "id": "bc395535",
+        "title": "Q&A: What do China’s provincial five-year plans say about climate and energy?",
+        "excerpt": "China’s provincial-level governments have now all published their 15th five-year plans – economic and social...\nThe post Q&A: What do China’s provincial five-year plans say about climate and energy? a",
+        "author": "Carbon Brief Staff",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 18 Jun 2026 10:00:27 +0000",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://www.carbonbrief.org/qa-what-do-chinas-provincial-five-year-plans-say-about-climate-and-energy/"
+      },
+      {
+        "id": "6841e5c0",
+        "title": "The wild scheme to save koalas",
+        "excerpt": "Vaccinating wild animals can protect human health, and spare animals from extinction and suffering.",
+        "author": "Michelle Ma",
+        "publication": {
+          "name": "Works in Progress",
+          "slug": "works-in-progress",
+          "category": "Science"
+        },
+        "publishedAt": "Thu, 18 Jun 2026 13:52:46 GMT",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.worksinprogress.news/p/why-we-should-vaccinate-wild-animals"
+      },
+      {
+        "id": "8507fb1a",
+        "title": "The marks we leave each day",
+        "excerpt": "The protagonist of On the Calculation of Volume gets a unique view of how her actions matter. What if we saw the same?\n- by Hannah Seo\nRead on Psyche",
+        "author": "Hannah Seo",
+        "publication": {
+          "name": "Psyche",
+          "slug": "psyche",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 10:00:00 GMT",
+        "readTime": 1,
+        "wordCount": 30,
+        "url": "https://psyche.co/notes-to-self/what-if-we-could-see-the-marks-we-leave-throughout-the-day"
+      },
+      {
+        "id": "c866e5f2",
+        "title": "The US May Not Have Troops on the Ground, But Venezuela’s Government Is Occupied",
+        "excerpt": "As Delcy Rodríguez capitulates to US demands, the Venezuelan left is calling for resistance.",
+        "author": "Conor Gallagher",
+        "publication": {
+          "name": "Naked Capitalism",
+          "slug": "naked-capitalism",
+          "category": "Economics"
+        },
+        "publishedAt": "Mon, 15 Jun 2026 09:00:48 +0000",
+        "readTime": 1,
+        "wordCount": 14,
+        "url": "https://www.nakedcapitalism.com/2026/06/the-us-may-not-have-troops-on-the-ground-but-venezuelas-government-is-occupied.html"
+      },
+      {
+        "id": "408fbc44",
+        "title": "As vultures vanished, dogs multiplied, and rabies spread",
+        "excerpt": "Mark Johnson and Saumya Khandelwal in the Washington Post: A 2008 paper in the journal Ecological Economics found that between 1992 and 2007 the loss of vultures in India led to an estimated increase ",
+        "author": "S. Abbas Raza",
+        "publication": {
+          "name": "3 Quarks Daily",
+          "slug": "3-quarks-daily",
+          "category": "Culture"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 17:45:06 +0000",
+        "readTime": 1,
+        "wordCount": 57,
+        "url": "https://3quarksdaily.com/3quarksdaily/2026/06/as-vultures-vanished-dogs-multiplied-and-rabies-spread.html"
+      },
+      {
+        "id": "e4c40a0a",
+        "title": "A solution to data center backlash? Put them in oil fields.",
+        "excerpt": "A new project in California’s oil country could dodge national controversies over energy and water usage.",
+        "author": "Jake Bittle",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 18 Jun 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/energy/a-solution-to-data-center-backlash-put-them-in-oil-fields/"
+      },
+      {
+        "id": "8adb3c6d",
+        "title": "Saturday links: optimizing for the bots",
+        "excerpt": "Saturdays we catch up with the non-finance related items that we didn’t get to earlier in the week. You can check out...",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Sat, 13 Jun 2026 12:12:47 +0000",
+        "readTime": 1,
+        "wordCount": 22,
+        "url": "https://abnormalreturns.com/2026/06/13/saturday-links-optimizing-for-the-bots/"
+      },
+      {
+        "id": "dabb34a8",
+        "title": "Our neighbors, the peacocks",
+        "excerpt": "A portrait of the pristine suburb of Arcadia, where hundreds of feral peacocks are embraced by some, despised by others\n- by Aeon Video\nWatch on Aeon",
+        "author": "Aeon Video",
+        "publication": {
+          "name": "Aeon",
+          "slug": "aeon",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Mon, 15 Jun 2026 10:01:00 GMT",
+        "readTime": 1,
+        "wordCount": 27,
+        "url": "https://aeon.co/videos/in-suburban-california-a-wild-peafowl-population-splits-the-community"
+      },
+      {
+        "id": "9e075832",
+        "title": "Breaking: OpenAI is pondering “drastic” price cuts.",
+        "excerpt": "And that’s a sign of weakness",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Thu, 11 Jun 2026 13:34:49 GMT",
+        "readTime": 1,
+        "wordCount": 6,
+        "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-06-16",
     "title": "Random Digest: June 16, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7780,165 +7938,6 @@
         "readTime": 1,
         "wordCount": 35,
         "url": "https://www.carbonbrief.org/cropped-17-december-2025-deadly-asia-floods-boosting-londons-water-birds-un-headwinds/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-27",
-    "title": "Random Digest: December 27, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-27T02:25:29.382Z",
-    "articles": [
-      {
-        "id": "845c11de",
-        "title": "Island of the hornbills",
-        "excerpt": "Why the stunning rhinoceros hornbills are the farmers of the rainforest and a powerful avian symbol of regeneration\n- by Aeon Video\nWatch on Aeon",
-        "author": "Aeon Video",
-        "publication": {
-          "name": "Aeon",
-          "slug": "aeon",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Thu, 18 Dec 2025 11:01:00 GMT",
-        "readTime": 1,
-        "wordCount": 25,
-        "url": "https://aeon.co/videos/how-a-beautiful-bird-helps-southeast-asias-rainforests-flourish?utm_source=rss-feed"
-      },
-      {
-        "id": "f670639c",
-        "title": "In defense of slop",
-        "excerpt": "When costs fall, average quality does too",
-        "author": "Jason Crawford",
-        "publication": {
-          "name": "Roots of Progress",
-          "slug": "roots-of-progress",
-          "category": "Science"
-        },
-        "publishedAt": "Tue, 16 Dec 2025 17:25:56 GMT",
-        "readTime": 1,
-        "wordCount": 7,
-        "url": "https://newsletter.rootsofprogress.org/p/in-defense-of-slop"
-      },
-      {
-        "id": "bf6cccd3",
-        "title": "What your cheap clothes cost the planet",
-        "excerpt": "A global supply chain built for speed is leaving behind waste, toxins, and a trail of environmental wreckage.",
-        "author": "Sachi Kitajima Mulkey",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 15 Dec 2025 09:45:00 +0000",
-        "readTime": 1,
-        "wordCount": 18,
-        "url": "https://grist.org/business/what-your-cheap-clothes-cost-the-planet/"
-      },
-      {
-        "id": "0fa1ec31",
-        "title": "Musk, Trump, Fuentes",
-        "excerpt": "Podcast with Robert Wright",
-        "author": "Paul Bloom",
-        "publication": {
-          "name": "Small Potatoes",
-          "slug": "small-potatoes",
-          "category": "Psychology"
-        },
-        "publishedAt": "Wed, 17 Dec 2025 17:12:20 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://smallpotatoes.paulbloom.net/p/musk-trump-fuentes"
-      },
-      {
-        "id": "db25b89a",
-        "title": "Coffee Break: Trump Loses in Indiana as the MAGA Civil War Rages On",
-        "excerpt": "Last week, POTUS Donald Trump lost his battle to bully Indiana Republicans into redrawing their congressional districts, are we seeing Trump 2.0's mojo bleeding out as MAGA's civil war continues?",
-        "author": "Nat Wilson Turner",
-        "publication": {
-          "name": "Naked Capitalism",
-          "slug": "naked-capitalism",
-          "category": "Economics"
-        },
-        "publishedAt": "Mon, 15 Dec 2025 19:00:05 +0000",
-        "readTime": 1,
-        "wordCount": 30,
-        "url": "https://www.nakedcapitalism.com/2025/12/maga-civil-war-trump-indiana-paoletta-carlson-miga-tate.html"
-      },
-      {
-        "id": "a6c2e156",
-        "title": "Weakening Migrants’ Rights in the Name of Fighting Racism",
-        "excerpt": "Keir Starmer wants to weaken the European Convention on Human Rights, hoping that this will win back voters from Nigel Farage’s Reform UK. In the name of fighting right-wing politics, he’s handing mor",
-        "author": "Nathan Akehurst",
-        "publication": {
-          "name": "Jacobin",
-          "slug": "jacobin",
-          "category": "Politics"
-        },
-        "publishedAt": "2025-12-17T09:00:58.000Z",
-        "readTime": 9,
-        "wordCount": 1721,
-        "url": "https://jacobin.com/2025/12/migrants-rights-racism-labour-authoritarianism/"
-      },
-      {
-        "id": "f9d750f4",
-        "title": "Can You Beat a Low Cost ETF?",
-        "excerpt": "The question every endowment and foundation should honestly ask themselves: “Can we beat a low-cost ETF?” The answer for nearly all of them is “No”. “We study nearly 375,000 nonprofit organizations, i",
-        "author": "Meb Faber",
-        "publication": {
-          "name": "Meb Faber",
-          "slug": "meb-faber",
-          "category": "Finance"
-        },
-        "publishedAt": "Thu, 18 Dec 2025 17:06:46 +0000",
-        "readTime": 1,
-        "wordCount": 77,
-        "url": "https://mebfaber.com/2025/12/18/can-you-beat-a-low-cost-etf/"
-      },
-      {
-        "id": "62d72fb7",
-        "title": "Guest post: How the Greenland ice sheet fared in 2025",
-        "excerpt": "Greenland is closing in on three decades of continuous annual ice loss, with 1995-96 being...\nThe post Guest post: How the Greenland ice sheet fared in 2025 appeared first on Carbon Brief.",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Mon, 15 Dec 2025 16:38:41 +0000",
-        "readTime": 1,
-        "wordCount": 32,
-        "url": "https://www.carbonbrief.org/guest-post-how-the-greenland-ice-sheet-fared-in-2025/"
-      },
-      {
-        "id": "cb7bff71",
-        "title": "The AI bubble is all over now, baby blue",
-        "excerpt": "You must leave now, take what you need you think will last.",
-        "author": "Gary Marcus",
-        "publication": {
-          "name": "Gary Marcus",
-          "slug": "gary-marcus",
-          "category": "Technology"
-        },
-        "publishedAt": "Fri, 26 Dec 2025 14:39:54 GMT",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://garymarcus.substack.com/p/the-ai-bubble-is-all-over-now-baby"
-      },
-      {
-        "id": "33560a90",
-        "title": "Raja Shehadeh Believes Israelis and Palestinians Can Still Find Peace",
-        "excerpt": "David Marchese in the New York Times: The writer, lawyer and human rights activist Raja Shehadeh, who is 74, has spent most of his life living in Ramallah, a city in the Israeli-occupied West Bank. Th",
-        "author": "S. Abbas Raza",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Mon, 22 Dec 2025 16:45:38 +0000",
-        "readTime": 1,
-        "wordCount": 55,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/raja-shehadeh-believes-israelis-and-palestinians-can-still-find-peace.html"
       }
     ]
   }
