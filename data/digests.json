@@ -1,5 +1,164 @@
 [
   {
+    "id": "digest-2026-06-23",
+    "title": "Random Digest: June 23, 2026",
+    "subtitle": "10 hand-picked articles from our collection",
+    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
+    "createdAt": "2026-06-23T04:39:16.760Z",
+    "articles": [
+      {
+        "id": "f298dfe6",
+        "title": "Thursday links: too busy living",
+        "excerpt": "",
+        "author": "abnormalreturns",
+        "publication": {
+          "name": "Abnormal Returns",
+          "slug": "abnormal-returns",
+          "category": "Finance"
+        },
+        "publishedAt": "Thu, 18 Jun 2026 17:52:56 +0000",
+        "readTime": 1,
+        "wordCount": 1,
+        "url": "https://abnormalreturns.com/2026/06/18/thursday-links-too-busy-living/"
+      },
+      {
+        "id": "2ac2f39c",
+        "title": "DeBriefed 19 June 2026: Bonn talks end in ‘gridlock’ | Energy’s ‘new era’ | Oceans in climate negotiations",
+        "excerpt": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate...\nThe post DeBriefed 19 June 2026: Bonn talks end in ‘gridlock’ | Energy’s ‘new era’ | Ocean",
+        "author": "Josh Gabbatiss",
+        "publication": {
+          "name": "Carbon Brief",
+          "slug": "carbon-brief",
+          "category": "Climate"
+        },
+        "publishedAt": "Fri, 19 Jun 2026 15:39:05 +0000",
+        "readTime": 1,
+        "wordCount": 41,
+        "url": "https://www.carbonbrief.org/debriefed-19-june-2026-bonn-talks-end-in-gridlock-energys-new-era-oceans-in-climate-negotiations/"
+      },
+      {
+        "id": "671838bf",
+        "title": "The Next US Presidential Election Will Be About AI",
+        "excerpt": "The post The Next US Presidential Election Will Be About AI appeared first on NOEMA.",
+        "author": "Nathan Gardels",
+        "publication": {
+          "name": "Noema",
+          "slug": "noema",
+          "category": "Philosophy"
+        },
+        "publishedAt": "Tue, 09 Jun 2026 16:08:56 +0000",
+        "readTime": 1,
+        "wordCount": 15,
+        "url": "https://www.noemamag.com/the-next-us-presidential-election-will-be-about-ai"
+      },
+      {
+        "id": "0dc9c60b",
+        "title": "Hard work is good",
+        "excerpt": "Plus an Ike-less America, the case for Alex Bores, and basketball globalization",
+        "author": "Matthew Yglesias",
+        "publication": {
+          "name": "Slow Boring",
+          "slug": "slow-boring",
+          "category": "Politics"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 10:01:58 GMT",
+        "readTime": 1,
+        "wordCount": 12,
+        "url": "https://www.slowboring.com/p/hard-work-is-good"
+      },
+      {
+        "id": "e4c40a0a",
+        "title": "A solution to data center backlash? Put them in oil fields.",
+        "excerpt": "A new project in California’s oil country could dodge national controversies over energy and water usage.",
+        "author": "Jake Bittle",
+        "publication": {
+          "name": "Grist",
+          "slug": "grist",
+          "category": "Climate"
+        },
+        "publishedAt": "Thu, 18 Jun 2026 08:45:00 +0000",
+        "readTime": 1,
+        "wordCount": 16,
+        "url": "https://grist.org/energy/a-solution-to-data-center-backlash-put-them-in-oil-fields/"
+      },
+      {
+        "id": "5a07914a",
+        "title": "the sydney opera house exam question",
+        "excerpt": "extracts from a forthcoming",
+        "author": "Dan Davies",
+        "publication": {
+          "name": "Back of Mind",
+          "slug": "back-of-mind",
+          "category": "Psychology"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 15:12:23 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://backofmind.substack.com/p/the-sydney-opera-house-exam-question"
+      },
+      {
+        "id": "1ce33d5c",
+        "title": "You can’t get more 2026 than that",
+        "excerpt": "Hallucination of the day:",
+        "author": "Gary Marcus",
+        "publication": {
+          "name": "Gary Marcus",
+          "slug": "gary-marcus",
+          "category": "Technology"
+        },
+        "publishedAt": "Fri, 12 Jun 2026 13:58:12 GMT",
+        "readTime": 1,
+        "wordCount": 4,
+        "url": "https://garymarcus.substack.com/p/you-cant-get-more-2026-than-that"
+      },
+      {
+        "id": "dafe4a44",
+        "title": "And, in Less than 24 hours, the US Is Already in Breach of the Islamabad MOU: CHAOS MONKEYS GONNA CHAOS WATCH",
+        "excerpt": "Sixty Days to Peace, Zero Days to Breach: Trump’s Islamabad MOU’s ink has not even dried, and the Iranians are noting the failure of the US to live up to its day zero obligations…",
+        "author": "Brad DeLong",
+        "publication": {
+          "name": "Brad DeLong",
+          "slug": "brad-delong",
+          "category": "Economics"
+        },
+        "publishedAt": "Fri, 19 Jun 2026 14:16:00 GMT",
+        "readTime": 1,
+        "wordCount": 34,
+        "url": "https://braddelong.substack.com/p/and-in-less-than-24-hours-the-us"
+      },
+      {
+        "id": "2f49c3c4",
+        "title": "  A long oral history of Steven Spielberg and his career .... ",
+        "excerpt": "A long oral history of Steven Spielberg and his career. “He’s a terrific collaborator. He himself is a continuous lightbulb flickering on and off with one idea after another, but he’s not terribly pro",
+        "author": "Jason Kottke",
+        "publication": {
+          "name": "Kottke.org",
+          "slug": "kottke",
+          "category": "Culture"
+        },
+        "publishedAt": "2026-06-22T20:19:00.000Z",
+        "readTime": 1,
+        "wordCount": 37,
+        "url": "https://kottke.org/26/06/0049194-a-long-oral-history-of-st"
+      },
+      {
+        "id": "bd3a6c4c",
+        "title": "ISS Astronaut Shares Incredible Photos of Volcanoes Taken From Space",
+        "excerpt": "And one of them was putting on a show\nThe post ISS Astronaut Shares Incredible Photos of Volcanoes Taken From Space appeared first on Nautilus.",
+        "author": "Jake Currie",
+        "publication": {
+          "name": "Nautilus",
+          "slug": "nautilus",
+          "category": "Science"
+        },
+        "publishedAt": "Mon, 15 Jun 2026 14:36:39 +0000",
+        "readTime": 1,
+        "wordCount": 25,
+        "url": "https://nautil.us/iss-astronaut-shares-incredible-photos-of-volcanoes-taken-from-space-1281988/"
+      }
+    ]
+  },
+  {
     "id": "digest-2026-06-20",
     "title": "Random Digest: June 20, 2026",
     "subtitle": "10 hand-picked articles from our collection",
@@ -7779,165 +7938,6 @@
         "readTime": 1,
         "wordCount": 19,
         "url": "https://grist.org/global-indigenous-affairs-desk/what-changed-for-deep-sea-mining-in-2025-everything/"
-      }
-    ]
-  },
-  {
-    "id": "digest-2025-12-30",
-    "title": "Random Digest: December 30, 2025",
-    "subtitle": "10 hand-picked articles from our collection",
-    "description": "This digest was algorithmically curated to spark serendipity and encourage intellectual wandering. Each article was chosen at random from our recent collection, creating unexpected connections and delightful discoveries across diverse topics and perspectives.",
-    "createdAt": "2025-12-30T02:29:41.350Z",
-    "articles": [
-      {
-        "id": "251117b4",
-        "title": "On the Life & Philosophy of Ernst Cassirer",
-        "excerpt": "Enjoying the content on 3QD? Help keep us going by donating now.",
-        "author": "Morgan Meis",
-        "publication": {
-          "name": "3 Quarks Daily",
-          "slug": "3-quarks-daily",
-          "category": "Culture"
-        },
-        "publishedAt": "Tue, 23 Dec 2025 15:04:03 +0000",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://3quarksdaily.com/3quarksdaily/2025/12/on-the-life-philosophy-of-ernst-cassirer.html"
-      },
-      {
-        "id": "714083b4",
-        "title": "\"Star Trek: The Wrath of Khan\" as Franchise Hinge: Wednesday Comfort Watching",
-        "excerpt": "The Day Trek Changed: From “Where No Man” to Wrath— & a real franchise was born. Sixty years ago, production wrapped on the second “Star Trek” pilot: Where No Man Has Gone Before” Friday, December...",
-        "author": "Brad DeLong",
-        "publication": {
-          "name": "Brad DeLong",
-          "slug": "brad-delong",
-          "category": "Economics"
-        },
-        "publishedAt": "Wed, 24 Dec 2025 21:00:44 GMT",
-        "readTime": 1,
-        "wordCount": 35,
-        "url": "https://braddelong.substack.com/p/2025-12-24-star-trek-the-wrath-of"
-      },
-      {
-        "id": "ac9a56c6",
-        "title": "The Bad River Band is suing to protect its wild rice from an oil pipeline",
-        "excerpt": "The lawsuit targets a federal permit for Enbridge’s Line 5, which the tribe says puts wetlands, rivers, and treaty-protected resources at risk.",
-        "author": "Miacel Spotted Elk",
-        "publication": {
-          "name": "Grist",
-          "slug": "grist",
-          "category": "Climate"
-        },
-        "publishedAt": "Tue, 23 Dec 2025 09:15:00 +0000",
-        "readTime": 1,
-        "wordCount": 22,
-        "url": "https://grist.org/indigenous/the-bad-river-band-is-suing-to-protect-its-wild-rice-from-an-oil-pipeline/"
-      },
-      {
-        "id": "cb7bff71",
-        "title": "The AI bubble is all over now, baby blue",
-        "excerpt": "You must leave now, take what you need you think will last.",
-        "author": "Gary Marcus",
-        "publication": {
-          "name": "Gary Marcus",
-          "slug": "gary-marcus",
-          "category": "Technology"
-        },
-        "publishedAt": "Fri, 26 Dec 2025 14:39:54 GMT",
-        "readTime": 1,
-        "wordCount": 12,
-        "url": "https://garymarcus.substack.com/p/the-ai-bubble-is-all-over-now-baby"
-      },
-      {
-        "id": "0de5db62",
-        "title": "Does Your Personality Put You At a Higher Risk of Dying?",
-        "excerpt": "Taking stock of your foibles could extend your life\nThe post Does Your Personality Put You At a Higher Risk of Dying? appeared first on Nautilus.",
-        "author": "Kristen French",
-        "publication": {
-          "name": "Nautilus",
-          "slug": "nautilus",
-          "category": "Science"
-        },
-        "publishedAt": "Fri, 19 Dec 2025 21:00:00 +0000",
-        "readTime": 1,
-        "wordCount": 26,
-        "url": "https://nautil.us/does-your-personality-put-you-at-a-higher-risk-of-dying-1255683/"
-      },
-      {
-        "id": "82a71f1c",
-        "title": "Talking myself into a Netflix-Warner merger",
-        "excerpt": "I still have concerns.",
-        "author": "Matthew Yglesias",
-        "publication": {
-          "name": "Slow Boring",
-          "slug": "slow-boring",
-          "category": "Politics"
-        },
-        "publishedAt": "Mon, 15 Dec 2025 11:19:52 GMT",
-        "readTime": 1,
-        "wordCount": 4,
-        "url": "https://www.slowboring.com/p/talking-myself-into-a-netflix-warner"
-      },
-      {
-        "id": "ecca68d9",
-        "title": "My Best Premium Tweets",
-        "excerpt": "December 2025",
-        "author": "Rob Henderson",
-        "publication": {
-          "name": "Rob Henderson",
-          "slug": "rob-henderson",
-          "category": "Psychology"
-        },
-        "publishedAt": "Sun, 21 Dec 2025 15:03:44 GMT",
-        "readTime": 1,
-        "wordCount": 2,
-        "url": "https://www.robkhenderson.com/p/my-best-premium-tweets-343"
-      },
-      {
-        "id": "6786b6fe",
-        "title": "Open Thread 414",
-        "excerpt": "...",
-        "author": "Scott Alexander",
-        "publication": {
-          "name": "Astral Codex Ten",
-          "slug": "astral-codex-ten",
-          "category": "Philosophy"
-        },
-        "publishedAt": "Mon, 29 Dec 2025 04:46:55 GMT",
-        "readTime": 1,
-        "wordCount": 1,
-        "url": "https://www.astralcodexten.com/p/open-thread-414"
-      },
-      {
-        "id": "74337084",
-        "title": "Will Nvidia Still Be Dominant in the Future?",
-        "excerpt": "None of the top stocks from 1985 are still on top today… Fun chart via Visual Capitalist  \nThe post Will Nvidia Still Be Dominant in the Future? appeared first on Meb Faber Research - Stock Market and",
-        "author": "Meb Faber",
-        "publication": {
-          "name": "Meb Faber",
-          "slug": "meb-faber",
-          "category": "Finance"
-        },
-        "publishedAt": "Thu, 18 Dec 2025 21:41:03 +0000",
-        "readTime": 1,
-        "wordCount": 39,
-        "url": "https://mebfaber.com/2025/12/18/will-nvidia-still-be-dominant-in-the-future/"
-      },
-      {
-        "id": "5db0a368",
-        "title": "Cropped 17 December 2025: ‘Deadly’ Asia floods; Boosting London’s water birds; UN headwinds",
-        "excerpt": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 17 December 2025: ‘Deadly’ Asia floods; Boosting London’s water birds; UN headwinds ap",
-        "author": "Carbon Brief Staff",
-        "publication": {
-          "name": "Carbon Brief",
-          "slug": "carbon-brief",
-          "category": "Climate"
-        },
-        "publishedAt": "Wed, 17 Dec 2025 15:20:34 +0000",
-        "readTime": 1,
-        "wordCount": 35,
-        "url": "https://www.carbonbrief.org/cropped-17-december-2025-deadly-asia-floods-boosting-londons-water-birds-un-headwinds/"
       }
     ]
   }
